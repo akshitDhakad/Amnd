@@ -13,7 +13,7 @@ import ClientCard from "../components/ClientCard.jsx";
 // React icons
 import { IoMdKey } from "react-icons/io";
 import { Link } from "react-router-dom";
-import ServicesBanner from "../components/servicesBanner.jsx";
+import ServicesBanner from "../components/ServicesBanner.jsx";
 import AccordionCard from "../components/Accordion.jsx";
 import { MdOutlineStar } from "react-icons/md";
 const data = [
@@ -145,7 +145,7 @@ export default function page() {
                   </div>
                   <div>
                     <h1 className="text-6xl text-white font-bold tracking-wide font-theme-font">
-                      Become a Part of Devox Software Team
+                      Become a Part of AMND Software Team
                     </h1>
                   </div>
                 </div>
@@ -716,7 +716,7 @@ export default function page() {
               </div>
               <div className="mb-4">
                 <h1 className="text-5xl text-black font-bold tracking-wide font-theme-font">
-                  Why Web Development Services by Devox?
+                  Why Web Development Services by AMND?
                 </h1>
               </div>
             </div>
@@ -888,7 +888,7 @@ export default function page() {
           <div className="relative max-w-6xl py-20    m-auto">
             <ServicesBanner
               title={
-                "Fast-track your product development and shorten time-to-market with Devox as your next talent supplier."
+                "Fast-track your product development and shorten time-to-market with AMND as your next talent supplier."
               }
               description={"Want to Start Web Development?"}
             />
@@ -920,7 +920,7 @@ export default function page() {
               <div className="h-96 relative rounded-2xl overflow-hidden">
                 <div className="absolute inset-0 bg-gray-100 opacity-0 hover:opacity-80 flex justify-center items-center">
                   <Link
-                    href={""}
+                    to={""}
                     class="text-lg font-semibold flex items-center gap-x-2"
                   >
                     <span className="text-xl">Click Here</span>
@@ -1026,7 +1026,7 @@ export default function page() {
               <div className="h-96 relative rounded-2xl overflow-hidden">
                 <div className="absolute inset-0 bg-gray-100 opacity-0 hover:opacity-80 flex justify-center items-center">
                   <Link
-                    href={""}
+                    to={""}
                     class="text-lg font-semibold flex items-center gap-x-2"
                   >
                     <span className="text-xl">Click Here</span>
@@ -1147,7 +1147,7 @@ export default function page() {
               <div className="h-full relative rounded-2xl overflow-hidden">
                 <div className="absolute inset-0 bg-gray-100 opacity-0 hover:opacity-80 flex justify-center items-center">
                   <Link
-                    href={""}
+                    to={""}
                     class="text-lg font-semibold flex items-center gap-x-2"
                   >
                     <span className="text-xl">Click Here</span>

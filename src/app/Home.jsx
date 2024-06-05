@@ -1,6 +1,6 @@
 import Layout from "./components/Layout.jsx";
 import { Link } from "react-router-dom";
-import ServicesBanner from "./components/servicesBanner.jsx";
+import ServicesBanner from "./components/ServicesBanner.jsx";
 import Testinomial from "./components/Testinomial.jsx";
 import FlipCard from "./components/FlipCard.jsx";
 import Carousel from "./components/Carousel.jsx";
@@ -54,7 +54,7 @@ export default function Home() {
                 <div>
                   <p className="text-white text-start tracking-wide font-theme-font">
                     Looking for turnkey custom web application development
-                    services? We are Devox Software – a leading custom web
+                    services? We are AMND Software – a leading custom web
                     application development company with a recognized stand on
                     the market and a proven track record of completed projects.
                   </p>
@@ -73,7 +73,7 @@ export default function Home() {
         <section>
           <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
-              Devox
+              AMND
             </span>
             {/* heading  */}
             <div className="col-span-2 flex flex-col ">
@@ -84,7 +84,7 @@ export default function Home() {
               </div>
               <div className="mb-4">
                 <h1 className="text-5xl text-black font-bold tracking-wide font-theme-font">
-                  Devox Software
+                  AMND Software
                 </h1>
               </div>
             </div>
@@ -97,7 +97,7 @@ export default function Home() {
               </div>
               <div className="col-span-10">
                 <p className="text-gray-900 text-start tracking-wide font-theme-font mb-2">
-                  Devox Software is an international IT outsourcing company with
+                  AMND Software is an international IT outsourcing company with
                   development facilities in five countries – Poland, Romania,
                   Azerbaijan, Ukraine and Georgia.
                 </p>
@@ -123,7 +123,7 @@ export default function Home() {
                 estimation to release.
               </p>
               <p className="text-gray-900 text-start tracking-wide font-theme-font mb-2">
-                Devox Software achieves a well-planned development process,
+                AMND Software achieves a well-planned development process,
                 competent management, and efficient communication due to a
                 thorough selection of team members for our company.
               </p>
@@ -827,7 +827,7 @@ export default function Home() {
               <div className="h-96 relative rounded-2xl overflow-hidden">
                 <div className="absolute inset-0 bg-gray-100 opacity-0 hover:opacity-80 flex justify-center items-center">
                   <Link
-                    href={""}
+                    to={""}
                     class="text-lg font-semibold flex items-center gap-x-2"
                   >
                     <span className="text-xl">Click Here</span>
@@ -933,7 +933,7 @@ export default function Home() {
               <div className="h-96 relative rounded-2xl overflow-hidden">
                 <div className="absolute inset-0 bg-gray-100 opacity-0 hover:opacity-80 flex justify-center items-center">
                   <Link
-                    href={""}
+                    to={""}
                     class="text-lg font-semibold flex items-center gap-x-2"
                   >
                     <span className="text-xl">Click Here</span>

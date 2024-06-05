@@ -14,7 +14,7 @@ function BlogTech() {
     {
       id: "2",
       header: "ACHIEVEMENTS",
-      body: "The Manifest Recognizes Devox Software as One of the Most-Reviewed IT Consulting Companies Globally",
+      body: "The Manifest Recognizes AMND Software as One of the Most-Reviewed IT Consulting Companies Globally",
       footer: "November 28, 2023 1 min",
       imgULR:
         "https://devoxsoftware.com/wp-content/uploads/2024/02/planet-volumes-atP72HX-ZdI-unsplash.webp",

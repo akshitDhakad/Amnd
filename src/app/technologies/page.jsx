@@ -1,9 +1,9 @@
 import React from 'react'
 
-function page() {
+function Technology() {
   return (
-    <div>page</div>
+    <div>This is Technology Page <br /> This Page is under Development.</div>
   )
 }
 
-export default page
+export default Technology;

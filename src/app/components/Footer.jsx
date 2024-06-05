@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   FaFacebook,
   FaInstagram,
@@ -24,16 +24,16 @@ function Footer() {
             <div>
               <ul className="flex flex-col gap-3">
                 <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
-                  <Link href={""}>DevOps</Link>
+                  <Link to={""}>DevOps</Link>
                 </li>
                 <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
-                  <Link href={""}>Quality Assurance</Link>
+                  <Link to={""}>Quality Assurance</Link>
                 </li>
                 <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
-                  <Link href={""}>Database Development</Link>
+                  <Link to={""}>Database Development</Link>
                 </li>
                 <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
-                  <Link href={""} className="flex flex-nowrap gap-x-1">
+                  <Link to={""} className="flex flex-nowrap gap-x-1">
                     <span>Front End Development</span>
                     <span>
                       <FaArrowUpRightFromSquare />
@@ -41,10 +41,10 @@ function Footer() {
                   </Link>
                 </li>
                 <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
-                  <Link href={""}>Mobile Development</Link>
+                  <Link to={""}>Mobile Development</Link>
                 </li>
                 <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
-                  <Link href={""} className="flex flex-nowrap gap-x-1">
+                  <Link to={""} className="flex flex-nowrap gap-x-1">
                     <span>Web Design</span>
                     <span>
                       <FaArrowUpRightFromSquare />
@@ -52,7 +52,7 @@ function Footer() {
                   </Link>
                 </li>
                 <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
-                  <Link href={""} className="flex flex-nowrap gap-x-1">
+                  <Link to={""} className="flex flex-nowrap gap-x-1">
                     <span>Back End Development Services</span>
                     <span>
                       <FaArrowUpRightFromSquare />
@@ -73,7 +73,7 @@ function Footer() {
             <div>
               <ul className="flex flex-col gap-3">
                 <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
-                  <Link href={""} className="flex flex-nowrap gap-x-1">
+                  <Link to={""} className="flex flex-nowrap gap-x-1">
                     <span>Software Development </span>
                     <span>
                       <FaArrowUpRightFromSquare />
@@ -81,7 +81,7 @@ function Footer() {
                   </Link>
                 </li>
                 <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
-                  <Link href={""} className="flex flex-nowrap gap-x-1">
+                  <Link to={""} className="flex flex-nowrap gap-x-1">
                     <span>Web Application Development</span>
                     <span>
                       <FaArrowUpRightFromSquare />
@@ -89,7 +89,7 @@ function Footer() {
                   </Link>
                 </li>
                 <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
-                  <Link href={""} className="flex flex-nowrap gap-x-1">
+                  <Link to={""} className="flex flex-nowrap gap-x-1">
                     <span>Web Development</span>
                     <span>
                       <FaArrowUpRightFromSquare />
@@ -110,13 +110,13 @@ function Footer() {
             <div>
               <ul className="flex flex-col gap-3">
                 <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
-                  <Link href={""}>Finance Software</Link>
+                  <Link to={""}>Finance Software</Link>
                 </li>
                 <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
-                  <Link href={""}>Logistics</Link>
+                  <Link to={""}>Logistics</Link>
                 </li>
                 <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
-                  <Link href={""}>Artificial Intelligence</Link>
+                  <Link to={""}>Artificial Intelligence</Link>
                 </li>
               </ul>
             </div>
@@ -133,7 +133,7 @@ function Footer() {
               @2024
             </span>
             <span className="text-md text-gray-500 tracking-wide font-theme-font">
-              Devox Sofware.
+              AMND Sofware.
             </span>
             <span className="text-md text-gray-500 tracking-wide font-theme-font">
               {" "}
@@ -149,13 +149,13 @@ function Footer() {
             <span className="font-thin mx-2">Powered By</span>
 
             <span className="text-white font-semibold hover:text-blue-500 hover:cursor-pointer delay-100">
-              Devox Tech Team.
+              AMND Tech Team.
             </span>
           </div>
           {/* right container */}
           <div className="flex gap-x-10">
             <div>
-              <Link href={""}>
+              <Link to={""}>
                 {" "}
                 <span className="block rounded-full p-2 bg-gray-800 hover:bg-blue-500 delay-100">
                   <FaFacebook className="text-xl text-white " />
@@ -163,28 +163,28 @@ function Footer() {
               </Link>
             </div>
             <div>
-              <Link href={""}>
+              <Link to={""}>
                 <span className="block rounded-full p-2 bg-gray-800 hover:bg-blue-500 delay-100">
                   <FaInstagram className="text-xl text-white" />
                 </span>
               </Link>
             </div>
             <div>
-              <Link href={""}>
+              <Link to={""}>
                 <span className="block rounded-full p-2 bg-gray-800 hover:bg-blue-500 delay-100">
                   <FaXTwitter className="text-xl text-white" />
                 </span>
               </Link>
             </div>
             <div>
-              <Link href={""}>
+              <Link to={""}>
                 <span className="block rounded-full p-2 bg-gray-800 hover:bg-blue-500 delay-100">
                   <FaYoutube className="text-xl text-white" />
                 </span>
               </Link>
             </div>
             <div>
-              <Link href={""}>
+              <Link to={""}>
                 <span className="block rounded-full p-2 bg-gray-800 hover:bg-blue-500 delay-100">
                   <FaPinterest className="text-xl text-white" />
                 </span>

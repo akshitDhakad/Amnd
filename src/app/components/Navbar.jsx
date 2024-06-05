@@ -1,10 +1,9 @@
-"use client"
-import {Link} from "react-router-dom";
-import React,{ useState } from "react";
+"use client";
+import { Link } from "react-router-dom";
+import React, { useState } from "react";
 
 function Navbar() {
-  const [navhover ,setNavhover] = useState(false)
-
+  const [navhover, setNavhover] = useState(false);
 
   return (
     <nav
@@ -15,8 +14,9 @@ function Navbar() {
       <div className="max-w-6xl m-auto">
         <div className="flex items-center py-5 px-10">
           <div className="flex-1 text-lg">
-            <Link href="/">
+            <Link to="/">
               <img
+                loading="lazy"
                 className="h-8 w-auto"
                 src="https://devoxsoftware.com/wp-content/themes/main/assets/images/logo.svg"
                 alt="Brand logo"
@@ -32,7 +32,7 @@ function Navbar() {
                     : "font-theme-font text-sm text-center text-white hover:text-purple-600 transition-color "
                 }`}
               >
-                <Link href="/experties">Experties</Link>
+                <Link to="/experties">Experties</Link>
               </li>
               <li
                 className={`${
@@ -41,7 +41,7 @@ function Navbar() {
                     : "font-theme-font text-sm text-center text-white hover:text-purple-600 transition-color "
                 }`}
               >
-                <Link href="/">Technology</Link>
+                <Link to="/technology">Technology</Link>
               </li>
               <li
                 className={`${
@@ -50,7 +50,7 @@ function Navbar() {
                     : "font-theme-font text-sm text-center text-white hover:text-purple-600 transition-color "
                 }`}
               >
-                <Link href="/services">Services</Link>
+                <Link to="/services">Services</Link>
               </li>
               <li
                 className={`${
@@ -59,7 +59,7 @@ function Navbar() {
                     : "font-theme-font text-sm text-center text-white hover:text-purple-600 transition-color "
                 }`}
               >
-                <Link href="/industrial">Industries</Link>
+                <Link to="/industrial">Industries</Link>
               </li>
               <li
                 className={`${
@@ -68,7 +68,7 @@ function Navbar() {
                     : "font-theme-font text-sm text-center text-white hover:text-purple-600 transition-color "
                 }`}
               >
-                <Link href="/career">Careers</Link>
+                <Link to="/career">Careers</Link>
               </li>
               <li
                 className={`${
@@ -77,7 +77,7 @@ function Navbar() {
                     : "font-theme-font text-sm text-center text-white hover:text-purple-600 transition-color "
                 }`}
               >
-                <Link href="/about">About Us</Link>
+                <Link to="/about-us">About Us</Link>
               </li>
               <li
                 className={`${
@@ -86,7 +86,7 @@ function Navbar() {
                     : "font-theme-font text-sm text-center text-white hover:text-purple-600 transition-color "
                 }`}
               >
-                <Link href="/blog">Blog</Link>
+                <Link to="/blogs">Blog</Link>
               </li>
             </ul>
           </div>

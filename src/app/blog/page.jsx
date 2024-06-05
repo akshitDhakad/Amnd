@@ -6,7 +6,7 @@ import Testinomial from "../components/Testinomial.jsx";
 import FlipCard from "../components/FlipCard.jsx";
 import Carousel from "../components/Carousel.jsx";
 import ClientCard from "../components/ClientCard.jsx";
-import ServicesBanner from "../components/servicesBanner.jsx";
+import ServicesBanner from "../components/ServicesBanner.jsx";
 import HoverCard from "../components/HoverCard.jsx";
 // react icons
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
@@ -55,7 +55,7 @@ export default function Blog() {
                   </div>
                   <div>
                     <h1 className="text-6xl text-white font-bold tracking-wide font-theme-font">
-                      Insights from Devox Software
+                      Insights from AMND Software
                     </h1>
                   </div>
                 </div>
@@ -63,7 +63,7 @@ export default function Blog() {
                 <div>
                   <p className="text-white text-start tracking-wide font-theme-font">
                     Looking for turnkey custom web application development
-                    services? We are Devox Software – a leading custom web
+                    services? We are AMND Software – a leading custom web
                     application development company with a recognized stand on
                     the market and a proven track record of completed projects.
                   </p>
@@ -151,7 +151,7 @@ export default function Blog() {
               <div className="h-full relative rounded-2xl overflow-hidden">
                 <div className="absolute inset-0 bg-gray-100 opacity-0 hover:opacity-80 flex justify-center items-center">
                   <Link
-                    href={""}
+                    to={""}
                     class="text-lg font-semibold flex items-center gap-x-2"
                   >
                     <span className="text-xl">Click Here</span>
