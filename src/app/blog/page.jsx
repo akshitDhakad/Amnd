@@ -2,11 +2,12 @@ import React from "react";
 // component imports
 import { Link } from "react-router-dom";
 import Layout from "../components/Layout.jsx";
+import ServicesBanner from "./components/ServicesBanner.jsx";
 import Testinomial from "../components/Testinomial.jsx";
 import FlipCard from "../components/FlipCard.jsx";
 import Carousel from "../components/Carousel.jsx";
 import ClientCard from "../components/ClientCard.jsx";
-import ServicesBanner from "../components/ServicesBanner.jsx";
+
 import HoverCard from "../components/HoverCard.jsx";
 // react icons
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
