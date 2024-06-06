@@ -1,4 +1,3 @@
-"use client";
 
 import React, { useState } from "react";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
