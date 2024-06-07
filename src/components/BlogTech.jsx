@@ -93,8 +93,9 @@ function BlogTech() {
         "https://devoxsoftware.com/wp-content/uploads/2023/11/behnam-norouzi-eDUKZFYY1K4-unsplash.jpg",
     },
   ];
-
   const [tech, setTech] = useState(0);
+
+  
   return (
     <>
       <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">

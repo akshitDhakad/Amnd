@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Layout from "../components/Layout.jsx";
@@ -17,7 +16,6 @@ import {
   FaInstagram,
   FaArrowUpRightFromSquare,
 } from "react-icons/fa6";
-
 
 const data = [
   {

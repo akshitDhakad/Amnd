@@ -116,7 +116,7 @@ const faqs = [
   },
 ];
 
-export default function page() {
+export default function Career() {
   const backgroundImg = {
     backgroundImage: `url('https://devoxsoftware.com/wp-content/uploads/2024/01/AnyConv.com__philip-oroni-gftMuFt8vNk-unsplash.webp')`,
     backgroundSize: "cover",
@@ -263,7 +263,8 @@ export default function page() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-8">
                         <img
-                          className="h-full w-full object-cover object-center"
+                          loading="lazy"
+                          className="w-full h-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Nest.png.webp"
                           alt="NestJS"
                         />
@@ -273,7 +274,8 @@ export default function page() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-8">
                         <img
-                          className="h-full w-full object-cover object-center"
+                          loading="lazy"
+                          className="w-full h-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Flask_logo-1-1.png.webp"
                           alt="Flask"
                         />
@@ -284,7 +286,8 @@ export default function page() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-8">
                         <img
-                          className="h-full w-full object-cover object-center"
+                          loading="lazy"
+                          className="w-full h-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/django-svgrepo-com-1.png.webp"
                           alt="Django"
                         />
@@ -294,7 +297,8 @@ export default function page() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-8">
                         <img
-                          className="h-full w-full object-cover object-center"
+                          loading="lazy"
+                          className="w-full h-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/express-js-icon-1.png.webp"
                           alt="Express.js"
                         />
@@ -304,7 +308,8 @@ export default function page() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-8">
                         <img
-                          className="h-full w-full object-cover object-center"
+                          loading="lazy"
+                          className="w-full h-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Microsoft_.NET_logo-1.png.webp"
                           alt=".NET"
                         />
@@ -314,7 +319,8 @@ export default function page() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-8">
                         <img
-                          className="h-full w-full object-cover object-center"
+                          loading="lazy"
+                          className="w-full h-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/PHP-logo-1.png.webp"
                           alt="PHP"
                         />
@@ -324,7 +330,8 @@ export default function page() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-8">
                         <img
-                          className="h-full w-full object-cover object-center"
+                          loading="lazy"
+                          className="w-full h-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Group-5.png.webp"
                           alt="Ruby"
                         />
@@ -334,7 +341,8 @@ export default function page() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-8">
                         <img
-                          className="h-full w-full object-cover object-center"
+                          loading="lazy"
+                          className="w-full h-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/spring.png.webp"
                           alt="Java Spring"
                         />
@@ -344,7 +352,8 @@ export default function page() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-8">
                         <img
-                          className="h-full w-full object-cover object-center"
+                          loading="lazy"
+                          className="w-full h-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/python.png.webp"
                           alt="Python"
                         />
@@ -354,7 +363,8 @@ export default function page() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-8">
                         <img
-                          className="h-full w-full object-cover object-center"
+                          loading="lazy"
+                          className="w-full h-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/node-js-1.png.webp"
                           alt="Node.js"
                         />

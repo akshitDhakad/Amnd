@@ -2,7 +2,7 @@ import React from "react";
 // component imports
 import { Link } from "react-router-dom";
 import Layout from "../components/Layout.jsx";
-import ServicesBanner from "./components/ServicesBanner.jsx";
+import ServicesBanner from "../components/ServicesBanner.jsx";
 import Testinomial from "../components/Testinomial.jsx";
 import FlipCard from "../components/FlipCard.jsx";
 import Carousel from "../components/Carousel.jsx";
@@ -162,7 +162,8 @@ export default function Blog() {
                   </Link>
                 </div>
                 <img
-                  className="h-full w-full object-cover object-center"
+                  loading="lazy"
+                  className="w-full h-full object-cover object-center"
                   src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/philip-oroni-MyY188YX0vU-unsplash.jpg.webp"
                   alt=""
                 />
@@ -300,7 +301,8 @@ export default function Blog() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-8">
                         <img
-                          className="h-full w-full object-cover object-center"
+                          loading="lazy"
+                          className="w-full h-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Nest.png.webp"
                           alt="NestJS"
                         />
@@ -310,7 +312,8 @@ export default function Blog() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-8">
                         <img
-                          className="h-full w-full object-cover object-center"
+                          loading="lazy"
+                          className="w-full h-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Flask_logo-1-1.png.webp"
                           alt="Flask"
                         />
@@ -321,7 +324,8 @@ export default function Blog() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-8">
                         <img
-                          className="h-full w-full object-cover object-center"
+                          loading="lazy"
+                          className="w-full h-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/django-svgrepo-com-1.png.webp"
                           alt="Django"
                         />
@@ -331,7 +335,8 @@ export default function Blog() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-8">
                         <img
-                          className="h-full w-full object-cover object-center"
+                          loading="lazy"
+                          className="w-full h-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/express-js-icon-1.png.webp"
                           alt="Express.js"
                         />
@@ -341,7 +346,8 @@ export default function Blog() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-8">
                         <img
-                          className="h-full w-full object-cover object-center"
+                          loading="lazy"
+                          className="w-full h-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Microsoft_.NET_logo-1.png.webp"
                           alt=".NET"
                         />
@@ -351,7 +357,8 @@ export default function Blog() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-8">
                         <img
-                          className="h-full w-full object-cover object-center"
+                          loading="lazy"
+                          className="w-full h-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/PHP-logo-1.png.webp"
                           alt="PHP"
                         />
@@ -361,7 +368,8 @@ export default function Blog() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-8">
                         <img
-                          className="h-full w-full object-cover object-center"
+                          loading="lazy"
+                          className="w-full h-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Group-5.png.webp"
                           alt="Ruby"
                         />
@@ -371,7 +379,8 @@ export default function Blog() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-8">
                         <img
-                          className="h-full w-full object-cover object-center"
+                          loading="lazy"
+                          className="w-full h-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/spring.png.webp"
                           alt="Java Spring"
                         />
@@ -381,7 +390,8 @@ export default function Blog() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-8">
                         <img
-                          className="h-full w-full object-cover object-center"
+                          loading="lazy"
+                          className="w-full h-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/python.png.webp"
                           alt="Python"
                         />
@@ -391,7 +401,8 @@ export default function Blog() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-8">
                         <img
-                          className="h-full w-full object-cover object-center"
+                          loading="lazy"
+                          className="w-full h-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/node-js-1.png.webp"
                           alt="Node.js"
                         />

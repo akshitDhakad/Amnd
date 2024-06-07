@@ -3,11 +3,12 @@ import { FaCircleDot } from "react-icons/fa6";
 function ClientCard() {
   return (
     <div className="flex flex-col gap-y-10">
-    {/* grid container */}
+      {/* grid container */}
       <div className="grid grid-cols-8">
         {/* item 1 */}
         <div className="h-32 w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
           <img
+            loading="lazy"
             className="w-full h-full object-cover object-center"
             src="https://devoxsoftware.com/wp-content/uploads/2021/09/CureMedia.png"
             alt=""
@@ -16,6 +17,7 @@ function ClientCard() {
         {/* item 2 */}
         <div className="h-32 w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
           <img
+            loading="lazy"
             className="w-full h-full object-cover object-center"
             src="https://devoxsoftware.com/wp-content/uploads/2021/09/Ferretly.png"
             alt=""
@@ -24,6 +26,7 @@ function ClientCard() {
         {/* item 3 */}
         <div className="h-32 w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
           <img
+            loading="lazy"
             className="w-full h-full object-cover object-center"
             src="https://devoxsoftware.com/wp-content/uploads/2021/09/Multilogin.png"
             alt=""
@@ -32,6 +35,7 @@ function ClientCard() {
         {/* item 4 */}
         <div className="h-32 w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
           <img
+            loading="lazy"
             className="w-full h-full object-cover object-center"
             src="https://devoxsoftware.com/wp-content/uploads/2021/09/ActivePlace.png"
             alt=""
@@ -40,6 +44,7 @@ function ClientCard() {
         {/* item 5 */}
         <div className="h-32 w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
           <img
+            loading="lazy"
             className="w-full h-full object-cover object-center"
             src="https://devoxsoftware.com/wp-content/uploads/2021/09/lexplore.png"
             alt=""
@@ -48,6 +53,7 @@ function ClientCard() {
         {/* item 6 */}
         <div className="h-32 w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
           <img
+            loading="lazy"
             className="w-full h-full object-cover object-center"
             src="https://devoxsoftware.com/wp-content/uploads/2021/09/Skyloov.png"
             alt=""
@@ -56,6 +62,7 @@ function ClientCard() {
         {/* item 7 */}
         <div className="h-32 w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
           <img
+            loading="lazy"
             className="w-full h-full object-cover object-center"
             src="https://devoxsoftware.com/wp-content/uploads/2021/09/iOud.png"
             alt=""
@@ -64,6 +71,7 @@ function ClientCard() {
         {/* item 8 */}
         <div className="h-32 w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
           <img
+            loading="lazy"
             className="w-full h-full object-cover object-center"
             src="https://devoxsoftware.com/wp-content/uploads/2021/09/st_mark.png"
             alt=""

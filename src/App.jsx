@@ -1,12 +1,13 @@
 "use strict";
 import "./App.css";
-import Home from "./app/Home";
-import About from "./app/about/page";
-import Blog from "./app/blog/page";
-import Career from "./app/career/page";
-import Experties from "./app/experties/page";
-import Technology from "./app/technologies/page";
+import Home from "./pages/Home.jsx";
+import Experties from "./pages/Experties.jsx";
+import Technology from "./pages/Technology.jsx";
+import Career from "./pages/Career.jsx";
+import About from "./pages/About.jsx";
+import Blog from "./pages/Blog.jsx";
 import { Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (

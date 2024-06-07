@@ -1,10 +1,10 @@
-import Layout from "./components/Layout.jsx";
+import Layout from "../components/Layout.jsx";
 import { Link } from "react-router-dom";
-import ServicesBanner from "./components/ServicesBanner.jsx";
-import Testinomial from "./components/Testinomial.jsx";
-import FlipCard from "./components/FlipCard.jsx";
-import Carousel from "./components/Carousel.jsx";
-import ClientCard from "./components/ClientCard.jsx";
+import ServicesBanner from "../components/ServicesBanner.jsx";
+import Testinomial from "../components/Testinomial.jsx";
+import FlipCard from "../components/FlipCard.jsx";
+import Carousel from "../components/Carousel.jsx";
+import ClientCard from "../components/ClientCard.jsx";
 // React icons
 
 import {
