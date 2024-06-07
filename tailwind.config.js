@@ -21,6 +21,7 @@ module.exports = withMT({
       colors: {
         "theme-bg-dark": "#0b0813",
         "theme-bg-light": "#fbfbfb",
+        "button-black": "#2c292e",
       },
       fontFamily: {
         "theme-font": ["Poppins", "sans-serif"],
@@ -30,4 +31,4 @@ module.exports = withMT({
     },
   },
   plugins: [],
-})
+});

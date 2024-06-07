@@ -53,11 +53,19 @@ function Navbar() {
                 // onMouseLeave={() => setNavdrop(false)}
                 className={` ${
                   navhover
-                    ? "font-theme-font text-sm text-center text-black hover:text-purple-600 transition-color"
-                    : "font-theme-font text-sm text-center text-white hover:text-purple-600 transition-color "
+                    ? "font-theme-font text-sm text-center transition-color"
+                    : "font-theme-font text-sm text-center transition-color "
                 }`}
               >
-                <Link>Services</Link>
+                <Link
+                  className={` ${
+                    navhover
+                      ? " text-black hover:text-purple-600 "
+                      : " text-white hover:text-purple-600"
+                  }`}
+                >
+                  Services
+                </Link>
                 {navdrop && (
                   <div
                     onMouseLeave={() => setNavdrop(false)}
@@ -78,7 +86,7 @@ function Navbar() {
                       <div className="col-span-3 grid grid-cols-3 gap-8 text-start">
                         {/* DevOps Development */}
                         <Link to={"/service/devops-development"}>
-                          <h3 className="text-2xl font-semibold">
+                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600 ">
                             DevOps Development
                           </h3>
 
@@ -90,7 +98,7 @@ function Navbar() {
                         </Link>
                         {/* Quality Assurance */}
                         <Link to={"/service/quality-assrurance"}>
-                          <h3 className="text-2xl font-semibold">
+                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600 ">
                             Quality Assurance
                           </h3>
 
@@ -102,7 +110,7 @@ function Navbar() {
                         </Link>
                         {/* Web Development */}
                         <Link to={"/service/web-development"}>
-                          <h3 className="text-2xl font-semibold">
+                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600 ">
                             Web Development{" "}
                           </h3>
 
@@ -115,7 +123,7 @@ function Navbar() {
                         </Link>
                         {/* Data Analytics */}
                         <Link to={"/service/data-analytics"}>
-                          <h3 className="text-2xl font-semibold">
+                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600 ">
                             Data <br />
                             Analytics
                           </h3>
@@ -129,7 +137,7 @@ function Navbar() {
                         </Link>
                         {/* Front End*/}
                         <Link to={"/service/fontend-development"}>
-                          <h3 className="text-2xl font-semibold">
+                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600 ">
                             Front End Development
                           </h3>
 
@@ -142,7 +150,7 @@ function Navbar() {
                         </Link>
                         {/*Mobile Development*/}
                         <Link to={"/service/mobile-development"}>
-                          <h3 className="text-2xl font-semibold">
+                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600 ">
                             Mobile Development
                           </h3>
 
@@ -155,7 +163,7 @@ function Navbar() {
                         </Link>
                         {/* UI/UX Design*/}
                         <Link to={"/service/ui-development"}>
-                          <h3 className="text-2xl font-semibold">
+                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600 ">
                             UI/UX <br /> Design
                           </h3>
 
@@ -168,7 +176,7 @@ function Navbar() {
                         </Link>
                         {/* Back End*/}
                         <Link to={"/service/backend-development"}>
-                          <h3 className="text-2xl font-semibold">
+                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600 ">
                             Back End Development
                           </h3>
                           <p className="text-gray-600 text-xs text-justify mt-3">
@@ -180,7 +188,7 @@ function Navbar() {
                         </Link>
                         {/* Business Intelligence */}
                         <Link to={"/service/business-intelligence"}>
-                          <h3 className="text-2xl font-semibold">
+                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600 ">
                             Business Intelligence
                           </h3>
 
@@ -225,6 +233,7 @@ function Navbar() {
               >
                 <Link to="/about-us">About Us</Link>
               </li>
+              {/* Blog */}
               <li
                 className={`${
                   navhover
@@ -236,6 +245,7 @@ function Navbar() {
               </li>
             </ul>
           </div>
+          {/* Contact Us */}
           <div>
             <button className="px-5 py-2 font-theme-font text-sm bg-purple-600 text-white rounded-2xl hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-slate-200 transition-color delay-250">
               Contact Us
