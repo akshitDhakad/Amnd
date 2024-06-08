@@ -4,9 +4,9 @@ function ClientCard() {
   return (
     <div className="flex flex-col gap-y-10">
       {/* grid container */}
-      <div className="w-full grid grid-cols-2  md:grid-cols-8 gap-y-5">
+      <div className="w-full grid grid-cols-2 gap-x-2  md:grid-cols-8 gap-y-5">
         {/* item 1 */}
-        <div className="h-32 w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
+        <div className="h-32 md:w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
           <img
             loading="lazy"
             className="w-full h-full object-cover object-center"
@@ -15,7 +15,7 @@ function ClientCard() {
           />
         </div>
         {/* item 2 */}
-        <div className="h-32 w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
+        <div className="h-32 md:w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
           <img
             loading="lazy"
             className="w-full h-full object-cover object-center"
@@ -24,7 +24,7 @@ function ClientCard() {
           />
         </div>
         {/* item 3 */}
-        <div className="h-32 w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
+        <div className="h-32 md:w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
           <img
             loading="lazy"
             className="w-full h-full object-cover object-center"
@@ -33,7 +33,7 @@ function ClientCard() {
           />
         </div>
         {/* item 4 */}
-        <div className="h-32 w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
+        <div className="h-32 md:w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
           <img
             loading="lazy"
             className="w-full h-full object-cover object-center"
@@ -42,7 +42,7 @@ function ClientCard() {
           />
         </div>
         {/* item 5 */}
-        <div className="h-32 w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
+        <div className="h-32 md:w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
           <img
             loading="lazy"
             className="w-full h-full object-cover object-center"
@@ -51,7 +51,7 @@ function ClientCard() {
           />
         </div>
         {/* item 6 */}
-        <div className="h-32 w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
+        <div className="h-32 md:w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
           <img
             loading="lazy"
             className="w-full h-full object-cover object-center"
@@ -60,7 +60,7 @@ function ClientCard() {
           />
         </div>
         {/* item 7 */}
-        <div className="h-32 w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
+        <div className="h-32 md:w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
           <img
             loading="lazy"
             className="w-full h-full object-cover object-center"
@@ -69,7 +69,7 @@ function ClientCard() {
           />
         </div>
         {/* item 8 */}
-        <div className="h-32 w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
+        <div className="h-32 md:w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
           <img
             loading="lazy"
             className="w-full h-full object-cover object-center"

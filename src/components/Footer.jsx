@@ -13,9 +13,9 @@ function Footer() {
     <footer className="bg-theme-bg-dark m-1 rounded-2xl">
       {/* Uppper Navbar  */}
       <div className="max-w-6xl m-auto py-20">
-        <div className="grid md:grid-cols-3 py-2 px-10">
+        <div className="grid md:grid-cols-3 gap-2 gap-y-10 px-4 md:px-10">
           {/* col 1 */}
-          <div className="flex flex-col gap-y-10">
+          <div className="flex flex-col gap-5 md:gap-y-10">
             <div>
               <h2 className="text-white font-bold tracking-wide font-theme-font">
                 Expertise
@@ -64,7 +64,7 @@ function Footer() {
           </div>
 
           {/* col 2 */}
-          <div className="flex flex-col gap-y-10">
+          <div className="flex flex-col gap-5 md:gap-y-10">
             <div>
               <h2 className="text-white font-bold tracking-wide font-theme-font">
                 Cities of Our Expertise
@@ -101,7 +101,7 @@ function Footer() {
           </div>
 
           {/* col 3 */}
-          <div className="flex flex-col gap-y-10">
+          <div className="flex flex-col gap-5 md:gap-y-10">
             <div>
               <h2 className="text-white font-bold tracking-wide font-theme-font">
                 Industries
@@ -126,9 +126,9 @@ function Footer() {
       <hr className="max-w-6xl m-auto" />
       {/* Lower Navbar  */}
       <div className="max-w-6xl m-auto py-10">
-        <div className="flex flex-col md:flex-row justify-between items-center">
+        <div className="flex flex-col gap-y-5 md:flex-row justify-between items-center">
           {/* left container  */}
-          <div>
+          <div className="text-center">
             <span className="text-md mx-1 text-gray-500 tracking-wide font-theme-font">
               @2024
             </span>
