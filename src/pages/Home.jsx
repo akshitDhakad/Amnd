@@ -29,30 +29,30 @@ export default function Home() {
       <Layout>
         {/* Hero Section  */}
         <section>
-          <div className="abosolute m-1 rounded-2xl top-0 h-screen flex bg-theme-bg-dark">
-            <div className="relative max-w-6xl m-auto px-10 py-5">
+          <div className="md:abosolute m-1 rounded-2xl md:top-0 min-h-min md:h-screen flex justify-center items-center bg-theme-bg-dark">
+            <div className="mt-20 md:mt-auto md:relative max-w-6xl m-auto px-10 py-5">
               <div
-                className="absolute  top-0 left-0 h-full w-2/5"
+                className="md:absolute md:top-0 left-0 h-full md:w-2/5"
                 style={backgroundImg}
               ></div>
-              <div className="absolute  top-0 left-0 h-full w-2/5 inset-0 bg-purple-100 bg-opacity-10 backdrop-blur-md"></div>
-              <div className="relative grid grid-cols-2 gap-x-20 gap-y-10 max-w-4xl m-auto">
-                <div className="absolute top-0 left-0 z-10 col-span-2 flex flex-col gap-5">
+              <div className="md:absolute md:top-0 left-0 h-full md:w-2/5 inset-0 bg-purple-100 bg-opacity-10 backdrop-blur-md"></div>
+              <div className="relative md:grid md:grid-cols-2 gap-x-20 gap-y-10 max-w-4xl m-auto">
+                <div className="md:absolute md:top-0 left-0 z-10 col-span-2 flex flex-col gap-3">
                   <div>
                     <h2 className="text-3xl hover:underline text-white font-semibold tracking-wide font-theme-font">
                       Custom Web
                     </h2>
                   </div>
                   <div>
-                    <h1 className="text-6xl text-white font-bold tracking-wide font-theme-font">
+                    <h1 className="text-4xl mb-5 md:text-6xl text-white font-bold tracking-wide font-theme-font">
                       Application Development
                     </h1>
                   </div>
                 </div>
-                <div className="col-span-2 h-24"></div>
-                <div className=""></div>
-                <div>
-                  <p className="text-white text-start tracking-wide font-theme-font">
+                <div className="hidden md:block md:col-span-2 md:h-24"></div>
+                <div className="hidden md:block"></div>
+                <div className="w-full">
+                  <p className="text-white md:text-start tracking-wide font-theme-font">
                     Looking for turnkey custom web application development
                     services? We are AMND Software – a leading custom web
                     application development company with a recognized stand on
@@ -69,45 +69,48 @@ export default function Home() {
             </div>
           </div>
         </section>
+
         {/* Pages Section  */}
         <section>
-          <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
+          <div className="relative max-w-6xl px-4 py-20 grid md:grid-cols-2 gap-x-10 gap-y-10  m-auto">
+            <span class="absolute font-semibold text-4xl md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               AMND
             </span>
             {/* heading  */}
-            <div className="col-span-2 flex flex-col ">
+            <div className="md:col-span-2 flex flex-col ">
               <div className="mb-2">
-                <h2 className="text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
+                <h2 className="text-4xl  md:text-start text-gray-600 font-bold tracking-wide font-theme-font">
                   About
                 </h2>
               </div>
               <div className="mb-4">
-                <h1 className="text-5xl text-black font-bold tracking-wide font-theme-font">
+                <h1 className="text-5xl md:text-start text-black font-bold tracking-wide font-theme-font">
                   AMND Software
                 </h1>
               </div>
             </div>
             {/* left content */}
-            <div className="grid grid-cols-12">
-              <div className="col-span-2 flex flex-col justify-around items-start">
+            <div className="grid md:grid-cols-12 gap-y-10">
+              {/* social media icons */}
+              <div className="col-span-12 md:col-span-2 flex flex-row md:flex-col justify-around items-start">
                 <FaFacebook className="text-3xl" />
                 <FaLinkedin className="text-3xl" />
                 <FaInstagram className="text-3xl" />
               </div>
-              <div className="col-span-10">
-                <p className="text-gray-900 text-start tracking-wide font-theme-font mb-2">
+              {/* content  */}
+              <div className="grid-cols-12 md:col-span-10">
+                <p className="text-gray-900 md:text-start text-justify tracking-wide font-theme-font mb-2">
                   AMND Software is an international IT outsourcing company with
                   development facilities in five countries – Poland, Romania,
                   Azerbaijan, Ukraine and Georgia.
                 </p>
-                <p className="text-gray-900 text-start tracking-wide font-theme-font mb-2">
+                <p className="text-gray-900 md:text-start text-justify tracking-wide font-theme-font mb-2">
                   Our key value is our flexibility. It’s you who chooses the
                   engagement model that works best for your project:
                   outsourcing, outstaffing, dedicated team or staff
                   augmentation.
                 </p>
-                <p className="text-gray-900 text-start tracking-wide font-theme-font mb-2">
+                <p className="text-gray-900 md:text-start text-justify tracking-wide font-theme-font mb-2">
                   The benefit you get with us is facilitation. Digital
                   transformation has never been easier – all you need to do is
                   just tell us your requirements.
@@ -116,13 +119,13 @@ export default function Home() {
             </div>
             {/* Right content */}
             <div>
-              <p className="text-gray-900 text-start tracking-wide font-theme-font mb-2">
+              <p className="text-gray-900 md:text-start text-justify tracking-wide font-theme-font mb-2">
                 We will advise you on the fitting solution, resources, and
                 timeframes for your business. Our main asset is people. We hire
                 top software developers to run your project from initial
                 estimation to release.
               </p>
-              <p className="text-gray-900 text-start tracking-wide font-theme-font mb-2">
+              <p className="text-gray-900 md:text-start text-justify tracking-wide font-theme-font mb-2">
                 AMND Software achieves a well-planned development process,
                 competent management, and efficient communication due to a
                 thorough selection of team members for our company.
@@ -136,20 +139,21 @@ export default function Home() {
             </div>
           </div>
         </section>
+
         {/* testinomials section  */}
         <section>
-          <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
+          <div className="relative max-w-6xl px-4 py-20  m-auto">
+            <span class="absolute font-semibold text-[4rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Testimonials
             </span>
             {/* heading  */}
-            <div className="col-span-2 flex flex-col ">
+            <div className=" flex flex-col ">
               <div className="mb-2">
                 <h2 className="text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
                   Testimonials
                 </h2>
               </div>
-              <div className="mb-4">
+              <div className="md:mb-4">
                 <h1 className="text-5xl text-black font-bold tracking-wide font-theme-font">
                   Client
                 </h1>
@@ -158,10 +162,11 @@ export default function Home() {
             </div>
           </div>
         </section>
+
         {/* Our Services section  */}
         <section>
-          <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] right-[-125px] text-gray-500">
+          <div className="relative max-w-6xl px-4 py-20 grid grid-cols-2  gap-x-10 gap-y-10  m-auto">
+            <span class="absolute font-semibold text-4xl md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] right-[-125px] text-gray-500">
               Our Services
             </span>
             {/* heading  */}
@@ -178,7 +183,7 @@ export default function Home() {
               </div>
             </div>
             {/* left content */}
-            <div className="col-span-2 grid grid-cols-5 justify-center">
+            <div className="col-span-2 grid grid-cols-2 md:grid-cols-5  gap-5">
               <FlipCard
                 title={"Web Development"}
                 description={
@@ -232,35 +237,36 @@ export default function Home() {
             </div>
           </div>
         </section>
+
         {/* Our Case Studies  */}
         <section>
           {/* item 1 */}
-          <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
+          <div className="relative max-w-6xl px-4 py-20 grid md:grid-cols-2 gap-x-10 md:gap-y-10 m-auto">
+            <span class="absolute font-semibold text-4xl md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Case Studies
             </span>
             {/* heading  */}
-            <div className="col-span-2 flex flex-col ">
-              <div className="mb-2">
-                <h2 className="text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
+            <div className="md:col-span-2 flex flex-col ">
+              <div className="md:mb-2">
+                <h2 className="text-xl md:text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
                   Our
                 </h2>
               </div>
               <div className="mb-4">
-                <h1 className="text-5xl text-black font-bold tracking-wide font-theme-font">
+                <h1 className="text-2xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
                   Case Studies
                 </h1>
               </div>
             </div>
             {/* Left content */}
-            <div>
-              <h3 className="font-bold text-2xl tracking-wide mb-5">
+            <div className="order-3 md:order-2">
+              <h3 className="font-bold text-2xl tracking-wide md:mb-5">
                 Function4
               </h3>
               <h4 className="font-semibold tracking-wide text-md mb-2 text-gray-600">
                 Event Management Platform, USA
               </h4>
-              <p className="text-gray-400 text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
+              <p className="text-gray-400 text-justify md:text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
                 Function4 is a USA-based professional event ecosystem that
                 offers a simple, user-friendly discovery venue for the financial
                 services sector. The enterprise event management software
@@ -278,7 +284,7 @@ export default function Home() {
               </div>
             </div>
             {/* Right content */}
-            <div className="flex items-center justify-center">
+            <div className="order-2 md:order-3 flex items-center justify-center mb-5 md:mb-0">
               <div className="w-full h-56 rounded-lg overflow-hidden">
                 <img
                   className="w-full h-full object-cover object-center"
@@ -290,27 +296,28 @@ export default function Home() {
           </div>
 
           {/* item2 */}
-          <div className="max-w-6xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="max-w-6xl px-4  grid md:grid-cols-2 gap-x-10 gap-y-10 m-auto">
             {/* Left content */}
             <div className="flex items-center justify-center">
               <div className="w-full h-56 rounded-lg overflow-hidden">
                 <img
+                  loading="lazy"
                   className="w-full h-full object-cover object-center"
                   src="https://t4.ftcdn.net/jpg/01/64/26/27/360_F_164262701_BsbY2qe8M3fvvB4cBWsFLgeEXhgEukcw.jpg"
-                  alt="Our Case Studies "
+                  alt="Our Case Studies"
                 />
               </div>
             </div>
             {/* Right content */}
             <div>
-              <h3 className="font-bold text-2xl tracking-wide mb-5">
+              <h3 className="font-bold text-2xl tracking-wide md:mb-5">
                 ActivePlace
               </h3>
               <h4 className="font-semibold text-md tracking-wide mb-2 text-gray-600">
                 dia platform with a marketplace fWellness social network and
                 meeature, Australia
               </h4>
-              <p className="text-gray-400 text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
+              <p className="text-gray-400 text-justify md:text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
                 ActivePlace is a social platform dedicated to health, fitness,
                 and an active lifestyle. It is a three-sided network that
                 connects people with like-minded individuals, mentors, and
@@ -332,14 +339,14 @@ export default function Home() {
           </div>
 
           {/* item 3 */}
-          <div className="max-w-6xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="max-w-6xl py-20 grid px-4 md:grid-cols-2 gap-x-10 gap-y-10 m-auto">
             {/* Left content */}
-            <div>
+            <div className="order-3 md:order-2">
               <h3 className="font-bold text-2xl tracking-wide mb-5">ILVE</h3>
               <h4 className="font-semibold text-md tracking-wide mb-2 text-gray-600">
                 Event Management Platform, USA
               </h4>
-              <p className="text-gray-400 text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
+              <p className="text-gray-400 text-justify md:text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
                 ILVE is a global manufacturer of gas and electric household
                 cooking appliances with a reach across 40 countries worldwide.
                 Since 1975, the company has been known as a niche brand
@@ -361,7 +368,7 @@ export default function Home() {
               </div>
             </div>
             {/* Right content */}
-            <div className="flex items-center justify-center">
+            <div className="order-2 md:order-3 flex items-center justify-center">
               <div className="w-full h-56 rounded-lg overflow-hidden">
                 <img
                   className="w-full h-full object-cover object-center"
@@ -376,7 +383,7 @@ export default function Home() {
         {/* Type of Web Services we build*/}
         <section>
           <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10  m-auto">
-            <span class="absolute font-semibold text-[12rem] font-theme-font tracking-wide leading-none opacity-10 top-0 left-[1/2] text-graye-500">
+            <span class="absolute font-semibold  text-[4rem]  md:text-[12rem] font-theme-font tracking-wide leading-none opacity-10 top-0 left-[1/2] text-graye-500">
               We Build
             </span>
             {/* heading  */}
@@ -404,12 +411,12 @@ export default function Home() {
 
         {/* Custom Web App Development Services  */}
         <section>
-          <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[12rem] font-theme-font leading-none opacity-10 top-0 left-[1/2] text-graye-500">
+          <div className="relative max-w-6xl py-20 grid md:grid-cols-2 gap-x-10 gap-y-10  m-auto">
+            <span class="absolute font-semibold text-[4rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-0 left-[1/2] text-graye-500">
               We Provide
             </span>
             {/* heading  */}
-            <div className="col-span-2 flex flex-col ">
+            <div className="md:col-span-2 flex flex-col ">
               <div className="mb-2">
                 <h2 className="text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
                   Custom Web App Development Services
@@ -505,7 +512,7 @@ export default function Home() {
         {/* Benefits of our Web App Development Services */}
         <section>
           <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
+            <span class="absolute font-semibold md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Benefits
             </span>
             {/* heading  */}
@@ -522,7 +529,7 @@ export default function Home() {
               </div>
             </div>
             {/* content */}
-            <div className="col-span-2 grid grid-cols-3 gap-10">
+            <div className="col-span-2 grid md:grid-cols-3 gap-10">
               {/* item 1 */}
               <div className="h-72 w-96 p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 hover:shadow-purple-600 relative">
                 <span class="absolute font-bold text-8xl font-theme-font leading-none opacity-40 top-6 left-6 text-purple-600">
@@ -630,7 +637,7 @@ export default function Home() {
         {/* Our CLients  */}
         <section>
           <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10  m-auto">
-            <span class="absolute font-semibold text-[10rem] font-theme-font tracking-wide leading-none opacity-10 top-0 left-[1/2] text-graye-500">
+            <span class="absolute font-semibold text-[4rem] md:text-[10rem] font-theme-font tracking-wide leading-none opacity-10 top-0 left-[1/2] text-graye-500">
               Clients
             </span>
             {/* heading  */}
@@ -657,7 +664,7 @@ export default function Home() {
 
         <section>
           <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
+            <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Development
             </span>
             {/* heading  */}
@@ -674,7 +681,7 @@ export default function Home() {
               </div>
             </div>
             {/* left content */}
-            <div className="col-span-2 grid grid-cols-3 gap-10">
+            <div className="col-span-2 grid md:grid-cols-3 gap-10">
               {/* item 1 */}
               <div className="h-72 w-96 p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 relative">
                 <div class="absolute top-5 left-5 h-12 w-12 font-bold text-8xl font-theme-font leading-none opacity-40">
@@ -805,7 +812,7 @@ export default function Home() {
         {/* Our Work Section  */}
         <section>
           <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-2  m-auto">
-            <span class="absolute font-semibold text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
+            <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Latest Works
             </span>
             {/* heading  */}
@@ -822,9 +829,9 @@ export default function Home() {
               </div>
             </div>
             {/* project 1  */}
-            <div className="col-span-2 grid grid-cols-2 gap-2">
+            <div className="col-span-2 md:grid grid-cols-2 gap-2 ">
               {/* left content */}
-              <div className="h-96 relative rounded-2xl overflow-hidden">
+              <div className="md:h-96 relative rounded-2xl overflow-hidden">
                 <div className="absolute inset-0 bg-gray-100 opacity-0 hover:opacity-80 flex justify-center items-center">
                   <Link
                     to={""}
@@ -885,7 +892,7 @@ export default function Home() {
               </div>
             </div>
             {/* project 2 */}
-            <div className="col-span-2 grid grid-cols-2 gap-2">
+            <div className="col-span-2 grid md:grid-cols-2 gap-2">
               {/* left content */}
               <div className="bg-theme-bg-dark rounded-2xl overflow-hidden p-10">
                 <div className="h-full flex flex-col justify-between">
@@ -930,7 +937,7 @@ export default function Home() {
               </div>
 
               {/* Right content */}
-              <div className="h-96 relative rounded-2xl overflow-hidden">
+              <div className="md:h-96 relative rounded-2xl overflow-hidden">
                 <div className="absolute inset-0 bg-gray-100 opacity-0 hover:opacity-80 flex justify-center items-center">
                   <Link
                     to={""}
@@ -957,7 +964,7 @@ export default function Home() {
 
         <section>
           <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-0 text-gray-500">
+            <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-0 text-gray-500">
               Technologies
             </span>
             {/* heading  */}
@@ -974,17 +981,17 @@ export default function Home() {
               </div>
             </div>
             {/* Content  */}
-            <div className="col-span-2 grid grid-cols-2 gap-x-5 gap-y-10">
+            <div className="col-span-2 grid md:grid-cols-2 gap-x-5 gap-y-10">
               {/* left content */}
 
               {/* 1 card*/}
-              <div className=" h-72 w-auto p-10 flex flex-col items-start justify-between rounded-3xl shadow-xl bg-slate-50">
+              <div className=" md:h-72 w-auto p-10 flex flex-col items-start justify-between rounded-3xl shadow-xl bg-slate-50">
                 <h4 className="mb-4 text-xl font-bold font-theme-font">
                   Back End
                 </h4>
 
                 <div>
-                  <div className="grid grid-cols-4 gap-x-5 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-x-5 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-8">
                         <img
@@ -1091,12 +1098,12 @@ export default function Home() {
               </div>
 
               {/* card 2 */}
-              <div className=" h-72 w-auto p-10 flex flex-col items-start justify-between rounded-3xl shadow-xl bg-slate-50">
+              <div className=" md:h-72 w-auto p-10 flex flex-col items-start justify-between rounded-3xl shadow-xl bg-slate-50">
                 <h4 className="mb-4 text-xl font-bold font-theme-font">
                   Front End
                 </h4>
 
-                <div className="grid grid-cols-4 gap-10 text-start tracking-wide leading-5 font-theme-font">
+                <div className="grid grid-cols-2 md:grid-cols-4  gap-10 text-start tracking-wide leading-5 font-theme-font">
                   {/* item 1 */}
                   <div className="flex gap-1 items-center">
                     <div className="h-8 w-8">
@@ -1202,12 +1209,12 @@ export default function Home() {
               </div>
 
               {/* card 3 */}
-              <div className=" h-72 w-auto p-10 flex flex-col items-start justify-between rounded-3xl shadow-xl bg-slate-50">
+              <div className=" md:h-72 w-auto p-10 flex flex-col items-start justify-between rounded-3xl shadow-xl bg-slate-50">
                 <h4 className="mb-4 text-xl font-bold font-theme-font">
                   Database Development
                 </h4>
 
-                <div className="grid grid-cols-4 gap-10 text-start tracking-wide leading-5 font-theme-font">
+                <div className="grid grid-cols-2 md:grid-cols-4  gap-10 text-start tracking-wide leading-5 font-theme-font">
                   {/* item 1 */}
                   <div className="flex gap-1 items-center">
                     <div className="h-8 w-8">
@@ -1312,12 +1319,12 @@ export default function Home() {
                 </div>
               </div>
               {/* item 4 */}
-              <div className=" h-72 w-auto p-10 flex flex-col items-start justify-between rounded-3xl shadow-xl bg-slate-50">
+              <div className="md:h-72 w-auto p-10 flex flex-col items-start justify-between rounded-3xl shadow-xl bg-slate-50">
                 <h4 className="mb-4 text-xl font-bold font-theme-font">
                   DevOps & Cloud
                 </h4>
 
-                <div className="grid grid-cols-4 gap-10 text-start tracking-wide leading-5 font-theme-font">
+                <div className="grid grid-cols-2 md:grid-cols-4  gap-10 text-start tracking-wide leading-5 font-theme-font">
                   {/* item 1 */}
                   <div className="flex gap-1 items-center">
                     <div className="h-8 w-8">
@@ -1428,7 +1435,7 @@ export default function Home() {
         {/* Type of solutions we build  */}
         <section>
           <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
+            <span class="absolute font-semibold md:text-[8rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Web Solutions
             </span>
             {/* heading  */}

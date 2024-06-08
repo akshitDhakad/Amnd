@@ -4,7 +4,7 @@ function ClientCard() {
   return (
     <div className="flex flex-col gap-y-10">
       {/* grid container */}
-      <div className="grid grid-cols-8">
+      <div className="w-full grid grid-cols-2  md:grid-cols-8 gap-y-5">
         {/* item 1 */}
         <div className="h-32 w-32 p-2 rounded-3xl shadow-xl hover:shadow-md hover:shadow-purple-600 bg-slate-50">
           <img

@@ -14,7 +14,7 @@ function Navbar() {
       className="absolute  z-50 w-full transprent hover:bg-theme-bg-light"
     >
       <div className=" max-w-6xl m-auto">
-        <div className="flex items-center py-5 px-10">
+        <div className="hidden md:flex items-center py-5 px-10">
           <div className="flex-1 text-lg">
             <Link to="/">
               <img
@@ -250,6 +250,57 @@ function Navbar() {
             <button className="px-5 py-2 font-theme-font text-sm bg-purple-600 text-white rounded-2xl hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-slate-200 transition-color delay-250">
               Contact Us
             </button>
+          </div>
+        </div>
+
+        <div>
+          <div className="md:hidden flex items-center justify-between py-5 px-10">
+            {/* button */}
+            <div className="hover:cursor-pointer">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-8 text-white "
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </div>
+            {/* logo */}
+            <div>
+              <Link to="/">
+                <img
+                  loading="lazy"
+                  className="h-8 w-auto"
+                  src="https://devoxsoftware.com/wp-content/themes/main/assets/images/logo.svg"
+                  alt="Brand logo"
+                />
+              </Link>
+            </div>
+
+            {/* contact button  */}
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-8 text-white"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
