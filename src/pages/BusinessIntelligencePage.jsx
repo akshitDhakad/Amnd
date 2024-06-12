@@ -98,51 +98,47 @@ const dataSet = [
 const faqs = [
   {
     _id: "1",
-    title: "What do our Full-Stack Web Development Services include?",
+    title: "What are the benefits of iOS App Development?",
     description:
-      "Our Full-Stack Web Development Services encompass both front-end and back-end development, ensuring a seamless and cohesive user experience. We specialize in technologies like HTML, CSS, JavaScript, React, Angular, Node.js, Python, Ruby on Rails, and more. Our full-stack approach allows us to handle every aspect of your web project, from design to deployment and maintenance.",
+      "iOS App Development ensures a high-quality user experience on Apple's ecosystem, including iPhones and iPads. It provides robust security, a loyal user base, and seamless integration with other Apple services. Our expertise in Swift and Objective-C allows us to create feature-rich and intuitive apps that meet the high standards of the App Store.",
   },
   {
     _id: "2",
-    title: "What are the benefits of Custom Web Applications?",
+    title: "Why choose Android App Development?",
     description:
-      "Custom Web Applications are tailored to meet the specific needs of your business, offering greater flexibility and scalability than off-the-shelf solutions. We build bespoke applications that integrate seamlessly with your existing systems, enhance your workflows, and provide a unique user experience. Our custom solutions are designed to grow with your business, ensuring long-term value and efficiency.",
+      "Android App Development offers access to the largest user base in the world, with diverse devices and customization options. We utilize Java and Kotlin to develop scalable and responsive apps tailored to various Android devices. Our services ensure compatibility, performance optimization, and adherence to Google Play's guidelines, providing a wide reach and user engagement.",
   },
   {
     _id: "3",
-    title: "What does our Web Support and Maintenance service include?",
+    title: "What is Native App Development and its advantages?",
     description:
-      "Our Web Support and Maintenance services ensure your website remains up-to-date, secure, and performing optimally. We offer regular updates, security patches, performance optimization, and troubleshooting. Our proactive approach helps prevent issues before they arise, providing peace of mind and allowing you to focus on your core business activities.",
+      "Native App Development involves creating apps specifically for a single platform, either iOS or Android, using their respective programming languages. This approach offers superior performance, enhanced security, and full access to device features. Native apps provide the best user experience, with smooth interactions and high responsiveness, making them ideal for performance-intensive applications.",
   },
   {
     _id: "4",
-    title: "What makes our Web Development Services stand out?",
+    title: "What is Cross-Platform App Development and when should it be used?",
     description:
-      "Our Web Development Services are built on a foundation of expertise, innovation, and a commitment to quality. We stay ahead of industry trends and employ the latest technologies to deliver cutting-edge solutions. Our team is dedicated to understanding your unique business needs and crafting websites that are visually appealing, user-friendly, and optimized for performance and SEO.",
+      "Cross-Platform App Development allows developers to create apps that run on multiple platforms, such as iOS and Android, using a single codebase. This method saves time and reduces costs while maintaining consistency across platforms. Technologies like React Native and Flutter enable us to deliver high-quality cross-platform apps that offer native-like performance and a unified user experience.",
   },
   {
     _id: "5",
-    title: "Why is Website Design and Re-Design important?",
+    title: "Why consider Xamarin App Development?",
     description:
-      "Website Design and Re-Design are crucial for maintaining a modern, engaging online presence. A well-designed website enhances user experience, improves navigation, and increases conversions. Whether you need a new website or an overhaul of an existing one, our design experts will create a visually stunning and functional site that aligns with your brand and business objectives.",
+      "Xamarin App Development uses C# and .NET to create cross-platform apps with a native look and feel. It allows code sharing across platforms, reducing development time and effort. Xamarin's integration with Visual Studio and robust testing tools ensures efficient development and maintenance, making it a great choice for businesses looking to target multiple platforms with a single solution.",
   },
   {
     _id: "6",
-    title: "What are Next-Gen Web Solutions?",
+    title: "What makes Flutter App Development a popular choice?",
     description:
-      "Next-Gen Web Solutions incorporate the latest advancements in web technologies to create innovative and future-proof websites. This includes progressive web apps (PWAs), single-page applications (SPAs), AI-driven functionalities, and responsive design. Our next-gen solutions ensure your website is fast, secure, and capable of delivering an exceptional user experience across all devices and platforms.",
+      "Flutter App Development, powered by Google, uses the Dart programming language to create natively compiled applications for mobile, web, and desktop from a single codebase. Flutter's rich set of pre-designed widgets and fast development cycle enable the creation of highly customizable and expressive apps. Its hot-reload feature allows for real-time code changes, speeding up the development process and enhancing productivity.",
   },
 ];
 
-
-export default function WebDevelopmentPage() {
-
-      const [tab, setTab] = useState(0);
-
-
+export default function BusinessIntelligencePage() {
+  const [tab, setTab] = useState(0);
 
   const backgroundImg = {
-    backgroundImage: `url('https://devoxsoftware.com/wp-content/uploads/2024/01/AnyConv.com__philip-oroni-gftMuFt8vNk-unsplash.webp')`,
+    backgroundImage: `url('https://devoxsoftware.com/wp-content/uploads/2024/01/AnyConv.com__philip-oroni-aKrxv35kTKw-unsplash.webp')`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -169,7 +165,7 @@ export default function WebDevelopmentPage() {
                   </div>
                   <div>
                     <h1 className="text-5xl text-white font-bold tracking-wide font-theme-font">
-                      Web Development Services
+                      Business Intelligence Services
                     </h1>
                   </div>
                 </div>

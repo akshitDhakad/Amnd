@@ -98,51 +98,48 @@ const dataSet = [
 const faqs = [
   {
     _id: "1",
-    title: "What do our Full-Stack Web Development Services include?",
+    title: "What is User Interface (UI) Design?",
     description:
-      "Our Full-Stack Web Development Services encompass both front-end and back-end development, ensuring a seamless and cohesive user experience. We specialize in technologies like HTML, CSS, JavaScript, React, Angular, Node.js, Python, Ruby on Rails, and more. Our full-stack approach allows us to handle every aspect of your web project, from design to deployment and maintenance.",
+      "User Interface (UI) Design focuses on the aesthetics and layout of a digital product. Our UI design services ensure your application or website is visually appealing, intuitive, and user-friendly. We pay attention to color schemes, typography, and overall visual hierarchy to create interfaces that delight users and enhance usability.",
   },
   {
     _id: "2",
-    title: "What are the benefits of Custom Web Applications?",
+    title: "What encompasses User Experience (UX) Design?",
     description:
-      "Custom Web Applications are tailored to meet the specific needs of your business, offering greater flexibility and scalability than off-the-shelf solutions. We build bespoke applications that integrate seamlessly with your existing systems, enhance your workflows, and provide a unique user experience. Our custom solutions are designed to grow with your business, ensuring long-term value and efficiency.",
+      "User Experience (UX) Design is all about creating a smooth and efficient user journey. Our UX design services focus on understanding user behavior, needs, and motivations to create products that provide meaningful and relevant experiences. We employ user research, wireframing, prototyping, and usability testing to ensure your digital products are both functional and enjoyable to use.",
   },
   {
     _id: "3",
-    title: "What does our Web Support and Maintenance service include?",
+    title: "Why choose Custom Web Design?",
     description:
-      "Our Web Support and Maintenance services ensure your website remains up-to-date, secure, and performing optimally. We offer regular updates, security patches, performance optimization, and troubleshooting. Our proactive approach helps prevent issues before they arise, providing peace of mind and allowing you to focus on your core business activities.",
+      "Custom Web Design offers a tailored approach to creating your website, ensuring it reflects your brand identity and meets your specific business needs. We work closely with you to develop a unique design that stands out from the competition, incorporates your brand elements, and aligns with your business goals. Custom web design allows for greater flexibility and creativity compared to template-based solutions.",
   },
   {
     _id: "4",
-    title: "What makes our Web Development Services stand out?",
+    title: "What is Responsive Design, and why is it important?",
     description:
-      "Our Web Development Services are built on a foundation of expertise, innovation, and a commitment to quality. We stay ahead of industry trends and employ the latest technologies to deliver cutting-edge solutions. Our team is dedicated to understanding your unique business needs and crafting websites that are visually appealing, user-friendly, and optimized for performance and SEO.",
+      "Responsive Design ensures your website or application functions seamlessly across all devices, from desktops to mobile phones. Our responsive design services adapt your digital product’s layout and elements to different screen sizes and orientations, providing an optimal viewing experience. This approach improves user satisfaction, increases engagement, and is essential for modern web development.",
   },
   {
     _id: "5",
-    title: "Why is Website Design and Re-Design important?",
+    title: "What does Mobile UI/UX Design entail?",
     description:
-      "Website Design and Re-Design are crucial for maintaining a modern, engaging online presence. A well-designed website enhances user experience, improves navigation, and increases conversions. Whether you need a new website or an overhaul of an existing one, our design experts will create a visually stunning and functional site that aligns with your brand and business objectives.",
+      "Mobile UI/UX Design focuses on creating engaging and intuitive interfaces for mobile applications. Our services include designing for touch interactions, optimizing for smaller screens, and ensuring fast load times. We prioritize user-centric design principles to deliver mobile experiences that are both functional and visually appealing, enhancing user satisfaction and retention.",
   },
   {
     _id: "6",
-    title: "What are Next-Gen Web Solutions?",
+    title: "What is SAAS CRM Design?",
     description:
-      "Next-Gen Web Solutions incorporate the latest advancements in web technologies to create innovative and future-proof websites. This includes progressive web apps (PWAs), single-page applications (SPAs), AI-driven functionalities, and responsive design. Our next-gen solutions ensure your website is fast, secure, and capable of delivering an exceptional user experience across all devices and platforms.",
+      "SAAS CRM Design involves creating user interfaces and experiences for software-as-a-service (SAAS) customer relationship management (CRM) platforms. Our design services ensure your SAAS CRM system is easy to use, efficient, and meets the needs of your users. We focus on creating intuitive dashboards, clear data visualizations, and seamless workflows to enhance productivity and user satisfaction.",
   },
 ];
 
 
-export default function WebDevelopmentPage() {
-
-      const [tab, setTab] = useState(0);
-
-
+export default function UIDesignPage() {
+  const [tab, setTab] = useState(0);
 
   const backgroundImg = {
-    backgroundImage: `url('https://devoxsoftware.com/wp-content/uploads/2024/01/AnyConv.com__philip-oroni-gftMuFt8vNk-unsplash.webp')`,
+    backgroundImage: `url('https://devoxsoftware.com/wp-content/uploads/2024/01/voicu-apostol-93F3aiv_ioM-unsplash.webp')`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -152,7 +149,7 @@ export default function WebDevelopmentPage() {
     <main className="relative">
       <Layout>
         {/* Hero Section  */}
-        <section className="">
+        <section className="bg-white">
           <div
             className="abosolute -z-50 m-1 overflow-hidden top-0 h-screen flex items-center justify-center rounded-2xl"
             style={backgroundImg}
@@ -169,7 +166,7 @@ export default function WebDevelopmentPage() {
                   </div>
                   <div>
                     <h1 className="text-5xl text-white font-bold tracking-wide font-theme-font">
-                      Web Development Services
+                      Outsource <br /> Web Design
                     </h1>
                   </div>
                 </div>

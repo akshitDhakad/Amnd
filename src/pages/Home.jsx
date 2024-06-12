@@ -231,7 +231,7 @@ export default function Home() {
               />
             </div>
             <div className="col-span-2 flex justify-center items-center">
-              <button className="px-20 py-3 font-theme-font text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-150">
+              <button className="px-20 py-3 font-theme-font text-lg bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600  transition-all duration-300">
                 Contact Us
               </button>
             </div>

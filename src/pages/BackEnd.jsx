@@ -98,51 +98,60 @@ const dataSet = [
 const faqs = [
   {
     _id: "1",
-    title: "What do our Full-Stack Web Development Services include?",
+    title: "What is Mobile App Back-End Development?",
     description:
-      "Our Full-Stack Web Development Services encompass both front-end and back-end development, ensuring a seamless and cohesive user experience. We specialize in technologies like HTML, CSS, JavaScript, React, Angular, Node.js, Python, Ruby on Rails, and more. Our full-stack approach allows us to handle every aspect of your web project, from design to deployment and maintenance.",
+      "Mobile App Back-End Development involves creating the server-side logic and infrastructure required to support mobile applications. Our back-end development services for mobile apps ensure seamless data management, user authentication, and business logic execution, enabling robust and scalable mobile solutions.",
   },
   {
     _id: "2",
-    title: "What are the benefits of Custom Web Applications?",
+    title: "What are Cloud Back-End Solutions?",
     description:
-      "Custom Web Applications are tailored to meet the specific needs of your business, offering greater flexibility and scalability than off-the-shelf solutions. We build bespoke applications that integrate seamlessly with your existing systems, enhance your workflows, and provide a unique user experience. Our custom solutions are designed to grow with your business, ensuring long-term value and efficiency.",
+      "Cloud Back-End Solutions leverage cloud computing platforms to build and deploy scalable and reliable server-side applications. Our cloud back-end services enable businesses to take advantage of cloud infrastructure for enhanced performance, flexibility, and cost-effectiveness in managing their back-end systems.",
   },
   {
     _id: "3",
-    title: "What does our Web Support and Maintenance service include?",
+    title: "What are Web Applications in Back-End Development?",
     description:
-      "Our Web Support and Maintenance services ensure your website remains up-to-date, secure, and performing optimally. We offer regular updates, security patches, performance optimization, and troubleshooting. Our proactive approach helps prevent issues before they arise, providing peace of mind and allowing you to focus on your core business activities.",
+      "Web Applications in Back-End Development refer to server-side applications accessed through web browsers. Our web application development services focus on building secure, scalable, and feature-rich back-end systems that power modern web applications, ensuring optimal performance and user experience.",
   },
   {
     _id: "4",
-    title: "What makes our Web Development Services stand out?",
+    title: "What is API Development and Integration?",
     description:
-      "Our Web Development Services are built on a foundation of expertise, innovation, and a commitment to quality. We stay ahead of industry trends and employ the latest technologies to deliver cutting-edge solutions. Our team is dedicated to understanding your unique business needs and crafting websites that are visually appealing, user-friendly, and optimized for performance and SEO.",
+      "API Development and Integration involve designing, building, and integrating application programming interfaces (APIs) to enable communication between different software systems. Our API development services ensure seamless data exchange and interoperability between various components of your application ecosystem.",
   },
   {
     _id: "5",
-    title: "Why is Website Design and Re-Design important?",
+    title: "What is Back-End Refactoring?",
     description:
-      "Website Design and Re-Design are crucial for maintaining a modern, engaging online presence. A well-designed website enhances user experience, improves navigation, and increases conversions. Whether you need a new website or an overhaul of an existing one, our design experts will create a visually stunning and functional site that aligns with your brand and business objectives.",
+      "Back-End Refactoring involves restructuring and optimizing the codebase of existing back-end systems to improve performance, scalability, and maintainability. Our refactoring services help businesses modernize their back-end infrastructure, address technical debt, and adapt to evolving business needs.",
   },
   {
     _id: "6",
-    title: "What are Next-Gen Web Solutions?",
+    title: "What is Custom Server Development?",
     description:
-      "Next-Gen Web Solutions incorporate the latest advancements in web technologies to create innovative and future-proof websites. This includes progressive web apps (PWAs), single-page applications (SPAs), AI-driven functionalities, and responsive design. Our next-gen solutions ensure your website is fast, secure, and capable of delivering an exceptional user experience across all devices and platforms.",
+      "Custom Server Development entails building tailor-made server solutions to meet the specific requirements of a project or application. Our custom server development services empower businesses to create high-performance, secure, and scalable server architectures that align with their unique technical and business goals.",
+  },
+  {
+    _id: "7",
+    title: "What is Back-End Testing?",
+    description:
+      "Back-End Testing involves validating the functionality, performance, and security of server-side components in an application. Our back-end testing services encompass a comprehensive range of testing techniques and tools to ensure the reliability and robustness of your back-end systems.",
+  },
+  {
+    _id: "8",
+    title: "What is Back-End Consulting?",
+    description:
+      "Back-End Consulting provides expert guidance and advice on designing, developing, and optimizing back-end systems for optimal performance and scalability. Our consulting services help businesses make informed decisions about their back-end architecture, technology stack, and infrastructure setup, ensuring long-term success.",
   },
 ];
 
 
-export default function WebDevelopmentPage() {
-
-      const [tab, setTab] = useState(0);
-
-
+export default function BackEndPage() {
+  const [tab, setTab] = useState(0);
 
   const backgroundImg = {
-    backgroundImage: `url('https://devoxsoftware.com/wp-content/uploads/2024/01/AnyConv.com__philip-oroni-gftMuFt8vNk-unsplash.webp')`,
+    backgroundImage: `url('https://devoxsoftware.com/wp-content/uploads/2024/01/aron-yigin-9xbH6VwYOjU-unsplash.webp')`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -152,7 +161,7 @@ export default function WebDevelopmentPage() {
     <main className="relative">
       <Layout>
         {/* Hero Section  */}
-        <section className="">
+        <section className="bg-white">
           <div
             className="abosolute -z-50 m-1 overflow-hidden top-0 h-screen flex items-center justify-center rounded-2xl"
             style={backgroundImg}
@@ -169,7 +178,7 @@ export default function WebDevelopmentPage() {
                   </div>
                   <div>
                     <h1 className="text-5xl text-white font-bold tracking-wide font-theme-font">
-                      Web Development Services
+                      Back End Development Company
                     </h1>
                   </div>
                 </div>

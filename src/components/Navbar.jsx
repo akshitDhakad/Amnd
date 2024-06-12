@@ -16,7 +16,7 @@ function Navbar() {
       <div className=" max-w-6xl m-auto">
         <div className="hidden md:flex items-center py-5 px-10">
           <div className="flex-1 text-lg">
-            <Link to="/">
+            <Link to="/" onMouseEnter={() => setNavdrop(false)}>
               <img
                 loading="lazy"
                 className="h-8 w-auto"
@@ -28,7 +28,8 @@ function Navbar() {
           <div className="flex-3">
             <ul className="grid grid-cols-7 gap-x-2 justify-center items-center">
               {/* Experties */}
-              <li
+              {/* <li
+                onMouseEnter={() => setNavdrop(false)}
                 className={`${
                   navhover
                     ? "font-theme-font text-sm text-center text-black hover:text-purple-600 transition-color"
@@ -36,17 +37,7 @@ function Navbar() {
                 }`}
               >
                 <Link to="/experties">Experties</Link>
-              </li>
-              {/* Technology */}
-              <li
-                className={`${
-                  navhover
-                    ? "font-theme-font text-sm text-center text-black hover:text-purple-600 transition-color"
-                    : "font-theme-font text-sm text-center text-white hover:text-purple-600 transition-color "
-                }`}
-              >
-                <Link to="/technology">Technology</Link>
-              </li>
+              </li> */}
               {/* Services */}
               <li
                 onMouseEnter={() => setNavdrop(true)}
@@ -203,8 +194,21 @@ function Navbar() {
                   </div>
                 )}
               </li>
+              {/* Technology */}
+              <li
+                onMouseEnter={() => setNavdrop(false)}
+                className={`${
+                  navhover
+                    ? "font-theme-font text-sm text-center text-black hover:text-purple-600 transition-color"
+                    : "font-theme-font text-sm text-center text-white hover:text-purple-600 transition-color "
+                }`}
+              >
+                <Link to="/technology">Technology</Link>
+              </li>
+
               {/* Industries */}
               <li
+                onMouseEnter={() => setNavdrop(false)}
                 className={`${
                   navhover
                     ? "font-theme-font text-sm text-center text-black hover:text-purple-600 transition-color"
@@ -215,6 +219,7 @@ function Navbar() {
               </li>
               {/* Careers */}
               <li
+                onMouseEnter={() => setNavdrop(false)}
                 className={`${
                   navhover
                     ? "font-theme-font text-sm text-center text-black hover:text-purple-600 transition-color"
@@ -225,6 +230,7 @@ function Navbar() {
               </li>
               {/* About Us */}
               <li
+                onMouseEnter={() => setNavdrop(false)}
                 className={`${
                   navhover
                     ? "font-theme-font text-sm text-center text-black hover:text-purple-600 transition-color"
@@ -235,6 +241,7 @@ function Navbar() {
               </li>
               {/* Blog */}
               <li
+                onMouseEnter={() => setNavdrop(false)}
                 className={`${
                   navhover
                     ? "font-theme-font text-sm text-center text-black hover:text-purple-600 transition-color"
@@ -247,7 +254,10 @@ function Navbar() {
           </div>
           {/* Contact Us */}
           <div>
-            <button className="px-5 py-2 font-theme-font text-sm bg-purple-600 text-white rounded-2xl hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-slate-200 transition-color delay-250">
+            <button
+              onMouseEnter={() => setNavdrop(false)}
+              className="px-5 py-2 font-theme-font text-sm bg-purple-600 text-white rounded-2xl hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-slate-200 transition-color delay-250"
+            >
               Contact Us
             </button>
           </div>

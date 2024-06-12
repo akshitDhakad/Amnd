@@ -1,15 +1,28 @@
 "use strict";
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import Experties from "./pages/Experties.jsx";
 import Technology from "./pages/Technology.jsx";
 import Career from "./pages/Career.jsx";
 import About from "./pages/About.jsx";
 import Blog from "./pages/Blog.jsx";
-
+import ErrorPage from "./pages/ErrorPage.jsx";
 // service Pages 
-import WebDevelopment from "./pages/WebDevelopment.jsx";
-import { Routes, Route } from "react-router-dom";
+import WebDevelopmentPage from "./pages/WebDevelopment.jsx";
+import BackEndPage from "./pages/BackEnd.jsx";
+import MobileDevelopmentPage from "./pages/MobileDevelopment.jsx";
+import FrontEndPage from "./pages/FontEnd.jsx";
+import UIDesignPage from "./pages/UIDesign.jsx";
+import DataAnalyticPage from "./pages/DataAnalytics.jsx";
+import QualityPage from "./pages/QualityPage.jsx";
+import DevopsPage from "./pages/DevopsPage.jsx";
+// import DevopsPage from "./pages/DevopsPage.jsx";
+import BusinessIntelligencePage from "./pages/BusinessIntelligencePage.jsx";
+
+
+
+
 
 
 function App() {
@@ -23,7 +36,23 @@ function App() {
       <Route path="/blogs" element={<Blog />} />
       <Route path="/career" element={<Career />} />
       <Route path="/experties" element={<Experties />} />
-      <Route path="/service/web-development" element={<WebDevelopment />} />
+      {/* services Page  */}
+      <Route path="/service/devops-development" element={<DevopsPage />} />
+      <Route path="/service/quality-assrurance" element={<QualityPage />} />
+      <Route path="/service/web-development" element={<WebDevelopmentPage />} />
+      <Route path="/service/data-analytics" element={<DataAnalyticPage />} />
+      <Route path="/service/fontend-development" element={<FrontEndPage />} />
+      <Route path="/service/backend-development" element={<BackEndPage />} />
+      <Route
+        path="/service/mobile-development"
+        element={<MobileDevelopmentPage />}
+      />
+      <Route path="/service/ui-development" element={<UIDesignPage />} />
+      <Route
+        path="/service/business-intelligence"
+        element={<BusinessIntelligencePage />}
+      />
+      <Route path="*" element={<ErrorPage />} />
     </Routes>
   );
 }

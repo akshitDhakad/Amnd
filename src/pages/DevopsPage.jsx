@@ -98,51 +98,48 @@ const dataSet = [
 const faqs = [
   {
     _id: "1",
-    title: "What do our Full-Stack Web Development Services include?",
+    title: "What is Automation in DevOps?",
     description:
-      "Our Full-Stack Web Development Services encompass both front-end and back-end development, ensuring a seamless and cohesive user experience. We specialize in technologies like HTML, CSS, JavaScript, React, Angular, Node.js, Python, Ruby on Rails, and more. Our full-stack approach allows us to handle every aspect of your web project, from design to deployment and maintenance.",
+      "Automation in DevOps involves streamlining repetitive tasks and processes using tools and scripts. Our automation services enhance efficiency, reduce manual errors, and ensure consistent environments for development, testing, and deployment. By automating workflows, we help your team focus on innovation and reduce time-to-market.",
   },
   {
     _id: "2",
-    title: "What are the benefits of Custom Web Applications?",
+    title: "What are the benefits of Cloud Integration?",
     description:
-      "Custom Web Applications are tailored to meet the specific needs of your business, offering greater flexibility and scalability than off-the-shelf solutions. We build bespoke applications that integrate seamlessly with your existing systems, enhance your workflows, and provide a unique user experience. Our custom solutions are designed to grow with your business, ensuring long-term value and efficiency.",
+      "Cloud Integration allows seamless connectivity between your on-premises infrastructure and cloud services. Our cloud integration services enable scalable, flexible, and cost-effective solutions that enhance collaboration and data accessibility. We help you leverage the power of the cloud to improve performance, reliability, and scalability of your applications.",
   },
   {
     _id: "3",
-    title: "What does our Web Support and Maintenance service include?",
+    title: "What is CI/CD and why is it important?",
     description:
-      "Our Web Support and Maintenance services ensure your website remains up-to-date, secure, and performing optimally. We offer regular updates, security patches, performance optimization, and troubleshooting. Our proactive approach helps prevent issues before they arise, providing peace of mind and allowing you to focus on your core business activities.",
+      "Continuous Integration and Continuous Deployment (CI/CD) are practices that automate and streamline the process of integrating code changes and deploying them to production. Our CI/CD services ensure rapid and reliable software delivery by automating testing, building, and deployment pipelines. This approach enhances code quality, reduces deployment risks, and accelerates development cycles.",
   },
   {
     _id: "4",
-    title: "What makes our Web Development Services stand out?",
+    title: "How do we handle Testing in DevOps?",
     description:
-      "Our Web Development Services are built on a foundation of expertise, innovation, and a commitment to quality. We stay ahead of industry trends and employ the latest technologies to deliver cutting-edge solutions. Our team is dedicated to understanding your unique business needs and crafting websites that are visually appealing, user-friendly, and optimized for performance and SEO.",
+      "Testing in DevOps is integrated throughout the development lifecycle to ensure high-quality releases. Our testing services include automated testing, performance testing, and security testing, among others. By incorporating testing early and often, we identify and resolve issues quickly, ensuring robust and reliable software releases.",
   },
   {
     _id: "5",
-    title: "Why is Website Design and Re-Design important?",
+    title: "What is involved in Release Preparation?",
     description:
-      "Website Design and Re-Design are crucial for maintaining a modern, engaging online presence. A well-designed website enhances user experience, improves navigation, and increases conversions. Whether you need a new website or an overhaul of an existing one, our design experts will create a visually stunning and functional site that aligns with your brand and business objectives.",
+      "Release Preparation involves planning and executing the final steps to launch your software into production. Our release preparation services include final testing, performance tuning, and ensuring all deployment scripts are in place. We work to minimize downtime and ensure a smooth transition from development to production, delivering a reliable and ready-to-use product.",
   },
   {
     _id: "6",
-    title: "What are Next-Gen Web Solutions?",
+    title: "What is Steady Maintenance in DevOps?",
     description:
-      "Next-Gen Web Solutions incorporate the latest advancements in web technologies to create innovative and future-proof websites. This includes progressive web apps (PWAs), single-page applications (SPAs), AI-driven functionalities, and responsive design. Our next-gen solutions ensure your website is fast, secure, and capable of delivering an exceptional user experience across all devices and platforms.",
+      "Steady Maintenance refers to the ongoing support and optimization of your software post-deployment. Our maintenance services include monitoring performance, managing updates, and quickly resolving any issues that arise. By providing continuous support, we ensure your applications remain secure, efficient, and up-to-date, allowing your business to operate smoothly and effectively.",
   },
 ];
 
 
-export default function WebDevelopmentPage() {
-
-      const [tab, setTab] = useState(0);
-
-
+export default function DevopsPage() {
+  const [tab, setTab] = useState(0);
 
   const backgroundImg = {
-    backgroundImage: `url('https://devoxsoftware.com/wp-content/uploads/2024/01/AnyConv.com__philip-oroni-gftMuFt8vNk-unsplash.webp')`,
+    backgroundImage: `url('https://devoxsoftware.com/wp-content/uploads/2024/01/kanhaiya-sharma-D68kWCwatLg-unsplash.webp')`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -169,7 +166,7 @@ export default function WebDevelopmentPage() {
                   </div>
                   <div>
                     <h1 className="text-5xl text-white font-bold tracking-wide font-theme-font">
-                      Web Development Services
+                      DevOps Consulting Services
                     </h1>
                   </div>
                 </div>

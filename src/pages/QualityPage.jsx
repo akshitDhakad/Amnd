@@ -98,51 +98,49 @@ const dataSet = [
 const faqs = [
   {
     _id: "1",
-    title: "What do our Full-Stack Web Development Services include?",
+    title: "What is Automation Testing and how can it benefit your project?",
     description:
-      "Our Full-Stack Web Development Services encompass both front-end and back-end development, ensuring a seamless and cohesive user experience. We specialize in technologies like HTML, CSS, JavaScript, React, Angular, Node.js, Python, Ruby on Rails, and more. Our full-stack approach allows us to handle every aspect of your web project, from design to deployment and maintenance.",
+      "Automation Testing uses specialized tools to execute tests automatically, comparing actual outcomes with expected results. This type of testing enhances efficiency, accuracy, and coverage, significantly reducing the time needed for regression testing. Automation is ideal for repetitive tasks and large projects, ensuring consistent quality across multiple test cycles.",
   },
   {
     _id: "2",
-    title: "What are the benefits of Custom Web Applications?",
+    title: "What is Unit Testing and why is it important?",
     description:
-      "Custom Web Applications are tailored to meet the specific needs of your business, offering greater flexibility and scalability than off-the-shelf solutions. We build bespoke applications that integrate seamlessly with your existing systems, enhance your workflows, and provide a unique user experience. Our custom solutions are designed to grow with your business, ensuring long-term value and efficiency.",
+      "Unit Testing involves testing individual components or modules of a software application in isolation. This method helps identify and fix bugs early in the development process, ensuring each part functions correctly. Unit Testing improves code quality, simplifies debugging, and provides a solid foundation for more complex integration and system testing.",
   },
   {
     _id: "3",
-    title: "What does our Web Support and Maintenance service include?",
+    title: "What is Manual Testing and when should it be used?",
     description:
-      "Our Web Support and Maintenance services ensure your website remains up-to-date, secure, and performing optimally. We offer regular updates, security patches, performance optimization, and troubleshooting. Our proactive approach helps prevent issues before they arise, providing peace of mind and allowing you to focus on your core business activities.",
+      "Manual Testing involves human testers executing test cases without the use of automation tools. This type of testing is essential for exploratory, usability, and ad-hoc testing where human intuition and insight are valuable. Manual Testing is suitable for projects requiring a nuanced approach to test complex user interactions and ensure a user-friendly experience.",
   },
   {
     _id: "4",
-    title: "What makes our Web Development Services stand out?",
+    title: "What is Behavior Driven Development (BDD) Testing?",
     description:
-      "Our Web Development Services are built on a foundation of expertise, innovation, and a commitment to quality. We stay ahead of industry trends and employ the latest technologies to deliver cutting-edge solutions. Our team is dedicated to understanding your unique business needs and crafting websites that are visually appealing, user-friendly, and optimized for performance and SEO.",
+      "Behavior Driven Development (BDD) Testing focuses on validating the behavior of an application in understandable language. BDD tests are written in a given-when-then format, promoting collaboration between developers, testers, and business stakeholders. This approach ensures that the software meets the desired business outcomes and user requirements.",
   },
   {
     _id: "5",
-    title: "Why is Website Design and Re-Design important?",
+    title:
+      "What is Integration Testing and how does it ensure system reliability?",
     description:
-      "Website Design and Re-Design are crucial for maintaining a modern, engaging online presence. A well-designed website enhances user experience, improves navigation, and increases conversions. Whether you need a new website or an overhaul of an existing one, our design experts will create a visually stunning and functional site that aligns with your brand and business objectives.",
+      "Integration Testing evaluates the interaction between different modules or components of a software application. This type of testing ensures that integrated parts function correctly together, identifying issues related to data flow, interface communication, and overall system behavior. Integration Testing is crucial for detecting issues that might arise from combining various modules into a cohesive system.",
   },
   {
     _id: "6",
-    title: "What are Next-Gen Web Solutions?",
+    title: "What is End-to-End (E2E) Testing and its significance?",
     description:
-      "Next-Gen Web Solutions incorporate the latest advancements in web technologies to create innovative and future-proof websites. This includes progressive web apps (PWAs), single-page applications (SPAs), AI-driven functionalities, and responsive design. Our next-gen solutions ensure your website is fast, secure, and capable of delivering an exceptional user experience across all devices and platforms.",
+      "End-to-End (E2E) Testing validates the entire software system from start to finish, simulating real-world scenarios and user workflows. This comprehensive testing approach ensures that the application behaves as expected in a production environment, covering all critical functions and integrations. E2E Testing helps ensure a seamless user experience and identifies any potential issues before the product reaches end-users.",
   },
 ];
 
 
-export default function WebDevelopmentPage() {
-
-      const [tab, setTab] = useState(0);
-
-
+export default function QualityPage() {
+  const [tab, setTab] = useState(0);
 
   const backgroundImg = {
-    backgroundImage: `url('https://devoxsoftware.com/wp-content/uploads/2024/01/AnyConv.com__philip-oroni-gftMuFt8vNk-unsplash.webp')`,
+    backgroundImage: `url('https://devoxsoftware.com/wp-content/uploads/2024/01/shubham-dhage-R5A_YlcSJwA-unsplash.webp')`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",

@@ -98,51 +98,42 @@ const dataSet = [
 const faqs = [
   {
     _id: "1",
-    title: "What do our Full-Stack Web Development Services include?",
+    title: "What is HTML/CSS/JavaScript Development?",
     description:
-      "Our Full-Stack Web Development Services encompass both front-end and back-end development, ensuring a seamless and cohesive user experience. We specialize in technologies like HTML, CSS, JavaScript, React, Angular, Node.js, Python, Ruby on Rails, and more. Our full-stack approach allows us to handle every aspect of your web project, from design to deployment and maintenance.",
+      "HTML/CSS/JavaScript Development involves creating interactive and visually appealing web applications using HTML for structure, CSS for styling, and JavaScript for dynamic behavior. Our development services cover all aspects of front-end coding, from layout design to client-side scripting, ensuring seamless user experiences across devices and browsers.",
   },
   {
     _id: "2",
-    title: "What are the benefits of Custom Web Applications?",
+    title: "What is Single-Page Development (SPA)?",
     description:
-      "Custom Web Applications are tailored to meet the specific needs of your business, offering greater flexibility and scalability than off-the-shelf solutions. We build bespoke applications that integrate seamlessly with your existing systems, enhance your workflows, and provide a unique user experience. Our custom solutions are designed to grow with your business, ensuring long-term value and efficiency.",
+      "Single-Page Development (SPA) is an approach to web application development where the entire application is contained within a single HTML page. Our SPA development services focus on building highly responsive and efficient web applications that provide a smooth and fluid user experience without the need for page reloads.",
   },
   {
     _id: "3",
-    title: "What does our Web Support and Maintenance service include?",
+    title: "What is Progressive Web App Development (PWA)?",
     description:
-      "Our Web Support and Maintenance services ensure your website remains up-to-date, secure, and performing optimally. We offer regular updates, security patches, performance optimization, and troubleshooting. Our proactive approach helps prevent issues before they arise, providing peace of mind and allowing you to focus on your core business activities.",
+      "Progressive Web App Development (PWA) involves creating web applications that offer a native app-like experience to users while still being accessible via a web browser. Our PWA development services leverage modern web technologies to deliver fast, reliable, and engaging user experiences across all devices.",
   },
   {
     _id: "4",
-    title: "What makes our Web Development Services stand out?",
+    title: "What is Mobile App Front-End Development?",
     description:
-      "Our Web Development Services are built on a foundation of expertise, innovation, and a commitment to quality. We stay ahead of industry trends and employ the latest technologies to deliver cutting-edge solutions. Our team is dedicated to understanding your unique business needs and crafting websites that are visually appealing, user-friendly, and optimized for performance and SEO.",
+      "Mobile App Front-End Development focuses on creating the user interface and user experience for mobile applications. Our front-end development services for mobile apps ensure that the app's interface is intuitive, visually appealing, and optimized for touch interactions, providing seamless navigation and interaction on mobile devices.",
   },
   {
     _id: "5",
-    title: "Why is Website Design and Re-Design important?",
+    title: "What is Legacy Front-End Modernization?",
     description:
-      "Website Design and Re-Design are crucial for maintaining a modern, engaging online presence. A well-designed website enhances user experience, improves navigation, and increases conversions. Whether you need a new website or an overhaul of an existing one, our design experts will create a visually stunning and functional site that aligns with your brand and business objectives.",
-  },
-  {
-    _id: "6",
-    title: "What are Next-Gen Web Solutions?",
-    description:
-      "Next-Gen Web Solutions incorporate the latest advancements in web technologies to create innovative and future-proof websites. This includes progressive web apps (PWAs), single-page applications (SPAs), AI-driven functionalities, and responsive design. Our next-gen solutions ensure your website is fast, secure, and capable of delivering an exceptional user experience across all devices and platforms.",
+      "Legacy Front-End Modernization involves updating and improving the front-end codebase of existing web applications built with outdated technologies. Our modernization services help businesses enhance the performance, usability, and scalability of their legacy front-end systems by migrating to modern frameworks and best practices.",
   },
 ];
 
 
-export default function WebDevelopmentPage() {
-
-      const [tab, setTab] = useState(0);
-
-
+export default function FrontEndPage() {
+  const [tab, setTab] = useState(0);
 
   const backgroundImg = {
-    backgroundImage: `url('https://devoxsoftware.com/wp-content/uploads/2024/01/AnyConv.com__philip-oroni-gftMuFt8vNk-unsplash.webp')`,
+    backgroundImage: `url('https://devoxsoftware.com/wp-content/uploads/2024/01/philip-oroni-fmt2qG19TzA-unsplash.webp')`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -152,7 +143,7 @@ export default function WebDevelopmentPage() {
     <main className="relative">
       <Layout>
         {/* Hero Section  */}
-        <section className="">
+        <section className="bg-white">
           <div
             className="abosolute -z-50 m-1 overflow-hidden top-0 h-screen flex items-center justify-center rounded-2xl"
             style={backgroundImg}
@@ -169,7 +160,7 @@ export default function WebDevelopmentPage() {
                   </div>
                   <div>
                     <h1 className="text-5xl text-white font-bold tracking-wide font-theme-font">
-                      Web Development Services
+                      Front End Development Company
                     </h1>
                   </div>
                 </div>

@@ -98,51 +98,60 @@ const dataSet = [
 const faqs = [
   {
     _id: "1",
-    title: "What do our Full-Stack Web Development Services include?",
+    title: "What is Database Consulting?",
     description:
-      "Our Full-Stack Web Development Services encompass both front-end and back-end development, ensuring a seamless and cohesive user experience. We specialize in technologies like HTML, CSS, JavaScript, React, Angular, Node.js, Python, Ruby on Rails, and more. Our full-stack approach allows us to handle every aspect of your web project, from design to deployment and maintenance.",
+      "Database Consulting involves providing expert guidance and support to organizations in managing their databases effectively. Our consulting services cover various aspects such as database design, implementation, optimization, and maintenance. We help businesses leverage the full potential of their databases to improve performance, reliability, and scalability.",
   },
   {
     _id: "2",
-    title: "What are the benefits of Custom Web Applications?",
+    title: "What are Operational Databases?",
     description:
-      "Custom Web Applications are tailored to meet the specific needs of your business, offering greater flexibility and scalability than off-the-shelf solutions. We build bespoke applications that integrate seamlessly with your existing systems, enhance your workflows, and provide a unique user experience. Our custom solutions are designed to grow with your business, ensuring long-term value and efficiency.",
+      "Operational Databases are designed to support day-to-day transactional activities of an organization. Our operational database solutions ensure real-time data processing, high availability, and data integrity. We help businesses choose and implement the right operational databases tailored to their specific needs and requirements.",
   },
   {
     _id: "3",
-    title: "What does our Web Support and Maintenance service include?",
+    title: "What are Analytical Databases?",
     description:
-      "Our Web Support and Maintenance services ensure your website remains up-to-date, secure, and performing optimally. We offer regular updates, security patches, performance optimization, and troubleshooting. Our proactive approach helps prevent issues before they arise, providing peace of mind and allowing you to focus on your core business activities.",
+      "Analytical Databases are optimized for performing complex queries and data analysis tasks. Our analytical database solutions enable businesses to derive valuable insights from their data, such as trends, patterns, and correlations. We help organizations implement scalable and efficient analytical databases to support their decision-making processes.",
   },
   {
     _id: "4",
-    title: "What makes our Web Development Services stand out?",
+    title: "What are Data Warehouse Software Solutions?",
     description:
-      "Our Web Development Services are built on a foundation of expertise, innovation, and a commitment to quality. We stay ahead of industry trends and employ the latest technologies to deliver cutting-edge solutions. Our team is dedicated to understanding your unique business needs and crafting websites that are visually appealing, user-friendly, and optimized for performance and SEO.",
+      "Data Warehouse Software Solutions are platforms designed to consolidate and analyze large volumes of data from various sources. Our data warehouse solutions provide a unified view of organizational data, enabling advanced reporting, analytics, and business intelligence. We help businesses implement robust and scalable data warehouse solutions tailored to their analytical needs.",
   },
   {
     _id: "5",
-    title: "Why is Website Design and Re-Design important?",
+    title: "How do we approach Database Optimization?",
     description:
-      "Website Design and Re-Design are crucial for maintaining a modern, engaging online presence. A well-designed website enhances user experience, improves navigation, and increases conversions. Whether you need a new website or an overhaul of an existing one, our design experts will create a visually stunning and functional site that aligns with your brand and business objectives.",
+      "Database Optimization involves fine-tuning database performance to ensure optimal efficiency and responsiveness. Our optimization services include index tuning, query optimization, and resource allocation adjustments. We help businesses identify and address performance bottlenecks to enhance overall database performance and user experience.",
   },
   {
     _id: "6",
-    title: "What are Next-Gen Web Solutions?",
+    title: "What is Database Migration?",
     description:
-      "Next-Gen Web Solutions incorporate the latest advancements in web technologies to create innovative and future-proof websites. This includes progressive web apps (PWAs), single-page applications (SPAs), AI-driven functionalities, and responsive design. Our next-gen solutions ensure your website is fast, secure, and capable of delivering an exceptional user experience across all devices and platforms.",
+      "Database Migration involves transferring data and applications from one database platform to another. Our migration services ensure seamless and secure data transfer while minimizing downtime and data loss. We help businesses migrate their databases to new platforms or cloud environments to improve scalability, reliability, and cost-effectiveness.",
+  },
+  {
+    _id: "7",
+    title: "How do we conduct Database Testing?",
+    description:
+      "Database Testing involves verifying the accuracy, integrity, and performance of databases through rigorous testing processes. Our testing services cover functional testing, performance testing, and security testing of databases. We help businesses ensure the quality and reliability of their databases before deployment, reducing the risk of errors and vulnerabilities.",
+  },
+  {
+    _id: "8",
+    title: "What is Data Mining?",
+    description:
+      "Data Mining is the process of discovering patterns, trends, and insights from large datasets using statistical and machine learning techniques. Our data mining services help businesses extract valuable knowledge from their data to make informed decisions and gain a competitive advantage. We employ advanced algorithms and tools to uncover hidden patterns and relationships within data.",
   },
 ];
 
 
-export default function WebDevelopmentPage() {
-
-      const [tab, setTab] = useState(0);
-
-
+export default function DataAnalyticPage() {
+  const [tab, setTab] = useState(0);
 
   const backgroundImg = {
-    backgroundImage: `url('https://devoxsoftware.com/wp-content/uploads/2024/01/AnyConv.com__philip-oroni-gftMuFt8vNk-unsplash.webp')`,
+    backgroundImage: `url('https://devoxsoftware.com/wp-content/uploads/2024/01/AnyConv.com__philip-oroni-tv5GzwlhJqQ-unsplash.webp')`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -152,12 +161,12 @@ export default function WebDevelopmentPage() {
     <main className="relative">
       <Layout>
         {/* Hero Section  */}
-        <section className="">
+        <section className="bg-white">
           <div
             className="abosolute -z-50 m-1 overflow-hidden top-0 h-screen flex items-center justify-center rounded-2xl"
             style={backgroundImg}
           >
-            <div className="absolute  m-1 -z-10 bg-black opacity-50 rounded-2xl h-screen w-full"></div>
+            <div className="absolute m-1 -z-10 bg-black opacity-50 rounded-2xl h-screen w-full"></div>
             <div className=" max-w-6xl m-auto px-10 py-5">
               {/* <div className="absolute top-0 left-0 h-full w-2/5 inset-0 bg-purple-100 bg-opacity-10 backdrop-blur-md"></div> */}
               <div className="mt-20 grid grid-cols-5 gap-x-10 gap-y-10  m-auto">
@@ -169,7 +178,7 @@ export default function WebDevelopmentPage() {
                   </div>
                   <div>
                     <h1 className="text-5xl text-white font-bold tracking-wide font-theme-font">
-                      Web Development Services
+                      Database Development Company
                     </h1>
                   </div>
                 </div>
