@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 
 function BlogTech() {
@@ -14,7 +13,7 @@ function BlogTech() {
     {
       id: "2",
       header: "ACHIEVEMENTS",
-      body: "The Manifest Recognizes AMND Software as One of the Most-Reviewed IT Consulting Companies Globally",
+      body: "The Manifest Recognizes AMNDTECH Software as One of the Most-Reviewed IT Consulting Companies Globally",
       footer: "November 28, 2023 1 min",
       imgULR:
         "https://devoxsoftware.com/wp-content/uploads/2024/02/planet-volumes-atP72HX-ZdI-unsplash.webp",
@@ -95,7 +94,6 @@ function BlogTech() {
   ];
   const [tech, setTech] = useState(0);
 
-  
   return (
     <>
       <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">

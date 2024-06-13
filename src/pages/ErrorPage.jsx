@@ -19,7 +19,7 @@ export default function ErrorPage() {
     <main className="relative">
       <Layout>
         {/* Hero Section  */}
-        <section className="">
+        <section className="bg-white">
           <div
             className="abosolute -z-50 m-1 overflow-hidden top-0 h-screen flex items-center justify-center rounded-2xl"
             style={backgroundImg}

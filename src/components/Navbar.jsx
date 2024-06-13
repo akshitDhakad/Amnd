@@ -17,12 +17,25 @@ function Navbar() {
         <div className="hidden md:flex items-center py-5 px-10">
           <div className="flex-1 text-lg">
             <Link to="/" onMouseEnter={() => setNavdrop(false)}>
-              <img
-                loading="lazy"
-                className="h-8 w-auto"
-                src="https://devoxsoftware.com/wp-content/themes/main/assets/images/logo.svg"
-                alt="Brand logo"
-              />
+              {navhover ? (
+                <>
+                  <img
+                    loading="lazy"
+                    className="h-12 w-auto"
+                    src="/assets/logo/amnd-dark.png"
+                    alt="Brand logo"
+                  />
+                </>
+              ) : (
+                <>
+                  <img
+                    loading="lazy"
+                    className="h-12 w-auto"
+                    src="/assets/logo/amnd-white.png"
+                    alt="Brand logo"
+                  />
+                </>
+              )}
             </Link>
           </div>
           <div className="flex-3">

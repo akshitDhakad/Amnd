@@ -128,7 +128,6 @@ const faqs = [
   },
 ];
 
-
 export default function FrontEndPage() {
   const [tab, setTab] = useState(0);
 
@@ -246,10 +245,10 @@ export default function FrontEndPage() {
                 <div className="col-span-2">
                   <p className="text-white text-start tracking-wide font-theme-font">
                     Welcome to{" "}
-                    <span className="font-semibold">AMND Software</span> - your
-                    ultimate web development partner in the digital landscape.
-                    We build future-proof and innovative solutions to promote
-                    your business growth.
+                    <span className="font-semibold">AMNDTECH Software</span> -
+                    your ultimate web development partner in the digital
+                    landscape. We build future-proof and innovative solutions to
+                    promote your business growth.
                   </p>
                   <div className="flex justify-start items-center mt-5">
                     {/* button  */}
@@ -1094,7 +1093,7 @@ export default function FrontEndPage() {
               </div>
               <div className="mb-4">
                 <h1 className="text-5xl text-black font-bold tracking-wide font-theme-font">
-                  Why Web Development Services by AMND?
+                  Why Web Development Services by AMNDTECH?
                 </h1>
               </div>
             </div>
@@ -1266,7 +1265,7 @@ export default function FrontEndPage() {
           <div className="relative max-w-6xl py-20    m-auto">
             <ServicesBanner
               title={
-                "Fast-track your product development and shorten time-to-market with AMND as your next talent supplier."
+                "Fast-track your product development and shorten time-to-market with AMNDTECH as your next talent supplier."
               }
               description={"Want to Start Web Development?"}
             />

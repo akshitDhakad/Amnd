@@ -1018,7 +1018,7 @@ export default function Experties() {
               </div>
               <div className="mb-4">
                 <h1 className="text-5xl text-black font-bold tracking-wide font-theme-font">
-                  Why Web Development Services by AMND?
+                  Why Web Development Services by AMNDTECH?
                 </h1>
               </div>
             </div>
@@ -1190,7 +1190,7 @@ export default function Experties() {
           <div className="relative max-w-6xl py-20    m-auto">
             <ServicesBanner
               title={
-                "Fast-track your product development and shorten time-to-market with AMND as your next talent supplier."
+                "Fast-track your product development and shorten time-to-market with AMNDTECH as your next talent supplier."
               }
               description={"Want to Start Web Development?"}
             />

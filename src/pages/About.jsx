@@ -52,7 +52,7 @@ export default function About() {
                   </div>
                   <div>
                     <h1 className="text-6xl text-white font-bold tracking-wide font-theme-font">
-                      About AMND Software
+                      About AMNDTECH Software
                     </h1>
                   </div>
                 </div>
@@ -60,7 +60,7 @@ export default function About() {
                 <div>
                   <p className="text-white text-start tracking-wide font-theme-font">
                     Looking for turnkey custom web application development
-                    services? We are AMND Software – a leading custom web
+                    services? We are AMNDTECH Software – a leading custom web
                     application development company with a recognized stand on
                     the market and a proven track record of completed projects.
                   </p>
@@ -144,7 +144,8 @@ export default function About() {
             {/* Right content */}
             <div>
               <p className="text-gray-900 text-start tracking-wide font-theme-font mb-2">
-                I guess that was the genuine moment when AMND Software appeared.
+                I guess that was the genuine moment when AMNDTECH Software
+                appeared.
               </p>
               <p className="text-gray-900 text-start tracking-wide font-theme-font mb-2">
                 Since 2022 we have faced ups and downs, and we keep growing and
@@ -154,7 +155,7 @@ export default function About() {
                 React, Next, Java and many other technologies.
               </p>
               <p className="text-gray-900 text-start tracking-wide font-theme-font mb-2">
-                What is AMND Software for me now?
+                What is AMNDTECH Software for me now?
               </p>
               <p className="text-gray-900 text-start tracking-wide font-theme-font mb-4">
                 It’s software development with a personal touch.
@@ -163,7 +164,7 @@ export default function About() {
                 Akshit Dhakad
               </p>
               <p className="text-gray-500 font-semibold text-start tracking-wide font-theme-font mb-2">
-                Founder, CEO at AMND Software
+                Founder, CEO at AMNDTECH Software
               </p>
               <div className="flex items-center justify-end gap-x-3 mt-5">
                 <span className="text-gray-600  font-bold">

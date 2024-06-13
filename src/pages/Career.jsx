@@ -128,7 +128,7 @@ export default function Career() {
     <main className="relative">
       <Layout>
         {/* Hero Section  */}
-        <section className="">
+        <section className="bg-white">
           <div
             className="abosolute -z-50 m-1 overflow-hidden top-0 h-screen flex items-center justify-center rounded-2xl"
             style={backgroundImg}
@@ -145,7 +145,7 @@ export default function Career() {
                   </div>
                   <div>
                     <h1 className="text-6xl text-white font-bold tracking-wide font-theme-font">
-                      Become a Part of AMND Software Team
+                      Become a Part of AMNDTECH Software Team
                     </h1>
                   </div>
                 </div>
@@ -726,7 +726,7 @@ export default function Career() {
               </div>
               <div className="mb-4">
                 <h1 className="text-5xl text-black font-bold tracking-wide font-theme-font">
-                  Why Web Development Services by AMND?
+                  Why Web Development Services by AMNDTECH?
                 </h1>
               </div>
             </div>
@@ -898,7 +898,7 @@ export default function Career() {
           <div className="relative max-w-6xl py-20    m-auto">
             <ServicesBanner
               title={
-                "Fast-track your product development and shorten time-to-market with AMND as your next talent supplier."
+                "Fast-track your product development and shorten time-to-market with AMNDTECH as your next talent supplier."
               }
               description={"Want to Start Web Development?"}
             />

@@ -54,7 +54,7 @@ export default function Home() {
                 <div className="w-full">
                   <p className="text-white md:text-start tracking-wide font-theme-font">
                     Looking for turnkey custom web application development
-                    services? We are AMND Software – a leading custom web
+                    services? We are AMNDTECH Software – a leading custom web
                     application development company with a recognized stand on
                     the market and a proven track record of completed projects.
                   </p>
@@ -74,7 +74,7 @@ export default function Home() {
         <section>
           <div className="relative max-w-6xl px-4 py-20 grid md:grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-4xl md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
-              AMND
+              AMNDTECH
             </span>
             {/* heading  */}
             <div className="md:col-span-2 flex flex-col ">
@@ -85,7 +85,7 @@ export default function Home() {
               </div>
               <div className="mb-4">
                 <h1 className="text-5xl md:text-start text-black font-bold tracking-wide font-theme-font">
-                  AMND Software
+                  AMNDTECH Software
                 </h1>
               </div>
             </div>
@@ -100,9 +100,9 @@ export default function Home() {
               {/* content  */}
               <div className="grid-cols-12 md:col-span-10">
                 <p className="text-gray-900 md:text-start text-justify tracking-wide font-theme-font mb-2">
-                  AMND Software is an international IT outsourcing company with
-                  development facilities in five countries – Poland, Romania,
-                  Azerbaijan, Ukraine and Georgia.
+                  AMNDTECH Software is an international IT outsourcing company
+                  with development facilities in five countries – Poland,
+                  Romania, Azerbaijan, Ukraine and Georgia.
                 </p>
                 <p className="text-gray-900 md:text-start text-justify tracking-wide font-theme-font mb-2">
                   Our key value is our flexibility. It’s you who chooses the
@@ -126,7 +126,7 @@ export default function Home() {
                 estimation to release.
               </p>
               <p className="text-gray-900 md:text-start text-justify tracking-wide font-theme-font mb-2">
-                AMND Software achieves a well-planned development process,
+                AMNDTECH Software achieves a well-planned development process,
                 competent management, and efficient communication due to a
                 thorough selection of team members for our company.
               </p>
@@ -993,7 +993,7 @@ export default function Home() {
                 </h4>
 
                 <div>
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
+                  <div className="grid grid-cols-2  md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-auto">
                         <img
@@ -1105,7 +1105,7 @@ export default function Home() {
                   Front End
                 </h4>
 
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
+                <div className="grid grid-cols-2  md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
                   {/* item 1 */}
                   <div className="flex gap-1 items-center">
                     <div className="h-8 w-auto">
@@ -1216,7 +1216,7 @@ export default function Home() {
                   Database Development
                 </h4>
 
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
                   {/* item 1 */}
                   <div className="flex gap-1 items-center">
                     <div className="h-8 w-auto">
@@ -1326,7 +1326,7 @@ export default function Home() {
                   DevOps & Cloud
                 </h4>
 
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
+                <div className="grid grid-cols-2  md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
                   {/* item 1 */}
                   <div className="flex gap-1 items-center">
                     <div className="h-8 w-auto">

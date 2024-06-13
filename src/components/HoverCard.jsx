@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 
@@ -126,11 +125,11 @@ function HoverCard() {
 
             <div className={`${bgUrl == "2" ? "block" : "hidden"}`}>
               <p className="text-white text-start tracking-wide font-theme-font">
-                Each software engineer at AMND Software is welcome to discuss
-                any thoughts, ideas, preferences and dislikes. Information is
-                freely transferred between levels of the company - from junior
-                developer to CEO and backward. We appreciate transparency and
-                honesty.
+                Each software engineer at AMNDTECH Software is welcome to
+                discuss any thoughts, ideas, preferences and dislikes.
+                Information is freely transferred between levels of the company
+                - from junior developer to CEO and backward. We appreciate
+                transparency and honesty.
               </p>
               {/* <div className="flex justify-start items-center mt-5">
                 <div className="bg-white flex gap-x-3 items-center justify-between px-5 py-2 rounded-2xl delay-250">

@@ -133,7 +133,7 @@ function Footer() {
               @2024
             </span>
             <span className="text-md text-gray-500 tracking-wide font-theme-font">
-              AMND Sofware.
+              AMNDTECH Sofware.
             </span>
             <span className="text-md text-gray-500 tracking-wide font-theme-font">
               {" "}
@@ -149,7 +149,7 @@ function Footer() {
             <span className="font-thin mx-2">Powered By</span>
 
             <span className="text-white font-semibold hover:text-blue-500 hover:cursor-pointer delay-100">
-              AMND Tech Team.
+              AMNDTECH Tech Team.
             </span>
           </div>
           {/* right container */}

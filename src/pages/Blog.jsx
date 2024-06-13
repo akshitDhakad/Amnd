@@ -56,7 +56,7 @@ export default function Blog() {
                   </div>
                   <div>
                     <h1 className="text-6xl text-white font-bold tracking-wide font-theme-font">
-                      Insights from AMND Software
+                      Insights from AMNDTECH Software
                     </h1>
                   </div>
                 </div>
@@ -64,7 +64,7 @@ export default function Blog() {
                 <div>
                   <p className="text-white text-start tracking-wide font-theme-font">
                     Looking for turnkey custom web application development
-                    services? We are AMND Software – a leading custom web
+                    services? We are AMNDTECH Software – a leading custom web
                     application development company with a recognized stand on
                     the market and a proven track record of completed projects.
                   </p>
