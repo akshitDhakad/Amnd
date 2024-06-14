@@ -28,6 +28,9 @@ module.exports = withMT({
         montserrat: ["Montserrat", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
       },
+      width: {
+        "375": "375px",
+      },
     },
   },
   plugins: [],

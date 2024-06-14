@@ -1,6 +1,9 @@
 "use strict";
 import "./App.css";
+import { useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+// Pages Routes 
 import Home from "./pages/Home.jsx";
 import Experties from "./pages/Experties.jsx";
 import Technology from "./pages/Technology.jsx";
@@ -26,6 +29,12 @@ import BusinessIntelligencePage from "./pages/BusinessIntelligencePage.jsx";
 
 
 function App() {
+
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <Routes>
       <Route path="/" element={<Home />} />

@@ -4,28 +4,28 @@ import React,{useState,useEffect} from "react";
 // Data
 const initialImages = [
   {
-    img: "https://via.placeholder.com/600/7f78e0",
-    name: "Online Services",
+    img: "https://cdn-icons-png.freepik.com/256/12372/12372172.png?ga=GA1.1.2112499185.1718043507&semt=ais_hybrid",
+    name: "Devsops Development",
     desc: "Description for Image 1",
   },
   {
-    img: "https://via.placeholder.com/600/8db6cd",
-    name: "Social Networking",
+    img: "https://cdn-icons-png.freepik.com/256/8422/8422301.png?ga=GA1.1.2112499185.1718043507&semt=ais_hybrid",
+    name: "Web Development",
     desc: "Description for Image 2",
   },
   {
-    img: "https://via.placeholder.com/600/7f78e0",
-    name: "Conetent Management Systems",
+    img: "https://cdn-icons-png.freepik.com/256/11135/11135435.png?ga=GA1.1.2112499185.1718043507&semt=ais_hybrid",
+    name: "Quality Assurnace",
     desc: "Description for Image 3",
   },
   {
-    img: "https://via.placeholder.com/600/8db6cd",
-    name: "SPA Web Development",
+    img: "https://cdn-icons-png.freepik.com/256/6029/6029424.png?ga=GA1.1.2112499185.1718043507&semt=ais_hybrid",
+    name: "Frontend Development",
     desc: "Description for Image 4",
   },
   {
-    img: "https://via.placeholder.com/600/77e0cc",
-    name: "PWA Web development",
+    img: "https://cdn-icons-png.freepik.com/256/16530/16530410.png?ga=GA1.1.2112499185.1718043507&semt=ais_hybrid",
+    name: "Backend Development",
     desc: "Description for Image 5",
   },
   {
@@ -113,9 +113,10 @@ const Carousel = () => {
                     )
                   }
                 >
-                  <div className="h-24 w-24 p-3 rounded-full font-semibold shadow-md hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-150">
+                  <div className="h-24 w-24 p-2 rounded-full font-semibold shadow-md hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-150">
                     <img
-                      className="h-full w-full object-cover object-center"
+                      loading="lazy"
+                      className="  object-contain object-center"
                       src={imageItem.img}
                       alt={`${images[currentIndex].name}`}
                     />
