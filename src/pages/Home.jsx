@@ -25,7 +25,7 @@ export default function Home() {
   };
 
   return (
-    <main className="relative">
+    <main className="relative overflow-x-hidden">
       <Layout>
         {/* Hero Section  */}
         <section>
@@ -79,12 +79,12 @@ export default function Home() {
             {/* heading  */}
             <div className="md:col-span-2 flex flex-col ">
               <div className="mb-2">
-                <h2 className="text-4xl  md:text-start text-gray-600 font-bold tracking-wide font-theme-font">
+                <h2 className="text-xl md:text-4xl  md:text-start text-gray-600 font-bold tracking-wide font-theme-font">
                   About
                 </h2>
               </div>
               <div className="mb-4">
-                <h1 className="text-5xl md:text-start text-black font-bold tracking-wide font-theme-font">
+                <h1 className="text-3xl md:text-5xl md:text-start text-black font-bold tracking-wide font-theme-font">
                   AMNDTECH Software
                 </h1>
               </div>
@@ -149,12 +149,12 @@ export default function Home() {
             {/* heading  */}
             <div className=" flex flex-col ">
               <div className="mb-2">
-                <h2 className="text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
+                <h2 className="text-xl md:text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
                   Testimonials
                 </h2>
               </div>
               <div className="md:mb-4">
-                <h1 className="text-5xl text-black font-bold tracking-wide font-theme-font">
+                <h1 className="text-3xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
                   Client
                 </h1>
               </div>
@@ -172,12 +172,12 @@ export default function Home() {
             {/* heading  */}
             <div className="col-span-2 flex flex-col ">
               <div className="mb-2">
-                <h2 className="text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
+                <h2 className="text-xl md:text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
                   Our
                 </h2>
               </div>
-              <div className="mb-4">
-                <h1 className="text-5xl text-black font-bold tracking-wide font-theme-font">
+              <div className="md:mb-4">
+                <h1 className="text-3xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
                   Services
                 </h1>
               </div>
@@ -252,8 +252,8 @@ export default function Home() {
                   Our
                 </h2>
               </div>
-              <div className="mb-4">
-                <h1 className="text-2xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
+              <div className="md:mb-4">
+                <h1 className="text-3xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
                   Case Studies
                 </h1>
               </div>
@@ -394,7 +394,7 @@ export default function Home() {
                 </h2>
               </div>
               <div className="mb-4">
-                <h1 className="text-2xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
+                <h1 className="text-3xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
                   We Build
                 </h1>
               </div>
@@ -423,7 +423,7 @@ export default function Home() {
                 </h2>
               </div>
               <div className="mb-4">
-                <h1 className="text-2xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
+                <h1 className="text-3xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
                   We Provide
                 </h1>
               </div>
@@ -523,7 +523,7 @@ export default function Home() {
                   Benefits of our
                 </h2>
               </div>
-              <div className="mb-4">
+              <div className="md:mb-4">
                 <h1 className="text-2xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
                   Web App Development Services
                 </h1>
@@ -649,7 +649,7 @@ export default function Home() {
                 </h2>
               </div>
               <div className="mb-4">
-                <h1 className="text-2xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
+                <h1 className="text-3xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
                   Clients
                 </h1>
               </div>
@@ -676,7 +676,7 @@ export default function Home() {
                 </h2>
               </div>
               <div className="mb-4">
-                <h1 className="text-xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
+                <h1 className="text-3xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
                   Development Process
                 </h1>
               </div>
@@ -823,8 +823,8 @@ export default function Home() {
                   Case Studies
                 </h2>
               </div>
-              <div className="mb-4">
-                <h1 className="text-2xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
+              <div className="md:mb-4">
+                <h1 className="text-3xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
                   OurLatest Works
                 </h1>
               </div>
@@ -976,8 +976,8 @@ export default function Home() {
                   We Use
                 </h2>
               </div>
-              <div className="mb-4">
-                <h1 className="text-2xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
+              <div className="md:mb-4">
+                <h1 className="text-3xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
                   Technologies
                 </h1>
               </div>

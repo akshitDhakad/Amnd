@@ -44,10 +44,10 @@ function App() {
       <Route path="/about-us" element={<About />} />
       <Route path="/blogs" element={<Blog />} />
       <Route path="/career" element={<Career />} />
-      <Route path="/experties" element={<Experties />} />
+      {/* <Route path="/experties" element={<Experties />} /> */}
       {/* services Page  */}
       <Route path="/service/devops-development" element={<DevopsPage />} />
-      <Route path="/service/quality-assrurance" element={<QualityPage />} />
+      <Route path="service/quality-assurance" element={<QualityPage />} />
       <Route path="/service/web-development" element={<WebDevelopmentPage />} />
       <Route path="/service/data-analytics" element={<DataAnalyticPage />} />
       <Route path="/service/fontend-development" element={<FrontEndPage />} />

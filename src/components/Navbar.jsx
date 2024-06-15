@@ -197,7 +197,7 @@ function Navbar() {
               >
                 <Link to="/technology">Technology</Link>
               </li>
-              {/* Industries */}
+              {/* Our work */}
               <li
                 onMouseEnter={() => setNavdrop(false)}
                 className={`${
@@ -206,7 +206,7 @@ function Navbar() {
                     : "font-theme-font text-sm text-center text-white hover:text-purpli-600 transition-color "
                 }`}
               >
-                <Link to="/industrial">Industries</Link>
+                <Link to="/our-work">Our work</Link>
               </li>
               {/* Careers */}
               <li
