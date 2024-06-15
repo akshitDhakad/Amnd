@@ -11,7 +11,7 @@ function ClientCard() {
             loading="lazy"
             className="w-full h-full object-cover object-center"
             src="https://devoxsoftware.com/wp-content/uploads/2021/09/CureMedia.png"
-            alt=""
+            alt="AMNDTECH Software"
           />
         </div>
         {/* item 2 */}
@@ -20,7 +20,7 @@ function ClientCard() {
             loading="lazy"
             className="w-full h-full object-cover object-center"
             src="https://devoxsoftware.com/wp-content/uploads/2021/09/Ferretly.png"
-            alt=""
+            alt="AMNDTECH Software"
           />
         </div>
         {/* item 3 */}
@@ -29,7 +29,7 @@ function ClientCard() {
             loading="lazy"
             className="w-full h-full object-cover object-center"
             src="https://devoxsoftware.com/wp-content/uploads/2021/09/Multilogin.png"
-            alt=""
+            alt="AMNDTECH Software"
           />
         </div>
         {/* item 4 */}
@@ -38,7 +38,7 @@ function ClientCard() {
             loading="lazy"
             className="w-full h-full object-cover object-center"
             src="https://devoxsoftware.com/wp-content/uploads/2021/09/ActivePlace.png"
-            alt=""
+            alt="AMNDTECH Software"
           />
         </div>
         {/* item 5 */}
@@ -47,7 +47,7 @@ function ClientCard() {
             loading="lazy"
             className="w-full h-full object-cover object-center"
             src="https://devoxsoftware.com/wp-content/uploads/2021/09/lexplore.png"
-            alt=""
+            alt="AMNDTECH Software"
           />
         </div>
         {/* item 6 */}
@@ -56,7 +56,7 @@ function ClientCard() {
             loading="lazy"
             className="w-full h-full object-cover object-center"
             src="https://devoxsoftware.com/wp-content/uploads/2021/09/Skyloov.png"
-            alt=""
+            alt="AMNDTECH Software"
           />
         </div>
         {/* item 7 */}
@@ -65,7 +65,7 @@ function ClientCard() {
             loading="lazy"
             className="w-full h-full object-cover object-center"
             src="https://devoxsoftware.com/wp-content/uploads/2021/09/iOud.png"
-            alt=""
+            alt="AMNDTECH Software"
           />
         </div>
         {/* item 8 */}
@@ -74,7 +74,7 @@ function ClientCard() {
             loading="lazy"
             className="w-full h-full object-cover object-center"
             src="https://devoxsoftware.com/wp-content/uploads/2021/09/st_mark.png"
-            alt=""
+            alt="AMNDTECH Software"
           />
         </div>
       </div>

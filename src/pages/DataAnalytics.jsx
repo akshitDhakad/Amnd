@@ -230,7 +230,7 @@ export default function DataAnalyticPage() {
                         loading="lazy"
                         className="w-full h-full object-container object-center"
                         src="https://devoxsoftware.com/wp-content/uploads/2024/03/logo-3.svg"
-                        alt=""
+                        alt="AMNDTECH Software"
                       />
                     </div>
                   </div>
@@ -242,7 +242,7 @@ export default function DataAnalyticPage() {
                         loading="lazy"
                         className="w-full h-full  object-center"
                         src="https://devoxsoftware.com/wp-content/uploads/2024/03/logo-2.svg"
-                        alt=""
+                        alt="AMNDTECH Software"
                       />
                     </div>
                   </div>
@@ -254,7 +254,7 @@ export default function DataAnalyticPage() {
                         loading="lazy"
                         className="w-full h-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/uploads/2024/03/Group-427320306.svg"
-                        alt=""
+                        alt="AMNDTECH Software"
                       />
                     </div>
                   </div>
@@ -1327,7 +1327,7 @@ export default function DataAnalyticPage() {
                 <img
                   className="h-full w-full object-cover object-center"
                   src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/philip-oroni-MyY188YX0vU-unsplash.jpg.webp"
-                  alt=""
+                  alt="AMNDTECH Software"
                 />
               </div>
               {/* Right content */}
@@ -1433,7 +1433,7 @@ export default function DataAnalyticPage() {
                 <img
                   className="h-full w-full object-cover object-center"
                   src="https://devoxsoftware.com/wp-content/uploads/2024/02/growtika-nGoCBxiaRO0-unsplash.webp"
-                  alt=""
+                  alt="AMNDTECH Software"
                 />
               </div>
             </div>
@@ -1554,7 +1554,7 @@ export default function DataAnalyticPage() {
                 <img
                   className="h-full w-full object-cover object-center"
                   src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/philip-oroni-MyY188YX0vU-unsplash.jpg.webp"
-                  alt=""
+                  alt="AMNDTECH Software"
                 />
               </div>
               {/* Right content */}

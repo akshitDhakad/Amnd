@@ -165,7 +165,7 @@ export default function Blog() {
                   loading="lazy"
                   className="w-full h-full object-cover object-center"
                   src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/philip-oroni-MyY188YX0vU-unsplash.jpg.webp"
-                  alt=""
+                  alt="AMNDTECH Software"
                 />
               </div>
               {/* Right content */}

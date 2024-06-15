@@ -219,7 +219,7 @@ export default function QualityPage() {
                         loading="lazy"
                         className="w-full h-full object-container object-center"
                         src="https://devoxsoftware.com/wp-content/uploads/2024/03/logo-3.svg"
-                        alt=""
+                        alt="AMNDTECH Software"
                       />
                     </div>
                   </div>
@@ -231,7 +231,7 @@ export default function QualityPage() {
                         loading="lazy"
                         className="w-full h-full  object-center"
                         src="https://devoxsoftware.com/wp-content/uploads/2024/03/logo-2.svg"
-                        alt=""
+                        alt="AMNDTECH Software"
                       />
                     </div>
                   </div>
@@ -243,7 +243,7 @@ export default function QualityPage() {
                         loading="lazy"
                         className="w-full h-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/uploads/2024/03/Group-427320306.svg"
-                        alt=""
+                        alt="AMNDTECH Software"
                       />
                     </div>
                   </div>
@@ -639,7 +639,7 @@ export default function QualityPage() {
                             loading="lazy"
                             className="w-full h-full object-cover object-center"
                             src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Nest.png.webp"
-                            alt="NestJS"
+                            alt="AMNDTECH SOFTWARE NestJS"
                           />
                         </div>
                         <div className="font-semibold">NestJS</div>
@@ -650,7 +650,7 @@ export default function QualityPage() {
                             loading="lazy"
                             className="w-full h-full object-cover object-center"
                             src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Flask_logo-1-1.png.webp"
-                            alt="Flask"
+                            alt="AMNDTECH SOFTWARE Flask"
                           />
                         </div>
                         <div className="font-semibold">Flask</div>
@@ -662,7 +662,7 @@ export default function QualityPage() {
                             loading="lazy"
                             className="w-full h-full object-cover object-center"
                             src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/django-svgrepo-com-1.png.webp"
-                            alt="Django"
+                            alt=" AMNDTECH SOFTWARE Django"
                           />
                         </div>
                         <div className="font-semibold">Django</div>
@@ -673,7 +673,7 @@ export default function QualityPage() {
                             loading="lazy"
                             className="w-full h-full object-cover object-center"
                             src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/express-js-icon-1.png.webp"
-                            alt="Express.js"
+                            alt="AMNDTECH SOFTWARE Express.js"
                           />
                         </div>
                         <div className="font-semibold">Express.js</div>
@@ -684,7 +684,7 @@ export default function QualityPage() {
                             loading="lazy"
                             className="w-full h-full object-cover object-center"
                             src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Microsoft_.NET_logo-1.png.webp"
-                            alt=".NET"
+                            alt="AMNDTECH SOFTWARE .NET"
                           />
                         </div>
                         <div className="font-semibold">.NET</div>
@@ -695,7 +695,7 @@ export default function QualityPage() {
                             loading="lazy"
                             className="w-full h-full object-cover object-center"
                             src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/PHP-logo-1.png.webp"
-                            alt="PHP"
+                            alt="AMNDTECH SOFTWARE PHP"
                           />
                         </div>
                         <div className="font-semibold">PHP</div>
@@ -706,7 +706,7 @@ export default function QualityPage() {
                             loading="lazy"
                             className="w-full h-full object-cover object-center"
                             src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Group-5.png.webp"
-                            alt="Ruby"
+                            alt="AMNDTECH SOFTWARE Ruby"
                           />
                         </div>
                         <div className="font-semibold">Ruby</div>
@@ -728,7 +728,7 @@ export default function QualityPage() {
                             loading="lazy"
                             className="w-full h-full object-cover object-center"
                             src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/python.png.webp"
-                            alt="Python"
+                            alt="AMNDTECH SOFTWARE Python"
                           />
                         </div>
                         <div className="font-semibold">Python</div>
@@ -739,7 +739,7 @@ export default function QualityPage() {
                             loading="lazy"
                             className="w-full h-full object-cover object-center"
                             src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/node-js-1.png.webp"
-                            alt="Node.js"
+                            alt="AMNDTECH SOFTWARE Node.js"
                           />
                         </div>
                         <div className="font-semibold">Node.js</div>
@@ -762,7 +762,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Next.png.webp"
-                          alt="NestJS "
+                          alt="AMNDTECH SOFTWARE NestJS "
                         />
                       </div>
                       <div className="font-semibold">NestJS</div>
@@ -774,7 +774,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Group-4.png.webp"
-                          alt="Flask"
+                          alt="AMNDTECH SOFTWARE Flask"
                         />
                       </div>
                       <div className="font-semibold">Svelte</div>
@@ -786,7 +786,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Vue-js.png.webp"
-                          alt="Vue.js"
+                          alt="AMNDTECH SOFTWARE Vue.js"
                         />
                       </div>
                       <div className="font-semibold">Vue.js</div>
@@ -797,7 +797,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Angular_full_color_logo-1.png.webp"
-                          alt="Angular"
+                          alt="AMNDTECH SOFTWARE Angular"
                         />
                       </div>
                       <div className="font-semibold">Angular</div>
@@ -808,7 +808,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/React-icon-1.png.webp"
-                          alt="React.js"
+                          alt="AMNDTECH SOFTWARE React.js"
                         />
                       </div>
                       <div className="font-semibold">React.js</div>
@@ -819,7 +819,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Progressive_Web_Apps_Logo-1.png.webp"
-                          alt="PWA"
+                          alt="AMNDTECH SOFTWARE PWA"
                         />
                       </div>
                       <div className="font-semibold">PWA</div>
@@ -830,7 +830,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Typescript_logo_2020-1.png.webp"
-                          alt="TypeScript"
+                          alt="AMNDTECH SOFTWARE TypeScript"
                         />
                       </div>
                       <div className="font-semibold">TypeScript</div>
@@ -841,6 +841,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/JS.png.webp"
+                          alt="AMNDTECH SOFTWARE JavaScript"
                         />
                       </div>
                       <div className="font-semibold">JavaScript </div>
@@ -851,7 +852,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/CSS3_and_HTML5_logos_and_wordmarks-1.png.webp"
-                          alt="HTML/CSS"
+                          alt="AMNDTECH SOFTWARE HTML/CSS"
                         />
                       </div>
                       <div className="font-semibold">HTML/CSS</div>
@@ -873,7 +874,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/mariadb-1.png.webp"
-                          alt="MariaDB "
+                          alt="AMNDTECH SOFTWARE MariaDB "
                         />
                       </div>
                       <div className="font-semibold">MariaDB</div>
@@ -885,7 +886,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/redis-logo-svgrepo-com-1.png.webp"
-                          alt="Redis"
+                          alt="AMNDTECH SOFTWARE Redis"
                         />
                       </div>
                       <div className="font-semibold">Redis</div>
@@ -897,7 +898,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Cassandra.png.webp"
-                          alt="Cassandra"
+                          alt="AMNDTECH SOFTWARE Cassandra"
                         />
                       </div>
                       <div>Cassandra</div>
@@ -908,7 +909,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/mongodb-svgrepo-com-1.png.webp"
-                          alt="MongoDB"
+                          alt="AMNDTECH SOFTWARE MongoDB"
                         />
                       </div>
                       <div>MongoDB</div>
@@ -919,7 +920,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/oracle-svgrepo-com-1.png.webp"
-                          alt="Oracle DB"
+                          alt="AMNDTECH SOFTWARE Oracle DB"
                         />
                       </div>
                       <div>Oracle DB</div>
@@ -930,7 +931,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Microsoft-SQL-Server-1.png.webp"
-                          alt="SQL Server"
+                          alt="AMNDTECH SOFTWARE SQL Server"
                         />
                       </div>
                       <div>SQL Server</div>
@@ -941,7 +942,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Postgresql_elephant-1.png.webp"
-                          alt="PostgreSQL"
+                          alt="AMNDTECH SOFTWARE PostgreSQL"
                         />
                       </div>
                       <div>PostgreSQL</div>
@@ -952,6 +953,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/mysqlworkbench_93532-1.png.webp"
+                          alt="AMNDTECH SOFTWARE MySQL"
                         />
                       </div>
                       <div>MySQL</div>
@@ -962,7 +964,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/elasticsearch-1.png.webp"
-                          alt="Elasticsearch"
+                          alt="AMNDTECH SOFTWARE Elasticsearch"
                         />
                       </div>
                       <div>Elasticsearch</div>
@@ -983,7 +985,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Next.png.webp"
-                          alt="NestJS "
+                          alt="AMNDTECH SOFTWARE NestJS "
                         />
                       </div>
                       <div className="font-semibold">NestJS</div>
@@ -995,7 +997,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Group-4.png.webp"
-                          alt="Flask"
+                          alt="AMNDTECH SOFTWARE Flask"
                         />
                       </div>
                       <div className="font-semibold">Svelte</div>
@@ -1007,7 +1009,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Vue-js.png.webp"
-                          alt="Vue.js"
+                          alt="AMNDTECH SOFTWARE Vue.js"
                         />
                       </div>
                       <div>Vue.js</div>
@@ -1018,7 +1020,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Angular_full_color_logo-1.png.webp"
-                          alt="Angular"
+                          alt="AMNDTECH SOFTWARE Angular"
                         />
                       </div>
                       <div>Angular</div>
@@ -1029,7 +1031,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/React-icon-1.png.webp"
-                          alt="React.js"
+                          alt="AMNDTECH SOFTWARE React.js"
                         />
                       </div>
                       <div>React.js</div>
@@ -1040,7 +1042,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Progressive_Web_Apps_Logo-1.png.webp"
-                          alt="PWA"
+                          alt="AMNDTECH SOFTWARE PWA"
                         />
                       </div>
                       <div>PWA</div>
@@ -1051,7 +1053,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Typescript_logo_2020-1.png.webp"
-                          alt="TypeScript"
+                          alt="AMNDTECH SOFTWARE TypeScript"
                         />
                       </div>
                       <div>TypeScript</div>
@@ -1062,6 +1064,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/JS.png.webp"
+                          alt="AMNDTECH SOFTWARE JavaScript"
                         />
                       </div>
                       <div>JavaScript </div>
@@ -1072,7 +1075,7 @@ export default function QualityPage() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/CSS3_and_HTML5_logos_and_wordmarks-1.png.webp"
-                          alt="HTML/CSS"
+                          alt="AMNDTECH SOFTWARE HTML/CSS"
                         />
                       </div>
                       <div>HTML/CSS</div>
@@ -1110,6 +1113,7 @@ export default function QualityPage() {
               <div className="h-72 w-96 p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 relative">
                 <div class="absolute top-5 left-5 h-12 w-12 font-bold text-8xl font-theme-font leading-none opacity-40">
                   <img
+                    loading="lazy"
                     className="h-full w-full object-cover object-center"
                     src="https://cdn-icons-png.freepik.com/256/7387/7387688.png?ga=GA1.1.705946748.1706705440&"
                     alt="Discovery icon"
@@ -1131,6 +1135,7 @@ export default function QualityPage() {
               <div className="relative h-72 w-96 p-10 flex items-center rounded-3xl shadow-xl bg-slate-50">
                 <div class="absolute  top-5 left-5 h-12 w-12  font-bold text-8xl font-theme-font leading-none opacity-40  ">
                   <img
+                    loading="lazy"
                     className="w-full h-full object-cover object-center"
                     src="https://cdn-icons-png.freepik.com/256/1336/1336494.png?ga=GA1.1.705946748.1706705440&"
                     alt="Design and development icon"
@@ -1153,6 +1158,7 @@ export default function QualityPage() {
               <div className="relative h-72 w-96 p-10 flex items-center rounded-3xl shadow-xl bg-slate-50">
                 <div class="absolute top-5 left-5 h-12 w-12  font-bold text-8xl leading-none opacity-40  font-theme-font ">
                   <img
+                    loading="lazy"
                     className="w-full h-full object-center object-cover"
                     src="https://cdn-icons-png.freepik.com/256/4296/4296532.png?ga=GA1.1.705946748.1706705440&"
                     alt="Full-cycle testing"
@@ -1174,6 +1180,7 @@ export default function QualityPage() {
               <div className="relative h-72 w-96 p-10 flex items-center rounded-3xl shadow-xl bg-slate-50">
                 <div class="absolute top-5 left-5 h-12 w-12  font-bold text-8xl leading-none opacity-40  font-theme-font ">
                   <img
+                    loading="lazy"
                     className="w-full h-full object-center object-cover"
                     src="https://cdn-icons-png.freepik.com/256/8099/8099542.png?ga=GA1.1.705946748.1706705440&"
                     alt="Prototyping and MVP development icon"
@@ -1195,6 +1202,7 @@ export default function QualityPage() {
               <div className="relative h-72 w-96 p-10 flex items-center rounded-3xl shadow-xl bg-slate-50">
                 <div class="absolute top-5 left-5 h-12 w-12  font-bold text-8xl leading-none opacity-40  font-theme-font ">
                   <img
+                    loading="lazy"
                     className="w-full h-full object-center object-cover"
                     src="https://cdn-icons-png.freepik.com/256/2082/2082945.png?ga=GA1.1.705946748.1706705440&"
                     alt="Launch and maintenance icon"
@@ -1217,6 +1225,7 @@ export default function QualityPage() {
               <div className="relative h-72 w-96 p-10 flex items-center rounded-3xl shadow-xl bg-slate-50">
                 <div class="absolute top-5 left-5 h-12 w-12  font-bold text-8xl leading-none opacity-40  font-theme-font">
                   <img
+                    loading="lazy"
                     className="w-full h-full object-center object-cover"
                     src="https://cdn-icons-png.freepik.com/256/12375/12375564.png?ga=GA1.1.705946748.1706705440&"
                     alt="End-to-end development icon"
@@ -1314,9 +1323,10 @@ export default function QualityPage() {
                   </Link>
                 </div>
                 <img
+                  loading="lazy"
                   className="h-full w-full object-cover object-center"
                   src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/philip-oroni-MyY188YX0vU-unsplash.jpg.webp"
-                  alt=""
+                  alt="AMNDTECH Software"
                 />
               </div>
               {/* Right content */}
@@ -1420,9 +1430,10 @@ export default function QualityPage() {
                   </Link>
                 </div>
                 <img
+                  loading="lazy"
                   className="h-full w-full object-cover object-center"
                   src="https://devoxsoftware.com/wp-content/uploads/2024/02/growtika-nGoCBxiaRO0-unsplash.webp"
-                  alt=""
+                  alt="AMNDTECH Software"
                 />
               </div>
             </div>
@@ -1541,9 +1552,10 @@ export default function QualityPage() {
                   </Link>
                 </div>
                 <img
+                  loading="lazy"
                   className="h-full w-full object-cover object-center"
                   src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/philip-oroni-MyY188YX0vU-unsplash.jpg.webp"
-                  alt=""
+                  alt="AMNDTECH Software"
                 />
               </div>
               {/* Right content */}

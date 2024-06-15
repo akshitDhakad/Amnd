@@ -5,6 +5,8 @@ function Navbar() {
   const [navhover, setNavhover] = useState(false);
   const [navdrop, setNavdrop] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [mobileNavdrop, setMobileNavdrop] = useState(false);
 
   // Scroll window
   const handleScroll = () => {
@@ -32,8 +34,8 @@ function Navbar() {
         scrolled ? "bg-white shadow-md text-black" : "bg-transparent"
       }`}
     >
-      <div className="max-w-6xl  m-auto">
-        {/* pc view  */}
+      <div className="max-w-6xl m-auto">
+        {/* PC view */}
         <div className="hidden md:flex items-center py-5 px-10">
           <div className="flex-1 text-lg">
             <Link to="/" onMouseEnter={() => setNavdrop(false)}>
@@ -69,7 +71,7 @@ function Navbar() {
                 {navdrop && (
                   <div
                     onMouseLeave={() => setNavdrop(false)}
-                    className="absolute left-0 mt-7 w-screen bg-gray-200 shadow-lg overflow-hidden z-50 "
+                    className="absolute left-0 mt-7 w-screen bg-gray-200 shadow-lg overflow-hidden z-50"
                   >
                     <div className="max-w-6xl m-auto py-10 grid grid-cols-5 gap-x-10">
                       <div className="col-span-2">
@@ -85,7 +87,7 @@ function Navbar() {
                       </div>
                       <div className="col-span-3 grid grid-cols-3 gap-8 text-start">
                         <Link to={"/service/devops-development"}>
-                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600 ">
+                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600">
                             DevOps Development
                           </h3>
                           <p className="text-gray-600 text-xs text-justify mt-3">
@@ -95,17 +97,16 @@ function Navbar() {
                           </p>
                         </Link>
                         <Link to={"/service/quality-assurance"}>
-                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600 ">
+                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600">
                             Quality Assurance
                           </h3>
                           <p className="text-gray-600 text-xs text-justify mt-3">
-                            Enhancing software delivery speed and reliability
-                            through expert DevOps strategies, integrating
-                            development and operations for efficient workflows.
+                            Ensuring the highest level of quality through
+                            meticulous testing and validation processes.
                           </p>
                         </Link>
                         <Link to={"/service/web-development"}>
-                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600 ">
+                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600">
                             Web Development
                           </h3>
                           <p className="text-gray-600 text-xs text-justify mt-3">
@@ -116,9 +117,8 @@ function Navbar() {
                           </p>
                         </Link>
                         <Link to={"/service/data-analytics"}>
-                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600 ">
-                            Data <br />
-                            Analytics
+                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600">
+                            Data Analytics
                           </h3>
                           <p className="text-gray-600 text-xs text-justify mt-3">
                             Creating scalable operational or analytical
@@ -128,7 +128,7 @@ function Navbar() {
                           </p>
                         </Link>
                         <Link to={"/service/frontend-development"}>
-                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600 ">
+                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600">
                             Front End Development
                           </h3>
                           <p className="text-gray-600 text-xs text-justify mt-3">
@@ -139,7 +139,7 @@ function Navbar() {
                           </p>
                         </Link>
                         <Link to={"/service/mobile-development"}>
-                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600 ">
+                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600">
                             Mobile Development
                           </h3>
                           <p className="text-gray-600 text-xs text-justify mt-3">
@@ -150,8 +150,8 @@ function Navbar() {
                           </p>
                         </Link>
                         <Link to={"/service/ui-development"}>
-                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600 ">
-                            UI/UX <br /> Design
+                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600">
+                            UI/UX Design
                           </h3>
                           <p className="text-gray-600 text-xs text-justify mt-3">
                             We will embody your product into a physical
@@ -161,7 +161,7 @@ function Navbar() {
                           </p>
                         </Link>
                         <Link to={"/service/backend-development"}>
-                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600 ">
+                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600">
                             Back End Development
                           </h3>
                           <p className="text-gray-600 text-xs text-justify mt-3">
@@ -172,7 +172,7 @@ function Navbar() {
                           </p>
                         </Link>
                         <Link to={"/service/business-intelligence"}>
-                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600 ">
+                          <h3 className="text-2xl font-semibold text-black hover:text-purple-600">
                             Business Intelligence
                           </h3>
                           <p className="text-gray-600 text-xs text-justify mt-3">
@@ -258,6 +258,7 @@ function Navbar() {
         <div className="md:hidden w-375 flex items-center justify-between py-5 px-4">
           {/* button */}
           <div
+            onClick={() => setSidebarOpen(!sidebarOpen)}
             className={`${
               scrolled
                 ? "font-theme-font text-sm text-center text-black hover:text-purple-600 transition-color hover:cursor-pointer"
@@ -270,7 +271,7 @@ function Navbar() {
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
-              className="w-8 h-8 "
+              className="w-8 h-8"
             >
               <path
                 strokeLinecap="round"
@@ -311,7 +312,7 @@ function Navbar() {
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
-              className="w-8 h-8 "
+              className="w-8 h-8"
             >
               <path
                 strokeLinecap="round"
@@ -321,6 +322,154 @@ function Navbar() {
             </svg>
           </div>
         </div>
+
+        {/* Sidebar */}
+        {sidebarOpen && (
+          <div className="fixed inset-0 z-50 bg-black bg-opacity-50">
+            <div className="fixed left-0 top-0 w-3/4 h-full bg-white shadow-lg p-5">
+              <div className="flex justify-between items-center">
+                <h2 className="text-xl font-bold">Menu</h2>
+                <button onClick={() => setSidebarOpen(false)}>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    className="w-8 h-8"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <ul className="mt-5 space-y-3">
+                <li className="hover:cursor-pointer hover:underline">
+                  <Link to="/" onClick={() => setSidebarOpen(false)}>
+                    Home
+                  </Link>
+                </li>
+                <li className="hover:cursor-pointer hover:underline">
+                  <button
+                    className="w-full text-left"
+                    onClick={() => setMobileNavdrop(!mobileNavdrop)}
+                  >
+                    Services
+                  </button>
+                  {mobileNavdrop && (
+                    <ul className="mt-2 ml-4 space-y-2">
+                      <li>
+                        <Link
+                          to="/service/devops-development"
+                          onClick={() => setSidebarOpen(false)}
+                        >
+                          DevOps Development
+                        </Link>
+                      </li>
+                      <li className="hover:cursor-pointer hover:underline">
+                        <Link
+                          to="/service/quality-assurance"
+                          onClick={() => setSidebarOpen(false)}
+                        >
+                          Quality Assurance
+                        </Link>
+                      </li>
+                      <li className="hover:cursor-pointer hover:underline">
+                        <Link
+                          to="/service/web-development"
+                          onClick={() => setSidebarOpen(false)}
+                        >
+                          Web Development
+                        </Link>
+                      </li>
+                      <li className="hover:cursor-pointer hover:underline">
+                        <Link
+                          to="/service/data-analytics"
+                          onClick={() => setSidebarOpen(false)}
+                        >
+                          Data Analytics
+                        </Link>
+                      </li>
+                      <li className="hover:cursor-pointer hover:underline">
+                        <Link
+                          to="/service/frontend-development"
+                          onClick={() => setSidebarOpen(false)}
+                        >
+                          Front End Development
+                        </Link>
+                      </li>
+                      <li className="hover:cursor-pointer hover:underline">
+                        <Link
+                          to="/service/mobile-development"
+                          onClick={() => setSidebarOpen(false)}
+                        >
+                          Mobile Development
+                        </Link>
+                      </li>
+                      <li className="hover:cursor-pointer hover:underline">
+                        <Link
+                          to="/service/ui-development"
+                          onClick={() => setSidebarOpen(false)}
+                        >
+                          UI/UX Design
+                        </Link>
+                      </li>
+                      <li className="hover:cursor-pointer hover:underline">
+                        <Link
+                          to="/service/backend-development"
+                          onClick={() => setSidebarOpen(false)}
+                        >
+                          Back End Development
+                        </Link>
+                      </li>
+                      <li className="hover:cursor-pointer hover:underline">
+                        <Link
+                          to="/service/business-intelligence"
+                          onClick={() => setSidebarOpen(false)}
+                        >
+                          Business Intelligence
+                        </Link>
+                      </li>
+                    </ul>
+                  )}
+                </li>
+                <li className="hover:cursor-pointer hover:underline">
+                  <Link to="/technology" onClick={() => setSidebarOpen(false)}>
+                    Technology
+                  </Link>
+                </li>
+                <li className="hover:cursor-pointer hover:underline">
+                  <Link to="/our-work" onClick={() => setSidebarOpen(false)}>
+                    Our Work
+                  </Link>
+                </li>
+                <li className="hover:cursor-pointer hover:underline">
+                  <Link to="/career" onClick={() => setSidebarOpen(false)}>
+                    Careers
+                  </Link>
+                </li>
+                <li className="hover:cursor-pointer hover:underline">
+                  <Link to="/about-us" onClick={() => setSidebarOpen(false)}>
+                    About Us
+                  </Link>
+                </li>
+                <li className="hover:cursor-pointer hover:underline">
+                  <Link to="/blogs" onClick={() => setSidebarOpen(false)}>
+                    Blog
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/contact" onClick={() => setSidebarOpen(false)}>
+                    Contact Us
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        )}
       </div>
     </nav>
   );

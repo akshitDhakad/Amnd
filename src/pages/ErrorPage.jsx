@@ -4,7 +4,6 @@ import { HiOutlineArrowLongRight } from "react-icons/hi2";
 
 import { Link } from "react-router-dom";
 
-
 export default function ErrorPage() {
   const [tab, setTab] = useState(0);
 
@@ -39,7 +38,6 @@ export default function ErrorPage() {
                       Oops! Something went wrong.
                     </h1>
                   </div>
-                 
                 </div>
 
                 {/* cards  */}
@@ -52,7 +50,7 @@ export default function ErrorPage() {
                         loading="lazy"
                         className="w-full h-full object-container object-center"
                         src="https://devoxsoftware.com/wp-content/uploads/2024/03/logo-3.svg"
-                        alt=""
+                        alt="AMNDTECH Software"
                       />
                     </div>
                   </div>
@@ -64,7 +62,7 @@ export default function ErrorPage() {
                         loading="lazy"
                         className="w-full h-full  object-center"
                         src="https://devoxsoftware.com/wp-content/uploads/2024/03/logo-2.svg"
-                        alt=""
+                        alt="AMNDTECH Software"
                       />
                     </div>
                   </div>
@@ -76,7 +74,7 @@ export default function ErrorPage() {
                         loading="lazy"
                         className="w-full h-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/uploads/2024/03/Group-427320306.svg"
-                        alt=""
+                        alt="AMNDTECH Software"
                       />
                     </div>
                   </div>
@@ -86,7 +84,10 @@ export default function ErrorPage() {
                   <p className="text-2xl text-white text-start tracking-wide font-theme-font">
                     Click the button below to go to the home page
                   </p>
-                  <Link to={"/"} className="flex justify-start items-center mt-5">
+                  <Link
+                    to={"/"}
+                    className="flex justify-start items-center mt-5"
+                  >
                     {/* button  */}
                     <div className="bg-white flex gap-x-3 items-center justify-between px-5 py-2 rounded-2xl delay-250">
                       <span className="text-gray-800 font-bold font-theme-font">

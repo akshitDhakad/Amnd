@@ -7,7 +7,7 @@ function BlogCard() {
         <div className="h-56 overflow-hidden rounded-2xl">
           <img
             src="https://devoxsoftware.com/wp-content/uploads/2023/11/behnam-norouzi-eDUKZFYY1K4-unsplash.jpg"
-            alt=""
+            alt="AMNDTECH Software"
           />
         </div>
         <div className="flex gapx-x-2">
