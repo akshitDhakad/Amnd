@@ -2,11 +2,11 @@ import React from "react";
 import { TiArrowRight } from "react-icons/ti";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-function ServicesBanner({title,description}) {
+function ServicesBanner({img="https://i.pinimg.com/564x/0a/46/0b/0a460bf677706ab9bebade425e25a0a7.jpg" ,title,description}) {
   
   const backgroundImageStyle = {
     backgroundImage:
-      "url('https://i.pinimg.com/564x/0a/46/0b/0a460bf677706ab9bebade425e25a0a7.jpg')",
+     ` url(${img})`,
     height: "100%",
     width: "100%", 
     backgroundPosition: "center",
@@ -23,7 +23,7 @@ function ServicesBanner({title,description}) {
       style={backgroundImageStyle}
     >
       <div className="absolute -z-10 rounded-2xl top-0 left-0 h-full w-full inset-0 bg-purple-900 bg-opacity-10 backdrop-blur-xl"></div>
-      <div className="h-full w-full p-10">
+      <div className="h-full w-full p-5 md:p-10">
         {/* heading  */}
         <div className="pb-8">
           <p className="font-bold text-white font-theme-font">{title}</p>
@@ -45,7 +45,7 @@ function ServicesBanner({title,description}) {
             </div>
           </div>
           <div className="py-5">
-            <h2 className="text-6xl text-white font-bold font-theme-font">
+            <h2 className="text-3xl md:text-6xl text-white font-bold font-theme-font">
               {description}
             </h2>
           </div>

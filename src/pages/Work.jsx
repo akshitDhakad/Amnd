@@ -98,59 +98,46 @@ const dataSet = [
 const faqs = [
   {
     _id: "1",
-    title: "What is Mobile App Back-End Development?",
+    title: "What do our Full-Stack Web Development Services include?",
     description:
-      "Mobile App Back-End Development involves creating the server-side logic and infrastructure required to support mobile applications. Our back-end development services for mobile apps ensure seamless data management, user authentication, and business logic execution, enabling robust and scalable mobile solutions.",
+      "Our Full-Stack Web Development Services encompass both front-end and back-end development, ensuring a seamless and cohesive user experience. We specialize in technologies like HTML, CSS, JavaScript, React, Angular, Node.js, Python, Ruby on Rails, and more. Our full-stack approach allows us to handle every aspect of your web project, from design to deployment and maintenance.",
   },
   {
     _id: "2",
-    title: "What are Cloud Back-End Solutions?",
+    title: "What are the benefits of Custom Web Applications?",
     description:
-      "Cloud Back-End Solutions leverage cloud computing platforms to build and deploy scalable and reliable server-side applications. Our cloud back-end services enable businesses to take advantage of cloud infrastructure for enhanced performance, flexibility, and cost-effectiveness in managing their back-end systems.",
+      "Custom Web Applications are tailored to meet the specific needs of your business, offering greater flexibility and scalability than off-the-shelf solutions. We build bespoke applications that integrate seamlessly with your existing systems, enhance your workflows, and provide a unique user experience. Our custom solutions are designed to grow with your business, ensuring long-term value and efficiency.",
   },
   {
     _id: "3",
-    title: "What are Web Applications in Back-End Development?",
+    title: "What does our Web Support and Maintenance service include?",
     description:
-      "Web Applications in Back-End Development refer to server-side applications accessed through web browsers. Our web application development services focus on building secure, scalable, and feature-rich back-end systems that power modern web applications, ensuring optimal performance and user experience.",
+      "Our Web Support and Maintenance services ensure your website remains up-to-date, secure, and performing optimally. We offer regular updates, security patches, performance optimization, and troubleshooting. Our proactive approach helps prevent issues before they arise, providing peace of mind and allowing you to focus on your core business activities.",
   },
   {
     _id: "4",
-    title: "What is API Development and Integration?",
+    title: "What makes our Web Development Services stand out?",
     description:
-      "API Development and Integration involve designing, building, and integrating application programming interfaces (APIs) to enable communication between different software systems. Our API development services ensure seamless data exchange and interoperability between various components of your application ecosystem.",
+      "Our Web Development Services are built on a foundation of expertise, innovation, and a commitment to quality. We stay ahead of industry trends and employ the latest technologies to deliver cutting-edge solutions. Our team is dedicated to understanding your unique business needs and crafting websites that are visually appealing, user-friendly, and optimized for performance and SEO.",
   },
   {
     _id: "5",
-    title: "What is Back-End Refactoring?",
+    title: "Why is Website Design and Re-Design important?",
     description:
-      "Back-End Refactoring involves restructuring and optimizing the codebase of existing back-end systems to improve performance, scalability, and maintainability. Our refactoring services help businesses modernize their back-end infrastructure, address technical debt, and adapt to evolving business needs.",
+      "Website Design and Re-Design are crucial for maintaining a modern, engaging online presence. A well-designed website enhances user experience, improves navigation, and increases conversions. Whether you need a new website or an overhaul of an existing one, our design experts will create a visually stunning and functional site that aligns with your brand and business objectives.",
   },
   {
     _id: "6",
-    title: "What is Custom Server Development?",
+    title: "What are Next-Gen Web Solutions?",
     description:
-      "Custom Server Development entails building tailor-made server solutions to meet the specific requirements of a project or application. Our custom server development services empower businesses to create high-performance, secure, and scalable server architectures that align with their unique technical and business goals.",
-  },
-  {
-    _id: "7",
-    title: "What is Back-End Testing?",
-    description:
-      "Back-End Testing involves validating the functionality, performance, and security of server-side components in an application. Our back-end testing services encompass a comprehensive range of testing techniques and tools to ensure the reliability and robustness of your back-end systems.",
-  },
-  {
-    _id: "8",
-    title: "What is Back-End Consulting?",
-    description:
-      "Back-End Consulting provides expert guidance and advice on designing, developing, and optimizing back-end systems for optimal performance and scalability. Our consulting services help businesses make informed decisions about their back-end architecture, technology stack, and infrastructure setup, ensuring long-term success.",
+      "Next-Gen Web Solutions incorporate the latest advancements in web technologies to create innovative and future-proof websites. This includes progressive web apps (PWAs), single-page applications (SPAs), AI-driven functionalities, and responsive design. Our next-gen solutions ensure your website is fast, secure, and capable of delivering an exceptional user experience across all devices and platforms.",
   },
 ];
 
-export default function BackEndPage() {
+export default function Work() {
   const [tab, setTab] = useState(0);
-
   const backgroundImg = {
-    backgroundImage: `url('https://devoxsoftware.com/wp-content/uploads/2024/01/aron-yigin-9xbH6VwYOjU-unsplash.webp')`,
+    backgroundImage: `url('https://devoxsoftware.com/wp-content/uploads/2024/01/AnyConv.com__philip-oroni-gftMuFt8vNk-unsplash.webp')`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -168,16 +155,16 @@ export default function BackEndPage() {
             <div className="absolute  m-1 -z-10 bg-black opacity-50 rounded-2xl h-screen w-full"></div>
             <div className=" max-w-6xl m-auto px-4 md:px-10 py-5">
               {/* <div className="absolute top-0 left-0 h-full w-2/5 inset-0 bg-purple-100 bg-opacity-10 backdrop-blur-md"></div> */}
-              <div className="mt-20 md:grid grid-cols-5 gap-x-10 gap-y-10  m-auto">
+              <div className="mt-20 md:grid grid-cols-5 gap-x-10 gap-y-10 m-auto">
                 <div className="col-span-3 flex flex-col md:gap-5">
                   <div>
                     <h2 className="text-xl md:text-3xl text-white font-semibold tracking-wide font-theme-font">
-                      Our Services
+                      Our latest work
                     </h2>
                   </div>
                   <div>
                     <h1 className="text-2xl md:text-5xl text-white font-bold tracking-wide font-theme-font">
-                      Back End Development Company
+                      Check out our recent projects and Increadiable work
                     </h1>
                   </div>
                 </div>
@@ -188,7 +175,7 @@ export default function BackEndPage() {
                     {" "}
                     <div className="bg-button-black  flex gap-x-3 items-center justify-between px-5 py-3 rounded-2xl delay-250">
                       <span className="text-white font-bold font-theme-font">
-                        OUTSOURCING WEB DESIGN
+                        BACKEND DEVELOPMENT COMPANY
                       </span>
                       <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-gray-800 hover:shadow-md hover:shadow-slate-200 transition-color">
                         <HiOutlineArrowLongRight className="text-lg font-bold" />
@@ -200,7 +187,7 @@ export default function BackEndPage() {
                     {" "}
                     <div className="bg-button-black  flex gap-x-3 items-center justify-between px-5 py-3 rounded-2xl delay-250">
                       <span className="text-white font-bold font-theme-font">
-                        OUTSOURCE MOBILE APPLICATION
+                        FONT-END DEVELOPMENT COMPANY
                       </span>
                       <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-gray-800 hover:shadow-md hover:shadow-slate-200 transition-color">
                         <HiOutlineArrowLongRight className="text-lg font-bold" />
@@ -212,7 +199,7 @@ export default function BackEndPage() {
                     {" "}
                     <div className="bg-button-black  flex gap-x-3 items-center justify-between px-5 py-3 rounded-2xl delay-250">
                       <span className="text-white font-bold font-theme-font">
-                        QA OUTSOURCING
+                        DATABASE DEVELOPMENT COMPANY
                       </span>
                       <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-gray-800 hover:shadow-md hover:shadow-slate-200 transition-color">
                         <HiOutlineArrowLongRight className="text-lg font-bold" />
@@ -262,10 +249,11 @@ export default function BackEndPage() {
                 {/* right container */}
                 <div className="hidden md:block col-span-2">
                   <p className="text-white text-start tracking-wide font-theme-font">
-                    Ensure the seamless work of your app’s server side, reduce
-                    downtime and tackle performance issues with Devox Software
-                    as a back-end development company. Elevate user experiences
-                    with faster loading times and enhanced security measures.
+                    Welcome to{" "}
+                    <span className="font-semibold">AMNDTECH Software</span> -
+                    your ultimate web development partner in the digital
+                    landscape. We build future-proof and innovative solutions to
+                    promote your business growth.
                   </p>
                   <div className="flex justify-start items-center mt-5">
                     {/* button  */}
@@ -286,14 +274,14 @@ export default function BackEndPage() {
 
         {/* Pages Section  */}
         <section>
-          <div className="relative max-w-6xl py-20 px-4 md:grid grid-cols-3 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-6xl py-20 px-4 md:grid grid-cols-3 gap-x-10 gap-y-10 m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Web Development
             </span>
             {/* heading  */}
             <div className="col-span-3 flex flex-col ">
               <div className="mb-2">
-                <h2 className="text-xl md:text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
+                <h2 className="text md:text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
                   We Provide
                 </h2>
               </div>

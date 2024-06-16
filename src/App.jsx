@@ -7,6 +7,7 @@ import { useLocation } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import Experties from "./pages/Experties.jsx";
 import Technology from "./pages/Technology.jsx";
+import Work from "./pages/Work.jsx";
 import Career from "./pages/Career.jsx";
 import About from "./pages/About.jsx";
 import Blog from "./pages/Blog.jsx";
@@ -40,7 +41,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/experties" element={<Experties />} />
       <Route path="/technology" element={<Technology />} />
-      <Route path="/services" element={<Technology />} />
+      <Route path="/our-work" element={<Work />} />
       <Route path="/about-us" element={<About />} />
       <Route path="/blogs" element={<Blog />} />
       <Route path="/career" element={<Career />} />
