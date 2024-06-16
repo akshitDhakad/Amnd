@@ -25,11 +25,11 @@ function HoverCard() {
   return (
     <>
       <div
-        className="abosolute -z-50 m-1 overflow-hidden top-0 h-screen flex items-center justify-center rounded-2xl"
+        className="abosolute -z-50 m-1 overflow-hidden top-0 md:h-screen flex items-center justify-center rounded-2xl"
         style={backgroundImg}
       >
         <div className="absolute  m-1 -z-10 bg-black opacity-50 rounded-2xl h-screen w-full"></div>
-        <div className="min-h-full min-w-full grid grid-cols-3">
+        <div className="min-h-full min-w-full grid md:grid-cols-3">
           {/* card 1 */}
           <div
             onMouseEnter={() => setBgURl(0)}

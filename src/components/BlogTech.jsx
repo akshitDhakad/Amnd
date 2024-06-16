@@ -96,14 +96,14 @@ function BlogTech() {
 
   return (
     <>
-      <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+      <div className="relative max-w-6xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
         {/* heading  */}
         <div className="col-span-2 flex flex-col items-center justify-center">
-          <div className="mb-4 grid grid-cols-6 gap-x-5 gap-y-8">
+          <div className="mb-4  grid grid-cols-2 md:grid-cols-6 gap-x-5 gap-y-8">
             <div className="text-center">
               <button
                 onClick={() => setTech(0)}
-                className="px-8 py-2  whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
+                className="px-8 py-2 w-full whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
               >
                 All
               </button>
@@ -111,7 +111,7 @@ function BlogTech() {
             <div className="text-center">
               <button
                 onClick={() => setTech(1)}
-                className="px-8 py-2  whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
+                className="px-8 py-2 w-full whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
               >
                 ACHIEVEMENTS
               </button>
@@ -119,7 +119,7 @@ function BlogTech() {
             <div className="text-center">
               <button
                 onClick={() => setTech(2)}
-                className="px-8 py-2  whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
+                className="px-8 py-2 w-full whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
               >
                 FINTECH
               </button>
@@ -127,7 +127,7 @@ function BlogTech() {
             <div className="text-center">
               <button
                 onClick={() => setTech(3)}
-                className="px-8 py-2  whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
+                className="px-8 py-2 w-full whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
               >
                 HIRING
               </button>
@@ -135,7 +135,7 @@ function BlogTech() {
             <div className="text-center">
               <button
                 onClick={() => setTech(4)}
-                className="px-8 py-2  whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
+                className="px-8 py-2 w-full whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
               >
                 INDUSTRIES
               </button>
@@ -143,7 +143,7 @@ function BlogTech() {
             <div className="text-center">
               <button
                 onClick={() => setTech(5)}
-                className="px-8 py-2  whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
+                className="px-8 py-2 w-full whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
               >
                 MANAGEMENT
               </button>
@@ -151,7 +151,7 @@ function BlogTech() {
             <div className="text-center">
               <button
                 onClick={() => setTech(6)}
-                className="px-8 py-2  whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
+                className="px-8 py-2 w-full whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
               >
                 OUTSOURCING
               </button>
@@ -159,7 +159,7 @@ function BlogTech() {
             <div className="text-center">
               <button
                 onClick={() => setTech(7)}
-                className="px-8 py-2  whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
+                className="px-8 py-2 w-full whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
               >
                 SAAS
               </button>
@@ -167,7 +167,7 @@ function BlogTech() {
             <div className="text-center">
               <button
                 onClick={() => setTech(8)}
-                className="px-8 py-2  whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
+                className="px-8 py-2 w-full whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
               >
                 SALARIES
               </button>
@@ -175,7 +175,7 @@ function BlogTech() {
             <div className="text-center">
               <button
                 onClick={() => setTech(9)}
-                className="px-8 py-2  whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
+                className="px-8 py-2 w-full whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
               >
                 TECH
               </button>
@@ -183,7 +183,7 @@ function BlogTech() {
             <div className="text-center">
               <button
                 onClick={() => setTech(10)}
-                className="px-8 py-2  whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
+                className="px-8 py-2 w-full whitespace-nowrap rounded-2xl shoadow border-b-2 bg-slate-200 hover:bg-black hover:text-white font-semibold tracking-wide font-theme-font delay-100"
               >
                 WEB DEV
               </button>

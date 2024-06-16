@@ -50,7 +50,7 @@ function App() {
       <Route path="service/quality-assurance" element={<QualityPage />} />
       <Route path="/service/web-development" element={<WebDevelopmentPage />} />
       <Route path="/service/data-analytics" element={<DataAnalyticPage />} />
-      <Route path="/service/fontend-development" element={<FrontEndPage />} />
+      <Route path="/service/frontend-development" element={<FrontEndPage />} />
       <Route path="/service/backend-development" element={<BackEndPage />} />
       <Route
         path="/service/mobile-development"

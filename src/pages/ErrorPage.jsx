@@ -15,7 +15,7 @@ export default function ErrorPage() {
   };
 
   return (
-    <main className="relative">
+    <main className="relative overflow-x-hidden">
       <Layout>
         {/* Hero Section  */}
         <section className="bg-white">

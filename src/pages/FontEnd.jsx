@@ -139,7 +139,7 @@ export default function FrontEndPage() {
   };
 
   return (
-    <main className="relative">
+    <main className="relative overflow-x-hidden">
       <Layout>
         {/* Hero Section  */}
         <section className="bg-white">
@@ -147,24 +147,24 @@ export default function FrontEndPage() {
             className="abosolute -z-50 m-1 overflow-hidden top-0 h-screen flex items-center justify-center rounded-2xl"
             style={backgroundImg}
           >
-            <div className="absolute  m-1 -z-10 bg-black opacity-50 rounded-2xl h-screen w-full"></div>
-            <div className=" max-w-6xl m-auto px-10 py-5">
+            <div className="absolute m-1 -z-10 bg-black opacity-50 rounded-2xl h-screen w-full"></div>
+            <div className=" max-w-6xl m-auto px-4 md:px-10 py-5">
               {/* <div className="absolute top-0 left-0 h-full w-2/5 inset-0 bg-purple-100 bg-opacity-10 backdrop-blur-md"></div> */}
-              <div className="mt-20 grid grid-cols-5 gap-x-10 gap-y-10  m-auto">
-                <div className="col-span-3 flex flex-col gap-5">
+              <div className="mt-20 md:grid grid-cols-5 gap-x-10 gap-y-10  m-auto">
+                <div className="col-span-3 flex flex-col md:gap-5">
                   <div>
-                    <h2 className="text-3xl text-white font-semibold tracking-wide font-theme-font">
+                    <h2 className="text-xl md:text-3xl text-white font-semibold tracking-wide font-theme-font">
                       Our Services
                     </h2>
                   </div>
                   <div>
-                    <h1 className="text-5xl text-white font-bold tracking-wide font-theme-font">
+                    <h1 className="text-2xl md:text-5xl text-white font-bold tracking-wide font-theme-font">
                       Front End Development Company
                     </h1>
                   </div>
                 </div>
                 {/* right container */}
-                <div className="col-span-2 flex flex-col gap-y-2">
+                <div className="mt-2 col-span-2 flex flex-col gap-y-2">
                   {/* button */}
                   <div>
                     {" "}
@@ -203,11 +203,11 @@ export default function FrontEndPage() {
                   </div>
                 </div>
                 {/* cards  */}
-                <div className="col-span-3 grid grid-cols-3 gap-x-5">
+                <div className="mt-2 col-span-3 grid grid-cols-3 gap-x-5">
                   {/* card 1 */}
                   <div className="relative rounded-xl overflow-hidden p-2">
                     <div className="absolute inset-0 bg-white bg-opacity-50 backdrop-blur-md"></div>
-                    <div className="relative h-40 z-10 ">
+                    <div className="relative h-24 md:h-40 z-10 ">
                       <img
                         loading="lazy"
                         className="w-full h-full object-container object-center"
@@ -219,7 +219,7 @@ export default function FrontEndPage() {
                   {/* card 2 */}
                   <div className="relative rounded-xl overflow-hidden p-2">
                     <div className="absolute inset-0 bg-white bg-opacity-50 backdrop-blur-md"></div>
-                    <div className="relative h-40 z-10 ">
+                    <div className="relative h-24 md:h-40 z-10 ">
                       <img
                         loading="lazy"
                         className="w-full h-full  object-center"
@@ -231,7 +231,7 @@ export default function FrontEndPage() {
                   {/* card 3 */}
                   <div className="relative rounded-xl overflow-hidden p-2">
                     <div className="absolute inset-0 bg-white bg-opacity-50 backdrop-blur-md"></div>
-                    <div className="relative h-40 z-10 ">
+                    <div className="relative h-24 md:h-40 z-10 ">
                       <img
                         loading="lazy"
                         className="w-full h-full object-cover object-center"
@@ -242,7 +242,7 @@ export default function FrontEndPage() {
                   </div>
                 </div>
                 {/* right container */}
-                <div className="col-span-2">
+                <div className="hidden md:block col-span-2">
                   <p className="text-white text-start tracking-wide font-theme-font">
                     Welcome to{" "}
                     <span className="font-semibold">AMNDTECH Software</span> -
@@ -269,19 +269,19 @@ export default function FrontEndPage() {
 
         {/* Pages Section  */}
         <section>
-          <div className="relative max-w-6xl py-20 grid grid-cols-3 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-6xl py-20 px-4 md:grid grid-cols-3 gap-x-10 gap-y-10 m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Web Development
             </span>
             {/* heading  */}
             <div className="col-span-3 flex flex-col ">
               <div className="mb-2">
-                <h2 className="text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
+                <h2 className="text-xl md:text-3xl text-gray-600 font-bold tracking-wide font-theme-font">
                   We Provide
                 </h2>
               </div>
               <div className="mb-4">
-                <h1 className="text-5xl text-black font-bold tracking-wide font-theme-font">
+                <h1 className="text-2xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
                   Web Development Services We Provide
                 </h1>
               </div>

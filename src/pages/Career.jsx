@@ -125,7 +125,7 @@ export default function Career() {
   };
 
   return (
-    <main className="relative">
+    <main className="relative overflow-x-hidden">
       <Layout>
         {/* Hero Section  */}
         <section className="bg-white">
@@ -136,21 +136,21 @@ export default function Career() {
             <div className="absolute  m-1 -z-10 bg-black opacity-50 rounded-2xl h-screen w-full"></div>
             <div className=" max-w-6xl m-auto px-10 py-5">
               {/* <div className="absolute top-0 left-0 h-full w-2/5 inset-0 bg-purple-100 bg-opacity-10 backdrop-blur-md"></div> */}
-              <div className="grid grid-cols-2 gap-x-20 gap-y-10  m-auto">
-                <div className="col-span-2 flex flex-col gap-5">
+              <div className="md:grid grid-cols-2 gap-x-20 gap-y-10  m-auto">
+                <div className="col-span-2 flex flex-col md:gap-5">
                   <div>
-                    <h2 className="text-3xl text-white font-semibold tracking-wide font-theme-font">
+                    <h2 className="text-xl md:text-3xl text-white font-semibold tracking-wide font-theme-font">
                       Join Our Team
                     </h2>
                   </div>
                   <div>
-                    <h1 className="text-6xl text-white font-bold tracking-wide font-theme-font">
+                    <h1 className="text-2xl md:text-6xl text-white font-bold tracking-wide font-theme-font">
                       Become a Part of AMNDTECH Software Team
                     </h1>
                   </div>
                 </div>
 
-                <div>
+                <div className="mt-2">
                   <p className="text-white text-start tracking-wide font-theme-font">
                     Your dream team and dream job are here. Check out our perks
                     and benefits, meet our team, and read about the mentorship
@@ -168,8 +168,9 @@ export default function Career() {
                     </div>
                   </div>
                 </div>
+
                 {/* right container */}
-                <div>
+                <div className="hidden">
                   <div className=" h-full flex  gap-5 items-between justify-center ">
                     <div className="relative bg-gray-200 opacity-20 h-56 w-64 border rounded-lg">
                       <div className="absolute top-0 z-10 left-0 h-full w-full flex justify-center items-center p-5">
