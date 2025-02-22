@@ -227,7 +227,7 @@ export default function Work() {
                     <div className="relative h-24 md:h-40 z-10 ">
                       <img
                         loading="lazy"
-                        className="w-full h-full  object-center"
+                        className="w-full h-full object-container object-center"
                         src="https://devoxsoftware.com/wp-content/uploads/2024/03/logo-2.svg"
                         alt="AMNDTECH Software"
                       />
@@ -239,7 +239,7 @@ export default function Work() {
                     <div className="relative h-24 md:h-40 z-10 ">
                       <img
                         loading="lazy"
-                        className="w-full h-full object-cover object-center"
+                        className="w-full h-full object-container object-center"
                         src="https://devoxsoftware.com/wp-content/uploads/2024/03/Group-427320306.svg"
                         alt="AMNDTECH Software"
                       />
@@ -272,317 +272,152 @@ export default function Work() {
           </div>
         </section>
 
-        {/* Pages Section  */}
+        {/* Our Work Section  */}
         <section>
-          <div className="relative max-w-6xl py-20 px-4 md:grid grid-cols-3 gap-x-10 gap-y-10 m-auto">
-            <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
-              Web Development
+          <div className="relative max-w-6xl px-4 py-20 grid grid-cols-2 gap-5  m-auto">
+            <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
+              Latest Works
             </span>
             {/* heading  */}
-            <div className="col-span-3 flex flex-col ">
-              <div className="mb-2">
-                <h2 className="text md:text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
-                  We Provide
-                </h2>
-              </div>
-              <div className="mb-4">
-                <h1 className="text-2xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
-                  Web Development Services We Provide
-                </h1>
-              </div>
-            </div>
-            {/* left content */}
-            <div className="grid grid-cols-12"></div>
-            {/* Right content */}
-            <div className="col-span-2">
-              {data.map((item, index) => (
-                <AccordionCard key={item._id} item={item} />
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Our Process  */}
-        {/* Our webdevelopment process */}
-        <section className="hidden md:block bg-gray-100">
-          <div className="relative max-w-6xl px-4 py-20 md:grid  grid-cols-1 md:grid-cols-3 gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10  left-[-125px] text-gray-500">
-              Web Process
-            </span>
-            {/* heading  */}
-            <div className="md:col-span-3 flex flex-col ">
+            <div className="col-span-2 flex flex-col ">
               <div className="mb-2">
                 <h2 className="text-xl md:text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
-                  Our Process
+                  Case Studies
                 </h2>
               </div>
               <div className="md:mb-4">
-                <h1 className="text-2xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
-                  Our Web Development Process
+                <h1 className="text-3xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
+                  OurLatest Works
                 </h1>
               </div>
             </div>
-            {/* left content */}
-            <div className="w-full md:col-span-3 grid grid-cols-1 md:grid-cols-3  gap-x-10">
-              <div>
-                {" "}
-                <div className="bg-purple-600 text-white flex gap-x-3 items-center justify-between px-5 py-2 rounded-2xl delay-250">
-                  <span className="text-white font-bold font-theme-font">
-                    Arrage a call with Us
-                  </span>
-                  <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-white hover:shadow-md hover:shadow-slate-200 transition-color">
-                    <HiOutlineArrowLongRight className="text-lg font-bold" />
-                  </button>
+            {/* project 1  */}
+            <div className="col-span-2 grid md:grid-cols-2 gap-x-5 gap-y-5 ">
+              {/* left content */}
+              <div className="h-72 md:h-96 relative rounded-2xl overflow-hidden ">
+                <div className="absolute inset-0 bg-gray-100 opacity-0 hover:opacity-80 flex justify-center items-center">
+                  <Link
+                    to={""}
+                    class="text-lg font-semibold flex items-center gap-x-2"
+                  >
+                    <span className="text-xl">Click Here</span>
+                    <span>
+                      <FaArrowUpRightFromSquare />
+                    </span>
+                  </Link>
                 </div>
+                <img
+                  loading="lazy"
+                  className="h-full w-full object-cover object-center"
+                  src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/philip-oroni-MyY188YX0vU-unsplash.jpg.webp"
+                  alt="AMNDTECH Software"
+                />
               </div>
-              <div>
-                <p className="font-theme-font text-sm">
-                  The software development life cycle is the same for every
-                  application or product. See how we approach Web Development:
-                  we’ve built a detailed and well-tuned structure not to miss
-                  anything.
-                </p>
-              </div>
-              <div></div>
-            </div>
-            {/* bottom container  */}
-            <div className="md:col-span-3 md:grid grid-cols-1 md:grid-cols-12 gap-x-10 border-t border-gray-400">
-              {/* left container  */}
-              <div className="md:h-96 w-full md:col-span-4 flex flex-col justify-between border-r border-gray-400 p-6">
-                <div>
-                  <div className="text-end text-gray-600 font-bold text-8xl opacity-20">
-                    01
+              {/* Right content */}
+              <div className="bg-theme-bg-dark rounded-2xl overflow-hidden p-4 md:p-10">
+                <div className="h-full flex flex-col justify-between">
+                  {/* Top heading  */}
+                  <div className="flex justify-between items-center">
+                    <div className="flex gap-x-2 items-center">
+                      <span className="rounded p-1 bg-gray-800 text-white">
+                        <IoMdKey />
+                      </span>
+                      <span className="text-gray-600 tracking-wide font-theme-font">
+                        UNDER NDA
+                      </span>
+                    </div>
+                    <div className="text-gray-600 tracking-wide font-theme-font">
+                      SOCIAL MEDIA
+                    </div>
                   </div>
+                  {/* center content */}
                   <div>
-                    <h2 className="font-theme-font font-semibold text-3xl">
-                      Discovery
+                    {" "}
+                    <h2 className="text-white text-2xl text-bold text-start tracking-wide font-theme-font mb-2">
+                      Social Media Screening Platform
                     </h2>
+                    <p className="text-gray-600 text-start tracking-wide font-theme-font mb-2">
+                      The project is a web-based AI-powered platform for
+                      comprehensive social media background screening. Its
+                      supertask is to streamline potential employee background
+                      checks for companies, tackling employment risk management.
+                    </p>
                   </div>
-                </div>
-                <div>
-                  <p className="font-theme-font text-md">
-                    we start by analyzing your business needs and project . For
-                    tht , we define the problem and scope of your solution as
-                    well as chat out core functionality and milestones.
-                  </p>
-                </div>
-                <div className="flex gap-5">
-                  <div>
-                    <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-150">
-                      <HiOutlineArrowLongRight className="text-lg rotate-180" />
-                    </button>
-                  </div>
-                  <div>
+                  {/* button  */}
+                  <div className="flex items-center justify-end gap-x-3 mt-5">
+                    <span className="text-gray-600  font-bold">
+                      View Case Study
+                    </span>
                     <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-150">
                       <HiOutlineArrowLongRight className="text-lg" />
                     </button>
                   </div>
                 </div>
               </div>
-              {/* right container  */}
-              <div className="md:h-96 md:col-span-8 flex flex-col justify-between p-6">
-                {/* layer 1  */}
-                <div className="grid grid-cols-3 items-center gap-x-10">
+            </div>
+            {/* project 2 */}
+            <div className="col-span-2 grid md:grid-cols-2 gap-x-5 gap-y-5 ">
+              {/* left content */}
+              <div className="order-2 bg-theme-bg-dark rounded-2xl overflow-hidden p-4 md:p-10">
+                <div className="h-full flex flex-col justify-between">
+                  {/* Top heading  */}
+                  <div className="flex justify-between items-center">
+                    <div className="flex gap-x-2 items-center">
+                      <span className="rounded p-1 bg-gray-800 text-white">
+                        <IoMdKey />
+                      </span>
+                      <span className="text-gray-600 tracking-wide font-theme-font">
+                        UNDER NDA
+                      </span>
+                    </div>
+                    <div className="text-gray-600 tracking-wide font-theme-font">
+                      MEDTECH/MARTECH
+                    </div>
+                  </div>
+                  {/* center content */}
                   <div>
                     {" "}
-                    <div
-                      onClick={() => setTab(0)}
-                      className="bg-purple-600  hover:cursor-pointer text-white flex gap-x-1 items-center justify-between px-5 py-2 rounded-2xl delay-250"
-                    >
-                      <span className="text-white font-semibold text-sm font-theme-font">
-                        01 Discovery
-                      </span>
-                      <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-white hover:shadow-md hover:shadow-slate-200 transition-color">
-                        <HiOutlineArrowLongRight className="text-lg font-bold" />
-                      </button>
-                    </div>
+                    <h2 className="text-white text-2xl text-bold text-start tracking-wide font-theme-font mb-2">
+                      Bridging MedTech and MarTech for Enhanced Patient
+                      Engagement
+                    </h2>
+                    <p className="text-gray-600 text-start tracking-wide font-theme-font mb-2">
+                      Nabed is a SaaS platform at the crossroads of MedTech and
+                      MarTech. It enables caregivers to engage with patients
+                      using comprehensive, personalized educational content for
+                      better healthcare outcomes.
+                    </p>
                   </div>
-                  <div className="relative md:h-16 flex justify-center">
-                    <svg
-                      className="absolute z-50 h-16 w-36 md:h-28 md:w-60"
-                      viewBox="0 0 260 99"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g opacity="0.95">
-                        <path
-                          d="M260 43.2L130 86.3L0 43.2L130 0L260 43.2Z"
-                          fill={`${tab === 0 ? "#4793AF" : "#F1F1F1"}`}
-                        ></path>
-                        <path
-                          d="M0 43.2002V55.0002L130 98.1002V86.3002L0 43.2002Z"
-                          fill={`${tab === 0 ? "#1679AB" : "#E6E6E9"}`}
-                        ></path>
-                        <path
-                          d="M260 43.2002V55.0002L130 98.1002V86.3002L260 43.2002Z"
-                          fill={`${tab === 0 ? "#1679AB" : "#D1D1DA"}`}
-                        ></path>
-                      </g>
-                    </svg>
-                  </div>
-                  <div></div>
-                </div>
-                {/* layer 2  */}
-                <div className="grid grid-cols-3 items-center gap-x-10">
-                  <div></div>
-                  <div className="relative md:h-16 flex justify-center">
-                    <svg
-                      className="absolute z-40 h-16 w-36 md:h-28 md:w-60"
-                      viewBox="0 0 260 99"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g opacity="0.95">
-                        <path
-                          d="M260 43.2L130 86.3L0 43.2L130 0L260 43.2Z"
-                          fill={`${tab === 1 ? "#4793AF" : "#F1F1F1"}`}
-                        ></path>
-                        <path
-                          d="M0 43.2002V55.0002L130 98.1002V86.3002L0 43.2002Z"
-                          fill={`${tab === 1 ? "#1679AB" : "#E6E6E9"}`}
-                        ></path>
-                        <path
-                          d="M260 43.2002V55.0002L130 98.1002V86.3002L260 43.2002Z"
-                          fill={`${tab === 1 ? "#1679AB" : "#D1D1DA"}`}
-                        ></path>
-                      </g>
-                    </svg>
-                  </div>
-                  <div>
-                    <div
-                      onClick={() => setTab(1)}
-                      className="bg-purple-600  hover:cursor-pointer text-white flex gap-x-1 items-center justify-between px-5 py-2 rounded-2xl delay-250"
-                    >
-                      <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-white hover:shadow-md hover:shadow-slate-200 transition-color">
-                        <HiOutlineArrowLongRight className="text-lg font-bold rotate-180" />
-                      </button>
-                      <span className="text-white font-semibold text-sm font-theme-font">
-                        02 Design and Development
-                      </span>
-                    </div>
+                  {/* button  */}
+                  <div className="flex items-center justify-end gap-x-3 mt-5">
+                    <span className="text-gray-600  font-bold">
+                      View Case Study
+                    </span>
+                    <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-150">
+                      <HiOutlineArrowLongRight className="text-lg" />
+                    </button>
                   </div>
                 </div>
-                {/* layer 3 */}
-                <div className="grid grid-cols-3 items-center gap-x-10">
-                  <div>
-                    <div
-                      onClick={() => setTab(2)}
-                      className="bg-purple-600  hover:cursor-pointer text-white flex gap-x-1 items-center justify-between px-5 py-2 rounded-2xl delay-250"
-                    >
-                      <span className="text-white font-semibold text-sm font-theme-font">
-                        03 Full Cycle Test
-                      </span>
-                      <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-white hover:shadow-md hover:shadow-slate-200 transition-color">
-                        <HiOutlineArrowLongRight className="text-lg font-bold" />
-                      </button>
-                    </div>
-                  </div>
-                  <div className="relative md:h-16 flex justify-center">
-                    <svg
-                      className="absolute z-30 h-16 w-36 md:h-28 md:w-60"
-                      viewBox="0 0 260 99"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g opacity="0.95">
-                        <path
-                          d="M260 43.2L130 86.3L0 43.2L130 0L260 43.2Z"
-                          fill={`${tab === 2 ? "#4793AF" : "#F1F1F1"}`}
-                        ></path>
-                        <path
-                          d="M0 43.2002V55.0002L130 98.1002V86.3002L0 43.2002Z"
-                          fill={`${tab === 2 ? "#1679AB" : "#E6E6E9"}`}
-                        ></path>
-                        <path
-                          d="M260 43.2002V55.0002L130 98.1002V86.3002L260 43.2002Z"
-                          fill={`${tab === 2 ? "#1679AB" : "#D1D1DA"}`}
-                        ></path>
-                      </g>
-                    </svg>
-                  </div>
-                  <div></div>
+              </div>
+
+              {/* Right content */}
+              <div className="order-1 md:order-2 h-72 md:h-96 relative rounded-2xl overflow-hidden">
+                <div className="absolute inset-0 bg-gray-100 opacity-0 hover:opacity-80 flex justify-center items-center">
+                  <Link
+                    to={""}
+                    class="text-lg font-semibold flex items-center gap-x-2"
+                  >
+                    <span className="text-xl">Click Here</span>
+                    <span>
+                      <FaArrowUpRightFromSquare />
+                    </span>
+                  </Link>
                 </div>
-                {/* layer 4 */}
-                <div className="grid grid-cols-3 items-center gap-x-10">
-                  <div></div>
-                  <div className="relative md:h-16 flex justify-center">
-                    <svg
-                      className="absolute z-20 h-16 w-36 md:h-28 md:w-60"
-                      viewBox="0 0 260 99"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g opacity="0.95">
-                        <path
-                          d="M260 43.2L130 86.3L0 43.2L130 0L260 43.2Z"
-                          fill={`${tab === 3 ? "#4793AF" : "#F1F1F1"}`}
-                        ></path>
-                        <path
-                          d="M0 43.2002V55.0002L130 98.1002V86.3002L0 43.2002Z"
-                          fill={`${tab === 3 ? "#1679AB" : "#E6E6E9"}`}
-                        ></path>
-                        <path
-                          d="M260 43.2002V55.0002L130 98.1002V86.3002L260 43.2002Z"
-                          fill={`${tab === 3 ? "#1679AB" : "#D1D1DA"}`}
-                        ></path>
-                      </g>
-                    </svg>
-                  </div>
-                  <div>
-                    <div
-                      onClick={() => setTab(3)}
-                      className="bg-purple-600  hover:cursor-pointer text-white flex gap-x-1 items-center justify-between px-5 py-2 rounded-2xl delay-250"
-                    >
-                      <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-white hover:shadow-md hover:shadow-slate-200 transition-color">
-                        <HiOutlineArrowLongRight className="text-lg font-bold rotate-180" />
-                      </button>
-                      <span className="text-white font-semibold text-sm font-theme-font">
-                        04 Implementation
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                {/* layer 5 */}
-                <div className="grid grid-cols-3 items-center gap-x-10">
-                  <div>
-                    {" "}
-                    <div
-                      onClick={() => setTab(4)}
-                      className="bg-purple-600 hover:cursor-pointer text-white md:flex gap-x-1 items-center justify-between px-5 py-2 rounded-2xl delay-250"
-                    >
-                      <span className="text-white font-semibold text-sm font-theme-font">
-                        05 Maintenance
-                      </span>
-                      <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-white hover:shadow-md hover:shadow-slate-200 transition-color">
-                        <HiOutlineArrowLongRight className="text-lg font-bold" />
-                      </button>
-                    </div>
-                  </div>
-                  <div className="relative md:h-16 flex justify-center">
-                    <svg
-                      className="absolute z-10 h-16 w-36 md:h-28 md:w-60"
-                      viewBox="0 0 260 99"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g opacity="0.95">
-                        <path
-                          d="M260 43.2L130 86.3L0 43.2L130 0L260 43.2Z"
-                          fill={`${tab === 4 ? "#4793AF" : "#F1F1F1"}`}
-                        ></path>
-                        <path
-                          d="M0 43.2002V55.0002L130 98.1002V86.3002L0 43.2002Z"
-                          fill={`${tab === 4 ? "#1679AB" : "#E6E6E9"}`}
-                        ></path>
-                        <path
-                          d="M260 43.2002V55.0002L130 98.1002V86.3002L260 43.2002Z"
-                          fill={`${tab === 4 ? "#1679AB" : "#D1D1DA"}`}
-                        ></path>
-                      </g>
-                    </svg>
-                  </div>
-                  <div></div>
-                </div>
+                <img
+                  className="h-full w-full object-cover object-center"
+                  src="https://devoxsoftware.com/wp-content/uploads/2024/02/growtika-nGoCBxiaRO0-unsplash.webp"
+                  alt=""
+                />
               </div>
             </div>
           </div>

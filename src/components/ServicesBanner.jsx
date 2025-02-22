@@ -33,13 +33,13 @@ function ServicesBanner({img="https://i.pinimg.com/564x/0a/46/0b/0a460bf677706ab
         <div className="py-10">
           <div className="flex gap-x-2">
             <div className="">
-              <button className="bg-gray-800 text-white p-2 rounded-full">
+              <button className="bg-white text-black p-2 rounded-full">
                 {" "}
                 <TiArrowRight className="rotate-180 text-2xl " />{" "}
               </button>
             </div>
             <div>
-              <button className="bg-gray-800 text-white p-2 rounded-full">
+              <button className="bg-white text-black p-2 rounded-full">
                 <TiArrowRight className="text-2xl" />{" "}
               </button>
             </div>

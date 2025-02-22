@@ -21,7 +21,7 @@ function Testinomial() {
                 loading="lazy"
                 className="w-full h-full object-cover object-center"
                 src="https://user-images.githubusercontent.com/13468728/234031693-6bbaba7d-632c-4d7d-965f-75a76a549ce2.jpg"
-                alt="avatar"
+                alt="AMNDTECH Team"
               />
             </div>
           </div>

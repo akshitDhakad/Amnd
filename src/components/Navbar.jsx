@@ -36,7 +36,7 @@ function Navbar() {
     >
       <div className="max-w-6xl m-auto">
         {/* PC view */}
-        <div className="hidden md:flex items-center py-5 px-10">
+        <div className="hidden md:flex items-center py-5 px-4">
           <div className="flex-1 text-lg">
             <Link to="/" onMouseEnter={() => setNavdrop(false)}>
               {scrolled ? (
@@ -75,7 +75,7 @@ function Navbar() {
                   >
                     <div className="max-w-6xl m-auto py-10 grid grid-cols-5 gap-x-10">
                       <div className="col-span-2">
-                        <h2 className="text-3xl font-semibold text-left">
+                        <h2 className="text-black hover:text-purple-600 text-3xl font-semibold text-left">
                           All Expertise
                         </h2>
                         <p className="text-gray-600 text-xs text-justify mt-3">

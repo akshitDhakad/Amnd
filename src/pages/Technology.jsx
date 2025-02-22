@@ -227,7 +227,7 @@ export default function Technology() {
                     <div className="relative h-24 md:h-40 z-10 ">
                       <img
                         loading="lazy"
-                        className="w-full h-full  object-center"
+                        className="w-full h-full full object-container object-center"
                         src="https://devoxsoftware.com/wp-content/uploads/2024/03/logo-2.svg"
                         alt="AMNDTECH Software"
                       />
@@ -239,7 +239,7 @@ export default function Technology() {
                     <div className="relative h-24 md:h-40 z-10 ">
                       <img
                         loading="lazy"
-                        className="w-full h-full object-cover object-center"
+                        className="w-full h-full full object-container  object-center"
                         src="https://devoxsoftware.com/wp-content/uploads/2024/03/Group-427320306.svg"
                         alt="AMNDTECH Software"
                       />

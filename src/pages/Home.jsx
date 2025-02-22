@@ -11,8 +11,10 @@ import {
   FaFacebook,
   FaLinkedin,
   FaInstagram,
+  FaSquareXTwitter,
   FaArrowUpRightFromSquare,
 } from "react-icons/fa6";
+
 import { IoMdKey } from "react-icons/io";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 
@@ -54,9 +56,10 @@ export default function Home() {
                 <div className="w-full">
                   <p className="text-white md:text-start tracking-wide font-theme-font">
                     Looking for turnkey custom web application development
-                    services? We are AMNDTECH Software – a leading custom web
-                    application development company with a recognized stand on
-                    the market and a proven track record of completed projects.
+                    services? We are <b>AMNDTECH Software</b> – a leading custom
+                    web application development company with a recognized stand
+                    on the market and a proven track record of completed
+                    projects.
                   </p>
                   <div className="flex items-center gap-x-3 mt-5">
                     <span className="text-white">Let'talk</span>
@@ -93,16 +96,36 @@ export default function Home() {
             <div className="grid md:grid-cols-12 gap-y-10">
               {/* social media icons */}
               <div className="col-span-12 md:col-span-2 flex flex-row md:flex-col justify-around items-start">
-                <FaFacebook className="text-3xl" />
-                <FaLinkedin className="text-3xl" />
-                <FaInstagram className="text-3xl" />
+                <Link target="_black" to={"https://x.com/AmndT007"}>
+                  {" "}
+                  <FaSquareXTwitter className="text-3xl" />
+                </Link>
+                <Link target="_black" to={""}>
+                  {" "}
+                  <FaFacebook className="text-3xl" />
+                </Link>
+                <Link
+                  target="_black"
+                  to={"https://www.linkedin.com/in/akshit-dhakad-758a27250/"}
+                >
+                  {" "}
+                  <FaLinkedin className="text-3xl" />
+                </Link>
+                <Link
+                  target="_black"
+                  to={
+                    "https://www.instagram.com/amnd_technologies?igsh=aG1oc283cXE3dnZ6"
+                  }
+                >
+                  <FaInstagram className="text-3xl" />
+                </Link>
               </div>
               {/* content  */}
               <div className="grid-cols-12 md:col-span-10">
                 <p className="text-gray-900 md:text-start text-justify tracking-wide font-theme-font mb-2">
-                  AMNDTECH Software is an international IT outsourcing company
-                  with development facilities in five countries – Poland,
-                  Romania, Azerbaijan, Ukraine and Georgia.
+                  <b>AMNDTECH Software</b> is an IT outsourcing company based in
+                  India, providing top-notch services to clients all over the
+                  world.
                 </p>
                 <p className="text-gray-900 md:text-start text-justify tracking-wide font-theme-font mb-2">
                   Our key value is our flexibility. It’s you who chooses the
@@ -126,9 +149,9 @@ export default function Home() {
                 estimation to release.
               </p>
               <p className="text-gray-900 md:text-start text-justify tracking-wide font-theme-font mb-2">
-                AMNDTECH Software achieves a well-planned development process,
-                competent management, and efficient communication due to a
-                thorough selection of team members for our company.
+                <b>AMNDTECH Software</b> achieves a well-planned development
+                process, competent management, and efficient communication due
+                to a thorough selection of team members for our company.
               </p>
               <div className="flex items-center justify-end gap-x-3 mt-5">
                 <span className="text-gray-600  font-bold">Discover</span>
@@ -530,9 +553,9 @@ export default function Home() {
               </div>
             </div>
             {/* content */}
-            <div className="col-span-2 grid md:grid-cols-3 gap-10">
+            <div className="col-span-2 grid md:grid-cols-3 gap-x-5  gap-y-10">
               {/* item 1 */}
-              <div className="h-72 w-full md:w-96 px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 hover:shadow-purple-600 relative">
+              <div className="h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border hover:shadow-purple-600 relative">
                 <span class="absolute font-bold text-8xl font-theme-font leading-none opacity-40 top-6 left-6 text-purple-600">
                   01
                 </span>
@@ -548,7 +571,7 @@ export default function Home() {
                 </div>
               </div>
               {/* item 2 */}
-              <div className="relative h-72 w-full md:w-96 px-4 md:p-10 flex items-center rounded-3xl shadow-xl hover:shadow-pink-600 bg-slate-50">
+              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border hover:shadow-pink-600 bg-slate-50">
                 <span class="absolute font-bold text-8xl font-theme-font leading-none opacity-40 top-6 left-6 text-pink-600">
                   02
                 </span>
@@ -564,7 +587,7 @@ export default function Home() {
                 </div>
               </div>
               {/* item 3 */}
-              <div className="relative h-72 w-full md:w-96 px-4 md:p-10 flex items-center rounded-3xl shadow-xl hover:shadow-orange-600 bg-slate-50">
+              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border hover:shadow-orange-600 bg-slate-50">
                 <span class="absolute font-bold text-8xl leading-none opacity-40 top-6 left-6 font-theme-font text-orange-600">
                   03
                 </span>
@@ -581,7 +604,7 @@ export default function Home() {
                 </div>
               </div>
               {/* item 4 */}
-              <div className="relative h-72 w-full md:w-96 px-4 md:p-10 flex items-center rounded-3xl shadow-xl hover:shadow-green-600 bg-slate-50">
+              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border hover:shadow-green-600 bg-slate-50">
                 <span class="absolute font-bold text-8xl leading-none opacity-40 top-6 left-6 font-theme-font text-green-600">
                   04
                 </span>
@@ -598,7 +621,7 @@ export default function Home() {
                 </div>
               </div>
               {/* item 5 */}
-              <div className="relative h-72 w-full md:w-96 px-4 md:p-10 flex items-center rounded-3xl shadow-xl hover:shadow-blue-600 bg-slate-50">
+              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border hover:shadow-blue-600 bg-slate-50">
                 <span class="absolute font-bold text-8xl leading-none opacity-40 top-6 left-6 font-theme-font text-blue-600">
                   05
                 </span>
@@ -615,7 +638,7 @@ export default function Home() {
                 </div>
               </div>
               {/* item 6 */}
-              <div className="relative h-72 w-full md:w-96 px-4 md:p-10 flex items-center rounded-3xl shadow-xl hover:shadow-yellow-600 bg-slate-50">
+              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border hover:shadow-yellow-600 bg-slate-50">
                 <span class="absolute font-bold text-8xl leading-none opacity-40 top-6 left-6 font-theme-font text-yellow-600">
                   06
                 </span>
@@ -662,7 +685,6 @@ export default function Home() {
         </section>
 
         {/* Our Development Process  */}
-
         <section>
           <div className="relative max-w-6xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
@@ -682,11 +704,12 @@ export default function Home() {
               </div>
             </div>
             {/* left content */}
-            <div className="col-span-2 grid md:grid-cols-3 gap-10">
+            <div className="col-span-2 grid md:grid-cols-3 gap-x-5 gap-y-10">
               {/* item 1 */}
-              <div className="h-72 w-full md:w-96  px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 relative">
+              <div className="h-72 w-full   px-4 md:p-10 flex items-center rounded-3xl  border shadow-xl bg-slate-50 relative">
                 <div class="absolute top-5 left-5 h-12 w-12 font-bold text-8xl font-theme-font leading-none opacity-40">
                   <img
+                    loading="lazy"
                     className="h-full w-full object-cover object-center"
                     src="https://cdn-icons-png.freepik.com/256/7387/7387688.png?ga=GA1.1.705946748.1706705440&"
                     alt="Discovery icon"
@@ -705,9 +728,10 @@ export default function Home() {
                 </div>
               </div>
               {/* item 2 */}
-              <div className="relative h-72 w-full md:w-96  px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50">
+              <div className="relative h-72 w-full  px-4 md:p-10 flex items-center rounded-3xl border shadow-xl bg-slate-50">
                 <div class="absolute  top-5 left-5 h-12 w-12  font-bold text-8xl font-theme-font leading-none opacity-40  ">
                   <img
+                    loading="lazy"
                     className="w-full h-full object-cover object-center"
                     src="https://cdn-icons-png.freepik.com/256/1336/1336494.png?ga=GA1.1.705946748.1706705440&"
                     alt="Design and development icon"
@@ -726,9 +750,10 @@ export default function Home() {
               </div>
 
               {/* item 3 */}
-              <div className="relative h-72 w-full md:w-96  px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50">
+              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl border shadow-xl bg-slate-50">
                 <div class="absolute top-5 left-5 h-12 w-12  font-bold text-8xl leading-none opacity-40  font-theme-font ">
                   <img
+                    loading="lazy"
                     className="w-full h-full object-center object-cover"
                     src="https://cdn-icons-png.freepik.com/256/4296/4296532.png?ga=GA1.1.705946748.1706705440&"
                     alt="Full-cycle testing"
@@ -746,9 +771,10 @@ export default function Home() {
                 </div>
               </div>
               {/* item 4 */}
-              <div className="relative h-72 w-full md:w-96  px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50">
+              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl border shadow-xl bg-slate-50">
                 <div class="absolute top-5 left-5 h-12 w-12  font-bold text-8xl leading-none opacity-40  font-theme-font ">
                   <img
+                    loading="lazy"
                     className="w-full h-full object-center object-cover"
                     src="https://cdn-icons-png.freepik.com/256/8099/8099542.png?ga=GA1.1.705946748.1706705440&"
                     alt="Prototyping and MVP development icon"
@@ -766,9 +792,10 @@ export default function Home() {
                 </div>
               </div>
               {/* item 5 */}
-              <div className="relative h-72 w-full md:w-96  px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50">
+              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl border shadow-xl bg-slate-50">
                 <div class="absolute top-5 left-5 h-12 w-12  font-bold text-8xl leading-none opacity-40  font-theme-font ">
                   <img
+                    loading="lazy"
                     className="w-full h-full object-center object-cover"
                     src="https://cdn-icons-png.freepik.com/256/2082/2082945.png?ga=GA1.1.705946748.1706705440&"
                     alt="Launch and maintenance icon"
@@ -786,9 +813,10 @@ export default function Home() {
                 </div>
               </div>
               {/* item 6 */}
-              <div className="relative h-72 w-full md:w-96 px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50">
+              <div className="relative h-72 w-full  px-4 md:p-10 flex items-center rounded-3xl border shadow-xl bg-slate-50">
                 <div class="absolute top-5 left-5 h-12 w-12  font-bold text-8xl leading-none opacity-40  font-theme-font">
                   <img
+                    loading="lazy"
                     className="w-full h-full object-center object-cover"
                     src="https://cdn-icons-png.freepik.com/256/12375/12375564.png?ga=GA1.1.705946748.1706705440&"
                     alt="End-to-end development icon"
@@ -812,7 +840,7 @@ export default function Home() {
 
         {/* Our Work Section  */}
         <section>
-          <div className="relative max-w-6xl px-4 py-20 grid grid-cols-2 gap-2  m-auto">
+          <div className="relative max-w-6xl px-4 py-20 grid grid-cols-2 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Latest Works
             </span>
@@ -825,12 +853,12 @@ export default function Home() {
               </div>
               <div className="md:mb-4">
                 <h1 className="text-3xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
-                  OurLatest Works
+                  Our Latest Works
                 </h1>
               </div>
             </div>
             {/* project 1  */}
-            <div className="col-span-2 grid md:grid-cols-2 gap-y-5 ">
+            <div className="col-span-2 grid md:grid-cols-2 gap-x-5 gap-y-10">
               {/* left content */}
               <div className="h-72 md:h-96 relative rounded-2xl overflow-hidden ">
                 <div className="absolute inset-0 bg-gray-100 opacity-0 hover:opacity-80 flex justify-center items-center">
@@ -894,7 +922,7 @@ export default function Home() {
               </div>
             </div>
             {/* project 2 */}
-            <div className="col-span-2 grid md:grid-cols-2 gap-y-5">
+            <div className="col-span-2 grid md:grid-cols-2 gap-x-5 gap-y-10">
               {/* left content */}
               <div className="order-2 bg-theme-bg-dark rounded-2xl overflow-hidden p-4 md:p-10">
                 <div className="h-full flex flex-col justify-between">
@@ -997,9 +1025,10 @@ export default function Home() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-auto">
                         <img
+                          loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Nest.png.webp"
-                          alt="NestJS"
+                          alt="AMNDTECH Software NestJS"
                         />
                       </div>
                       <div className="font-semibold">NestJS</div>
@@ -1007,9 +1036,10 @@ export default function Home() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-auto">
                         <img
+                          loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Flask_logo-1-1.png.webp"
-                          alt="Flask"
+                          alt="AMNDTECH Software Flask"
                         />
                       </div>
                       <div className="font-semibold">Flask</div>
@@ -1018,9 +1048,10 @@ export default function Home() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-auto">
                         <img
+                          loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/django-svgrepo-com-1.png.webp"
-                          alt="Django"
+                          alt="AMNDTECH Software Django"
                         />
                       </div>
                       <div className="font-semibold">Django</div>
@@ -1028,9 +1059,10 @@ export default function Home() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-auto">
                         <img
+                          loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/express-js-icon-1.png.webp"
-                          alt="Express.js"
+                          alt="AMNDTECH Software Express.js"
                         />
                       </div>
                       <div className="font-semibold">Express.js</div>
@@ -1038,9 +1070,10 @@ export default function Home() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-auto">
                         <img
+                          loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Microsoft_.NET_logo-1.png.webp"
-                          alt=".NET"
+                          alt="AMNDTECH Software .NET"
                         />
                       </div>
                       <div className="font-semibold">.NET</div>
@@ -1048,29 +1081,22 @@ export default function Home() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-auto">
                         <img
+                          loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/PHP-logo-1.png.webp"
-                          alt="PHP"
+                          alt="AMNDTECH Software PHP"
                         />
                       </div>
                       <div className="font-semibold">PHP</div>
                     </div>
+
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-auto">
                         <img
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Group-5.png.webp"
-                          alt="Ruby"
-                        />
-                      </div>
-                      <div className="font-semibold">Ruby</div>
-                    </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
+                          loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/spring.png.webp"
-                          alt="Java Spring"
+                          alt="AMNDTECH Software Java Spring"
                         />
                       </div>
                       <div className="font-semibold">Java Spring</div>
@@ -1078,9 +1104,10 @@ export default function Home() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-auto">
                         <img
+                          loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/python.png.webp"
-                          alt="Python"
+                          alt="AMNDTECH Software Python"
                         />
                       </div>
                       <div className="font-semibold">Python</div>
@@ -1088,9 +1115,10 @@ export default function Home() {
                     <div className="flex gap-1 items-center">
                       <div className="h-8 w-auto">
                         <img
+                          loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/node-js-1.png.webp"
-                          alt="Node.js"
+                          alt="AMNDTECH Software Node.js"
                         />
                       </div>
                       <div className="font-semibold">Node.js</div>
@@ -1113,7 +1141,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Next.png.webp"
-                        alt="NestJS "
+                        alt="AMNDTECH Software NestJS "
                       />
                     </div>
                     <div className="font-semibold">NestJS</div>
@@ -1125,7 +1153,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Group-4.png.webp"
-                        alt="Flask"
+                        alt="AMNDTECH Software Flask"
                       />
                     </div>
                     <div className="font-semibold">Svelte</div>
@@ -1137,7 +1165,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Vue-js.png.webp"
-                        alt="Vue.js"
+                        alt="AMNDTECH Software Vue.js"
                       />
                     </div>
                     <div className="font-semibold">Vue.js</div>
@@ -1148,7 +1176,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Angular_full_color_logo-1.png.webp"
-                        alt="Angular"
+                        alt="AMNDTECH Software Angular"
                       />
                     </div>
                     <div className="font-semibold">Angular</div>
@@ -1159,7 +1187,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/React-icon-1.png.webp"
-                        alt="React.js"
+                        alt="AMNDTECH Software React.js"
                       />
                     </div>
                     <div className="font-semibold">React.js</div>
@@ -1170,7 +1198,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Progressive_Web_Apps_Logo-1.png.webp"
-                        alt="PWA"
+                        alt="AMNDTECH Software PWA"
                       />
                     </div>
                     <div className="font-semibold">PWA</div>
@@ -1181,7 +1209,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Typescript_logo_2020-1.png.webp"
-                        alt="TypeScript"
+                        alt="AMNDTECH Software TypeScript"
                       />
                     </div>
                     <div className="font-semibold">TypeScript</div>
@@ -1192,6 +1220,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/JS.png.webp"
+                        alt="AMNDTECH Software JavaScript"
                       />
                     </div>
                     <div className="font-semibold">JavaScript </div>
@@ -1202,7 +1231,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/CSS3_and_HTML5_logos_and_wordmarks-1.png.webp"
-                        alt="HTML/CSS"
+                        alt="AMNDTECH Software HTML/CSS"
                       />
                     </div>
                     <div className="font-semibold">HTML/CSS</div>
@@ -1224,7 +1253,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/mariadb-1.png.webp"
-                        alt="MariaDB "
+                        alt="AMNDTECH Software MariaDB "
                       />
                     </div>
                     <div className="font-semibold">MariaDB</div>
@@ -1236,7 +1265,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/redis-logo-svgrepo-com-1.png.webp"
-                        alt="Redis"
+                        alt="AMNDTECH Software Redis"
                       />
                     </div>
                     <div className="font-semibold">Redis</div>
@@ -1248,7 +1277,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Cassandra.png.webp"
-                        alt="Cassandra"
+                        alt="AMNDTECH Software Cassandra"
                       />
                     </div>
                     <div>Cassandra</div>
@@ -1259,7 +1288,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/mongodb-svgrepo-com-1.png.webp"
-                        alt="MongoDB"
+                        alt="AMNDTECH Software MongoDB"
                       />
                     </div>
                     <div>MongoDB</div>
@@ -1270,7 +1299,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/oracle-svgrepo-com-1.png.webp"
-                        alt="Oracle DB"
+                        alt="AMNDTECH Software Oracle DB"
                       />
                     </div>
                     <div>Oracle DB</div>
@@ -1281,7 +1310,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Microsoft-SQL-Server-1.png.webp"
-                        alt="SQL Server"
+                        alt="AMNDTECH Software SQL Server"
                       />
                     </div>
                     <div>SQL Server</div>
@@ -1292,7 +1321,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Postgresql_elephant-1.png.webp"
-                        alt="PostgreSQL"
+                        alt="AMNDTECH Software PostgreSQL"
                       />
                     </div>
                     <div>PostgreSQL</div>
@@ -1303,6 +1332,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/mysqlworkbench_93532-1.png.webp"
+                        alt="AMNDTECH Software MYSQL"
                       />
                     </div>
                     <div>MySQL</div>
@@ -1313,7 +1343,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/elasticsearch-1.png.webp"
-                        alt="Elasticsearch"
+                        alt="AMNDTECH Software Elasticsearch"
                       />
                     </div>
                     <div>Elasticsearch</div>
@@ -1334,7 +1364,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Next.png.webp"
-                        alt="NestJS "
+                        alt="AMNDTECH Software NestJS "
                       />
                     </div>
                     <div className="font-semibold">NestJS</div>
@@ -1346,7 +1376,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Group-4.png.webp"
-                        alt="Flask"
+                        alt="AMNDTECH Software Flask"
                       />
                     </div>
                     <div className="font-semibold">Svelte</div>
@@ -1358,7 +1388,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Vue-js.png.webp"
-                        alt="Vue.js"
+                        alt="AMNDTECH Software Vue.js"
                       />
                     </div>
                     <div>Vue.js</div>
@@ -1369,7 +1399,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Angular_full_color_logo-1.png.webp"
-                        alt="Angular"
+                        alt="AMNDTECH Software Angular"
                       />
                     </div>
                     <div>Angular</div>
@@ -1380,7 +1410,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/React-icon-1.png.webp"
-                        alt="React.js"
+                        alt="AMNDTECH Software React.js"
                       />
                     </div>
                     <div>React.js</div>
@@ -1391,7 +1421,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Progressive_Web_Apps_Logo-1.png.webp"
-                        alt="PWA"
+                        alt="AMNDTECH Software PWA"
                       />
                     </div>
                     <div>PWA</div>
@@ -1402,7 +1432,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Typescript_logo_2020-1.png.webp"
-                        alt="TypeScript"
+                        alt="AMNDTECH Software TypeScript"
                       />
                     </div>
                     <div>TypeScript</div>
@@ -1423,7 +1453,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/CSS3_and_HTML5_logos_and_wordmarks-1.png.webp"
-                        alt="HTML/CSS"
+                        alt="AMNDTECH Software HTML/CSS"
                       />
                     </div>
                     <div>HTML/CSS</div>
@@ -1455,7 +1485,10 @@ export default function Home() {
             </div>
             {/* left content */}
             <div className="col-span-2 h-96">
-              <ServicesBanner />
+              <ServicesBanner
+                title={"Premier IT Services & Digital Marketing Solutions"}
+                description={""}
+              />
             </div>
           </div>
         </section>

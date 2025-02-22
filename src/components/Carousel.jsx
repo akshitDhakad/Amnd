@@ -4,7 +4,7 @@ import React,{useState,useEffect} from "react";
 // Data
 const initialImages = [
   {
-    img: "https://cdn-icons-png.freepik.com/256/12372/12372172.png?ga=GA1.1.2112499185.1718043507&semt=ais_hybrid",
+    img: "https://cdn-icons-png.freepik.com/256/8422/8422293.png?ga=GA1.1.2112499185.1718043507&semt=ais_hybrid",
     name: "Devsops Development",
     desc: "Description for Image 1",
   },
@@ -116,7 +116,7 @@ const Carousel = () => {
                   <div className="h-24 w-24 p-2 rounded-full font-semibold shadow-md hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-150">
                     <img
                       loading="lazy"
-                      className="  object-contain object-center"
+                      className="object-cover object-center"
                       src={imageItem.img}
                       alt={`${images[currentIndex].name}`}
                     />
