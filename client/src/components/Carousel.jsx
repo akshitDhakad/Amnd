@@ -1,55 +1,56 @@
-
-import React,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 
 // Data
 const initialImages = [
   {
-    img: "https://cdn-icons-png.freepik.com/256/8422/8422293.png?ga=GA1.1.2112499185.1718043507&semt=ais_hybrid",
+    img: "/assets/icons/digital.png",
+    name: "Digital Marketing",
+    desc: "Description for Image 9",
+  },
+  {
+    img: "/assets/icons/devops.png",
     name: "Devsops Development",
-    desc: "Description for Image 1",
+    desc: "DevOps Development represents the seamless integration of development and operations....",
   },
   {
-    img: "https://cdn-icons-png.freepik.com/256/8422/8422301.png?ga=GA1.1.2112499185.1718043507&semt=ais_hybrid",
+    img: "/assets/icons/webdevelopment.png",
     name: "Web Development",
-    desc: "Description for Image 2",
+    desc: "Web Development encompasses the creation of dynamic and responsive websites...",
   },
+
   {
-    img: "https://cdn-icons-png.freepik.com/256/11135/11135435.png?ga=GA1.1.2112499185.1718043507&semt=ais_hybrid",
-    name: "Quality Assurnace",
-    desc: "Description for Image 3",
-  },
-  {
-    img: "https://cdn-icons-png.freepik.com/256/6029/6029424.png?ga=GA1.1.2112499185.1718043507&semt=ais_hybrid",
+    img: "/assets/icons/frontend.png",
     name: "Frontend Development",
-    desc: "Description for Image 4",
+    desc: "Frontend Development focuses on crafting interactive, responsive, and visually appealing...",
   },
   {
-    img: "https://cdn-icons-png.freepik.com/256/16530/16530410.png?ga=GA1.1.2112499185.1718043507&semt=ais_hybrid",
+    img: "/assets/icons/backend.png",
     name: "Backend Development",
     desc: "Description for Image 5",
   },
   {
-    img: "https://via.placeholder.com/600/8db6cd",
-    name: "Website , Website App , Web Portals",
-    desc: "Description for Image 6",
+    img: "/assets/icons/mobile.png",
+    name: "App Development , Android and iOS Apps",
+    desc: "App Development covers the creation of high-performance Android and iOS applications...",
   },
   {
-    img: "https://via.placeholder.com/600/5d47a7",
+    img: "/assets/icons/database.png",
+    name: "Database Management",
+    desc: "Description for Image 3",
+  },
+  {
+    img: "",
     name: "Custom Web App",
     desc: "Description for Image 7",
   },
   {
-    img: "https://via.placeholder.com/600/b0f7cc",
+    img: "",
     name: "Exterprise Application",
     desc: "Description for Image 8",
   },
+
   {
-    img: "https://via.placeholder.com/600/7f78e0",
-    name: "Analytic Web Apps",
-    desc: "Description for Image 9",
-  },
-  {
-    img: "https://via.placeholder.com/600/77e0cc",
+    img: "",
     name: "Online Web Apps",
     desc: "Description for Image 10",
   },
@@ -62,24 +63,19 @@ const Carousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       moveItems();
-    }, 3000); // Change the interval (in milliseconds) as desired
+    }, 5000);
 
     return () => clearInterval(interval);
   }, [currentIndex]);
 
   const moveItems = () => {
-    // Get the next index
     const nextIndex = (currentIndex + 1) % images.length;
-
-    // Update the state with the new current index
     setCurrentIndex(nextIndex);
   };
 
   const handleItemClick = (index) => {
     setCurrentIndex(index);
   };
-
-  // Function to create a circular index based on the current index and array length
   const getCircularIndex = (index, length) => {
     return (index + length) % length;
   };
@@ -88,7 +84,6 @@ const Carousel = () => {
     <div className="carousel-container">
       <div className="d-flex flex-column">
         <div className="carousel-items">
-          {/* Render 5 items on the screen */}
           {Array(5)
             .fill()
             .map((_, index) => {
@@ -116,7 +111,7 @@ const Carousel = () => {
                   <div className="h-24 w-24 p-2 rounded-full font-semibold shadow-md hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-150">
                     <img
                       loading="lazy"
-                      className="object-cover object-center"
+                      className="h-full w-full object-contain object-center"
                       src={imageItem.img}
                       alt={`${images[currentIndex].name}`}
                     />
