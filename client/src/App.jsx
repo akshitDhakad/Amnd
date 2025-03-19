@@ -3,7 +3,7 @@ import "./App.css";
 import { useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-// Pages Routes 
+// Pages Routes
 import Home from "./pages/Home.jsx";
 import Experties from "./pages/Experties.jsx";
 import Technology from "./pages/Technology.jsx";
@@ -12,11 +12,11 @@ import Career from "./pages/Career.jsx";
 import About from "./pages/About.jsx";
 import Blog from "./pages/Blog.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
-// service Pages 
+// service Pages
 import WebDevelopmentPage from "./pages/WebDevelopment.jsx";
 import BackEndPage from "./pages/BackEnd.jsx";
 import MobileDevelopmentPage from "./pages/MobileDevelopment.jsx";
-import FrontEndPage from "./pages/FontEnd.jsx";
+import FrontEndPage from "./pages/FrontEnd.jsx";
 import UIDesignPage from "./pages/UIDesign.jsx";
 import DataAnalyticPage from "./pages/DataAnalytics.jsx";
 import QualityPage from "./pages/QualityPage.jsx";
@@ -24,13 +24,7 @@ import DevopsPage from "./pages/DevopsPage.jsx";
 // import DevopsPage from "./pages/DevopsPage.jsx";
 import BusinessIntelligencePage from "./pages/BusinessIntelligencePage.jsx";
 
-
-
-
-
-
 function App() {
-
   const { pathname } = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
