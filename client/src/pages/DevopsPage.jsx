@@ -16,7 +16,7 @@ import { IoMdKey } from "react-icons/io";
 import { Link } from "react-router-dom";
 import ServicesBanner from "../components/ServicesBanner.jsx";
 import AccordionCard from "../components/Accordion.jsx";
-import { MdOutlineStar } from "react-icons/md";
+
 const data = [
   {
     _id: "0",
@@ -138,7 +138,7 @@ export default function DevopsPage() {
   const [tab, setTab] = useState(0);
 
   const backgroundImg = {
-    backgroundImage: `url('https://devoxsoftware.com/wp-content/uploads/2024/01/kanhaiya-sharma-D68kWCwatLg-unsplash.webp')`,
+    backgroundImage: `url('/assets/images/devops-bg.png')`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",

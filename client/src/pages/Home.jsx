@@ -20,7 +20,7 @@ import { HiOutlineArrowLongRight } from "react-icons/hi2";
 
 export default function Home() {
   const backgroundImg = {
-    backgroundImage: `url('https://media.istockphoto.com/id/1401793336/photo/gaming-personal-computer-and-ultrawide-monitor-in-neon-light.jpg?s=1024x1024&w=is&k=20&c=QBOqGW3ZWAJbe2HB3iNdKhwgOmOSTkSNEunbjq5Jv5I=')`,
+    backgroundImage: `url('/assets/images/hero-bg.jpeg')`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
