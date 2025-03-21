@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function ContactFrom() {
   return (
-    <div className="col-span-2 min-h-min md:h-[600px] grid md:grid-cols-2 gap-2">
+    <div className="relative max-w-9xl m-auto px-4 col-span-2 min-h-min md:h-[600px] grid md:grid-cols-2 gap-2">
       {/* left content */}
       <div className="h-80 md:h-full relative rounded-2xl overflow-hidden">
         <div className="absolute inset-0 bg-gray-100 opacity-0 hover:opacity-80 flex justify-center items-center">

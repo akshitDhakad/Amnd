@@ -73,7 +73,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Pages Section  */}
+        {/* About Us Section  */}
         <section>
           <div className="relative max-w-9xl px-4 py-20 grid md:grid-cols-2 gap-x-10 lg:gap-y-10 m-auto">
             <span class="absolute font-semibold text-4xl md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
@@ -164,7 +164,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* testinomials section  */}
+        {/* Testinomials section  */}
         <section>
           <div className="relative max-w-9xl px-4 py-20  m-auto">
             <span class="absolute font-semibold text-[4rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
@@ -290,7 +290,7 @@ export default function Home() {
               <h4 className="font-semibold tracking-wide text-md mb-2 text-gray-600">
                 Event Management Platform, USA
               </h4>
-              <p className="text-gray-400 text-justify md:text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
+              <p className="text-gray-900 text-justify md:text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
                 Function4 is a USA-based professional event ecosystem that
                 offers a simple, user-friendly discovery venue for the financial
                 services sector. The enterprise event management software
@@ -301,7 +301,7 @@ export default function Home() {
               </p>
 
               <div className="flex items-center justify-end gap-x-3 mt-5">
-                <span className="text-gray-600  font-bold">View Case</span>
+                <span className="text-gray-600 font-bold">View Case</span>
                 <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-150">
                   <HiOutlineArrowLongRight className="text-lg" />
                 </button>
@@ -341,7 +341,7 @@ export default function Home() {
                 dia platform with a marketplace fWellness social network and
                 meeature, Australia
               </h4>
-              <p className="text-gray-400 text-justify md:text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
+              <p className="text-gray-900 text-justify md:text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
                 ActivePlace is a social platform dedicated to health, fitness,
                 and an active lifestyle. It is a three-sided network that
                 connects people with like-minded individuals, mentors, and
@@ -370,7 +370,7 @@ export default function Home() {
               <h4 className="font-semibold text-md tracking-wide mb-2 text-gray-600">
                 Event Management Platform, USA
               </h4>
-              <p className="text-gray-400 text-justify md:text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
+              <p className="text-gray-900 text-justify md:text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
                 ILVE is a global manufacturer of gas and electric household
                 cooking appliances with a reach across 40 countries worldwide.
                 Since 1975, the company has been known as a niche brand
@@ -1021,109 +1021,107 @@ export default function Home() {
                   Back End
                 </h4>
 
-                <div>
-                  <div className="grid grid-cols-2  md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          loading="lazy"
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Nest.png.webp"
-                          alt="DIGITECHII SOFTWARE NestJS"
-                        />
-                      </div>
-                      <div className="font-semibold">NestJS</div>
+                <div className="w-full grid grid-cols-2  md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
+                  <div className="flex gap-1 items-center">
+                    <div className="h-8 w-auto">
+                      <img
+                        loading="lazy"
+                        className="h-full w-full object-cover object-center"
+                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Nest.png.webp"
+                        alt="DIGITECHII SOFTWARE NestJS"
+                      />
                     </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          loading="lazy"
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Flask_logo-1-1.png.webp"
-                          alt="DIGITECHII SOFTWARE Flask"
-                        />
-                      </div>
-                      <div className="font-semibold">Flask</div>
+                    <div className="font-semibold">NestJS</div>
+                  </div>
+                  <div className="flex gap-1 items-center">
+                    <div className="h-8 w-auto">
+                      <img
+                        loading="lazy"
+                        className="h-full w-full object-cover object-center"
+                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Flask_logo-1-1.png.webp"
+                        alt="DIGITECHII SOFTWARE Flask"
+                      />
                     </div>
+                    <div className="font-semibold">Flask</div>
+                  </div>
 
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          loading="lazy"
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/django-svgrepo-com-1.png.webp"
-                          alt="DIGITECHII SOFTWARE Django"
-                        />
-                      </div>
-                      <div className="font-semibold">Django</div>
+                  <div className="flex gap-1 items-center">
+                    <div className="h-8 w-auto">
+                      <img
+                        loading="lazy"
+                        className="h-full w-full object-cover object-center"
+                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/django-svgrepo-com-1.png.webp"
+                        alt="DIGITECHII SOFTWARE Django"
+                      />
                     </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          loading="lazy"
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/express-js-icon-1.png.webp"
-                          alt="DIGITECHII SOFTWARE Express.js"
-                        />
-                      </div>
-                      <div className="font-semibold">Express.js</div>
+                    <div className="font-semibold">Django</div>
+                  </div>
+                  <div className="flex gap-1 items-center">
+                    <div className="h-8 w-auto">
+                      <img
+                        loading="lazy"
+                        className="h-full w-full object-cover object-center"
+                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/express-js-icon-1.png.webp"
+                        alt="DIGITECHII SOFTWARE Express.js"
+                      />
                     </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          loading="lazy"
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Microsoft_.NET_logo-1.png.webp"
-                          alt="DIGITECHII SOFTWARE .NET"
-                        />
-                      </div>
-                      <div className="font-semibold">.NET</div>
+                    <div className="font-semibold">Express.js</div>
+                  </div>
+                  <div className="flex gap-1 items-center">
+                    <div className="h-8 w-auto">
+                      <img
+                        loading="lazy"
+                        className="h-full w-full object-cover object-center"
+                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Microsoft_.NET_logo-1.png.webp"
+                        alt="DIGITECHII SOFTWARE .NET"
+                      />
                     </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          loading="lazy"
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/PHP-logo-1.png.webp"
-                          alt="DIGITECHII SOFTWARE PHP"
-                        />
-                      </div>
-                      <div className="font-semibold">PHP</div>
+                    <div className="font-semibold">.NET</div>
+                  </div>
+                  <div className="flex gap-1 items-center">
+                    <div className="h-8 w-auto">
+                      <img
+                        loading="lazy"
+                        className="h-full w-full object-cover object-center"
+                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/PHP-logo-1.png.webp"
+                        alt="DIGITECHII SOFTWARE PHP"
+                      />
                     </div>
+                    <div className="font-semibold">PHP</div>
+                  </div>
 
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          loading="lazy"
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/spring.png.webp"
-                          alt="DIGITECHII SOFTWARE Java Spring"
-                        />
-                      </div>
-                      <div className="font-semibold">Java Spring</div>
+                  <div className="flex gap-1 items-center">
+                    <div className="h-8 w-auto">
+                      <img
+                        loading="lazy"
+                        className="h-full w-full object-cover object-center"
+                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/spring.png.webp"
+                        alt="DIGITECHII SOFTWARE Java Spring"
+                      />
                     </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          loading="lazy"
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/python.png.webp"
-                          alt="DIGITECHII SOFTWARE Python"
-                        />
-                      </div>
-                      <div className="font-semibold">Python</div>
+                    <div className="font-semibold">Java Spring</div>
+                  </div>
+                  <div className="flex gap-1 items-center">
+                    <div className="h-8 w-auto">
+                      <img
+                        loading="lazy"
+                        className="h-full w-full object-cover object-center"
+                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/python.png.webp"
+                        alt="DIGITECHII SOFTWARE Python"
+                      />
                     </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          loading="lazy"
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/node-js-1.png.webp"
-                          alt="DIGITECHII SOFTWARE Node.js"
-                        />
-                      </div>
-                      <div className="font-semibold">Node.js</div>
+                    <div className="font-semibold">Python</div>
+                  </div>
+                  <div className="flex gap-1 items-center">
+                    <div className="h-8 w-auto">
+                      <img
+                        loading="lazy"
+                        className="h-full w-full object-cover object-center"
+                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/node-js-1.png.webp"
+                        alt="DIGITECHII SOFTWARE Node.js"
+                      />
                     </div>
+                    <div className="font-semibold">Node.js</div>
                   </div>
                 </div>
               </div>
@@ -1134,7 +1132,7 @@ export default function Home() {
                   Front End
                 </h4>
 
-                <div className="grid grid-cols-2  md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
+                <div className="w-full grid grid-cols-2  md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
                   {/* item 1 */}
                   <div className="flex gap-1 items-center">
                     <div className="h-8 w-auto">
@@ -1246,7 +1244,7 @@ export default function Home() {
                   Database Development
                 </h4>
 
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
+                <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
                   {/* item 1 */}
                   <div className="flex gap-1 items-center">
                     <div className="h-8 w-auto">
@@ -1357,7 +1355,7 @@ export default function Home() {
                   DevOps & Cloud
                 </h4>
 
-                <div className="grid grid-cols-2  md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
+                <div className="w-full grid grid-cols-2  md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
                   {/* item 1 */}
                   <div className="flex gap-1 items-center">
                     <div className="h-8 w-auto">
