@@ -136,7 +136,7 @@ export default function Experties() {
             style={backgroundImg}
           >
             <div className="absolute  m-1 -z-10 bg-black opacity-50 rounded-2xl h-screen w-full"></div>
-            <div className=" max-w-6xl m-auto px-10 py-5">
+            <div className=" max-w-9xl m-auto px-10 py-5">
               {/* <div className="absolute top-0 left-0 h-full w-2/5 inset-0 bg-purple-100 bg-opacity-10 backdrop-blur-md"></div> */}
               <div className="grid grid-cols-2 gap-x-20 gap-y-10  m-auto">
                 <div className="col-span-2 flex flex-col gap-5">
@@ -206,7 +206,7 @@ export default function Experties() {
 
         {/* Pages Section  */}
         <section>
-          <div className="relative max-w-6xl py-20 grid grid-cols-3 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl py-20 grid grid-cols-3 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Web Development
             </span>
@@ -237,7 +237,7 @@ export default function Experties() {
         {/* Our Process  */}
         {/* Our webdevelopment process */}
         <section className="bg-gray-100">
-          <div className="relative max-w-6xl py-20 grid grid-cols-3 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl py-20 grid grid-cols-3 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10  left-[-125px] text-gray-500">
               Web Process
             </span>
@@ -533,7 +533,7 @@ export default function Experties() {
         {/* Technologies we use  */}
         {/* Our Development Process  */}
         <section>
-          <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[25px] left-0 text-gray-500">
               Technologies
             </span>
@@ -1005,7 +1005,7 @@ export default function Experties() {
         {/* Our Benefits */}
 
         <section className="bg-gray-100">
-          <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[25px] left-[-125px] text-gray-500">
               Development
             </span>
@@ -1159,7 +1159,7 @@ export default function Experties() {
         {/* Why WebArt Sofware */}
 
         <section className="">
-          <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[25px] left-[-125px] text-gray-500">
               Why WebArt Software?
             </span>
@@ -1187,7 +1187,7 @@ export default function Experties() {
 
         {/*want to start web development banner  */}
         <section className="">
-          <div className="relative max-w-6xl py-20    m-auto">
+          <div className="relative max-w-9xl py-20    m-auto">
             <ServicesBanner
               title={
                 "Fast-track your product development and shorten time-to-market with AMNDTECH as your next talent supplier."
@@ -1199,7 +1199,7 @@ export default function Experties() {
 
         {/* Our Work Section  */}
         <section>
-          <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-2  m-auto">
+          <div className="relative max-w-9xl py-20 grid grid-cols-2 gap-2  m-auto">
             <span class="absolute font-semibold text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Latest Works
             </span>
@@ -1349,7 +1349,7 @@ export default function Experties() {
 
         {/* Our CLients  */}
         <section>
-          <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10  m-auto">
+          <div className="relative max-w-9xl py-20 grid grid-cols-2 gap-x-10  m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font tracking-wide leading-none opacity-10 top-0 left-[1/2] text-graye-500">
               Clients
             </span>
@@ -1375,7 +1375,7 @@ export default function Experties() {
 
         {/* testinomials section  */}
         <section>
-          <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Testimonials
             </span>
@@ -1398,7 +1398,7 @@ export default function Experties() {
 
         {/* Faqs section  */}
         <section className="bg-gray-100">
-          <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[25px] left-[-125px] text-gray-500">
               have a Doubt ?
             </span>
@@ -1426,7 +1426,7 @@ export default function Experties() {
 
         {/* Contact Us Section  */}
         <section>
-          <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-2  m-auto">
+          <div className="relative max-w-9xl py-20 grid grid-cols-2 gap-2  m-auto">
             <span class="absolute font-semibold text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Latest Works
             </span>

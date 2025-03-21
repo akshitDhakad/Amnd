@@ -96,7 +96,7 @@ function BlogTech() {
 
   return (
     <>
-      <div className="relative max-w-6xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+      <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
         {/* heading  */}
         <div className="col-span-2 flex flex-col items-center justify-center">
           <div className="mb-4  grid grid-cols-2 md:grid-cols-6 gap-x-5 gap-y-8">

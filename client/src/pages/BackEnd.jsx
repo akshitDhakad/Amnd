@@ -157,7 +157,7 @@ export default function BackEndPage() {
             style={backgroundImg}
           >
             <div className="absolute  m-1 -z-10 bg-black opacity-50 rounded-2xl h-screen w-full"></div>
-            <div className=" max-w-6xl m-auto px-4 md:px-10 py-5">
+            <div className=" max-w-9xl m-auto px-4 md:px-10 py-5">
               {/* <div className="absolute top-0 left-0 h-full w-2/5 inset-0 bg-purple-100 bg-opacity-10 backdrop-blur-md"></div> */}
               <div className="mt-20 md:grid grid-cols-5 gap-x-10 gap-y-10  m-auto">
                 <div className="col-span-3 flex flex-col md:gap-5">
@@ -277,7 +277,7 @@ export default function BackEndPage() {
 
         {/* Pages Section  */}
         <section>
-          <div className="relative max-w-6xl py-20 px-4 md:grid grid-cols-3 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl py-20 px-4 md:grid grid-cols-3 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Web Development
             </span>
@@ -308,7 +308,7 @@ export default function BackEndPage() {
         {/* Our Process  */}
         {/* Our webdevelopment process */}
         <section className="hidden md:block bg-gray-100">
-          <div className="relative max-w-6xl px-4 py-20 md:grid  grid-cols-1 md:grid-cols-3 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 md:grid  grid-cols-1 md:grid-cols-3 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10  left-[-125px] text-gray-500">
               Web Process
             </span>
@@ -595,7 +595,7 @@ export default function BackEndPage() {
         {/* Our Development Process  */}
 
         <section className="bg-theme-bg-dark ">
-          <div className="relative max-w-6xl px-4 py-20 md:grid md:grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 md:grid md:grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-0 text-gray-500">
               Technologies
             </span>
@@ -1067,7 +1067,7 @@ export default function BackEndPage() {
         {/* Our Benefits */}
 
         <section className="bg-gray-100">
-          <div className="relative max-w-6xl px-4 py-20 md:grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 md:grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[25px] left-[-125px] text-gray-500">
               Development
             </span>
@@ -1220,7 +1220,7 @@ export default function BackEndPage() {
 
         {/* Why WebArt Sofware */}
         <section className="">
-          <div className="relative max-w-6xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[25px] left-[-125px] text-gray-500">
               Why WebArt Software?
             </span>
@@ -1248,7 +1248,7 @@ export default function BackEndPage() {
 
         {/*want to start web development banner  */}
         <section className="">
-          <div className="relative max-w-6xl px-4 py-20 m-auto">
+          <div className="relative max-w-9xl px-4 py-20 m-auto">
             <ServicesBanner
               img={
                 "https://devoxsoftware.com/wp-content/uploads/2024/03/Rectangle-3709-6.webp"
@@ -1263,7 +1263,7 @@ export default function BackEndPage() {
 
         {/* Our CLients  */}
         <section>
-          <div className="relative max-w-6xl px-4 md:py-20 grid grid-cols-2 gap-x-10  m-auto">
+          <div className="relative max-w-9xl px-4 md:py-20 grid grid-cols-2 gap-x-10  m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font tracking-wide leading-none opacity-10 top-0 left-[1/2] text-graye-500">
               Clients
             </span>
@@ -1289,7 +1289,7 @@ export default function BackEndPage() {
 
         {/* testinomials section  */}
         <section>
-          <div className="relative max-w-6xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Testimonials
             </span>
@@ -1312,7 +1312,7 @@ export default function BackEndPage() {
 
         {/* Faqs section  */}
         <section className="bg-gray-100">
-          <div className="relative max-w-6xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[25px] left-[-125px] text-gray-500">
               have a Doubt ?
             </span>

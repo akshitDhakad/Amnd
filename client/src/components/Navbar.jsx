@@ -94,7 +94,7 @@ function Navbar() {
         scrolled ? "bg-white shadow-md text-black" : "bg-transparent"
       }`}
     >
-      <div className="max-w-6xl m-auto">
+      <div className="max-w-9xl m-auto">
         {/* PC view */}
         <div className="hidden md:flex items-center py-5 px-4">
           <div className="flex-1 text-lg">
@@ -103,14 +103,14 @@ function Navbar() {
                 <img
                   loading="lazy"
                   className="h-12 w-auto"
-                  src="/assets/logo/amnd-dark.png"
+                  src="/assets/logo/digitechii.png"
                   alt="AMNDTECH logo"
                 />
               ) : (
                 <img
                   loading="lazy"
                   className="h-12 w-auto"
-                  src="/assets/logo/amnd-white.png"
+                  src="/assets/logo/digitechii.png"
                   alt="AMNDTECH logo"
                 />
               )}
@@ -133,7 +133,7 @@ function Navbar() {
                     onMouseLeave={() => setNavdrop(false)}
                     className="absolute left-0 mt-7 w-screen bg-gray-200 shadow-lg overflow-hidden z-50"
                   >
-                    <div className="max-w-6xl m-auto py-10 grid grid-cols-5 gap-x-10">
+                    <div className="max-w-9xl m-auto py-10 grid grid-cols-5 gap-x-10">
                       <div className="col-span-2">
                         <h2 className="text-black hover:text-purple-600 text-3xl font-semibold text-left">
                           All Expertise
@@ -232,7 +232,7 @@ function Navbar() {
         </div>
 
         {/* Mobile Navbar */}
-        <div className="md:hidden w-375 flex items-center justify-between py-5 px-4">
+        <div className="md:hidden w-full flex items-center justify-between py-5 px-4">
           {/* button */}
           <div
             onClick={() => setSidebarOpen(!sidebarOpen)}
@@ -263,14 +263,14 @@ function Navbar() {
               <img
                 loading="lazy"
                 className="h-12 w-auto"
-                src="/assets/logo/amnd-dark.png"
+                src="/assets/logo/digitechii.png"
                 alt="AMNDTECH logo"
               />
             ) : (
               <img
                 loading="lazy"
                 className="h-12 w-auto"
-                src="/assets/logo/amnd-white.png"
+                src="/assets/logo/digitechii.png"
                 alt="AMNDTECH logo"
               />
             )}

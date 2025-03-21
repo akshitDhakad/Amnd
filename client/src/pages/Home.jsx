@@ -32,13 +32,13 @@ export default function Home() {
         {/* Hero Section  */}
         <section>
           <div className="md:abosolute m-1 rounded-2xl md:top-0 min-h-min md:h-screen flex justify-center items-center bg-theme-bg-dark">
-            <div className="mt-20 md:mt-auto md:relative max-w-6xl m-auto px-10 py-5">
+            <div className="mt-20 md:mt-auto md:relative max-w-9xl m-auto px-10 py-5">
               <div
                 className="md:absolute md:top-0 left-0 h-full md:w-2/5"
                 style={backgroundImg}
               ></div>
               <div className="md:absolute md:top-0 left-0 h-full md:w-2/5 inset-0 bg-purple-100 bg-opacity-10 backdrop-blur-md"></div>
-              <div className="relative md:grid md:grid-cols-2 gap-x-20 gap-y-10 max-w-4xl m-auto">
+              <div className="relative md:grid md:grid-cols-2 gap-x-20 gap-y-10 max-w-6xl m-auto">
                 <div className="md:absolute md:top-0 left-0 z-10 col-span-2 flex flex-col gap-3">
                   <div>
                     <h2 className="text-3xl hover:underline text-white font-semibold tracking-wide font-theme-font">
@@ -75,7 +75,7 @@ export default function Home() {
 
         {/* Pages Section  */}
         <section>
-          <div className="relative max-w-6xl px-4 py-20 grid md:grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 grid md:grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-4xl md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               AMNDTECH
             </span>
@@ -165,7 +165,7 @@ export default function Home() {
 
         {/* testinomials section  */}
         <section>
-          <div className="relative max-w-6xl px-4 py-20  m-auto">
+          <div className="relative max-w-9xl px-4 py-20  m-auto">
             <span class="absolute font-semibold text-[4rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Testimonials
             </span>
@@ -188,7 +188,7 @@ export default function Home() {
 
         {/* Our Services section  */}
         <section>
-          <div className="relative max-w-6xl px-4 py-20 grid grid-cols-2  gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2  gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-4xl md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] right-[-125px] text-gray-500">
               Our Services
             </span>
@@ -264,7 +264,7 @@ export default function Home() {
         {/* Our Case Studies  */}
         <section>
           {/* item 1 */}
-          <div className="relative max-w-6xl px-4 py-20 grid md:grid-cols-2 gap-x-10 md:gap-y-10 m-auto">
+          <div className="relative max-w-9xl px-4 py-20 grid md:grid-cols-2 gap-x-10 md:gap-y-10 m-auto">
             <span class="absolute font-semibold text-4xl md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Case Studies
             </span>
@@ -319,7 +319,7 @@ export default function Home() {
           </div>
 
           {/* item2 */}
-          <div className="max-w-6xl px-4  grid md:grid-cols-2 gap-x-10 gap-y-10 m-auto">
+          <div className="max-w-9xl px-4  grid md:grid-cols-2 gap-x-10 gap-y-10 m-auto">
             {/* Left content */}
             <div className="flex items-center justify-center">
               <div className="w-full h-56 rounded-lg overflow-hidden">
@@ -362,7 +362,7 @@ export default function Home() {
           </div>
 
           {/* item 3 */}
-          <div className="max-w-6xl py-20 grid px-4 md:grid-cols-2 gap-x-10 gap-y-10 m-auto">
+          <div className="max-w-9xl py-20 grid px-4 md:grid-cols-2 gap-x-10 gap-y-10 m-auto">
             {/* Left content */}
             <div className="order-3 md:order-2">
               <h3 className="font-bold text-2xl tracking-wide mb-5">ILVE</h3>
@@ -405,7 +405,7 @@ export default function Home() {
 
         {/* Type of Web Services we build*/}
         <section className="hidden md:block">
-          <div className="relative max-w-6xl px-4 py-20 grid grid-cols-2 gap-x-10 m-auto">
+          <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 m-auto">
             <span class="absolute font-semibold  text-[4rem]  md:text-[12rem] font-theme-font tracking-wide leading-none opacity-10 top-0 left-[1/2] text-graye-500">
               We Build
             </span>
@@ -434,7 +434,7 @@ export default function Home() {
 
         {/* Custom Web App Development Services  */}
         <section>
-          <div className="relative max-w-6xl px-4 py-20 grid md:grid-cols-2 gap-5 md:gap-x-10 md:gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 grid md:grid-cols-2 gap-5 md:gap-x-10 md:gap-y-10  m-auto">
             <span class="absolute font-semibold text-[4rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-0 left-[1/2] text-graye-500">
               We Provide
             </span>
@@ -535,7 +535,7 @@ export default function Home() {
 
         {/* Benefits of our Web App Development Services */}
         <section>
-          <div className="relative max-w-6xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Benefits
             </span>
@@ -660,7 +660,7 @@ export default function Home() {
 
         {/* Our CLients  */}
         <section>
-          <div className="relative max-w-6xl px-4 py-20 grid grid-cols-2 gap-x-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10  m-auto">
             <span class="absolute font-semibold text-[4rem] md:text-[10rem] font-theme-font tracking-wide leading-none opacity-10 top-0 left-[1/2] text-graye-500">
               Clients
             </span>
@@ -686,7 +686,7 @@ export default function Home() {
 
         {/* Our Development Process  */}
         <section>
-          <div className="relative max-w-6xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Development
             </span>
@@ -840,7 +840,7 @@ export default function Home() {
 
         {/* Our Work Section  */}
         <section>
-          <div className="relative max-w-6xl px-4 py-20 grid grid-cols-2 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Latest Works
             </span>
@@ -993,7 +993,7 @@ export default function Home() {
         {/* Our Development Process  */}
 
         <section>
-          <div className="relative max-w-6xl px-4 py-20 md:grid md:grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 md:grid md:grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-0 text-gray-500">
               Technologies
             </span>
@@ -1466,7 +1466,7 @@ export default function Home() {
 
         {/* Type of solutions we build  */}
         <section>
-          <div className="relative max-w-6xl px-4 py-20 md:grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 md:grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold md:text-[8rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Web Solutions
             </span>
