@@ -277,6 +277,7 @@ function Navbar() {
           </div>
           {/* contact button */}
           <div
+            onClick={() => setContactUsModal(!contactUsModal)}
             className={`${
               scrolled
                 ? "font-theme-font text-sm text-center text-black hover:text-purple-600 transition-color"
