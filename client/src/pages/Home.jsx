@@ -38,10 +38,10 @@ export default function Home() {
                 style={backgroundImg}
               ></div>
               <div className="md:absolute md:top-0 left-0 h-full md:w-2/5 inset-0 bg-purple-100 bg-opacity-10 backdrop-blur-md"></div>
-              <div className="relative md:grid md:grid-cols-2 gap-x-20 gap-y-10 max-w-6xl m-auto">
+              <div className="relative md:grid md:grid-cols-2 gap-x-20 gap-y-10 h-[75vh] max-w-9xl m-auto">
                 <div className="md:absolute md:top-0 left-0 z-10 col-span-2 flex flex-col gap-3">
                   <div>
-                    <h2 className="text-3xl hover:underline text-white font-semibold tracking-wide font-theme-font">
+                    <h2 className="text-base lg:text-3xl hover:underline text-white font-semibold tracking-wide font-theme-font">
                       Custom Web
                     </h2>
                   </div>
@@ -56,9 +56,9 @@ export default function Home() {
                 <div className="w-full">
                   <p className="text-white md:text-start tracking-wide font-theme-font">
                     Looking for turnkey custom web application development
-                    services? We are <b>AMNDTECH Software</b> – a leading custom
-                    web application development company with a recognized stand
-                    on the market and a proven track record of completed
+                    services? We are <b>DigiTechii Software</b> – a leading
+                    custom web application development company with a recognized
+                    stand on the market and a proven track record of completed
                     projects.
                   </p>
                   <div className="flex items-center gap-x-3 mt-5">
@@ -75,9 +75,9 @@ export default function Home() {
 
         {/* Pages Section  */}
         <section>
-          <div className="relative max-w-9xl px-4 py-20 grid md:grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 grid md:grid-cols-2 gap-x-10 lg:gap-y-10 m-auto">
             <span class="absolute font-semibold text-4xl md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
-              AMNDTECH
+              DIGITECHII
             </span>
             {/* heading  */}
             <div className="md:col-span-2 flex flex-col ">
@@ -88,14 +88,14 @@ export default function Home() {
               </div>
               <div className="mb-4">
                 <h1 className="text-3xl md:text-5xl md:text-start text-black font-bold tracking-wide font-theme-font">
-                  AMNDTECH Software
+                  DIGITECHII SOFTWARE
                 </h1>
               </div>
             </div>
             {/* left content */}
             <div className="grid md:grid-cols-12 gap-y-10">
               {/* social media icons */}
-              <div className="col-span-12 md:col-span-2 flex flex-row md:flex-col justify-around items-start">
+              <div className="md:col-span-2 flex flex-row md:flex-col justify-center gap-x-4 lg:justify-around items-start">
                 <Link target="_black" to={"https://x.com/AmndT007"}>
                   {" "}
                   <FaSquareXTwitter className="text-3xl" />
@@ -122,10 +122,10 @@ export default function Home() {
               </div>
               {/* content  */}
               <div className="grid-cols-12 md:col-span-10">
-                <p className="text-gray-900 md:text-start text-justify tracking-wide font-theme-font mb-2">
-                  <b>AMNDTECH Software</b> is an IT outsourcing company based in
-                  India, providing top-notch services to clients all over the
-                  world.
+                <p className="text-gray-900 md:text-start text-start tracking-wide font-theme-font mb-2">
+                  <b className="tracking-wider">DIGITECHII SOFTWARE</b> is an IT
+                  outsourcing company based in India, providing top-notch
+                  services to clients all over the world.
                 </p>
                 <p className="text-gray-900 md:text-start text-justify tracking-wide font-theme-font mb-2">
                   Our key value is our flexibility. It’s you who chooses the
@@ -149,9 +149,10 @@ export default function Home() {
                 estimation to release.
               </p>
               <p className="text-gray-900 md:text-start text-justify tracking-wide font-theme-font mb-2">
-                <b>AMNDTECH Software</b> achieves a well-planned development
-                process, competent management, and efficient communication due
-                to a thorough selection of team members for our company.
+                <b className="tracking-wider">DIGITECHII SOFTWARE</b> achieves a
+                well-planned development process, competent management, and
+                efficient communication due to a thorough selection of team
+                members for our company.
               </p>
               <div className="flex items-center justify-end gap-x-3 mt-5">
                 <span className="text-gray-600  font-bold">Discover</span>
@@ -535,7 +536,7 @@ export default function Home() {
 
         {/* Benefits of our Web App Development Services */}
         <section>
-          <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-2 lg:gap-y-10  m-auto">
             <span class="absolute font-semibold md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Benefits
             </span>
@@ -547,7 +548,7 @@ export default function Home() {
                 </h2>
               </div>
               <div className="md:mb-4">
-                <h1 className="text-2xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
+                <h1 className="text-2xl md:text-5xl text-black font-bold tracking-wide font-theme-font leading-normal">
                   Web App Development Services
                 </h1>
               </div>
@@ -1028,7 +1029,7 @@ export default function Home() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Nest.png.webp"
-                          alt="AMNDTECH Software NestJS"
+                          alt="DIGITECHII SOFTWARE NestJS"
                         />
                       </div>
                       <div className="font-semibold">NestJS</div>
@@ -1039,7 +1040,7 @@ export default function Home() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Flask_logo-1-1.png.webp"
-                          alt="AMNDTECH Software Flask"
+                          alt="DIGITECHII SOFTWARE Flask"
                         />
                       </div>
                       <div className="font-semibold">Flask</div>
@@ -1051,7 +1052,7 @@ export default function Home() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/django-svgrepo-com-1.png.webp"
-                          alt="AMNDTECH Software Django"
+                          alt="DIGITECHII SOFTWARE Django"
                         />
                       </div>
                       <div className="font-semibold">Django</div>
@@ -1062,7 +1063,7 @@ export default function Home() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/express-js-icon-1.png.webp"
-                          alt="AMNDTECH Software Express.js"
+                          alt="DIGITECHII SOFTWARE Express.js"
                         />
                       </div>
                       <div className="font-semibold">Express.js</div>
@@ -1073,7 +1074,7 @@ export default function Home() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Microsoft_.NET_logo-1.png.webp"
-                          alt="AMNDTECH Software .NET"
+                          alt="DIGITECHII SOFTWARE .NET"
                         />
                       </div>
                       <div className="font-semibold">.NET</div>
@@ -1084,7 +1085,7 @@ export default function Home() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/PHP-logo-1.png.webp"
-                          alt="AMNDTECH Software PHP"
+                          alt="DIGITECHII SOFTWARE PHP"
                         />
                       </div>
                       <div className="font-semibold">PHP</div>
@@ -1096,7 +1097,7 @@ export default function Home() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/spring.png.webp"
-                          alt="AMNDTECH Software Java Spring"
+                          alt="DIGITECHII SOFTWARE Java Spring"
                         />
                       </div>
                       <div className="font-semibold">Java Spring</div>
@@ -1107,7 +1108,7 @@ export default function Home() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/python.png.webp"
-                          alt="AMNDTECH Software Python"
+                          alt="DIGITECHII SOFTWARE Python"
                         />
                       </div>
                       <div className="font-semibold">Python</div>
@@ -1118,7 +1119,7 @@ export default function Home() {
                           loading="lazy"
                           className="h-full w-full object-cover object-center"
                           src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/node-js-1.png.webp"
-                          alt="AMNDTECH Software Node.js"
+                          alt="DIGITECHII SOFTWARE Node.js"
                         />
                       </div>
                       <div className="font-semibold">Node.js</div>
@@ -1141,7 +1142,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Next.png.webp"
-                        alt="AMNDTECH Software NestJS "
+                        alt="DIGITECHII SOFTWARE NestJS "
                       />
                     </div>
                     <div className="font-semibold">NestJS</div>
@@ -1153,7 +1154,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Group-4.png.webp"
-                        alt="AMNDTECH Software Flask"
+                        alt="DIGITECHII SOFTWARE Flask"
                       />
                     </div>
                     <div className="font-semibold">Svelte</div>
@@ -1165,7 +1166,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Vue-js.png.webp"
-                        alt="AMNDTECH Software Vue.js"
+                        alt="DIGITECHII SOFTWARE Vue.js"
                       />
                     </div>
                     <div className="font-semibold">Vue.js</div>
@@ -1176,7 +1177,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Angular_full_color_logo-1.png.webp"
-                        alt="AMNDTECH Software Angular"
+                        alt="DIGITECHII SOFTWARE Angular"
                       />
                     </div>
                     <div className="font-semibold">Angular</div>
@@ -1187,7 +1188,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/React-icon-1.png.webp"
-                        alt="AMNDTECH Software React.js"
+                        alt="DIGITECHII SOFTWARE React.js"
                       />
                     </div>
                     <div className="font-semibold">React.js</div>
@@ -1198,7 +1199,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Progressive_Web_Apps_Logo-1.png.webp"
-                        alt="AMNDTECH Software PWA"
+                        alt="DIGITECHII SOFTWARE PWA"
                       />
                     </div>
                     <div className="font-semibold">PWA</div>
@@ -1209,7 +1210,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Typescript_logo_2020-1.png.webp"
-                        alt="AMNDTECH Software TypeScript"
+                        alt="DIGITECHII SOFTWARE TypeScript"
                       />
                     </div>
                     <div className="font-semibold">TypeScript</div>
@@ -1220,7 +1221,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/JS.png.webp"
-                        alt="AMNDTECH Software JavaScript"
+                        alt="DIGITECHII SOFTWARE JavaScript"
                       />
                     </div>
                     <div className="font-semibold">JavaScript </div>
@@ -1231,7 +1232,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/CSS3_and_HTML5_logos_and_wordmarks-1.png.webp"
-                        alt="AMNDTECH Software HTML/CSS"
+                        alt="DIGITECHII SOFTWARE HTML/CSS"
                       />
                     </div>
                     <div className="font-semibold">HTML/CSS</div>
@@ -1253,7 +1254,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/mariadb-1.png.webp"
-                        alt="AMNDTECH Software MariaDB "
+                        alt="DIGITECHII SOFTWARE MariaDB "
                       />
                     </div>
                     <div className="font-semibold">MariaDB</div>
@@ -1265,7 +1266,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/redis-logo-svgrepo-com-1.png.webp"
-                        alt="AMNDTECH Software Redis"
+                        alt="DIGITECHII SOFTWARE Redis"
                       />
                     </div>
                     <div className="font-semibold">Redis</div>
@@ -1277,7 +1278,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Cassandra.png.webp"
-                        alt="AMNDTECH Software Cassandra"
+                        alt="DIGITECHII SOFTWARE Cassandra"
                       />
                     </div>
                     <div>Cassandra</div>
@@ -1288,7 +1289,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/mongodb-svgrepo-com-1.png.webp"
-                        alt="AMNDTECH Software MongoDB"
+                        alt="DIGITECHII SOFTWARE MongoDB"
                       />
                     </div>
                     <div>MongoDB</div>
@@ -1299,7 +1300,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/oracle-svgrepo-com-1.png.webp"
-                        alt="AMNDTECH Software Oracle DB"
+                        alt="DIGITECHII SOFTWARE Oracle DB"
                       />
                     </div>
                     <div>Oracle DB</div>
@@ -1310,7 +1311,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Microsoft-SQL-Server-1.png.webp"
-                        alt="AMNDTECH Software SQL Server"
+                        alt="DIGITECHII SOFTWARE SQL Server"
                       />
                     </div>
                     <div>SQL Server</div>
@@ -1321,7 +1322,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Postgresql_elephant-1.png.webp"
-                        alt="AMNDTECH Software PostgreSQL"
+                        alt="DIGITECHII SOFTWARE PostgreSQL"
                       />
                     </div>
                     <div>PostgreSQL</div>
@@ -1332,7 +1333,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/mysqlworkbench_93532-1.png.webp"
-                        alt="AMNDTECH Software MYSQL"
+                        alt="DIGITECHII SOFTWARE MYSQL"
                       />
                     </div>
                     <div>MySQL</div>
@@ -1343,7 +1344,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/elasticsearch-1.png.webp"
-                        alt="AMNDTECH Software Elasticsearch"
+                        alt="DIGITECHII SOFTWARE Elasticsearch"
                       />
                     </div>
                     <div>Elasticsearch</div>
@@ -1364,7 +1365,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Next.png.webp"
-                        alt="AMNDTECH Software NestJS "
+                        alt="DIGITECHII SOFTWARE NestJS "
                       />
                     </div>
                     <div className="font-semibold">NestJS</div>
@@ -1376,7 +1377,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Group-4.png.webp"
-                        alt="AMNDTECH Software Flask"
+                        alt="DIGITECHII SOFTWARE Flask"
                       />
                     </div>
                     <div className="font-semibold">Svelte</div>
@@ -1388,7 +1389,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Vue-js.png.webp"
-                        alt="AMNDTECH Software Vue.js"
+                        alt="DIGITECHII SOFTWARE Vue.js"
                       />
                     </div>
                     <div>Vue.js</div>
@@ -1399,7 +1400,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Angular_full_color_logo-1.png.webp"
-                        alt="AMNDTECH Software Angular"
+                        alt="DIGITECHII SOFTWARE Angular"
                       />
                     </div>
                     <div>Angular</div>
@@ -1410,7 +1411,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/React-icon-1.png.webp"
-                        alt="AMNDTECH Software React.js"
+                        alt="DIGITECHII SOFTWARE React.js"
                       />
                     </div>
                     <div>React.js</div>
@@ -1421,7 +1422,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Progressive_Web_Apps_Logo-1.png.webp"
-                        alt="AMNDTECH Software PWA"
+                        alt="DIGITECHII SOFTWARE PWA"
                       />
                     </div>
                     <div>PWA</div>
@@ -1432,7 +1433,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Typescript_logo_2020-1.png.webp"
-                        alt="AMNDTECH Software TypeScript"
+                        alt="DIGITECHII SOFTWARE TypeScript"
                       />
                     </div>
                     <div>TypeScript</div>
@@ -1453,7 +1454,7 @@ export default function Home() {
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/CSS3_and_HTML5_logos_and_wordmarks-1.png.webp"
-                        alt="AMNDTECH Software HTML/CSS"
+                        alt="DIGITECHII SOFTWARE HTML/CSS"
                       />
                     </div>
                     <div>HTML/CSS</div>

@@ -13,7 +13,7 @@ const ContactUsModal = ({ open, onClose }) => {
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-      <div className="bg-white p-6 w-full max-w-lg h-[95vh] flex flex-col">
+      <div className="bg-white p-6 w-full lg:max-w-lg xl:max-w-2xl h-full lg:h-[85vh] xl:h-[75vh] flex flex-col">
         <h2 className="text-xl font-bold mb-1 text-center">
           Get in Touch with Us
         </h2>
@@ -24,7 +24,7 @@ const ContactUsModal = ({ open, onClose }) => {
         >
           Fill in your details, and our team will reach out to you shortly.
         </Typography>
-        <div className="flex-grow mt-10 grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-3">
+        <div className="md:flex-grow md:mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-4">
           <div>
             <Input label="First Name" required />
           </div>
@@ -55,17 +55,17 @@ const ContactUsModal = ({ open, onClose }) => {
             />
           </div>
         </div>
-        <div className="flex items-center justify-end">
+        <div className="flex flex-col-reverse md:flex-row items-center justify-end">
           <Button
-            className="py-2 px-4 rounded mt-4 mr-4"
+            className="w-full py-2 px-4 rounded mt-4 mr-4"
             onClick={onClose}
             variant="outlined"
           >
             Cancel
           </Button>
           <Button
-            className="bg-gray-500 text-white py-2 px-4 rounded mt-4"
-            onClick={()=>alert("Form Submitted!")}
+            className="w-full bg-gray-500 text-white py-2 px-4 rounded mt-4"
+            onClick={() => alert("Form Submitted!")}
             variant="filled"
           >
             Submit
