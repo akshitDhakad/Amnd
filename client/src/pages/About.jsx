@@ -41,7 +41,7 @@ export default function About() {
             style={backgroundImg}
           >
             <div className="absolute  m-1 -z-10 bg-black opacity-50 rounded-2xl h-screen w-full"></div>
-            <div className=" max-w-6xl m-auto px-10 py-5">
+            <div className=" max-w-9xl m-auto px-10 py-5">
               {/* <div className="absolute top-0 left-0 h-full w-2/5 inset-0 bg-purple-100 bg-opacity-10 backdrop-blur-md"></div> */}
               <div className="md:grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
                 <div className="col-span-2 flex flex-col md:gap-5">
@@ -121,7 +121,7 @@ export default function About() {
         </section>
         {/* Pages Section  */}
         <section>
-          <div className="relative max-w-6xl px-4 py-20  md:grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20  md:grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[0px] left-[-125px] text-gray-500">
               Who are we
             </span>
@@ -219,7 +219,7 @@ export default function About() {
         </section>
         {/* Our Values  */}
         <section>
-          <div className="relative max-w-6xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Values
             </span>
@@ -245,7 +245,7 @@ export default function About() {
 
         {/* Our Vision section  */}
         <section>
-          <div className="relative max-w-6xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-5 md:gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-5 md:gap-y-10  m-auto">
             <span class="absolute font-semibold text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] right-[-125px] text-gray-500">
               Vision
             </span>
@@ -283,7 +283,7 @@ export default function About() {
 
         {/* Contact us Form */}
         <section>
-          <div className="relative max-w-6xl px-4 py-20 grid grid-cols-2 gap-2  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-2  m-auto">
             <span class="absolute font-semibold text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Let's Talk
             </span>
@@ -419,11 +419,9 @@ export default function About() {
           </div>
         </section>
 
-       
-
         {/* Type of solutions we build  */}
         <section>
-          <div className="relative max-w-6xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Web Solutions
             </span>

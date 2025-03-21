@@ -23,13 +23,18 @@ module.exports = withMT({
         "theme-bg-light": "#fbfbfb",
         "button-black": "#2c292e",
       },
+      maxWidth: {
+        "8xl": "1440px",
+        "9xl": "1720px",
+        wide: "80%",
+      },
       fontFamily: {
         "theme-font": ["Poppins", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
       },
       width: {
-        "375": "375px",
+        375: "375px",
       },
     },
   },

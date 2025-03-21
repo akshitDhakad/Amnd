@@ -12,7 +12,7 @@ function Footer() {
   return (
     <footer className="bg-theme-bg-dark m-1 rounded-2xl">
       {/* Uppper Navbar  */}
-      <div className="max-w-6xl m-auto py-20">
+      <div className="max-w-9xl m-auto py-20">
         <div className="grid md:grid-cols-3 gap-2 gap-y-10 px-4 ">
           {/* col 1 */}
           <div className="flex flex-col gap-5 md:gap-y-10">
@@ -123,9 +123,9 @@ function Footer() {
           </div>
         </div>
       </div>
-      <hr className="max-w-6xl m-auto" />
+      <hr className="max-w-9xl m-auto" />
       {/* Lower Navbar  */}
-      <div className="max-w-6xl m-auto py-10">
+      <div className="max-w-9xl m-auto py-10">
         <div className="flex flex-col gap-y-5 md:flex-row justify-between items-between">
           {/* left container  */}
           <div className="text-center text-sm">
@@ -133,7 +133,7 @@ function Footer() {
               @2024
             </span>
             <span className=" text-purple-600 hover:text-purple-500 tracking-wide font-theme-font">
-              AMNDTECH SOFTWARE.
+              DigiTechii SOFTWARE.
             </span>
             <span className=" text-gray-500 tracking-wide font-theme-font">
               {" "}
@@ -145,15 +145,15 @@ function Footer() {
             </span>
           </div>
           {/* center container  */}
-          <div className="text-white tracking-wide font-theme-font">
+          <div className="text-white tracking-wide font-theme-font text-center">
             <span className="text-sm font-thin mx-2">Powered By</span>
 
             <span className="text-white font-semibold hover:text-blue-500 hover:cursor-pointer delay-100">
-              AMNDTECH Team.
+              DigiTechii Team.
             </span>
           </div>
           {/* right container */}
-          <div className="flex gap-x-5">
+          <div className="flex items-center justify-center gap-x-4">
             <div>
               <Link to={""}>
                 {" "}

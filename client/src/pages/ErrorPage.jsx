@@ -24,7 +24,7 @@ export default function ErrorPage() {
             style={backgroundImg}
           >
             <div className="absolute  m-1 -z-10 bg-black opacity-50 rounded-2xl h-screen w-full"></div>
-            <div className=" max-w-6xl m-auto px-10 py-5">
+            <div className=" max-w-9xl m-auto px-10 py-5">
               {/* <div className="absolute top-0 left-0 h-full w-2/5 inset-0 bg-purple-100 bg-opacity-10 backdrop-blur-md"></div> */}
               <div className="mt-20 grid grid-cols-5 gap-x-10 gap-y-10  m-auto">
                 <div className="col-span-5 flex flex-col gap-5">
