@@ -17,6 +17,7 @@ import {
 
 import { IoMdKey } from "react-icons/io";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
+import CustomButton1 from "../components/ui/CustomButtons.jsx";
 
 export default function Home() {
   const backgroundImg = {
@@ -61,12 +62,7 @@ export default function Home() {
                     stand on the market and a proven track record of completed
                     projects.
                   </p>
-                  <div className="flex items-center gap-x-3 mt-5">
-                    <span className="text-white">Let'talk</span>
-                    <button className="p-3 font-theme-font text-sm bg-purple-600 text-white rounded-full hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-slate-200 transition-color delay-250">
-                      <HiOutlineArrowLongRight className="text-lg" />
-                    </button>
-                  </div>
+                  <CustomButton1 />
                 </div>
               </div>
             </div>
@@ -76,7 +72,7 @@ export default function Home() {
         {/* About Us Section  */}
         <section>
           <div className="relative max-w-9xl px-4 py-20 grid md:grid-cols-2 gap-x-10 lg:gap-y-10 m-auto">
-            <span class="absolute font-semibold text-4xl md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
+            <span class="absolute font-semibold text-4xl md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
               DIGITECHII
             </span>
             {/* heading  */}
@@ -156,7 +152,7 @@ export default function Home() {
               </p>
               <div className="flex items-center justify-end gap-x-3 mt-5">
                 <span className="text-gray-600  font-bold">Discover</span>
-                <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-150">
+                <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-75">
                   <HiOutlineArrowLongRight className="text-lg" />
                 </button>
               </div>
@@ -167,7 +163,7 @@ export default function Home() {
         {/* Testinomials section  */}
         <section>
           <div className="relative max-w-9xl px-4 py-20  m-auto">
-            <span class="absolute font-semibold text-[4rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
+            <span class="absolute font-semibold text-[4rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
               Testimonials
             </span>
             {/* heading  */}
@@ -190,7 +186,7 @@ export default function Home() {
         {/* Our Services section  */}
         <section>
           <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2  gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-4xl md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] right-[-125px] text-gray-500">
+            <span class="absolute font-semibold text-4xl md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] right-[-125px] text-gray-500 text-shadow-2">
               Our Services
             </span>
             {/* heading  */}
@@ -255,7 +251,7 @@ export default function Home() {
               />
             </div>
             <div className="col-span-2 flex justify-center items-center">
-              <button className="px-20 py-3 font-theme-font text-lg bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600  transition-all duration-300">
+              <button className="px-20 py-3 font-theme-font text-lg bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 transition-all duration-300 border-b-4 hover:border-0 delay-75">
                 Contact Us
               </button>
             </div>
@@ -266,7 +262,7 @@ export default function Home() {
         <section>
           {/* item 1 */}
           <div className="relative max-w-9xl px-4 py-20 grid md:grid-cols-2 gap-x-10 md:gap-y-10 m-auto">
-            <span class="absolute font-semibold text-4xl md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
+            <span class="absolute font-semibold text-4xl md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
               Case Studies
             </span>
             {/* heading  */}
@@ -302,7 +298,7 @@ export default function Home() {
 
               <div className="flex items-center justify-end gap-x-3 mt-5">
                 <span className="text-gray-600 font-bold">View Case</span>
-                <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-150">
+                <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-75">
                   <HiOutlineArrowLongRight className="text-lg" />
                 </button>
               </div>
@@ -355,7 +351,7 @@ export default function Home() {
 
               <div className="flex items-center justify-end gap-x-3 mt-5">
                 <span className="text-gray-600  font-bold">View Case</span>
-                <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-150">
+                <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-75">
                   <HiOutlineArrowLongRight className="text-lg" />
                 </button>
               </div>
@@ -386,7 +382,7 @@ export default function Home() {
 
               <div className="flex items-center justify-end gap-x-3 mt-5">
                 <span className="text-gray-600  font-bold">View Case</span>
-                <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-150">
+                <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-75">
                   <HiOutlineArrowLongRight className="text-lg" />
                 </button>
               </div>
@@ -407,7 +403,7 @@ export default function Home() {
         {/* Type of Web Services we build*/}
         <section className="hidden md:block">
           <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 m-auto">
-            <span class="absolute font-semibold  text-[4rem]  md:text-[12rem] font-theme-font tracking-wide leading-none opacity-10 top-0 left-[1/2] text-graye-500">
+            <span class="absolute font-semibold  text-[4rem]  md:text-[12rem] font-theme-font tracking-wide leading-none opacity-10 top-0 left-[1/2] text-gray-500 text-shadow-2">
               We Build
             </span>
             {/* heading  */}
@@ -436,7 +432,7 @@ export default function Home() {
         {/* Custom Web App Development Services  */}
         <section>
           <div className="relative max-w-9xl px-4 py-20 grid md:grid-cols-2 gap-5 md:gap-x-10 md:gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[4rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-0 left-[1/2] text-graye-500">
+            <span class="absolute font-semibold text-[4rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-0 left-[1/2] text-gray-500 text-shadow-2">
               We Provide
             </span>
             {/* heading  */}
@@ -537,7 +533,7 @@ export default function Home() {
         {/* Benefits of our Web App Development Services */}
         <section>
           <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-2 lg:gap-y-10  m-auto">
-            <span class="absolute font-semibold md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
+            <span class="absolute font-semibold md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
               Benefits
             </span>
             {/* heading  */}
@@ -662,7 +658,7 @@ export default function Home() {
         {/* Our CLients  */}
         <section>
           <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10  m-auto">
-            <span class="absolute font-semibold text-[4rem] md:text-[10rem] font-theme-font tracking-wide leading-none opacity-10 top-0 left-[1/2] text-graye-500">
+            <span class="absolute font-semibold text-[4rem] md:text-[10rem] font-theme-font tracking-wide leading-none opacity-10 top-0 left-[1/2] text-gray-500 text-shadow-2">
               Clients
             </span>
             {/* heading  */}
@@ -688,7 +684,7 @@ export default function Home() {
         {/* Our Development Process  */}
         <section>
           <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
+            <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
               Development
             </span>
             {/* heading  */}
@@ -707,7 +703,7 @@ export default function Home() {
             {/* left content */}
             <div className="col-span-2 grid md:grid-cols-3 gap-x-5 gap-y-10">
               {/* item 1 */}
-              <div className="h-72 w-full   px-4 md:p-10 flex items-center rounded-3xl  border shadow-xl bg-slate-50 relative">
+              <div className="h-72 relative w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border border-b-8">
                 <div class="absolute top-5 left-5 h-12 w-12 font-bold text-8xl font-theme-font leading-none opacity-40">
                   <img
                     loading="lazy"
@@ -729,7 +725,7 @@ export default function Home() {
                 </div>
               </div>
               {/* item 2 */}
-              <div className="relative h-72 w-full  px-4 md:p-10 flex items-center rounded-3xl border shadow-xl bg-slate-50">
+              <div className="h-72 relative w-full  px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border border-b-8">
                 <div class="absolute  top-5 left-5 h-12 w-12  font-bold text-8xl font-theme-font leading-none opacity-40  ">
                   <img
                     loading="lazy"
@@ -749,9 +745,8 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-
               {/* item 3 */}
-              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl border shadow-xl bg-slate-50">
+              <div className="h-72 relative w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border border-b-8">
                 <div class="absolute top-5 left-5 h-12 w-12  font-bold text-8xl leading-none opacity-40  font-theme-font ">
                   <img
                     loading="lazy"
@@ -772,7 +767,7 @@ export default function Home() {
                 </div>
               </div>
               {/* item 4 */}
-              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl border shadow-xl bg-slate-50">
+              <div className="h-72 relative w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border border-b-8">
                 <div class="absolute top-5 left-5 h-12 w-12  font-bold text-8xl leading-none opacity-40  font-theme-font ">
                   <img
                     loading="lazy"
@@ -793,7 +788,7 @@ export default function Home() {
                 </div>
               </div>
               {/* item 5 */}
-              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl border shadow-xl bg-slate-50">
+              <div className="h-72 relative w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border border-b-8">
                 <div class="absolute top-5 left-5 h-12 w-12  font-bold text-8xl leading-none opacity-40  font-theme-font ">
                   <img
                     loading="lazy"
@@ -814,7 +809,7 @@ export default function Home() {
                 </div>
               </div>
               {/* item 6 */}
-              <div className="relative h-72 w-full  px-4 md:p-10 flex items-center rounded-3xl border shadow-xl bg-slate-50">
+              <div className="h-72 relative w-full  px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border border-b-8">
                 <div class="absolute top-5 left-5 h-12 w-12  font-bold text-8xl leading-none opacity-40  font-theme-font">
                   <img
                     loading="lazy"
@@ -842,7 +837,7 @@ export default function Home() {
         {/* Our Work Section  */}
         <section>
           <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
+            <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
               Latest Works
             </span>
             {/* heading  */}
@@ -915,7 +910,7 @@ export default function Home() {
                     <span className="text-gray-600  font-bold">
                       View Case Study
                     </span>
-                    <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-150">
+                    <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-75">
                       <HiOutlineArrowLongRight className="text-lg" />
                     </button>
                   </div>
@@ -960,7 +955,7 @@ export default function Home() {
                     <span className="text-gray-600  font-bold">
                       View Case Study
                     </span>
-                    <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-150">
+                    <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-75">
                       <HiOutlineArrowLongRight className="text-lg" />
                     </button>
                   </div>
@@ -995,7 +990,7 @@ export default function Home() {
 
         <section>
           <div className="relative max-w-9xl px-4 py-20 md:grid md:grid-cols-2 gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-0 text-gray-500">
+            <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-0 text-gray-500 text-shadow-2">
               Technologies
             </span>
             {/* heading  */}
@@ -1016,14 +1011,15 @@ export default function Home() {
               {/* left content */}
 
               {/* 1 card*/}
-              <div className="md:h-72 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-xl bg-slate-50">
+              <div className="md:h-72 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-xl bg-slate-50 border-2 border-b-4">
                 <h4 className="mb-4 mr-auto text-start text-xl font-bold font-theme-font">
                   Back End
                 </h4>
 
                 <div className="w-full grid grid-cols-2  md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
+                  {/* next.js  */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1033,8 +1029,9 @@ export default function Home() {
                     </div>
                     <div className="font-semibold">NestJS</div>
                   </div>
+                  {/* flast.js  */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1044,9 +1041,9 @@ export default function Home() {
                     </div>
                     <div className="font-semibold">Flask</div>
                   </div>
-
+                  {/* Django */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1056,8 +1053,9 @@ export default function Home() {
                     </div>
                     <div className="font-semibold">Django</div>
                   </div>
+                  {/* Express.js */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1067,6 +1065,7 @@ export default function Home() {
                     </div>
                     <div className="font-semibold">Express.js</div>
                   </div>
+                  {/* .NET */}
                   <div className="flex gap-1 items-center">
                     <div className="h-8 w-auto">
                       <img
@@ -1078,8 +1077,9 @@ export default function Home() {
                     </div>
                     <div className="font-semibold">.NET</div>
                   </div>
+                  {/* PHP */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1089,9 +1089,9 @@ export default function Home() {
                     </div>
                     <div className="font-semibold">PHP</div>
                   </div>
-
+                  {/* Java Spring */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1101,8 +1101,9 @@ export default function Home() {
                     </div>
                     <div className="font-semibold">Java Spring</div>
                   </div>
+                  {/* Python */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1112,8 +1113,9 @@ export default function Home() {
                     </div>
                     <div className="font-semibold">Python</div>
                   </div>
+                  {/* Node.js */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1127,15 +1129,14 @@ export default function Home() {
               </div>
 
               {/* card 2 */}
-              <div className="md:h-72 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-xl bg-slate-50">
+              <div className="md:h-72 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-xl bg-slate-50 border-2 border-b-4">
                 <h4 className="mb-4 mr-auto text-start text-xl font-bold font-theme-font">
                   Front End
                 </h4>
-
                 <div className="w-full grid grid-cols-2  md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
-                  {/* item 1 */}
+                  {/* NestJS  */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1145,21 +1146,21 @@ export default function Home() {
                     </div>
                     <div className="font-semibold">NestJS</div>
                   </div>
-                  {/* item 2 */}
+                  {/* Svelte  */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Group-4.png.webp"
-                        alt="DIGITECHII SOFTWARE Flask"
+                        alt="DIGITECHII SOFTWARE Svelte"
                       />
                     </div>
                     <div className="font-semibold">Svelte</div>
                   </div>
-                  {/* item 3 */}
+                  {/* Vue.js  */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1169,8 +1170,9 @@ export default function Home() {
                     </div>
                     <div className="font-semibold">Vue.js</div>
                   </div>
+                  {/* Angular */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1180,8 +1182,9 @@ export default function Home() {
                     </div>
                     <div className="font-semibold">Angular</div>
                   </div>
+                  {/* React.js */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1191,8 +1194,9 @@ export default function Home() {
                     </div>
                     <div className="font-semibold">React.js</div>
                   </div>
+                  {/* PWA */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1202,8 +1206,9 @@ export default function Home() {
                     </div>
                     <div className="font-semibold">PWA</div>
                   </div>
+                  {/* TypeScript */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1213,6 +1218,7 @@ export default function Home() {
                     </div>
                     <div className="font-semibold">TypeScript</div>
                   </div>
+                  {/* JavaScript */}
                   <div className="flex gap-1 items-center">
                     <div className="h-8 w-auto">
                       <img
@@ -1224,8 +1230,9 @@ export default function Home() {
                     </div>
                     <div className="font-semibold">JavaScript </div>
                   </div>
+                  {/* HTML/CSS */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1239,15 +1246,15 @@ export default function Home() {
               </div>
 
               {/* card 3 */}
-              <div className="md:h-72 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-xl bg-slate-50">
+              <div className="md:h-72 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-xl bg-slate-50 border-2 border-b-4">
                 <h4 className="mb-4 mr-auto text-start text-xl font-bold font-theme-font">
                   Database Development
                 </h4>
 
                 <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
-                  {/* item 1 */}
+                  {/* MariaDB */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1257,9 +1264,9 @@ export default function Home() {
                     </div>
                     <div className="font-semibold">MariaDB</div>
                   </div>
-                  {/* item 2 */}
+                  {/* Redis  */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1269,9 +1276,9 @@ export default function Home() {
                     </div>
                     <div className="font-semibold">Redis</div>
                   </div>
-                  {/* item 3 */}
+                  {/* Cassandra  */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1281,8 +1288,9 @@ export default function Home() {
                     </div>
                     <div>Cassandra</div>
                   </div>
+                  {/* MongoDB */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1292,8 +1300,9 @@ export default function Home() {
                     </div>
                     <div>MongoDB</div>
                   </div>
+                  {/* Oracle DB */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1303,8 +1312,9 @@ export default function Home() {
                     </div>
                     <div>Oracle DB</div>
                   </div>
+                  {/* SQL */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1314,8 +1324,9 @@ export default function Home() {
                     </div>
                     <div>SQL Server</div>
                   </div>
+                  {/* PostgreSQL */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1325,8 +1336,9 @@ export default function Home() {
                     </div>
                     <div>PostgreSQL</div>
                   </div>
+                  {/* MYSQL */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1336,8 +1348,9 @@ export default function Home() {
                     </div>
                     <div>MySQL</div>
                   </div>
+                  {/* Elasticsearch */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1350,7 +1363,7 @@ export default function Home() {
                 </div>
               </div>
               {/* item 4 */}
-              <div className="md:h-72 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-xl bg-slate-50">
+              <div className="md:h-72 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-xl bg-slate-50 border-2 border-b-4">
                 <h4 className="mb-4 mr-auto text-start text-xl font-bold font-theme-font">
                   DevOps & Cloud
                 </h4>
@@ -1358,7 +1371,7 @@ export default function Home() {
                 <div className="w-full grid grid-cols-2  md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
                   {/* item 1 */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1370,7 +1383,7 @@ export default function Home() {
                   </div>
                   {/* item 2 */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1382,7 +1395,7 @@ export default function Home() {
                   </div>
                   {/* item 3 */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1393,7 +1406,7 @@ export default function Home() {
                     <div>Vue.js</div>
                   </div>
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1404,7 +1417,7 @@ export default function Home() {
                     <div>Angular</div>
                   </div>
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1415,7 +1428,7 @@ export default function Home() {
                     <div>React.js</div>
                   </div>
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1426,7 +1439,7 @@ export default function Home() {
                     <div>PWA</div>
                   </div>
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1437,7 +1450,7 @@ export default function Home() {
                     <div>TypeScript</div>
                   </div>
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1447,7 +1460,7 @@ export default function Home() {
                     <div>JavaScript </div>
                   </div>
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1466,7 +1479,7 @@ export default function Home() {
         {/* Type of solutions we build  */}
         <section>
           <div className="relative max-w-9xl px-4 py-20 md:grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold md:text-[8rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
+            <span class="absolute font-semibold md:text-[8rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
               Web Solutions
             </span>
             {/* heading  */}

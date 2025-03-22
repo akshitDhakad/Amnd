@@ -5,29 +5,12 @@ import ContactUsModal from "./ContactUsModal";
 
 const services = [
   {
-    title: "DevOps Development",
-    description:
-      "Enhancing software delivery speed and reliability through expert DevOps strategies, integrating development and operations for efficient workflows.",
-    link: "/service/devops-development",
-  },
-  {
-    title: "Quality Assurance",
-    description:
-      "Ensuring the highest level of quality through meticulous testing and validation processes.",
-    link: "/service/quality-assurance",
-  },
-  {
     title: "Web Development",
     description:
       "Designing, building, maintaining, and evolving static and dynamic web applications, progressive web applications (PWAs) and single-page applications (SPAs).",
     link: "/service/web-development",
   },
-  {
-    title: "Data Analytics",
-    description:
-      "Creating scalable operational or analytical databases tailored to meet specific business needs, ensuring data integrity, security, and optimal performance.",
-    link: "/service/data-analytics",
-  },
+
   {
     title: "Front End Development",
     description:
@@ -51,6 +34,24 @@ const services = [
     description:
       "Providing powerful back-end systems that are the backbone of web applications, ensuring scalability, security, seamless data management, and high load resistance.",
     link: "/service/backend-development",
+  },
+  {
+    title: "DevOps Development",
+    description:
+      "Enhancing software delivery speed and reliability through expert DevOps strategies, integrating development and operations for efficient workflows.",
+    link: "/service/devops-development",
+  },
+  {
+    title: "Quality Assurance",
+    description:
+      "Ensuring the highest level of quality through meticulous testing and validation processes.",
+    link: "/service/quality-assurance",
+  },
+  {
+    title: "Data Analytics",
+    description:
+      "Creating scalable operational or analytical databases tailored to meet specific business needs, ensuring data integrity, security, and optimal performance.",
+    link: "/service/data-analytics",
   },
   {
     title: "Business Intelligence",
@@ -223,7 +224,7 @@ function Navbar() {
           {/* Contact Us */}
           <div>
             <Link to={"/contact-us"}>
-              <button className="flex items-center gap-x-2 px-5 py-2 font-theme-font text-sm bg-purple-600 text-white rounded-2xl hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-slate-200 transition-color delay-250">
+              <button className="flex items-center gap-x-2 px-5 py-2 font-theme-font text-sm bg-purple-600 text-white rounded-2xl hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-slate-200 transition-color delay-50">
                 <IoMdCall className="h-4 w-4" /> Contact Us
               </button>
             </Link>

@@ -1,5 +1,5 @@
 import React from "react";
-"./global.css";
+("./global.css");
 
 function Testinomial() {
   return (
