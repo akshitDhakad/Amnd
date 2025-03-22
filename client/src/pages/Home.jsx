@@ -150,12 +150,7 @@ export default function Home() {
                 efficient communication due to a thorough selection of team
                 members for our company.
               </p>
-              <div className="flex items-center justify-end gap-x-3 mt-5">
-                <span className="text-gray-600  font-bold">Discover</span>
-                <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-75">
-                  <HiOutlineArrowLongRight className="text-lg" />
-                </button>
-              </div>
+              <CustomButton1 title={"Discover"} textCss="text-gray-900" />
             </div>
           </div>
         </section>
@@ -296,12 +291,7 @@ export default function Home() {
                 right events.
               </p>
 
-              <div className="flex items-center justify-end gap-x-3 mt-5">
-                <span className="text-gray-600 font-bold">View Case</span>
-                <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-75">
-                  <HiOutlineArrowLongRight className="text-lg" />
-                </button>
-              </div>
+              <CustomButton1 title="View Case" textCss="text-gray-800" />
             </div>
             {/* Right content */}
             <div className="order-2 md:order-3 flex items-center justify-center mb-5 md:mb-0">
@@ -349,12 +339,7 @@ export default function Home() {
                 combined social media and marketplace features.
               </p>
 
-              <div className="flex items-center justify-end gap-x-3 mt-5">
-                <span className="text-gray-600  font-bold">View Case</span>
-                <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-75">
-                  <HiOutlineArrowLongRight className="text-lg" />
-                </button>
-              </div>
+              <CustomButton1 title="View Case" textCss="text-gray-800" />
             </div>
           </div>
 
@@ -380,12 +365,7 @@ export default function Home() {
                 place.
               </p>
 
-              <div className="flex items-center justify-end gap-x-3 mt-5">
-                <span className="text-gray-600  font-bold">View Case</span>
-                <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-75">
-                  <HiOutlineArrowLongRight className="text-lg" />
-                </button>
-              </div>
+              <CustomButton1 title="View Case" textCss="text-gray-800" />
             </div>
             {/* Right content */}
             <div className="order-2 md:order-3 flex items-center justify-center">
@@ -906,14 +886,10 @@ export default function Home() {
                     </p>
                   </div>
                   {/* button  */}
-                  <div className="flex items-center justify-end gap-x-3 mt-5">
-                    <span className="text-gray-600  font-bold">
-                      View Case Study
-                    </span>
-                    <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-75">
-                      <HiOutlineArrowLongRight className="text-lg" />
-                    </button>
-                  </div>
+                  <CustomButton1
+                    title="View Case Study"
+                    textCss="text-gray-300"
+                  />
                 </div>
               </div>
             </div>
@@ -951,14 +927,10 @@ export default function Home() {
                     </p>
                   </div>
                   {/* button  */}
-                  <div className="flex items-center justify-end gap-x-3 mt-5">
-                    <span className="text-gray-600  font-bold">
-                      View Case Study
-                    </span>
-                    <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-75">
-                      <HiOutlineArrowLongRight className="text-lg" />
-                    </button>
-                  </div>
+                  <CustomButton1
+                    title="View Case Study"
+                    textCss="text-gray-300"
+                  />
                 </div>
               </div>
 
