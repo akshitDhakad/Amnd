@@ -11,6 +11,7 @@ import Work from "./pages/Work.jsx";
 import Career from "./pages/Career.jsx";
 import About from "./pages/About.jsx";
 import Blog from "./pages/Blog.jsx";
+import ContactUs from "./pages/ContactUs.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
 // service Pages
 import WebDevelopmentPage from "./pages/WebDevelopment.jsx";
@@ -21,6 +22,7 @@ import UIDesignPage from "./pages/UIDesign.jsx";
 import DataAnalyticPage from "./pages/DataAnalytics.jsx";
 import QualityPage from "./pages/QualityPage.jsx";
 import DevopsPage from "./pages/DevopsPage.jsx";
+
 // import DevopsPage from "./pages/DevopsPage.jsx";
 import BusinessIntelligencePage from "./pages/BusinessIntelligencePage.jsx";
 
@@ -39,6 +41,7 @@ function App() {
       <Route path="/about-us" element={<About />} />
       <Route path="/blogs" element={<Blog />} />
       <Route path="/career" element={<Career />} />
+      <Route path="/contact-us" element={<ContactUs />} />
       {/* <Route path="/experties" element={<Experties />} /> */}
       {/* services Page  */}
       <Route path="/service/devops-development" element={<DevopsPage />} />

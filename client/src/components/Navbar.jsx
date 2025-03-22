@@ -222,12 +222,11 @@ function Navbar() {
           </div>
           {/* Contact Us */}
           <div>
-            <button
-              onClick={() => setContactUsModal(!contactUsModal)}
-              className="flex items-center gap-x-2 px-5 py-2 font-theme-font text-sm bg-purple-600 text-white rounded-2xl hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-slate-200 transition-color delay-250"
-            >
-              <IoMdCall className="h-4 w-4" /> Contact Us
-            </button>
+            <Link to={"/contact-us"}>
+              <button className="flex items-center gap-x-2 px-5 py-2 font-theme-font text-sm bg-purple-600 text-white rounded-2xl hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-slate-200 transition-color delay-250">
+                <IoMdCall className="h-4 w-4" /> Contact Us
+              </button>
+            </Link>
           </div>
         </div>
 
