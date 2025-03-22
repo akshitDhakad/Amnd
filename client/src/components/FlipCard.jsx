@@ -1,6 +1,6 @@
 import React from "react";
 
-function FlipCard({ title, description,iconURl }) {
+function FlipCard({ title, description, iconURl }) {
   const flipBoxFrontStyle1 = {
     backgroundImage:
       "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTamklshC5e4Y90SKUVglUsA1KEdp1HLwQ7H4TefBNxUg&s')",
@@ -50,7 +50,9 @@ function FlipCard({ title, description,iconURl }) {
             <div className="inner color-white">
               <button className="flip-box-button">{title}</button>
               {/* <h3 className="flip-box-header">Custom Domains</h3> */}
-              <p className="md:text-xs text-sm text-justify">{description}</p>
+              <p className="md:text-xs text-sm text-justify text-gray-900">
+                {description}
+              </p>
             </div>
           </div>
         </div>

@@ -13,7 +13,8 @@ function Footer() {
     <footer className="bg-theme-bg-dark m-1 rounded-2xl">
       {/* Uppper Navbar  */}
       <div className="max-w-9xl m-auto py-20">
-        <div className="grid md:grid-cols-3 gap-2 gap-y-10 px-4 ">
+        <div className="grid md:grid-cols-6 gap-2 gap-y-10 px-4 ">
+          <div className="col-span-2"></div>
           {/* col 1 */}
           <div className="flex flex-col gap-5 md:gap-y-10">
             <div>
@@ -100,6 +101,27 @@ function Footer() {
             </div>
           </div>
 
+          {/* col 3 */}
+          <div className="flex flex-col gap-5 md:gap-y-10">
+            <div>
+              <h2 className="text-white font-bold tracking-wide font-theme-font">
+                Industries
+              </h2>
+            </div>
+            <div>
+              <ul className="flex flex-col gap-3">
+                <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
+                  <Link to={""}>Finance Software</Link>
+                </li>
+                <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
+                  <Link to={""}>Logistics</Link>
+                </li>
+                <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
+                  <Link to={""}>Artificial Intelligence</Link>
+                </li>
+              </ul>
+            </div>
+          </div>
           {/* col 3 */}
           <div className="flex flex-col gap-5 md:gap-y-10">
             <div>

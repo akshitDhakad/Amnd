@@ -25,7 +25,7 @@ function HoverCard() {
   return (
     <>
       <div
-        className="abosolute -z-50 m-1 overflow-hidden top-0 md:h-screen flex items-center justify-center rounded-2xl"
+        className="abosolute -z-50 m-1 overflow-hidden top-0 md:h-screen max-h-[600px] flex items-center justify-center rounded-2xl"
         style={backgroundImg}
       >
         <div className="absolute  m-1 -z-10 bg-black opacity-50 rounded-2xl h-screen w-full"></div>
@@ -33,7 +33,7 @@ function HoverCard() {
           {/* card 1 */}
           <div
             onMouseEnter={() => setBgURl(0)}
-            className="flex flex-col gap-10 px-5 py-10 h-full m-auto border-r border-gray-50 border-left hover:cursor-pointer delay-200"
+            className="w-full flex flex-col gap-10 px-5 py-10 h-full m-auto border-r border-gray-50 border-left hover:cursor-pointer delay-200"
           >
             <div className="flex flex-col gap-5">
               <div>
@@ -70,7 +70,7 @@ function HoverCard() {
           {/* card 2 */}
           <div
             onMouseEnter={() => setBgURl(1)}
-            className="flex flex-col gap-10 px-5 py-10 h-full m-auto border-r border-gray-50 border-left hover:cursor-pointer delay-20"
+            className="w-full flex flex-col gap-10 px-5 py-10 h-full m-auto border-r border-gray-50 border-left hover:cursor-pointer delay-20"
           >
             <div className="flex flex-col gap-5">
               <div>
@@ -108,7 +108,7 @@ function HoverCard() {
           {/* card 3 */}
           <div
             onMouseEnter={() => setBgURl(2)}
-            className="flex flex-col gap-10 px-5 py-10 h-full m-auto border-r border-gray-50 border-left hover:cursor-pointer delay-20"
+            className="w-full flex flex-col gap-10 px-5 py-10 h-full m-auto border-r border-gray-50 border-left hover:cursor-pointer delay-20"
           >
             <div className="flex flex-col gap-5">
               <div>
