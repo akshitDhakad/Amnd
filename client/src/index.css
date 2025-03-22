@@ -3,7 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
   min-width: 376px;
   min-height: 100vh;
@@ -11,7 +10,7 @@ body {
   padding: 0px !important;
   margin: 0px !important;
   scroll-behavior: smooth !important;
-  overflow-x: hidden ;
+  overflow-x: hidden;
 }
 
 @layer utilities {
@@ -21,7 +20,6 @@ body {
 }
 
 /* testinomials css  */
-
 
 .testinomial {
   position: relative;
@@ -190,18 +188,13 @@ body {
   }
 }
 
-
 /* flip card css  start  */
-
-
-
 
 .flipcard .box-item {
   position: relative;
   -webkit-backface-visibility: hidden;
   width: 200px;
   max-width: 100%;
-  
 }
 
 .flipcard .flip-box {
@@ -216,10 +209,10 @@ body {
 .flipcard .flip-box-back {
   background-size: cover;
   background-position: center;
-  min-height: 300px;
-  -ms-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
-  transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
-  -webkit-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
+  min-height: 250px;
+  -ms-transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  -webkit-transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -247,7 +240,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  
+
   -ms-transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
@@ -274,15 +267,12 @@ body {
   -webkit-perspective: inherit;
   perspective: inherit;
   z-index: 0;
-  
-  transform: translateY(-50%) translateZ(60px) scale(.94);
-  -webkit-transform: translateY(-50%) translateZ(60px) scale(.94);
-  -ms-transform: translateY(-50%) translateZ(60px) scale(.94);
+
+  transform: translateY(-50%) translateZ(60px) scale(0.94);
+  -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
+  -ms-transform: translateY(-50%) translateZ(60px) scale(0.94);
   top: 50%;
 }
-
-
-
 
 .flipcard .flip-box-img {
   margin-top: 25px;
@@ -298,13 +288,12 @@ body {
   border-radius: 2px;
   color: black;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: bold;
   margin-top: 25px;
-  padding: 15px 20px;
+  padding: 10px 4px;
   text-transform: uppercase;
 }
-
 
 /* ********   flipcard css end   ************ */
 
@@ -329,7 +318,6 @@ body {
 }
 
 .carousel-container img {
-  
   cursor: pointer;
   border-radius: 50%;
 }
@@ -348,5 +336,3 @@ body {
   transform: scale(0.6);
   margin: -15px;
 }
-
-

@@ -23,7 +23,7 @@ function FlipCard({ title, description, iconURl }) {
   };
 
   return (
-    <div className=" flipcard inline-block">
+    <div className="flipcard inline-block">
       <div className=" box-item  m-auto ">
         <div className="flip-box shadow-xl border rounded-2xl ">
           <div
@@ -32,7 +32,6 @@ function FlipCard({ title, description, iconURl }) {
           >
             <div className="inner color-white">
               <h3 className="flip-box-header font-bold">{title}</h3>
-              {/* <p>A short sentence describing this callout is.</p> */}
               <div className="h-24 w-24">
                 <img
                   loading="lazy"
@@ -48,9 +47,9 @@ function FlipCard({ title, description, iconURl }) {
             style={flipBoxBackStyle1}
           >
             <div className="inner color-white">
-              <button className="flip-box-button">{title}</button>
+              <h4 className="text-base lg:text-2xl text-start mb-4">{title}</h4>
               {/* <h3 className="flip-box-header">Custom Domains</h3> */}
-              <p className="md:text-xs text-sm text-justify text-gray-900">
+              <p className="text-xs text-justify text-gray-900">
                 {description}
               </p>
             </div>

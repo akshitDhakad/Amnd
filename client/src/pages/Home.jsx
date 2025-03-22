@@ -20,7 +20,7 @@ import { HiOutlineArrowLongRight } from "react-icons/hi2";
 
 export default function Home() {
   const backgroundImg = {
-    backgroundImage: `url('/assets/images/hero-bg.jpeg')`,
+    backgroundImage: `url('https://img.freepik.com/free-photo/3d-workstation-with-computer-peripheral-devices_23-2150714175.jpg?uid=R96042563&ga=GA1.1.680121161.1738433577&semt=ais_hybrid')`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -32,14 +32,14 @@ export default function Home() {
         {/* Hero Section  */}
         <section>
           <div className="md:abosolute m-1 rounded-2xl md:top-0 min-h-min md:h-screen flex justify-center items-center bg-theme-bg-dark">
-            <div className="mt-20 md:mt-auto md:relative max-w-9xl m-auto px-10 py-5">
+            <div className="mt-20 md:mt-auto md:relative max-w-6xl 2xl:max-w-8xl m-auto px-10 py-5">
               <div
-                className="md:absolute md:top-0 left-0 h-full md:w-2/5"
+                className="md:absolute md:top-5 left-0 h-full md:w-6/12"
                 style={backgroundImg}
               ></div>
-              <div className="md:absolute md:top-0 left-0 h-full md:w-2/5 inset-0 bg-purple-100 bg-opacity-10 backdrop-blur-md"></div>
-              <div className="relative md:grid md:grid-cols-2 gap-x-20 gap-y-10 h-[75vh] max-w-9xl m-auto">
-                <div className="md:absolute md:top-0 left-0 z-10 col-span-2 flex flex-col gap-3">
+              <div className="md:absolute md:top-5 left-0 h-full md:w-6/12 inset-0 bg-purple-100 bg-opacity-10 backdrop-blur-xs"></div>
+              <div className="relative md:grid md:grid-cols-2 gap-x-20 gap-y-10 lg:h-[75vh] max-w-9xl m-auto">
+                <div className="md:absolute md:top-10 left-0 z-10 col-span-2 flex flex-col gap-3">
                   <div>
                     <h2 className="text-base lg:text-3xl hover:underline text-white font-semibold tracking-wide font-theme-font">
                       Custom Web
@@ -556,7 +556,7 @@ export default function Home() {
             {/* content */}
             <div className="col-span-2 grid md:grid-cols-3 gap-x-5  gap-y-10">
               {/* item 1 */}
-              <div className="h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border hover:shadow-purple-600 relative">
+              <div className="h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border-b-4 hover:border-purple-600 relative">
                 <span class="absolute font-bold text-8xl font-theme-font leading-none opacity-40 top-6 left-6 text-purple-600">
                   01
                 </span>
@@ -572,7 +572,7 @@ export default function Home() {
                 </div>
               </div>
               {/* item 2 */}
-              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border hover:shadow-pink-600 bg-slate-50">
+              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border-b-4 hover:border-pink-600 bg-slate-50">
                 <span class="absolute font-bold text-8xl font-theme-font leading-none opacity-40 top-6 left-6 text-pink-600">
                   02
                 </span>
@@ -588,7 +588,7 @@ export default function Home() {
                 </div>
               </div>
               {/* item 3 */}
-              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border hover:shadow-orange-600 bg-slate-50">
+              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border-b-4 hover:border-orange-600 bg-slate-50">
                 <span class="absolute font-bold text-8xl leading-none opacity-40 top-6 left-6 font-theme-font text-orange-600">
                   03
                 </span>
@@ -605,7 +605,7 @@ export default function Home() {
                 </div>
               </div>
               {/* item 4 */}
-              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border hover:shadow-green-600 bg-slate-50">
+              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border-b-4 hover:border-green-600 bg-slate-50">
                 <span class="absolute font-bold text-8xl leading-none opacity-40 top-6 left-6 font-theme-font text-green-600">
                   04
                 </span>
@@ -622,7 +622,7 @@ export default function Home() {
                 </div>
               </div>
               {/* item 5 */}
-              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border hover:shadow-blue-600 bg-slate-50">
+              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border-b-4 hover:border-blue-600 bg-slate-50">
                 <span class="absolute font-bold text-8xl leading-none opacity-40 top-6 left-6 font-theme-font text-blue-600">
                   05
                 </span>
@@ -639,7 +639,7 @@ export default function Home() {
                 </div>
               </div>
               {/* item 6 */}
-              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border hover:shadow-yellow-600 bg-slate-50">
+              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border-b-4 hover:border-yellow-600 bg-slate-50">
                 <span class="absolute font-bold text-8xl leading-none opacity-40 top-6 left-6 font-theme-font text-yellow-600">
                   06
                 </span>
