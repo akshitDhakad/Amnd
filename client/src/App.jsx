@@ -11,6 +11,7 @@ import Work from "./pages/Work.jsx";
 import Career from "./pages/Career.jsx";
 import About from "./pages/About.jsx";
 import Blog from "./pages/Blog.jsx";
+import BlogDetail from "./pages/BlogDetail.jsx";
 import ContactUs from "./pages/ContactUs.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
 // service Pages
@@ -41,6 +42,7 @@ function App() {
       <Route path="/about-us" element={<About />} />
       <Route path="/blogs" element={<Blog />} />
       <Route path="/blogs/:id" element={<Blog />} />
+      <Route path="/blog-detail/:id?" element={<BlogDetail />} />
       <Route path="/career" element={<Career />} />
       <Route path="/contact-us" element={<ContactUs />} />
       {/* <Route path="/experties" element={<Experties />} /> */}

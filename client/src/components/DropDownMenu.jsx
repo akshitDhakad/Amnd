@@ -7,6 +7,7 @@ const techServices = [
     description:
       "Build & maintain sites progressibe web applications (PWAs) and single-page applications (SPAs).",
     link: "/service/web-development",
+    img: "https://cdn.prod.website-files.com/63f8ca18cae25871c18fd72d/671ac0eee5122fad4a15d89c_web-design-service.png",
   },
 
   {

@@ -43,26 +43,26 @@ export default function Home() {
                 <div className="md:absolute md:top-10 left-0 z-10 col-span-2 flex flex-col gap-3">
                   <div>
                     <h2 className="text-base lg:text-3xl hover:underline text-white font-semibold tracking-wide font-theme-font">
-                      Custom Web
+                      Web Design & Development Agency
                     </h2>
                   </div>
                   <div>
                     <h1 className="text-4xl mb-5 md:text-6xl text-white font-bold tracking-wide font-theme-font">
-                      Application Development
+                      We create amazing websites for world-class tech companies
                     </h1>
                   </div>
                 </div>
                 <div className="hidden md:block md:col-span-2 md:h-24"></div>
                 <div className="hidden md:block"></div>
                 <div className="w-full">
-                  <p className="text-white md:text-start tracking-wide font-theme-font">
+                  <p className="mt-20 text-white md:text-start tracking-wide font-theme-font">
                     Looking for turnkey custom web application development
                     services? We are <b>DigiTechii Software</b> – a leading
                     custom web application development company with a recognized
                     stand on the market and a proven track record of completed
                     projects.
                   </p>
-                  <CustomButton1 />
+                  <CustomButton1 title="Get in Touch" />
                 </div>
               </div>
             </div>
