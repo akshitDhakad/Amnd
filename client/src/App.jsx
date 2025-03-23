@@ -40,6 +40,7 @@ function App() {
       <Route path="/our-work" element={<Work />} />
       <Route path="/about-us" element={<About />} />
       <Route path="/blogs" element={<Blog />} />
+      <Route path="/blogs/:id" element={<Blog />} />
       <Route path="/career" element={<Career />} />
       <Route path="/contact-us" element={<ContactUs />} />
       {/* <Route path="/experties" element={<Experties />} /> */}
