@@ -10,13 +10,12 @@ import {
 
 function Footer() {
   return (
-    <footer className="bg-theme-bg-dark m-1 rounded-2xl">
+    <footer className="bg-theme-bg-dark m-1 rounded-2xl ">
       {/* Uppper Navbar  */}
-      <div className="max-w-9xl m-auto py-20">
-        <div className="grid md:grid-cols-6 gap-2 gap-y-10 px-4 ">
-          <div className="col-span-2"></div>
+      <div className="max-w-9xl m-auto py-20 bg-opacity-90 bg-cover vg-center bg-[url(/assets/images/background/background-img2.jpg)]">
+        <div className="grid md:grid-cols-4 gap-2 gap-y-10 px-8 ">
           {/* col 1 */}
-          <div className="flex flex-col gap-5 md:gap-y-10">
+          <div className="px-4 flex flex-col gap-5 md:gap-y-5">
             <div>
               <h2 className="text-white font-bold tracking-wide font-theme-font">
                 Expertise
@@ -24,6 +23,25 @@ function Footer() {
             </div>
             <div>
               <ul className="flex flex-col gap-3">
+                <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
+                  <Link to={""} className="flex flex-nowrap gap-x-1">
+                    <span>Front End Development</span>
+                    <span>
+                      <FaArrowUpRightFromSquare />
+                    </span>
+                  </Link>
+                </li>
+                <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
+                  <Link to={""} className="flex flex-nowrap gap-x-1">
+                    <span>Back End Development</span>
+                    <span>
+                      <FaArrowUpRightFromSquare />
+                    </span>
+                  </Link>
+                </li>
+                <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
+                  <Link to={""}>Mobile Development</Link>
+                </li>
                 <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
                   <Link to={""}>DevOps</Link>
                 </li>
@@ -35,26 +53,7 @@ function Footer() {
                 </li>
                 <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
                   <Link to={""} className="flex flex-nowrap gap-x-1">
-                    <span>Front End Development</span>
-                    <span>
-                      <FaArrowUpRightFromSquare />
-                    </span>
-                  </Link>
-                </li>
-                <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
-                  <Link to={""}>Mobile Development</Link>
-                </li>
-                <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
-                  <Link to={""} className="flex flex-nowrap gap-x-1">
                     <span>Web Design</span>
-                    <span>
-                      <FaArrowUpRightFromSquare />
-                    </span>
-                  </Link>
-                </li>
-                <li className="text-sm text-gray-500 tracking-wide font-theme-font hover:font-semibold hover:text-white delay-100">
-                  <Link to={""} className="flex flex-nowrap gap-x-1">
-                    <span>Back End Development Services</span>
                     <span>
                       <FaArrowUpRightFromSquare />
                     </span>
@@ -63,9 +62,8 @@ function Footer() {
               </ul>
             </div>
           </div>
-
           {/* col 2 */}
-          <div className="flex flex-col gap-5 md:gap-y-10">
+          <div className="px-4 flex flex-col gap-5 md:gap-y-5">
             <div>
               <h2 className="text-white font-bold tracking-wide font-theme-font">
                 Cities of Our Expertise
@@ -100,9 +98,8 @@ function Footer() {
               </ul>
             </div>
           </div>
-
           {/* col 3 */}
-          <div className="flex flex-col gap-5 md:gap-y-10">
+          <div className="px-4 flex flex-col gap-5 md:gap-y-5">
             <div>
               <h2 className="text-white font-bold tracking-wide font-theme-font">
                 Industries
@@ -122,7 +119,7 @@ function Footer() {
               </ul>
             </div>
           </div>
-          {/* col 3 */}
+          {/* col 4 */}
           <div className="flex flex-col gap-5 md:gap-y-10">
             <div>
               <h2 className="text-white font-bold tracking-wide font-theme-font">
@@ -148,7 +145,7 @@ function Footer() {
       <hr className="max-w-9xl m-auto" />
       {/* Lower Navbar  */}
       <div className="max-w-9xl m-auto py-10">
-        <div className="flex flex-col gap-y-5 md:flex-row justify-between items-between">
+        <div className="px-4 lg:px-8 flex flex-col gap-y-5 md:flex-row justify-between items-between">
           {/* left container  */}
           <div className="text-center text-sm">
             <span className="text-md mx-1 text-gray-500 tracking-wide font-theme-font">

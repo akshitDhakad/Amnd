@@ -32,7 +32,7 @@ export default function Home() {
       <Layout>
         {/* Hero Section  */}
         <section>
-          <div className="md:abosolute m-1 rounded-2xl md:top-0 min-h-min md:h-screen flex justify-center items-center bg-theme-bg-dark">
+          <div className="md:abosolute m-1 rounded-2xl md:top-0 min-h-min md:h-screen flex justify-center items-center bg-theme-bg-dark bg-cover bg-center bg-[url('/assets/images/background/background-img3.jpg')]">
             <div className="mt-20 md:mt-auto md:relative max-w-6xl 2xl:max-w-8xl m-auto px-10 py-5">
               <div
                 className="md:absolute md:top-5 left-0 h-full md:w-6/12"
