@@ -101,15 +101,15 @@ const DropDownMenu = ({ setNavdrop }) => {
   return (
     <div
       // onMouseLeave={() => setNavdrop(false)}
-      className="absolute top-11 left-0 mt-7 max-w-9xl px-4 py-0 bg-gray-50 shadow-lg overflow-hidden z-50"
+      className="absolute m-auto w-full top-12 left-0 mt-7 px-4 py-0 bg-gray-50 shadow-lg overflow-hidden z-50"
     >
       {/* Web Development  */}
-      <div className="max-w-8xl m-auto py-10 grid grid-cols-5 gap-x-10">
+      <div className="max-w-9xl m-auto py-10 grid grid-cols-5 gap-x-20">
         <div className="col-span-2">
           <h2 className="text-black hover:text-purple-600 text-3xl font-semibold text-left">
             All Expertise
           </h2>
-          <p className="text-gray-900 text-xs text-justify mt-3">
+          <p className="text-gray-900 text-xs xl:text-base text-justify mt-3">
             We offer a wide range of services to help you achieve your business
             goals. Our services include web development, mobile development,
             quality assurance, business intelligence, and more.
@@ -134,12 +134,12 @@ const DropDownMenu = ({ setNavdrop }) => {
         </div>
       </div>
       {/* Digital marketing  */}
-      <div className="max-w-8xl m-auto py-10 grid grid-cols-5 gap-x-10">
+      <div className="max-w-9xl m-auto py-10 grid grid-cols-5 gap-x-20">
         <div className="col-span-2">
           <h2 className="text-black hover:text-purple-600 text-3xl font-semibold text-left">
             Digital marketing
           </h2>
-          <p className="text-gray-900 text-xs text-justify mt-3">
+          <p className="text-gray-900 text-xs xl:text-base text-justify mt-3">
             We offer a comprehensive range of digital marketing services to
             boost your online presence and drive business growth. Our services
             include SEO optimization, Google Ads, Instagram Ads, content
@@ -152,7 +152,7 @@ const DropDownMenu = ({ setNavdrop }) => {
             <div key={index}>
               <Link to={service.link}>
                 <h3 className="text-base font-semibold text-black hover:text-purple-600 flex items-center gap-x-2">
-                  {service.title}{" "}
+                  {service.title}
                   <span className="text-gray-700">
                     <HiOutlineArrowLongRight />
                   </span>

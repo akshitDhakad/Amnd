@@ -10,9 +10,9 @@ import {
 
 function Footer() {
   return (
-    <footer className="bg-theme-bg-dark m-1 rounded-2xl ">
+    <footer className="bg-theme-bg-dark m-1 rounded-2xl bg-cover bg-center bg-[url(/assets/images/background/background-img2.jpg)]">
       {/* Uppper Navbar  */}
-      <div className="max-w-9xl m-auto py-20 bg-opacity-90 bg-cover vg-center bg-[url(/assets/images/background/background-img2.jpg)]">
+      <div className="max-w-9xl m-auto py-20 bg-opacity-90">
         <div className="grid md:grid-cols-4 gap-2 gap-y-10 px-8 ">
           {/* col 1 */}
           <div className="px-4 flex flex-col gap-5 md:gap-y-5">
