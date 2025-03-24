@@ -52,7 +52,7 @@ export default function About() {
                   </div>
                 </div>
                 {/* left container  */}
-                <div className="mt-2  grid grid-cols-3 gap-x-5">
+                <div className="mt-2 grid grid-cols-3 gap-x-5">
                   {/* card 1 */}
                   <div className="relative rounded-xl overflow-hidden p-2">
                     <div className="absolute inset-0 bg-white bg-opacity-50 backdrop-blur-md"></div>
@@ -93,7 +93,7 @@ export default function About() {
 
                 {/* right Container  */}
                 <div>
-                  <p className="text-xl xl:text-2xl hidden md:block text-white text-start tracking-wide font-theme-font">
+                  <p className="text-xl 2xl:text-2xl hidden md:block text-white text-start tracking-wide font-theme-font">
                     Looking for turnkey custom web application development
                     services? We are Digitechii Software – a leading custom web
                     application development company with a recognized stand on

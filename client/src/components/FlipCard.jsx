@@ -31,7 +31,7 @@ function FlipCard({ title, description, iconURl }) {
             style={flipBoxFrontStyle1}
           >
             <div className="inner color-white">
-              <h3 className="flip-box-header font-bold xl:text-2xl">{title}</h3>
+              <h3 className="flip-box-header font-bold 2xl:text-2xl">{title}</h3>
               <div className="h-24 w-24">
                 <img
                   loading="lazy"
@@ -48,7 +48,7 @@ function FlipCard({ title, description, iconURl }) {
           >
             <div className="inner color-white">
               <h4 className="text-base lg:text-2xl text-start mb-4">{title}</h4>
-              <p className="text-xs lg:text-base text-justify text-gray-900">
+              <p className="text-xs 2xl:text-base text-justify text-gray-900">
                 {description}
               </p>
             </div>
