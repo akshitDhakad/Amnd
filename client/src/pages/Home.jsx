@@ -16,8 +16,10 @@ import {
 } from "react-icons/fa6";
 
 import { IoMdKey } from "react-icons/io";
-import { HiOutlineArrowLongRight } from "react-icons/hi2";
-import CustomButton1 from "../components/ui/CustomButtons.jsx";
+import {
+  CustomButton1,
+  CustomButton2,
+} from "../components/ui/CustomButtons.jsx";
 import CaseStudies from "../components/CaseStudies.jsx";
 
 export default function Home() {
@@ -56,14 +58,16 @@ export default function Home() {
                 <div className="hidden md:block md:col-span-2 md:h-24"></div>
                 <div className="hidden md:block"></div>
                 <div className="w-full">
-                  <p className="mt-20 xl:text-2xl text-white md:text-start tracking-wide font-theme-font">
+                  <p className="mt-20 text-base xl:text-2xl text-white md:text-start tracking-wide font-theme-font">
                     Looking for turnkey custom web application development
                     services? We are <b>DigiTechii Software</b> – a leading
                     custom web application development company with a recognized
                     stand on the market and a proven track record of completed
                     projects.
                   </p>
-                  <CustomButton1 title="Get in Touch" />
+                  <div className="flex justify-start items-center mt-5">
+                    <CustomButton2 title="Arrage a call with Us" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -408,15 +412,15 @@ export default function Home() {
             {/* content */}
             <div className="col-span-2 grid md:grid-cols-3 gap-x-5  gap-y-10">
               {/* item 1 */}
-              <div className="h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border-b-4 hover:border-purple-600 relative">
+              <div className="h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border border-b-4 xl:border-b-8 hover:border-purple-600 relative">
                 <span class="absolute font-bold text-8xl font-theme-font leading-none opacity-40 top-6 left-6 text-purple-600">
                   01
                 </span>
                 <div>
-                  <h4 className="mb-4 text-xl font-bold font-theme-font">
+                  <h4 className="mb-4 text-xl xl:text-3xl font-bold font-theme-font">
                     Scalability
                   </h4>
-                  <p className="text-gray-400 text-start text-sm tracking-wide leading-5 font-theme-font">
+                  <p className="text-gray-700 text-start text-sm xl:text-lg tracking-wide leading-5 font-theme-font">
                     Our solutions adapt to your business growth and efficiently
                     sustain an influx of new users. Deliver high web performance
                     and do it every time.
@@ -424,15 +428,15 @@ export default function Home() {
                 </div>
               </div>
               {/* item 2 */}
-              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border-b-4 hover:border-pink-600 bg-slate-50">
+              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border border-b-4 xl:border-b-8 hover:border-pink-600 bg-slate-50">
                 <span class="absolute font-bold text-8xl font-theme-font leading-none opacity-40 top-6 left-6 text-pink-600">
                   02
                 </span>
                 <div>
-                  <h4 className="mb-4 text-xl font-bold font-theme-font">
+                  <h4 className="mb-4 text-xl xl:text-3xl font-bold font-theme-font">
                     Latest technology
                   </h4>
-                  <p className="text-gray-400 text-start text-sm tracking-wide leading-5   font-theme-font">
+                  <p className="text-gray-400 text-start text-sm xl:text-lg tracking-wide leading-5   font-theme-font">
                     Our custom web application development services keeps up
                     with the tech trends in web development so you have a
                     competitive edge on the market.
@@ -440,15 +444,15 @@ export default function Home() {
                 </div>
               </div>
               {/* item 3 */}
-              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border-b-4 hover:border-orange-600 bg-slate-50">
+              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border border-b-4 xl:border-b-8 hover:border-orange-600 bg-slate-50">
                 <span class="absolute font-bold text-8xl leading-none opacity-40 top-6 left-6 font-theme-font text-orange-600">
                   03
                 </span>
                 <div>
-                  <h4 className="mb-4 text-xl font-bold font-theme-font">
+                  <h4 className="mb-4 text-xl xl:text-3xl font-bold font-theme-font">
                     Data security
                   </h4>
-                  <p className="text-gray-400 text-start text-sm tracking-wide leading-5 font-theme-font">
+                  <p className="text-gray-400 text-start text-sm xl:text-lg tracking-wide leading-5 font-theme-font">
                     We are committed to providing a high level of security for
                     your web application. For that, our developers embed
                     consistent security controls into the solution to guard off
@@ -457,15 +461,15 @@ export default function Home() {
                 </div>
               </div>
               {/* item 4 */}
-              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border-b-4 hover:border-green-600 bg-slate-50">
+              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border border-b-4 xl:border-b-8 hover:border-green-600 bg-slate-50">
                 <span class="absolute font-bold text-8xl leading-none opacity-40 top-6 left-6 font-theme-font text-green-600">
                   04
                 </span>
                 <div>
-                  <h4 className="mb-4 text-xl font-bold font-theme-font">
+                  <h4 className="mb-4 text-xl xl:text-3xl font-bold font-theme-font">
                     Relevant talent
                   </h4>
-                  <p className="text-gray-400 text-start text-sm tracking-wide leading-5 font-theme-font">
+                  <p className="text-gray-400 text-start text-sm xl:text-lg tracking-wide leading-5 font-theme-font">
                     As an established custom web application development
                     services company, we hand-pick each developer to fit your
                     project needs. All our web developers have relevant
@@ -474,15 +478,15 @@ export default function Home() {
                 </div>
               </div>
               {/* item 5 */}
-              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border-b-4 hover:border-blue-600 bg-slate-50">
+              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border border-b-4 xl:border-b-8 hover:border-blue-600 bg-slate-50">
                 <span class="absolute font-bold text-8xl leading-none opacity-40 top-6 left-6 font-theme-font text-blue-600">
                   05
                 </span>
                 <div>
-                  <h4 className="mb-4 text-xl font-bold font-theme-font">
+                  <h4 className="mb-4 text-xl xl:text-3xl font-bold font-theme-font">
                     Dedicated web development
                   </h4>
-                  <p className="text-gray-400 text-start text-sm tracking-wide leading-5 font-theme-font">
+                  <p className="text-gray-400 text-start text-sm xl:text-lg tracking-wide leading-5 font-theme-font">
                     Prioritize custom web application development company by
                     hiring a dedicated team for extra control. We assign
                     developers exclusivity to your projects with their undivided
@@ -491,15 +495,15 @@ export default function Home() {
                 </div>
               </div>
               {/* item 6 */}
-              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border-b-4 hover:border-yellow-600 bg-slate-50">
+              <div className="relative h-72 w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl border border-b-4 xl:border-b-8 hover:border-yellow-600 bg-slate-50">
                 <span class="absolute font-bold text-8xl leading-none opacity-40 top-6 left-6 font-theme-font text-yellow-600">
                   06
                 </span>
                 <div>
-                  <h4 className="mb-4 text-xl font-bold font-theme-font">
+                  <h4 className="mb-4 text-xl xl:text-3xl font-bold font-theme-font">
                     End-to-end development
                   </h4>
-                  <p className="text-gray-400 text-start text-sm tracking-wide leading-5 font-theme-font">
+                  <p className="text-gray-400 text-start text-sm xl:text-lg tracking-wide leading-5 font-theme-font">
                     We provide end-to-end custom web application development
                     services that cover every collaboration stage. Whether it’s
                     prototyping or migrating, our team can step in to support
@@ -569,10 +573,10 @@ export default function Home() {
                   />
                 </div>
                 <div>
-                  <h4 className="mb-4 text-xl font-bold font-theme-font">
+                  <h4 className="mb-4 text-xl xl:text-3xl font-bold font-theme-font">
                     Discovery
                   </h4>
-                  <p className="text-gray-400 text-start text-sm tracking-wide leading-5 font-theme-font">
+                  <p className="text-gray-700 text-start text-sm xl:text-base tracking-wide leading-5 font-theme-font">
                     Our collaboration starts with an in-depth analysis of your
                     business needs and market trends. We assess the solution
                     viability and product success by documenting main
@@ -591,10 +595,10 @@ export default function Home() {
                   />
                 </div>
                 <div>
-                  <h4 className="mb-4 text-xl font-bold font-theme-font">
+                  <h4 className="mb-4 text-xl xl:text-3xl font-bold font-theme-font">
                     Design and development
                   </h4>
-                  <p className="text-gray-400 text-start text-sm tracking-wide leading-5   font-theme-font">
+                  <p className="text-gray-700 text-start text-sm lg:text-base tracking-wide leading-5 font-theme-font">
                     Here, our web designers breathe life into the approved
                     wireframes, while a team of web developers transforms
                     designs into a working model with scalability in mind.
@@ -603,7 +607,7 @@ export default function Home() {
               </div>
               {/* item 3 */}
               <div className="h-72 relative w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border border-b-8">
-                <div class="absolute top-5 left-5 h-12 w-12  font-bold text-8xl leading-none opacity-40  font-theme-font ">
+                <div class="absolute top-5 left-5 h-12 w-12 font-bold text-8xl leading-none opacity-40 font-theme-font ">
                   <img
                     loading="lazy"
                     className="w-full h-full object-center object-cover"
@@ -612,10 +616,10 @@ export default function Home() {
                   />
                 </div>
                 <div>
-                  <h4 className="mb-4 text-xl font-bold font-theme-font">
+                  <h4 className="mb-4 text-xl xl:text-3xl font-bold font-theme-font">
                     Full-cycle testing
                   </h4>
-                  <p className="text-gray-400 text-start text-sm tracking-wide leading-5 font-theme-font">
+                  <p className="text-gray-700 text-start text-sm lg:text-base tracking-wide leading-5 font-theme-font">
                     Our top QA engineers perform rigorous testing, including
                     front-end testing, database testing, server testing, and
                     others. Thus, we assure your solution is bug-free.
@@ -633,10 +637,10 @@ export default function Home() {
                   />
                 </div>
                 <div>
-                  <h4 className="mb-4 text-xl font-bold font-theme-font">
+                  <h4 className="mb-4 text-xl xl:text-3xl font-bold font-theme-font">
                     Prototyping and MVP development
                   </h4>
-                  <p className="text-gray-400 text-start text-sm tracking-wide leading-5 font-theme-font">
+                  <p className="text-gray-700 text-start text-sm lg:text-base tracking-wide leading-5 font-theme-font">
                     Complex web applications are implemented as MVPs first to
                     predict future results and enhance mission-critical
                     features.
@@ -654,10 +658,10 @@ export default function Home() {
                   />
                 </div>
                 <div>
-                  <h4 className="mb-4 text-xl font-bold font-theme-font">
+                  <h4 className="mb-4 text-xl xl:text-3xl font-bold font-theme-font">
                     Launch and maintenance
                   </h4>
-                  <p className="text-gray-400 text-start text-sm tracking-wide leading-5 font-theme-font">
+                  <p className="text-gray-700 text-start text-sm xl:text-base tracking-wide leading-5 font-theme-font">
                     Finally, we roll out your solution to the server. Our
                     developers then work on the user feedback and provide
                     post-deployment support and maintenance.
@@ -666,7 +670,7 @@ export default function Home() {
               </div>
               {/* item 6 */}
               <div className="h-72 relative w-full  px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border border-b-8">
-                <div class="absolute top-5 left-5 h-12 w-12  font-bold text-8xl leading-none opacity-40  font-theme-font">
+                <div class="absolute top-5 left-5 h-12 w-12 font-bold text-8xl leading-none opacity-40  font-theme-font">
                   <img
                     loading="lazy"
                     className="w-full h-full object-center object-cover"
@@ -675,10 +679,10 @@ export default function Home() {
                   />
                 </div>
                 <div>
-                  <h4 className="mb-4 text-xl font-bold font-theme-font">
+                  <h4 className="mb-4 text-xl xl:text-3xl font-bold font-theme-font">
                     End-to-end development
                   </h4>
-                  <p className="text-gray-400 text-start text-sm tracking-wide leading-5 font-theme-font">
+                  <p className="text-gray-700 text-start text-sm xl:text-base tracking-wide leading-5 font-theme-font">
                     We provide end-to-end custom web application development
                     services that cover every collaboration stage. Whether it’s
                     prototyping or migrating, our team can step in to support
@@ -712,7 +716,7 @@ export default function Home() {
             {/* project 1  */}
             <div className="col-span-2 grid md:grid-cols-2 gap-x-5 gap-y-10">
               {/* left content */}
-              <div className="h-72 md:h-96 relative rounded-2xl overflow-hidden ">
+              <div className="h-80 md:h-96 xl:h-[500px] relative rounded-3xl overflow-hidden ">
                 <div className="absolute inset-0 bg-gray-100 opacity-0 hover:opacity-80 flex justify-center items-center">
                   <Link
                     to={""}
@@ -732,7 +736,7 @@ export default function Home() {
                 />
               </div>
               {/* Right content */}
-              <div className="bg-theme-bg-dark rounded-2xl overflow-hidden p-4 md:p-10">
+              <div className="bg-theme-bg-dark rounded-3xl overflow-hidden p-4 md:p-10">
                 <div className="h-full flex flex-col justify-between">
                   {/* Top heading  */}
                   <div className="flex justify-between items-center">
@@ -751,10 +755,10 @@ export default function Home() {
                   {/* center content */}
                   <div>
                     {" "}
-                    <h2 className="text-white text-2xl text-bold text-start tracking-wide font-theme-font mb-2">
+                    <h2 className="text-white text-2xl xl:text-3xl text-bold text-start tracking-wide font-theme-font mb-2">
                       Social Media Screening Platform
                     </h2>
-                    <p className="text-gray-600 text-start tracking-wide font-theme-font mb-2">
+                    <p className="text-gray-600 text-base xl:text-xl text-start tracking-wide font-theme-font mb-2">
                       The project is a web-based AI-powered platform for
                       comprehensive social media background screening. Its
                       supertask is to streamline potential employee background
@@ -772,7 +776,7 @@ export default function Home() {
             {/* project 2 */}
             <div className="col-span-2 grid md:grid-cols-2 gap-x-5 gap-y-10">
               {/* left content */}
-              <div className="order-2 bg-theme-bg-dark rounded-2xl overflow-hidden p-4 md:p-10">
+              <div className="order-2 bg-theme-bg-dark rounded-3xl overflow-hidden p-4 md:p-10">
                 <div className="h-full flex flex-col justify-between">
                   {/* Top heading  */}
                   <div className="flex justify-between items-center">
@@ -791,11 +795,11 @@ export default function Home() {
                   {/* center content */}
                   <div>
                     {" "}
-                    <h2 className="text-white text-2xl text-bold text-start tracking-wide font-theme-font mb-2">
+                    <h2 className="text-white text-2xl xl:text-3xl text-bold text-start tracking-wide font-theme-font mb-2">
                       Bridging MedTech and MarTech for Enhanced Patient
                       Engagement
                     </h2>
-                    <p className="text-gray-600 text-start tracking-wide font-theme-font mb-2">
+                    <p className="xl:text-xl text-gray-600 text-start tracking-wide font-theme-font mb-2">
                       Nabed is a SaaS platform at the crossroads of MedTech and
                       MarTech. It enables caregivers to engage with patients
                       using comprehensive, personalized educational content for
@@ -811,7 +815,7 @@ export default function Home() {
               </div>
 
               {/* Right content */}
-              <div className="order-1 md:order-2 h-72 md:h-96 relative rounded-2xl overflow-hidden">
+              <div className="order-1 md:order-2 h-80 md:h-96 xl:h-[500px] relative rounded-3xl overflow-hidden">
                 <div className="absolute inset-0 bg-gray-100 opacity-0 hover:opacity-80 flex justify-center items-center">
                   <Link
                     to={""}
@@ -824,6 +828,7 @@ export default function Home() {
                   </Link>
                 </div>
                 <img
+                  loading="lazy"
                   className="h-full w-full object-cover object-center"
                   src="https://devoxsoftware.com/wp-content/uploads/2024/02/growtika-nGoCBxiaRO0-unsplash.webp"
                   alt=""
@@ -859,15 +864,15 @@ export default function Home() {
               {/* left content */}
 
               {/* 1 card*/}
-              <div className="md:h-72 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-xl bg-slate-50 border-2 border-b-4">
-                <h4 className="mb-4 mr-auto text-start text-xl font-bold font-theme-font">
+              <div className="md:h-72 xl:h-96 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-xl bg-slate-50 border-2 border-b-4">
+                <h4 className="mb-4 mr-auto text-start text-xl xl:text-2xl font-bold font-theme-font">
                   Back End
                 </h4>
 
                 <div className="w-full grid grid-cols-2  md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
                   {/* next.js  */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -875,11 +880,11 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE NestJS"
                       />
                     </div>
-                    <div className="font-semibold">NestJS</div>
+                    <div className="font-semibold xl:text-xl">NestJS</div>
                   </div>
                   {/* flast.js  */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -887,11 +892,11 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE Flask"
                       />
                     </div>
-                    <div className="font-semibold">Flask</div>
+                    <div className="font-semibold xl:text-xl">Flask</div>
                   </div>
                   {/* Django */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -899,11 +904,11 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE Django"
                       />
                     </div>
-                    <div className="font-semibold">Django</div>
+                    <div className="font-semibold xl:text-xl">Django</div>
                   </div>
                   {/* Express.js */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -911,11 +916,11 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE Express.js"
                       />
                     </div>
-                    <div className="font-semibold">Express.js</div>
+                    <div className="font-semibold xl:text-xl">Express.js</div>
                   </div>
                   {/* .NET */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 xl:h-12 w-auto">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -923,11 +928,11 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE .NET"
                       />
                     </div>
-                    <div className="font-semibold">.NET</div>
+                    <div className="font-semibold xl:text-xl">.NET</div>
                   </div>
                   {/* PHP */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -935,11 +940,11 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE PHP"
                       />
                     </div>
-                    <div className="font-semibold">PHP</div>
+                    <div className="font-semibold xl:text-xl">PHP</div>
                   </div>
                   {/* Java Spring */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -947,11 +952,11 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE Java Spring"
                       />
                     </div>
-                    <div className="font-semibold">Java Spring</div>
+                    <div className="font-semibold xl:text-xl">Java Spring</div>
                   </div>
                   {/* Python */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -959,11 +964,11 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE Python"
                       />
                     </div>
-                    <div className="font-semibold">Python</div>
+                    <div className="font-semibold xl:text-xl">Python</div>
                   </div>
                   {/* Node.js */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -971,20 +976,20 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE Node.js"
                       />
                     </div>
-                    <div className="font-semibold">Node.js</div>
+                    <div className="font-semibold xl:text-xl">Node.js</div>
                   </div>
                 </div>
               </div>
 
               {/* card 2 */}
-              <div className="md:h-72 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-xl bg-slate-50 border-2 border-b-4">
+              <div className="md:h-72 xl:h-96 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-xl bg-slate-50 border-2 border-b-4">
                 <h4 className="mb-4 mr-auto text-start text-xl font-bold font-theme-font">
                   Front End
                 </h4>
                 <div className="w-full grid grid-cols-2  md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
                   {/* NestJS  */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -992,11 +997,11 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE NestJS "
                       />
                     </div>
-                    <div className="font-semibold">NestJS</div>
+                    <div className="font-semibold xl:text-xl">NestJS</div>
                   </div>
                   {/* Svelte  */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1004,11 +1009,11 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE Svelte"
                       />
                     </div>
-                    <div className="font-semibold">Svelte</div>
+                    <div className="font-semibold xl:text-xl">Svelte</div>
                   </div>
                   {/* Vue.js  */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1016,11 +1021,11 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE Vue.js"
                       />
                     </div>
-                    <div className="font-semibold">Vue.js</div>
+                    <div className="font-semibold xl:text-xl">Vue.js</div>
                   </div>
                   {/* Angular */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1028,11 +1033,11 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE Angular"
                       />
                     </div>
-                    <div className="font-semibold">Angular</div>
+                    <div className="font-semibold xl:text-xl">Angular</div>
                   </div>
                   {/* React.js */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1040,11 +1045,11 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE React.js"
                       />
                     </div>
-                    <div className="font-semibold">React.js</div>
+                    <div className="font-semibold xl:text-xl">React.js</div>
                   </div>
                   {/* PWA */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1052,11 +1057,11 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE PWA"
                       />
                     </div>
-                    <div className="font-semibold">PWA</div>
+                    <div className="font-semibold xl:text-xl">PWA</div>
                   </div>
                   {/* TypeScript */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1064,11 +1069,11 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE TypeScript"
                       />
                     </div>
-                    <div className="font-semibold">TypeScript</div>
+                    <div className="font-semibold xl:text-xl">TypeScript</div>
                   </div>
                   {/* JavaScript */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
+                    <div className="h-8 xl:h-12 w-auto">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1076,11 +1081,11 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE JavaScript"
                       />
                     </div>
-                    <div className="font-semibold">JavaScript </div>
+                    <div className="font-semibold xl:text-xl">JavaScript </div>
                   </div>
                   {/* HTML/CSS */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1088,13 +1093,13 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE HTML/CSS"
                       />
                     </div>
-                    <div className="font-semibold">HTML/CSS</div>
+                    <div className="font-semibold xl:text-xl">HTML/CSS</div>
                   </div>
                 </div>
               </div>
 
               {/* card 3 */}
-              <div className="md:h-72 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-xl bg-slate-50 border-2 border-b-4">
+              <div className="md:h-72 xl:h-96 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-xl bg-slate-50 border-2 border-b-4">
                 <h4 className="mb-4 mr-auto text-start text-xl font-bold font-theme-font">
                   Database Development
                 </h4>
@@ -1102,7 +1107,7 @@ export default function Home() {
                 <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
                   {/* MariaDB */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1114,7 +1119,7 @@ export default function Home() {
                   </div>
                   {/* Redis  */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1126,7 +1131,7 @@ export default function Home() {
                   </div>
                   {/* Cassandra  */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1138,7 +1143,7 @@ export default function Home() {
                   </div>
                   {/* MongoDB */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1150,7 +1155,7 @@ export default function Home() {
                   </div>
                   {/* Oracle DB */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1162,7 +1167,7 @@ export default function Home() {
                   </div>
                   {/* SQL */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1174,7 +1179,7 @@ export default function Home() {
                   </div>
                   {/* PostgreSQL */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1186,7 +1191,7 @@ export default function Home() {
                   </div>
                   {/* MYSQL */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1198,7 +1203,7 @@ export default function Home() {
                   </div>
                   {/* Elasticsearch */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1211,7 +1216,7 @@ export default function Home() {
                 </div>
               </div>
               {/* item 4 */}
-              <div className="md:h-72 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-xl bg-slate-50 border-2 border-b-4">
+              <div className="md:h-72 xl:h-96 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-xl bg-slate-50 border-2 border-b-4">
                 <h4 className="mb-4 mr-auto text-start text-xl font-bold font-theme-font">
                   DevOps & Cloud
                 </h4>
@@ -1219,7 +1224,7 @@ export default function Home() {
                 <div className="w-full grid grid-cols-2  md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
                   {/* item 1 */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1227,11 +1232,11 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE NestJS "
                       />
                     </div>
-                    <div className="font-semibold">NestJS</div>
+                    <div className="font-semibold xl:text-xl">NestJS</div>
                   </div>
                   {/* item 2 */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1239,11 +1244,11 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE Flask"
                       />
                     </div>
-                    <div className="font-semibold">Svelte</div>
+                    <div className="font-semibold xl:text-xl">Svelte</div>
                   </div>
                   {/* item 3 */}
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1251,10 +1256,10 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE Vue.js"
                       />
                     </div>
-                    <div>Vue.js</div>
+                    <div className="font-semibold xl:text-xl">Vue.js</div>
                   </div>
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1262,10 +1267,10 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE Angular"
                       />
                     </div>
-                    <div>Angular</div>
+                    <div className="font-semibold xl:text-xl">Angular</div>
                   </div>
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1273,10 +1278,10 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE React.js"
                       />
                     </div>
-                    <div>React.js</div>
+                    <div className="font-semibold xl:text-xl">React.js</div>
                   </div>
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1284,10 +1289,10 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE PWA"
                       />
                     </div>
-                    <div>PWA</div>
+                    <div className="font-semibold xl:text-xl">PWA</div>
                   </div>
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1295,20 +1300,20 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE TypeScript"
                       />
                     </div>
-                    <div>TypeScript</div>
+                    <div className="font-semibold xl:text-xl">TypeScript</div>
                   </div>
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
                         src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/JS.png.webp"
                       />
                     </div>
-                    <div>JavaScript </div>
+                    <div className="font-semibold xl:text-xl">JavaScript </div>
                   </div>
                   <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto shrink-0">
+                    <div className="h-8 xl:h-12 w-auto shrink-0">
                       <img
                         loading="lazy"
                         className="h-full w-full object-cover object-center"
@@ -1316,7 +1321,7 @@ export default function Home() {
                         alt="DIGITECHII SOFTWARE HTML/CSS"
                       />
                     </div>
-                    <div>HTML/CSS</div>
+                    <div className="font-semibold xl:text-xl">HTML/CSS</div>
                   </div>
                 </div>
               </div>

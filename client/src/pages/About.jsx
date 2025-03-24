@@ -7,6 +7,10 @@ import ContactFrom from "../components/ContactFrom.jsx";
 // react icons
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import { FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa6";
+import {
+  CustomButton1,
+  CustomButton2,
+} from "../components/ui/CustomButtons.jsx";
 
 export default function About() {
   const backgroundImg = {
@@ -89,21 +93,14 @@ export default function About() {
 
                 {/* right Container  */}
                 <div>
-                  <p className="hidden md:block text-white text-start tracking-wide font-theme-font">
+                  <p className="text-xl xl:text-2xl hidden md:block text-white text-start tracking-wide font-theme-font">
                     Looking for turnkey custom web application development
                     services? We are Digitechii Software – a leading custom web
                     application development company with a recognized stand on
                     the market and a proven track record of completed projects.
                   </p>
                   <div className="flex justify-start items-center mt-5">
-                    <div className="bg-white flex gap-x-3 items-center justify-between px-5 py-2 rounded-2xl delay-250">
-                      <span className="text-gray-800 font-bold font-theme-font">
-                        Arrage a call with Us
-                      </span>
-                      <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-gray-800 hover:shadow-md hover:shadow-slate-200 transition-color">
-                        <HiOutlineArrowLongRight className="text-lg font-bold" />
-                      </button>
-                    </div>
+                    <CustomButton2 title="Arrage a call with Us" />
                   </div>
                 </div>
               </div>
@@ -136,8 +133,8 @@ export default function About() {
                 <FaLinkedin className="text-3xl" />
                 <FaInstagram className="text-3xl" />
               </div>
-              <div className="col-span-12 md:col-span-10">
-                <p className="text-gray-900 text-justify md:text-start tracking-wide font-theme-font mb-2">
+              <div className="col-span-12 md:col-span-10 text-base xl:text-lg">
+                <p className="text-gray-900  text-justify md:text-start tracking-wide font-theme-font mb-2">
                   My name is Akshit Dhakad. I started my career as a software
                   developer and reached a C-level position in leading IT
                   outsourcing companies in India. When I was doing my BTech, I
@@ -159,21 +156,21 @@ export default function About() {
                   excellent, it’s the attitude.
                 </p>
                 <p className="text-gray-900 text-center md:text-start tracking-wide font-theme-font mb-2">
-                  <span className="font-bold text-gray-600">
+                  <span className="font-bold text-gray-700">
                     Attitude to work,
                   </span>{" "}
-                  <span className="font-bold text-gray-600">
+                  <span className="font-bold text-gray-700">
                     Attitude to client
                   </span>
                   <br />
-                  <span className="font-bold text-gray-600">
+                  <span className="font-bold text-gray-700">
                     Attitude to Team.
                   </span>
                 </p>
               </div>
             </div>
             {/* Right content */}
-            <div>
+            <div className="text-base xl:text-lg">
               <p className="text-gray-900 text-justify md:text-start tracking-wide font-theme-font mb-2">
                 I guess that was the genuine moment when Digitechii Software
                 appeared.
@@ -191,20 +188,16 @@ export default function About() {
               <p className="text-gray-900 text-start tracking-wide font-theme-font mb-4">
                 It’s software development with a personal touch.
               </p>
-              <p className="text-gray-600 font-bold text-start tracking-wide font-theme-font mb-1">
+              <p className="text-gray-800 font-bold text-start tracking-wide font-theme-font mb-1">
                 Akshit Dhakad
               </p>
-              <p className="text-gray-500 font-semibold text-start tracking-wide font-theme-font mb-2">
+              <p className="text-gray-800 text-sm font-semibold text-start tracking-wide font-theme-font mb-2">
                 Founder, CEO at Digitechii Software
               </p>
-              <div className="flex items-center md:justify-end gap-x-3 mt-5">
-                <span className="text-gray-700  font-bold">
-                  Check Our Portfolio
-                </span>
-                <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-150">
-                  <HiOutlineArrowLongRight className="text-lg" />
-                </button>
-              </div>
+              <CustomButton1
+                title="Check Our Portfolio"
+                textCss={"text-gray-800"}
+              />
             </div>
           </div>
         </section>

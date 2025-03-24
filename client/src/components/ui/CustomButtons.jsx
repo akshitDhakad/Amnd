@@ -3,11 +3,11 @@ import React from "react";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import { Link } from "react-router-dom";
 
-function CustomButton1({
+const CustomButton1 = ({
   title = "Let's talk",
   link = "/contact-us",
   textCss = "text-white",
-}) {
+}) => {
   // This button is a custom button that has a background that expands when hovered over.
   return (
     <Link
@@ -29,6 +29,20 @@ function CustomButton1({
       </Button>
     </Link>
   );
-}
+};
 
-export default CustomButton1;
+const CustomButton2 = ({ title = "Arrage a call with Us", link, textCss }) => {
+  return (
+    <Link
+      to={link}
+      className={`group xl:text-lg bg-white flex gap-x-3 items-center justify-between pl-5 rounded-3xl delay-75`}
+    >
+      <span className=" font-bold font-theme-font">{title}</span>
+      <button className="p-2 m-1 font-theme-font text-sm rounded-full group-hover:bg-black group-hover:text-white text-gray-800 hover:shadow-md hover:shadow-slate-200 transition-color">
+        <HiOutlineArrowLongRight className="text-xl font-bold" />
+      </button>
+    </Link>
+  );
+};
+
+export { CustomButton1, CustomButton2 };

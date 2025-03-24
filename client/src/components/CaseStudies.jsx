@@ -1,5 +1,5 @@
 import React from "react";
-import CustomButton1 from "./ui/CustomButtons";
+import { CustomButton1 } from "./ui/CustomButtons";
 
 function CaseStudies() {
   return (
@@ -27,7 +27,7 @@ function CaseStudies() {
           <h3 className="font-bold text-2xl tracking-wide md:mb-5">
             Function4
           </h3>
-          <h4 className="xl:text-2xl font-semibold tracking-wide text-md mb-2 text-gray-600">
+          <h4 className="xl:text-2xl font-semibold tracking-wide text-md mb-2 text-gray-700">
             Event Management Platform, USA
           </h4>
           <p className="text-gray-900 text-justify md:text-start text-sm lg:text-base tracking-wide leading-5 font-theme-font mb-2">
@@ -43,8 +43,9 @@ function CaseStudies() {
         </div>
         {/* Right content */}
         <div className="order-2 md:order-3 flex items-center justify-center mb-5 md:mb-0">
-          <div className="w-full h-56 rounded-lg overflow-hidden">
+          <div className="w-full h-56 xl:h-80 rounded-lg overflow-hidden">
             <img
+              loading="lazy"
               className="w-full h-full object-cover object-center"
               src="https://t4.ftcdn.net/jpg/01/64/26/27/360_F_164262701_BsbY2qe8M3fvvB4cBWsFLgeEXhgEukcw.jpg"
               alt="Our Case Studies "
@@ -57,7 +58,7 @@ function CaseStudies() {
       <div className="max-w-9xl px-4  grid md:grid-cols-2 gap-x-10 gap-y-10 m-auto">
         {/* Left content */}
         <div className="flex items-center justify-center">
-          <div className="w-full h-56 rounded-lg overflow-hidden">
+          <div className="w-full h-56 xl:h-80 rounded-lg overflow-hidden">
             <img
               loading="lazy"
               className="w-full h-full object-cover object-center"
@@ -71,11 +72,11 @@ function CaseStudies() {
           <h3 className="font-bold text-2xl tracking-wide md:mb-5">
             ActivePlace
           </h3>
-          <h4 className="font-semibold text-md tracking-wide mb-2 text-gray-600">
+          <h4 className="xl:text-2xl font-semibold text-md tracking-wide mb-2 text-gray-700">
             dia platform with a marketplace fWellness social network and
             meeature, Australia
           </h4>
-          <p className="text-gray-900 text-justify md:text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
+          <p className="text-gray-900 text-justify md:text-start text-sm lg:text-base tracking-wide leading-5 font-theme-font mb-2">
             ActivePlace is a social platform dedicated to health, fitness, and
             an active lifestyle. It is a three-sided network that connects
             people with like-minded individuals, mentors, and businesses – all
@@ -96,10 +97,10 @@ function CaseStudies() {
         {/* Left content */}
         <div className="order-3 md:order-2">
           <h3 className="font-bold text-2xl tracking-wide mb-5">ILVE</h3>
-          <h4 className="font-semibold text-md tracking-wide mb-2 text-gray-600">
+          <h4 className="xl:text-2xl font-semibold text-md tracking-wide mb-2 text-gray-700">
             Event Management Platform, USA
           </h4>
-          <p className="text-gray-900 text-justify md:text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
+          <p className="text-gray-900 text-justify md:text-start text-sm lg:text-base tracking-wide leading-5 font-theme-font mb-2">
             ILVE is a global manufacturer of gas and electric household cooking
             appliances with a reach across 40 countries worldwide. Since 1975,
             the company has been known as a niche brand specializing in
@@ -116,8 +117,9 @@ function CaseStudies() {
         </div>
         {/* Right content */}
         <div className="order-2 md:order-3 flex items-center justify-center">
-          <div className="w-full h-56 rounded-lg overflow-hidden">
+          <div className="w-full h-56 xl:h-80 rounded-lg overflow-hidden">
             <img
+              loading="lazy"
               className="w-full h-full object-cover object-center"
               src="https://t4.ftcdn.net/jpg/01/64/26/27/360_F_164262701_BsbY2qe8M3fvvB4cBWsFLgeEXhgEukcw.jpg"
               alt="Our Case Studies "
