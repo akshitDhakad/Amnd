@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
+import { CustomButton2 } from "./ui/CustomButtons";
 
 function HoverCard() {
   const imgURl = [
@@ -49,22 +50,15 @@ function HoverCard() {
             </div>
 
             <div className={`${bgUrl == "0" ? "block" : "hidden"}`}>
-              <p className="text-white text-start tracking-wide font-theme-font">
+              <p className="text-base xl:text-xl text-white text-start tracking-wide font-theme-font">
                 We take pride in providing high-quality software development
                 solutions. We use proven development techniques in pair with
                 personal responsibility to achieve top notch results. This makes
                 us proud of our work and allows us sleeping well at night.
               </p>
-              {/* <div className="flex justify-start items-center mt-5">
-                <div className="bg-white flex gap-x-3 items-center justify-between px-5 py-2 rounded-2xl delay-250">
-                  <span className="text-gray-800 font-bold font-theme-font">
-                    Arrage a call with Us
-                  </span>
-                  <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-gray-800 hover:shadow-md hover:shadow-slate-200 transition-color">
-                    <HiOutlineArrowLongRight className="text-lg font-bold" />
-                  </button>
-                </div>
-              </div> */}
+              <div className="flex justify-start items-center mt-5">
+                <CustomButton2 />
+              </div>
             </div>
           </div>
           {/* card 2 */}
@@ -86,23 +80,16 @@ function HoverCard() {
             </div>
 
             <div className={`${bgUrl == "1" ? "block" : "hidden"}`}>
-              <p className="text-white text-start tracking-wide font-theme-font">
+              <p className="text-base xl:text-xl text-white text-start tracking-wide font-theme-font">
                 Our clients become our partners and we treat your product as if
                 it’s ours. The main principle of our cooperation is trust which
                 is based on personal commitment. We do our best to lift the
                 burden of side tasks and let you focus on the key parts of your
                 business.
               </p>
-              {/* <div className="flex justify-start items-center mt-5">
-                <div className="bg-white flex gap-x-3 items-center justify-between px-5 py-2 rounded-2xl delay-250">
-                  <span className="text-gray-800 font-bold font-theme-font">
-                    Arrage a call with Us
-                  </span>
-                  <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-gray-800 hover:shadow-md hover:shadow-slate-200 transition-color">
-                    <HiOutlineArrowLongRight className="text-lg font-bold" />
-                  </button>
-                </div>
-              </div> */}
+              <div className="flex justify-start items-center mt-5">
+                <CustomButton2 />
+              </div>
             </div>
           </div>
           {/* card 3 */}
@@ -124,23 +111,16 @@ function HoverCard() {
             </div>
 
             <div className={`${bgUrl == "2" ? "block" : "hidden"}`}>
-              <p className="text-white text-start tracking-wide font-theme-font">
+              <p className="text-base xl:text-xl text-white text-start tracking-wide font-theme-font">
                 Each software engineer at AMNDTECH Software is welcome to
                 discuss any thoughts, ideas, preferences and dislikes.
                 Information is freely transferred between levels of the company
                 - from junior developer to CEO and backward. We appreciate
                 transparency and honesty.
               </p>
-              {/* <div className="flex justify-start items-center mt-5">
-                <div className="bg-white flex gap-x-3 items-center justify-between px-5 py-2 rounded-2xl delay-250">
-                  <span className="text-gray-800 font-bold font-theme-font">
-                    Arrage a call with Us
-                  </span>
-                  <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-gray-800 hover:shadow-md hover:shadow-slate-200 transition-color">
-                    <HiOutlineArrowLongRight className="text-lg font-bold" />
-                  </button>
-                </div>
-              </div> */}
+              <div className="flex justify-start items-center mt-5">
+                <CustomButton2 />
+              </div>
             </div>
           </div>
         </div>

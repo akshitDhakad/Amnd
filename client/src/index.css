@@ -197,6 +197,15 @@ body {
   max-width: 100%;
 }
 
+@media screen and (min-width: 1600px) {
+  .flipcard .box-item {
+    position: relative;
+    -webkit-backface-visibility: hidden;
+    width: 300px;
+    max-width: 100%;
+  }
+}
+
 .flipcard .flip-box {
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
