@@ -115,11 +115,11 @@ const DropDownMenu = ({ setNavdrop }) => {
             quality assurance, business intelligence, and more.
           </p>
         </div>
-        <div className="col-span-3 grid grid-cols-3 gap-x-4 gap-y-10 text-start">
+        <div className="col-span-3 grid grid-cols-3 gap-x-4 gap-y-5 text-start text-gray-800">
           {techServices?.map((service, index) => (
-            <div key={index}>
-              <Link to={service.link}>
-                <h3 className="text-base font-semibold text-black hover:text-purple-600 flex items-center gap-x-2">
+              <Link key={index} to={service.link} className="hover:bg-gray-100 flex items-center gap-x-2 rounded-md shadow-sm border px-2 py-2.5">
+                <img loading="lazy" className="h-8 w-8 rounded-md hover:border-b-red-200" src={service.img} alt="" />
+                <h3 className="text-base font-semibold flex items-center gap-x-2">
                   {service.title}{" "}
                   <span className="text-gray-700">
                     <HiOutlineArrowLongRight />
@@ -129,7 +129,7 @@ const DropDownMenu = ({ setNavdrop }) => {
                   {service.description}
                 </p> */}
               </Link>
-            </div>
+           
           ))}
         </div>
       </div>

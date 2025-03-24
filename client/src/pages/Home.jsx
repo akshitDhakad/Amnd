@@ -419,93 +419,66 @@ export default function Home() {
             <div className="md:col-span-2 flex flex-col ">
               <div className="mb-2">
                 <h2 className="text-xl md:text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
-                  Custom Web App Development Services
+                  We Provide
                 </h2>
               </div>
               <div className="mb-4">
                 <h1 className="text-3xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
-                  We Provide
+                  High-impact design & development services
                 </h1>
               </div>
             </div>
 
             {/* item 1 */}
-            <div>
-              <h3 className="font-bold  text-2xl mb-5 text-red-600">
-                Web app development
-              </h3>
-
-              <p className="text-gray-400 text-justify md:text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
-                Our custom web application development company offers a full
-                range of tailored solutions that meet and exceed your business
-                requirements. Each project is unique and we make sure your needs
-                fully click with the tech solution.
-              </p>
+            <div className="bg-gray-50 border-b-2 shadow-sm grid md:grid-cols-2 gap-x-5 gap-y-10 md:gap-y-0 rounded-3xl overflow-hidden">
+              <div className="p-4">
+                <h3 className="text-gray-800 font-bold text-2xl mb-5">
+                  Web Design
+                </h3>
+                <p className="text-gray-600 text-justify md:text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
+                  We design websites that look amazing, convey the right brand
+                  message and are highly oriented for conversion.
+                </p>
+                <Link
+                  to={"/service/web-design"}
+                  className="text-pink-600 font-bold"
+                >
+                  Learn more
+                </Link>
+              </div>
+              <div className="bg-pink-100 border-s-4 border-s-pink-200 rounded-s-3xl">
+                <img
+                  className="w-full h-56 rounded-lg overflow-hidden mb-5 md:mb-0"
+                  src="https://cdn.prod.website-files.com/63f8ca18cae25871c18fd72d/64062922a09751a1098ce054_web-design-agency.png"
+                  alt="Web Design"
+                />
+              </div>
             </div>
+
             {/* item 2 */}
-            <div>
-              <h3 className="font-bold text-2xl mb-5 text-yellow-600">
-                Progressive web app
-              </h3>
-
-              <p className="text-gray-400 text-justify md:text-start text-sm tracking-wide leading-5  font-theme-font mb-2">
-                Need a native-like app experience with website-like performance?
-                Leverage our expertise in building PWAs for cross-platform
-                experience with enhanced page-load speed and availability.
-              </p>
-            </div>
-
-            {/* item 3 */}
-            <div>
-              <h3 className="font-bold text-2xl mb-5 text-orange-600">
-                Web app consulting
-              </h3>
-
-              <p className="text-gray-400 text-justify md:text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
-                Need some expert advice? Our custom web application development
-                services company will consult on building the exact type of web
-                software your business needs.
-              </p>
-            </div>
-
-            {/* item 4 */}
-            <div>
-              <h3 className="font-bold text-2xl mb-5 text-green-600">
-                Web app re-engineering
-              </h3>
-
-              <p className="text-gray-400 text-justify md:text-start text-sm tracking-wide leading-5  font-theme-font mb-2">
-                Step up your tech strategy by transforming outdated software
-                into robust custom web application . Our team of web developers
-                assists in application re-engineering for you to harness the
-                latest technologies and environments.
-              </p>
-            </div>
-
-            {/* item 5 */}
-            <div>
-              <h3 className="font-bold  text-2xl mb-5 text-blue-600">
-                Front-end development
-              </h3>
-              <p className="text-gray-400 text-justify md:text-start text-sm tracking-wide leading-5  font-theme-font mb-2">
-                Our UX/UI web designers deliver a supreme experience for
-                end-users through catchy and sleek design. We take the best from
-                JavaScript to build responsive custom web app developer
-                solutions.
-              </p>
-            </div>
-            {/* item 6 */}
-            <div>
-              <h3 className="font-bold text-2xl mb-5 text-pink-600">
-                Back-end development
-              </h3>
-
-              <p className="text-gray-400 text-justify md:text-start text-sm tracking-wide leading-5  font-theme-font mb-2">
-                Get scalable back-end solutions to support mission-critical
-                processes. As a global custom web application development
-                company, we have gathered a winning tech stack to ensure a solid
-                architecture and advanced data structures.
-              </p>
+            <div className="bg-gray-50 border shadow-sm grid md:grid-cols-2 gap-x-5 gap-y-10 md:gap-y-0 rounded-3xl overflow-hidden">
+              <div className="p-4">
+                <h3 className="text-gray-800 font-bold text-2xl mb-5">
+                  Web Development
+                </h3>
+                <p className="text-gray-600 text-justify md:text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
+                  We develop fast, perfectly responsive, and SEO-optimized
+                  websites built with the best development practices of 2023.
+                </p>
+                <Link
+                  to={"/service/web-design"}
+                  className="text-pink-600 font-bold"
+                >
+                  Learn more
+                </Link>
+              </div>
+              <div className="bg-blue-100 border-s-4 border-s-blue-200 rounded-s-3xl">
+                <img
+                  className="w-full h-56 rounded-lg overflow-hidden mb-5 md:mb-0"
+                  src="https://cdn.prod.website-files.com/63f8ca18cae25871c18fd72d/6414a7979cc623601c053b0c_web-development-agency.png"
+                  alt="Web Design"
+                />
+              </div>
             </div>
           </div>
         </section>
