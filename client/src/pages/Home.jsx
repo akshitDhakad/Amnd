@@ -346,6 +346,111 @@ export default function Home() {
                   websites built with the best development practices of 2023.
                 </p>
                 <Link
+                  to={"/service/web-development"}
+                  className="text-pink-600 font-bold"
+                >
+                  Learn more
+                </Link>
+              </div>
+              <div className="bg-blue-100 border-s-4 border-s-blue-200 rounded-s-3xl">
+                <img
+                  loading="lazy"
+                  className="w-full h-56 rounded-lg overflow-hidden mb-5 md:mb-0"
+                  src="https://cdn.prod.website-files.com/63f8ca18cae25871c18fd72d/6414a7979cc623601c053b0c_web-development-agency.png"
+                  alt="Web Development"
+                />
+              </div>
+            </div>
+            {/* item 3 */}
+            <div className="bg-gray-50 border-b-2 shadow-sm grid md:grid-cols-2 gap-x-5 gap-y-10 md:gap-y-0 rounded-3xl overflow-hidden">
+              <div className="p-4">
+                <h3 className="text-gray-800 font-bold text-2xl mb-5">
+                  UI/UX Design
+                </h3>
+                <p className="text-gray-600 text-justify md:text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
+                  We design intuitive web & mobile apps focused on driving user
+                  engagement and increasing users retention.
+                </p>
+                <Link
+                  to={"/service/ui-development"}
+                  className="text-pink-600 font-bold"
+                >
+                  Learn more
+                </Link>
+              </div>
+              <div className="bg-orange-100 border-s-4 border-s-orange-200 rounded-s-3xl">
+                <img
+                  loading="lazy"
+                  className="w-full h-56 rounded-lg overflow-hidden mb-5 md:mb-0"
+                  src="https://cdn.prod.website-files.com/63f8ca18cae25871c18fd72d/6414ba53ec407864f180cfe0_ui-ux-design-agency.png"
+                  alt="UI/UX Design"
+                />
+              </div>
+            </div>
+
+            {/* item 4 */}
+            <div className="bg-gray-50 border shadow-sm grid md:grid-cols-2 gap-x-5 gap-y-10 md:gap-y-0 rounded-3xl overflow-hidden">
+              <div className="p-4">
+                <h3 className="text-gray-800 font-bold text-2xl mb-5">
+                  Brand Design
+                </h3>
+                <p className="text-gray-600 text-justify md:text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
+                  We transform businesses into world-class brands by going
+                  through a well thought brand identity design process.
+                </p>
+                <Link
+                  to={"/service/web-design"}
+                  className="text-pink-600 font-bold"
+                >
+                  Learn more
+                </Link>
+              </div>
+              <div className="bg-green-100 border-s-4 border-s-green-200 rounded-s-3xl">
+                <img
+                  loading="lazy"
+                  className="w-full h-56 rounded-lg overflow-hidden mb-5 md:mb-0"
+                  src="https://cdn.prod.website-files.com/63f8ca18cae25871c18fd72d/64062930acab8e66b2e103de_brand-design-agency.png"
+                  alt="Brand Design"
+                />
+              </div>
+            </div>
+            {/* item 5 */}
+            <div className="bg-gray-50 border shadow-sm grid md:grid-cols-2 gap-x-5 gap-y-10 md:gap-y-0 rounded-3xl overflow-hidden">
+              <div className="p-4">
+                <h3 className="text-gray-800 font-bold text-2xl mb-5">
+                  Conversion Optimization
+                </h3>
+                <p className="text-gray-600 text-justify md:text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
+                  We help you A/B test your website core landing pages to boost
+                  your conversion rates and get more leads.
+                </p>
+                <Link
+                  to={"/service/web-design"}
+                  className="text-pink-600 font-bold"
+                >
+                  Learn more
+                </Link>
+              </div>
+              <div className="bg-purple-100 border-s-4 border-s-purple-200 rounded-s-3xl">
+                <img
+                  loading="lazy"
+                  className="w-full h-56 rounded-lg overflow-hidden mb-5 md:mb-0"
+                  src="https://cdn.prod.website-files.com/63f8ca18cae25871c18fd72d/6414a9110b22bf8cbfe6a1dc_conversion-optimization-agency.png"
+                  alt="Conversion Optimization"
+                />
+              </div>
+            </div>
+            {/* item 6 */}
+            <div className="bg-gray-50 border shadow-sm grid md:grid-cols-2 gap-x-5 gap-y-10 md:gap-y-0 rounded-3xl overflow-hidden">
+              <div className="p-4">
+                <h3 className="text-gray-800 font-bold text-2xl mb-5">
+                  Automation
+                </h3>
+                <p className="text-gray-600 text-justify md:text-start text-sm tracking-wide leading-5 font-theme-font mb-2">
+                  We help your business gain leverage and efficiency through
+                  automation using simple, yet powerful NoCode tools.
+                </p>
+                <Link
                   to={"/service/web-design"}
                   className="text-pink-600 font-bold"
                 >
@@ -354,9 +459,10 @@ export default function Home() {
               </div>
               <div className="bg-blue-100 border-s-4 border-s-blue-200 rounded-s-3xl">
                 <img
+                  loading="lazy"
                   className="w-full h-56 rounded-lg overflow-hidden mb-5 md:mb-0"
-                  src="https://cdn.prod.website-files.com/63f8ca18cae25871c18fd72d/6414a7979cc623601c053b0c_web-development-agency.png"
-                  alt="Web Design"
+                  src="https://cdn.prod.website-files.com/63f8ca18cae25871c18fd72d/6526d381da3521c0550eed6f_automation-agency.png"
+                  alt="Automation"
                 />
               </div>
             </div>
