@@ -30,10 +30,10 @@ export default function Blog() {
         {/* Hero Section  */}
         <section className="">
           <div
-            className="abosolute -z-50 m-1 overflow-hidden top-0 min-h-min md:h-screen flex items-center justify-center rounded-2xl"
+            className="abosolute -z-50 m-1 overflow-hidden top-0 min-h-[75vh] lg:h-screen flex items-center justify-center rounded-2xl"
             style={backgroundImg}
           >
-            <div className="absolute m-1 -z-10 bg-black opacity-50 rounded-2xl h-screen w-full"></div>
+            <div className="absolute m-1 -z-10 bg-black opacity-50 rounded-2xl min-h-[75vh] lg:h-screen w-full"></div>
             <div className=" max-w-9xl m-auto px-4 md:px-10 py-5">
               {/* <div className="absolute top-0 left-0 h-full w-2/5 inset-0 bg-purple-100 bg-opacity-10 backdrop-blur-md"></div> */}
               <div className="mt-20 md:grid grid-cols-2 gap-x-20 gap-y-10  m-auto">

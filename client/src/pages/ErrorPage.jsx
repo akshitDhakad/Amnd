@@ -20,32 +20,32 @@ export default function ErrorPage() {
         {/* Hero Section  */}
         <section className="bg-white">
           <div
-            className="abosolute -z-50 m-1 overflow-hidden top-0 h-screen flex items-center justify-center rounded-2xl"
+            className="abosolute -z-50 m-1 overflow-hidden top-0 min-h-[75vh] lg:h-screen flex items-center justify-center rounded-2xl"
             style={backgroundImg}
           >
             <div className="absolute  m-1 -z-10 bg-black opacity-50 rounded-2xl h-screen w-full"></div>
             <div className=" max-w-9xl m-auto px-10 py-5">
               {/* <div className="absolute top-0 left-0 h-full w-2/5 inset-0 bg-purple-100 bg-opacity-10 backdrop-blur-md"></div> */}
-              <div className="mt-20 grid grid-cols-5 gap-x-10 gap-y-10  m-auto">
-                <div className="col-span-5 flex flex-col gap-5">
+              <div className="mt-20 grid grid-cols-2 lg:grid-cols-5 gap-x-10 gap-y-10  m-auto">
+                <div className="col-span-2 lg:col-span-5 flex flex-col gap-5">
                   <div>
                     <h2 className="text-8xl text-center text-white font-semibold tracking-wide font-theme-font">
                       404
                     </h2>
                   </div>
                   <div>
-                    <h1 className="text-6xl text-center text-white font-bold tracking-wide font-theme-font">
+                    <h1 className="text-3xl lg:text-6xl text-center text-white font-bold tracking-wide font-theme-font">
                       Oops! Something went wrong.
                     </h1>
                   </div>
                 </div>
 
                 {/* cards  */}
-                <div className="col-span-3 grid grid-cols-3 gap-x-5">
+                <div className="order-3 col-span-2 lg:col-span-3 grid grid-cols-3 gap-x-5">
                   {/* card 1 */}
                   <div className="relative rounded-xl overflow-hidden p-2">
                     <div className="absolute inset-0 bg-white bg-opacity-50 backdrop-blur-md"></div>
-                    <div className="relative h-40 z-10 ">
+                    <div className="relative h-24 lg:h-40 z-10 ">
                       <img
                         loading="lazy"
                         className="w-full h-full object-container object-center"
@@ -57,7 +57,7 @@ export default function ErrorPage() {
                   {/* card 2 */}
                   <div className="relative rounded-xl overflow-hidden p-2">
                     <div className="absolute inset-0 bg-white bg-opacity-50 backdrop-blur-md"></div>
-                    <div className="relative h-40 z-10 ">
+                    <div className="relative h-24 lg:h-40 z-10 ">
                       <img
                         loading="lazy"
                         className="w-full h-full  object-center"
@@ -69,7 +69,7 @@ export default function ErrorPage() {
                   {/* card 3 */}
                   <div className="relative rounded-xl overflow-hidden p-2">
                     <div className="absolute inset-0 bg-white bg-opacity-50 backdrop-blur-md"></div>
-                    <div className="relative h-40 z-10 ">
+                    <div className="relative h-24 lg:h-40 z-10 ">
                       <img
                         loading="lazy"
                         className="w-full h-full object-cover object-center"
@@ -80,8 +80,8 @@ export default function ErrorPage() {
                   </div>
                 </div>
                 {/* right container */}
-                <div className="col-span-2 flex flex-col justify-end">
-                  <p className="text-2xl text-white text-start tracking-wide font-theme-font">
+                <div className="order-2 col-span-2 flex flex-col justify-end">
+                  <p className="text-base lg:text-2xl text-white text-start tracking-wide font-theme-font">
                     Click the button below to go to the home page
                   </p>
                   <Link

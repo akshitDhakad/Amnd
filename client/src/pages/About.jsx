@@ -32,13 +32,13 @@ export default function About() {
         {/* Hero Section  */}
         <section className="">
           <div
-            className="abosolute -z-50 m-1 overflow-hidden top-0 h-screen flex items-center justify-center rounded-2xl"
+            className="abosolute -z-50 m-1 overflow-hidden top-0 min-h-[75vh] lg:h-screen flex items-center justify-center rounded-2xl"
             style={backgroundImg}
           >
-            <div className="absolute  m-1 -z-10 bg-black opacity-50 rounded-2xl h-screen w-full"></div>
-            <div className=" max-w-9xl m-auto px-10 py-5">
+            <div className="absolute m-1 -z-10 bg-black opacity-50 rounded-2xl min-h-[75vh] lg:h-screen w-full"></div>
+            <div className="max-w-9xl m-auto px-4 lg:px-10 py-5">
               {/* <div className="absolute top-0 left-0 h-full w-2/5 inset-0 bg-purple-100 bg-opacity-10 backdrop-blur-md"></div> */}
-              <div className="md:grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+              <div className="mt-20 md:grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
                 <div className="col-span-2 flex flex-col md:gap-5">
                   <div>
                     <h2 className="text-xl md:text-3xl text-white font-semibold tracking-wide font-theme-font">
@@ -56,7 +56,7 @@ export default function About() {
                   {/* card 1 */}
                   <div className="relative rounded-xl overflow-hidden p-2">
                     <div className="absolute inset-0 bg-white bg-opacity-50 backdrop-blur-md"></div>
-                    <div className="relative h-24 md:h-40 z-10 ">
+                    <div className="relative h-24 md:h-40 z-10">
                       <img
                         loading="lazy"
                         className="w-full h-full object-container object-center"

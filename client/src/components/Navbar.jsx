@@ -341,7 +341,7 @@ function Navbar() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/contact" onClick={() => setSidebarOpen(false)}>
+                  <Link to="/contact-us" onClick={() => setSidebarOpen(false)}>
                     Contact Us
                   </Link>
                 </li>
