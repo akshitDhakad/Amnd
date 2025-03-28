@@ -68,13 +68,13 @@ export default function ContactUs() {
         {/* Hero Section  */}
         <section className="bg-white">
           <div
-            className="abosolute -z-50 m-1 overflow-hidden top-0 h-screen flex items-center justify-center rounded-2xl"
+            className="abosolute -z-50 m-1 overflow-hidden top-0 min-h-min md:h-screen flex items-center justify-center rounded-2xl"
             style={backgroundImg}
           >
-            <div className="absolute  m-1 -z-10 bg-black opacity-50 rounded-2xl h-screen w-full"></div>
-            <div className=" max-w-9xl m-auto px-10 py-5">
+            <div className="absolute  m-1 -z-10 bg-black opacity-50 rounded-2xl min-h-min lg:h-screen w-full"></div>
+            <div className=" max-w-9xl m-auto px-4 lg:px-10 py-5">
               {/* <div className="absolute top-0 left-0 h-full w-2/5 inset-0 bg-purple-100 bg-opacity-10 backdrop-blur-md"></div> */}
-              <div className="md:grid grid-cols-2 gap-x-20 gap-y-10  m-auto">
+              <div className="mt-20 md:grid grid-cols-2 gap-x-20 gap-y-10  m-auto">
                 <div className="col-span-2 flex flex-col md:gap-5">
                   <div>
                     <h2 className="text-xl md:text-3xl text-white font-semibold tracking-wide font-theme-font">
@@ -139,10 +139,10 @@ export default function ContactUs() {
 
         {/* Contact us section */}
         <section>
-          <div className="relative max-w-9xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl py-10 lg:py-20 grid lg:grid-cols-2 gap-x-10 gap-y-10  m-auto">
             {/* left content */}
-            <div className="">
-              <div className="flex flex-col gap-5">
+            <div className="px-4">
+              <div className="flex flex-col lg:gap-5">
                 <h2 className="text-3xl font-semibold text-gray-800 tracking-wide font-theme-font">
                   Get in Touch with Us
                 </h2>
@@ -155,7 +155,7 @@ export default function ContactUs() {
                   shortly.
                 </Typography>
               </div>
-              <div className="grid grid-cols-2 gap-x-5 gap-y-5 mt-10">
+              <div className="grid grid-cols-2 gap-x-5 gap-y-5 mt-5 lg:mt-10">
                 <div
                   className="flex
                 gap-2
@@ -164,7 +164,9 @@ export default function ContactUs() {
                   <span></span>
                   <div>
                     <h6>Call the helpline:</h6>
-                    <p className="text-gray-900 text-sm">(02) 4003 7936</p>
+                    <p className="text-gray-900 text-xs lg:text-sm">
+                      (02) 4003 7936
+                    </p>
                   </div>{" "}
                 </div>
 
@@ -176,7 +178,9 @@ export default function ContactUs() {
                   <span></span>
                   <div>
                     <h6>Email us:</h6>
-                    <p className="text-gray-900 text-sm">hello@banca.com</p>
+                    <p className="text-gray-900 text-xs lg:text-sm">
+                      hello@banca.com
+                    </p>
                   </div>{" "}
                 </div>
 
@@ -188,7 +192,7 @@ export default function ContactUs() {
                   <span></span>
                   <div>
                     <h6>Location</h6>
-                    <p className="text-gray-900 text-sm">
+                    <p className="text-gray-900 text-xs lg:text-sm">
                       1550 Bryant Street STE 750, San Francisco, CA 94103
                     </p>
                   </div>{" "}
@@ -202,7 +206,7 @@ export default function ContactUs() {
                   <span></span>
                   <div>
                     <h6>Work Hours</h6>
-                    <p className="text-gray-900 text-sm">
+                    <p className="text-gray-900 text-xs lg:text-sm">
                       Monday - Saturday: 9am - 7pm <br /> Sunday: 12am — 6pm
                     </p>
                   </div>{" "}
@@ -258,12 +262,12 @@ export default function ContactUs() {
         </section>
 
         <section>
-          <div className="relative max-w-9xl py-20 grid grid-cols-3 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl py-10 lg:py-20 grid lg:grid-cols-3 gap-x-10 gap-y-10 m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Web Development
             </span>
             {/* heading  */}
-            <div className="col-span-3">
+            <div className="col-span-3 px-4">
               {data.map((item, index) => (
                 <AccordionCard key={item._id} item={item} />
               ))}

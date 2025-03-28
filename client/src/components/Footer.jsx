@@ -15,7 +15,7 @@ function Footer() {
       <div className="max-w-9xl m-auto py-20 bg-opacity-90">
         <div className="grid md:grid-cols-4 gap-2 gap-y-10 px-4">
           {/* col 1 */}
-          <div className="px-4 flex flex-col gap-5 md:gap-y-5">
+          <div className="lg:px-4 flex flex-col gap-5 md:gap-y-5">
             <div>
               <h2 className="text-white font-bold tracking-wide font-theme-font xl:text-2xl">
                 Expertise
@@ -63,7 +63,7 @@ function Footer() {
             </div>
           </div>
           {/* col 2 */}
-          <div className="px-4 flex flex-col gap-5 md:gap-y-5">
+          <div className="lg:px-4 flex flex-col gap-5 md:gap-y-5">
             <div>
               <h2 className="text-white font-bold tracking-wide font-theme-font 2xl:text-2xl">
                 Cities of Our Expertise
@@ -99,7 +99,7 @@ function Footer() {
             </div>
           </div>
           {/* col 3 */}
-          <div className="px-4 flex flex-col gap-5 md:gap-y-5">
+          <div className="lg:px-4 flex flex-col gap-5 md:gap-y-5">
             <div>
               <h2 className="text-white font-bold tracking-wide font-theme-font 2xl:text-2xl">
                 Industries
@@ -120,7 +120,7 @@ function Footer() {
             </div>
           </div>
           {/* col 4 */}
-          <div className="flex flex-col gap-5 md:gap-y-5">
+          <div className="lg:px-4 flex flex-col gap-5 md:gap-y-5">
             <div>
               <h2 className="text-white font-bold tracking-wide font-theme-font 2xl:text-2xl">
                 Industries

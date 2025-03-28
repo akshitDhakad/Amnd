@@ -36,7 +36,7 @@ export default function Home() {
         {/* Hero Section  */}
         <section>
           <div className="md:abosolute m-1 rounded-2xl md:top-0 min-h-min md:h-screen flex justify-center items-center bg-theme-bg-dark bg-cover bg-center bg-[url('/assets/images/background/background-img3.jpg')]">
-            <div className="mt-20 md:mt-auto md:relative max-w-6xl 2xl:max-w-8xl m-auto px-10 py-5">
+            <div className="mt-20 md:mt-auto md:relative max-w-6xl 2xl:max-w-8xl m-auto px-4 lg:px-10 py-5">
               <div
                 className="md:absolute md:top-5 left-0 h-full md:w-6/12"
                 style={backgroundImg}
@@ -50,7 +50,7 @@ export default function Home() {
                     </h2>
                   </div>
                   <div>
-                    <h1 className="text-4xl lg:text-5xl mb-5 2xl:text-6xl text-white font-bold tracking-wide font-theme-font">
+                    <h1 className="text-2xl md:text-4xl lg:text-5xl mb-5 2xl:text-6xl text-white font-bold tracking-wide font-theme-font">
                       We create amazing websites for world-class tech companies
                     </h1>
                   </div>
@@ -58,7 +58,7 @@ export default function Home() {
                 <div className="hidden md:block md:col-span-2 md:h-24"></div>
                 <div className="hidden md:block"></div>
                 <div className="w-full">
-                  <p className="mt-20 text-base 2xl:text-2xl text-white md:text-start tracking-wide font-theme-font">
+                  <p className="lg:mt-20 text-base 2xl:text-2xl text-white md:text-start tracking-wide font-theme-font">
                     Looking for turnkey custom web application development
                     services? We are <b>DigiTechii Software</b> – a leading
                     custom web application development company with a recognized
@@ -76,7 +76,7 @@ export default function Home() {
 
         {/* About Us Section  */}
         <section>
-          <div className="relative max-w-9xl px-4 py-20 grid md:grid-cols-2 gap-x-10 lg:gap-y-10 m-auto">
+          <div className="relative max-w-9xl px-4 py-10 lg:py-20 grid md:grid-cols-2 gap-x-10 lg:gap-y-10 m-auto">
             <span class="absolute font-semibold text-4xl md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
               DIGITECHII
             </span>
@@ -162,7 +162,7 @@ export default function Home() {
 
         {/* Testinomials section  */}
         <section>
-          <div className="relative max-w-9xl px-4 py-20  m-auto">
+          <div className="relative max-w-9xl px-4 py-10 lg:py-20  m-auto">
             <span class="absolute font-semibold text-[4rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
               Testimonials
             </span>
@@ -185,7 +185,7 @@ export default function Home() {
 
         {/* Our Services section  */}
         <section>
-          <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2  gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-10 lg:py-20 grid grid-cols-2  gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-4xl md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] right-[-125px] text-gray-500 text-shadow-2">
               Our Services
             </span>
@@ -291,7 +291,7 @@ export default function Home() {
 
         {/* Custom Web App Development Services  */}
         <section>
-          <div className="relative max-w-9xl px-4 py-20 grid md:grid-cols-2 gap-5 md:gap-x-10 md:gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-10 lg:py-20 grid md:grid-cols-2 gap-5 md:gap-x-10 md:gap-y-10  m-auto">
             <span class="absolute font-semibold text-[4rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-0 left-[1/2] text-gray-500 text-shadow-2">
               We Provide
             </span>
@@ -303,7 +303,7 @@ export default function Home() {
                 </h2>
               </div>
               <div className="mb-4">
-                <h1 className="text-3xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
+                <h1 className="text-2xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
                   High-impact design & development services
                 </h1>
               </div>
@@ -311,7 +311,7 @@ export default function Home() {
 
             {/* item 1 */}
             <div className="bg-gray-50 border-b-2 shadow-sm grid md:grid-cols-2 gap-x-5 gap-y-10 md:gap-y-0 rounded-3xl overflow-hidden">
-              <div className="p-4">
+              <div className="order-2 lg:order-1 p-4">
                 <h3 className="text-gray-800 font-bold text-2xl mb-5">
                   Web Design
                 </h3>
@@ -326,7 +326,7 @@ export default function Home() {
                   Learn more
                 </Link>
               </div>
-              <div className="bg-pink-100 border-s-4 border-s-pink-200 rounded-s-3xl">
+              <div className="order-1 lg:order-2 bg-pink-100 border-b-2 border-b-pink-200 lg:border-s-4 lg:border-s-pink-200 lg:rounded-s-3xl">
                 <img
                   className="w-full h-56 rounded-lg overflow-hidden mb-5 md:mb-0"
                   src="https://cdn.prod.website-files.com/63f8ca18cae25871c18fd72d/64062922a09751a1098ce054_web-design-agency.png"
@@ -336,8 +336,8 @@ export default function Home() {
             </div>
 
             {/* item 2 */}
-            <div className="bg-gray-50 border shadow-sm grid md:grid-cols-2 gap-x-5 gap-y-10 md:gap-y-0 rounded-3xl overflow-hidden">
-              <div className="p-4">
+            <div className="bg-gray-50 border-b-2 shadow-sm grid md:grid-cols-2 gap-x-5 gap-y-10 md:gap-y-0 rounded-3xl overflow-hidden">
+              <div className="order-2 lg:order-1 p-4">
                 <h3 className="text-gray-800 font-bold text-2xl mb-5">
                   Web Development
                 </h3>
@@ -352,7 +352,7 @@ export default function Home() {
                   Learn more
                 </Link>
               </div>
-              <div className="bg-blue-100 border-s-4 border-s-blue-200 rounded-s-3xl">
+              <div className="bg-blue-100 border-b-2 border-b-blue-200 lg:border-s-4 lg:border-s-blue-200 lg:rounded-s-3xl">
                 <img
                   loading="lazy"
                   className="w-full h-56 rounded-lg overflow-hidden mb-5 md:mb-0"
@@ -363,7 +363,7 @@ export default function Home() {
             </div>
             {/* item 3 */}
             <div className="bg-gray-50 border-b-2 shadow-sm grid md:grid-cols-2 gap-x-5 gap-y-10 md:gap-y-0 rounded-3xl overflow-hidden">
-              <div className="p-4">
+              <div className="order-2 lg:order-1 p-4">
                 <h3 className="text-gray-800 font-bold text-2xl mb-5">
                   UI/UX Design
                 </h3>
@@ -378,7 +378,7 @@ export default function Home() {
                   Learn more
                 </Link>
               </div>
-              <div className="bg-orange-100 border-s-4 border-s-orange-200 rounded-s-3xl">
+              <div className="bg-orange-100 border-b-4 lg:border-s-4 border-b-orange-200 lg:border-s-orange-200 lg:rounded-s-3xl">
                 <img
                   loading="lazy"
                   className="w-full h-56 rounded-lg overflow-hidden mb-5 md:mb-0"
@@ -390,7 +390,7 @@ export default function Home() {
 
             {/* item 4 */}
             <div className="bg-gray-50 border shadow-sm grid md:grid-cols-2 gap-x-5 gap-y-10 md:gap-y-0 rounded-3xl overflow-hidden">
-              <div className="p-4">
+              <div className="order-2 lg:order-1 p-4">
                 <h3 className="text-gray-800 font-bold text-2xl mb-5">
                   Brand Design
                 </h3>
@@ -405,7 +405,7 @@ export default function Home() {
                   Learn more
                 </Link>
               </div>
-              <div className="bg-green-100 border-s-4 border-s-green-200 rounded-s-3xl">
+              <div className="bg-green-100 border-b-4 lg:border-s-4 border-b-green-200 lg:border-s-green-200 lg:rounded-s-3xl">
                 <img
                   loading="lazy"
                   className="w-full h-56 rounded-lg overflow-hidden mb-5 md:mb-0"
@@ -416,7 +416,7 @@ export default function Home() {
             </div>
             {/* item 5 */}
             <div className="bg-gray-50 border shadow-sm grid md:grid-cols-2 gap-x-5 gap-y-10 md:gap-y-0 rounded-3xl overflow-hidden">
-              <div className="p-4">
+              <div className="order-2 lg:order-1 p-4">
                 <h3 className="text-gray-800 font-bold text-2xl mb-5">
                   Conversion Optimization
                 </h3>
@@ -431,7 +431,7 @@ export default function Home() {
                   Learn more
                 </Link>
               </div>
-              <div className="bg-purple-100 border-s-4 border-s-purple-200 rounded-s-3xl">
+              <div className="bg-purple-100 border-b-4 lg:border-s-4  border-b-purple-200 lg:rounded-s-3xl">
                 <img
                   loading="lazy"
                   className="w-full h-56 rounded-lg overflow-hidden mb-5 md:mb-0"
@@ -442,7 +442,7 @@ export default function Home() {
             </div>
             {/* item 6 */}
             <div className="bg-gray-50 border shadow-sm grid md:grid-cols-2 gap-x-5 gap-y-10 md:gap-y-0 rounded-3xl overflow-hidden">
-              <div className="p-4">
+              <div className="order-2 lg:order-1 p-4">
                 <h3 className="text-gray-800 font-bold text-2xl mb-5">
                   Automation
                 </h3>
@@ -457,7 +457,7 @@ export default function Home() {
                   Learn more
                 </Link>
               </div>
-              <div className="bg-blue-100 border-s-4 border-s-blue-200 rounded-s-3xl">
+              <div className="bg-blue-100 border-b-4 lg:border-s-4 border-b-blue-200 lg:border-s-blue-200 lg:rounded-s-3xl">
                 <img
                   loading="lazy"
                   className="w-full h-56 rounded-lg overflow-hidden mb-5 md:mb-0"
@@ -471,7 +471,7 @@ export default function Home() {
 
         {/* Benefits of our Web App Development Services */}
         <section>
-          <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-2 lg:gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-10 lg:py-20 grid grid-cols-2 gap-x-10 gap-y-2 lg:gap-y-10  m-auto">
             <span class="absolute font-semibold md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
               Benefits
             </span>
@@ -599,7 +599,7 @@ export default function Home() {
 
         {/* Our CLients  */}
         <section>
-          <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-10 lg:py-20 grid grid-cols-2 gap-x-10 m-auto">
             <span class="absolute font-semibold text-[4rem] md:text-[10rem] font-theme-font tracking-wide leading-none opacity-10 top-0 left-[1/2] text-gray-500 text-shadow-2">
               Clients
             </span>
@@ -625,7 +625,7 @@ export default function Home() {
 
         {/* Our Development Process  */}
         <section>
-          <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-10 lg:py-20 grid grid-cols-2 gap-x-10 gap-y-10 m-auto">
             <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
               Development
             </span>
@@ -778,7 +778,7 @@ export default function Home() {
 
         {/* Our Work Section  */}
         <section>
-          <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-10 lg:py-20 grid grid-cols-2 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
               Latest Works
             </span>
@@ -796,9 +796,9 @@ export default function Home() {
               </div>
             </div>
             {/* project 1  */}
-            <div className="col-span-2 grid md:grid-cols-2 gap-x-5 gap-y-10">
+            <div className="col-span-2 grid md:grid-cols-2 gap-x-5 gap-y-5">
               {/* left content */}
-              <div className="h-80 md:h-96 2xl:h-[500px] relative rounded-3xl overflow-hidden ">
+              <div className="h-80 md:h-96 2xl:h-[500px] relative rounded-xl lg:rounded-3xl overflow-hidden ">
                 <div className="absolute inset-0 bg-gray-100 opacity-0 hover:opacity-80 flex justify-center items-center">
                   <Link
                     to={""}
@@ -818,8 +818,8 @@ export default function Home() {
                 />
               </div>
               {/* Right content */}
-              <div className="bg-theme-bg-dark rounded-3xl overflow-hidden p-4 md:p-10">
-                <div className="h-full flex flex-col justify-between">
+              <div className="bg-theme-bg-dark rounded-xl lg:rounded-3xl overflow-hidden p-4 md:p-10">
+                <div className="h-full flex flex-col justify-between gap-y-4">
                   {/* Top heading  */}
                   <div className="flex justify-between items-center">
                     <div className="flex gap-x-2 items-center">
@@ -856,10 +856,10 @@ export default function Home() {
               </div>
             </div>
             {/* project 2 */}
-            <div className="col-span-2 grid md:grid-cols-2 gap-x-5 gap-y-10">
+            <div className="col-span-2 grid md:grid-cols-2 gap-x-5 gap-y-5">
               {/* left content */}
-              <div className="order-2 bg-theme-bg-dark rounded-3xl overflow-hidden p-4 md:p-10">
-                <div className="h-full flex flex-col justify-between">
+              <div className="order-2 bg-theme-bg-dark rounded-xl lg:rounded-3xl overflow-hidden p-4 md:p-10">
+                <div className="h-full flex flex-col justify-between gap-y-4">
                   {/* Top heading  */}
                   <div className="flex justify-between items-center">
                     <div className="flex gap-x-2 items-center">
@@ -897,7 +897,7 @@ export default function Home() {
               </div>
 
               {/* Right content */}
-              <div className="order-1 md:order-2 h-80 md:h-96 2xl:h-[500px] relative rounded-3xl overflow-hidden">
+              <div className="order-1 md:order-2 h-80 md:h-96 2xl:h-[500px] relative rounded-xl lg:rounded-3xl overflow-hidden">
                 <div className="absolute inset-0 bg-gray-100 opacity-0 hover:opacity-80 flex justify-center items-center">
                   <Link
                     to={""}
@@ -924,12 +924,12 @@ export default function Home() {
         {/* Our Development Process  */}
 
         <section>
-          <div className="relative max-w-9xl px-4 py-20 md:grid md:grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-10 lg:py-20 md:grid md:grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-0 text-gray-500 text-shadow-2">
               Technologies
             </span>
             {/* heading  */}
-            <div className="col-span-2 flex flex-col">
+            <div className="col-span-2 flex flex-col mb-4">
               <div className="mb-2">
                 <h2 className="text-xl md:text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
                   We Use

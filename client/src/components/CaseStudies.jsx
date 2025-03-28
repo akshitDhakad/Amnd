@@ -5,12 +5,12 @@ function CaseStudies() {
   return (
     <section>
       {/* item 1 */}
-      <div className="relative max-w-9xl px-4 py-20 grid md:grid-cols-2 gap-x-10 md:gap-y-10 m-auto">
+      <div className="relative max-w-9xl px-4 py-10 lg:py-20 grid md:grid-cols-2 gap-x-10 md:gap-y-10 m-auto">
         <span class="absolute font-semibold text-4xl md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
           Case Studies
         </span>
         {/* heading  */}
-        <div className="md:col-span-2 flex flex-col ">
+        <div className="md:col-span-2 flex flex-col mb-4">
           <div className="md:mb-2">
             <h2 className="text-xl md:text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
               Our
@@ -55,7 +55,7 @@ function CaseStudies() {
       </div>
 
       {/* item2 */}
-      <div className="max-w-9xl px-4  grid md:grid-cols-2 gap-x-10 gap-y-10 m-auto">
+      <div className="max-w-9xl px-4 grid md:grid-cols-2 gap-x-10 gap-y-10 m-auto">
         {/* Left content */}
         <div className="flex items-center justify-center">
           <div className="w-full h-56 xl:h-80 rounded-lg overflow-hidden">
@@ -93,7 +93,7 @@ function CaseStudies() {
       </div>
 
       {/* item 3 */}
-      <div className="max-w-9xl py-20 grid px-4 md:grid-cols-2 gap-x-10 gap-y-10 m-auto">
+      <div className="max-w-9xl py-10 lg:py-20 grid px-4 md:grid-cols-2 gap-x-10 gap-y-10 m-auto">
         {/* Left content */}
         <div className="order-3 md:order-2">
           <h3 className="font-bold text-2xl tracking-wide mb-5">ILVE</h3>
