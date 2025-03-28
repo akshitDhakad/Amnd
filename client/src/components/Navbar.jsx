@@ -6,7 +6,7 @@ import DropDownMenu from "./DropDownMenu";
 
 function Navbar() {
   const [navhover, setNavhover] = useState(false);
-  const [navdrop, setNavdrop] = useState(true);
+  const [navdrop, setNavdrop] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [mobileNavdrop, setMobileNavdrop] = useState(false);
