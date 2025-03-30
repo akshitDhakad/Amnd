@@ -58,7 +58,7 @@ export default function Home() {
                   {/* card 1 */}
                   <div className="relative md:max-h-40 rounded-xl overflow-hidden p-2">
                     <div className="absolute  inset-0 bg-white bg-opacity-50 backdrop-blur-md"></div>
-                    <div className="relative h-24 lg:h-40 z-10">
+                    <div className="relative h-24 lg:h-36 z-10">
                       <img
                         loading="lazy"
                         className="w-full h-full object-container object-center"
@@ -70,10 +70,10 @@ export default function Home() {
                   {/* card 2 */}
                   <div className="relative md:max-h-40 rounded-xl overflow-hidden p-2">
                     <div className="absolute  inset-0 bg-white bg-opacity-50 backdrop-blur-md"></div>
-                    <div className="relative h-24 lg:h-40 z-10">
+                    <div className="relative h-24 lg:h-36 z-10">
                       <img
                         loading="lazy"
-                        className="w-full h-full object-container object-center"
+                        className="h-full w-full object-contain"
                         src="https://devoxsoftware.com/wp-content/uploads/2024/03/logo-2.svg"
                         alt="Digitechii Software"
                       />
@@ -83,7 +83,7 @@ export default function Home() {
                   {/* card 3 */}
                   <div className="relative md:max-h-40 rounded-xl overflow-hidden p-2">
                     <div className="absolute inset-0 bg-white bg-opacity-50 backdrop-blur-md"></div>
-                    <div className="relative h-24 md:h-40 z-10 ">
+                    <div className="relative h-24 lg:h-36 z-10">
                       <img
                         loading="lazy"
                         className="w-full h-full object-center"
@@ -111,7 +111,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-        
 
         {/* About Us Section  */}
         <section>
