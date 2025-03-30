@@ -140,17 +140,17 @@ export default function ContactUs() {
 
         {/* Contact us section */}
         <section>
-          <div className="relative max-w-9xl py-10 lg:py-20 grid lg:grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl py-10 px-4 lg:py-20 grid lg:grid-cols-2 gap-x-10 gap-y-10  m-auto">
             {/* left content */}
-            <div className="px-4">
+            <div className="">
               <div className="flex flex-col">
-                <h2 className="text-4xl lg:Ttext-3xl font-semibold text-gray-800 tracking-wide font-theme-font">
+                <h2 className="text-2xl lg:text-4xl lg:Ttext-3xl font-semibold text-gray-800 tracking-wide font-theme-font">
                   Get in Touch with Us
                 </h2>
                 <Typography
                   as="paragraph"
                   variant="paragraph"
-                  className="text-sm px-1.5 text-gray-800 font-thin font-theme-font"
+                  className="text-xs lg:text-sm px-1.5 text-gray-800 font-thin font-theme-font"
                 >
                   Fill in your details, and our team will reach out to you
                   shortly.
@@ -235,14 +235,14 @@ export default function ContactUs() {
             </div>
             {/* Right content */}
             <div className="">
-              <div className="flex flex-col">
-                <h2 className="text-4xl lg:Ttext-3xl font-semibold text-gray-800 tracking-wide font-theme-font">
+              <div className="flex flex-col mb-2">
+                <h2 className="text-2xl lg:text-4xl lg:Ttext-3xl font-semibold text-gray-800 tracking-wide font-theme-font">
                   Get in Touch with Us
                 </h2>
                 <Typography
                   as="paragraph"
                   variant="paragraph"
-                  className="text-sm px-1.5 text-gray-800 font-thin font-theme-font"
+                  className="text-xs lg:text-sm px-1.5 text-gray-800 font-thin font-theme-font"
                 >
                   Fill in your details, and our team will reach out to you
                   shortly.
