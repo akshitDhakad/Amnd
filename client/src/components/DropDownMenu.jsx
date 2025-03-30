@@ -105,7 +105,7 @@ const DropDownMenu = ({ setNavdrop }) => {
 
   return (
     <div
-      // onMouseLeave={() => setNavdrop(false)}
+      onMouseLeave={() => setNavdrop(false)}
       className="absolute m-auto w-full top-12 left-0 mt-7 px-4 py-0 bg-gray-50 shadow-lg overflow-hidden z-50"
     >
       {/* Web Development  */}
