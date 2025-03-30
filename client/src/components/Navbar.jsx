@@ -37,7 +37,7 @@ function Navbar() {
     >
       <div className="max-w-9xl w-full m-auto">
         {/* PC view */}
-        <div className="w-full hidden md:flex items-center py-5 px-4">
+        <div className="w-full hidden md:flex items-center py-5 px-4 border-b border-gray-300 border-opacity-20">
           <div className="flex-1 text-lg">
             <Link to="/" onMouseEnter={() => setNavdrop(false)}>
               <img

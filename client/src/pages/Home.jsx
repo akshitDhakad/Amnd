@@ -36,15 +36,11 @@ export default function Home() {
       <Layout>
         {/* Hero Section  */}
         <section>
-          <div className="md:abosolute m-1 rounded-2xl md:top-0 min-h-min md:h-screen flex justify-center items-center bg-theme-bg-dark bg-cover bg-center bg-[url('/assets/images/background/background-img3.jpg')]">
+          <div className="md:abosolute m-1 rounded-2xl md:top-0 min-h-min md:h-screen flex justify-center items-center bg-theme-bg-dark bg-cover bg-center bg-[url('https://img.freepik.com/free-photo/abstract-flowing-neon-wave-background_53876-101942.jpg?t=st=1743308164~exp=1743311764~hmac=db757fbd12492a96ebe15d6d2e6016054232d8a2c5c57f2da62d4ff814302857&w=1480')]">
             <div className="mt-20 md:mt-auto md:relative max-w-6xl 2xl:max-w-8xl m-auto px-4 lg:px-10 py-5">
-              <div
-                className="md:absolute md:top-5 left-0 h-full md:w-6/12"
-                style={backgroundImg}
-              ></div>
-              <div className="md:absolute md:top-5 left-0 h-full md:w-6/12 inset-0 bg-purple-100 bg-opacity-10 backdrop-blur-xs"></div>
-              <div className="relative md:grid md:grid-cols-2 gap-x-20 gap-y-10 lg:h-[75vh] max-w-9xl m-auto">
-                <div className="md:absolute md:top-10 left-0 z-10 col-span-2 flex flex-col gap-3">
+              <div className="mt-16 relative md:grid md:grid-cols-2 gap-x-20 gap-y-10 lg:h-[75vh] max-w-9xl m-auto">
+                {/* heading  */}
+                <div className="hidden md:block md:col-span-2 md:h-24 space-y-5">
                   <div>
                     <h2 className="text-base lg:text-3xl hover:underline text-white font-semibold tracking-wide font-theme-font">
                       Web Design & Development Agency
@@ -56,8 +52,49 @@ export default function Home() {
                     </h1>
                   </div>
                 </div>
-                <div className="hidden md:block md:col-span-2 md:h-24"></div>
-                <div className="hidden md:block"></div>
+
+                {/* left container  */}
+                <div className="mt-2 grid grid-cols-3 gap-x-5 items-center">
+                  {/* card 1 */}
+                  <div className="relative md:max-h-40 rounded-xl overflow-hidden p-2">
+                    <div className="absolute  inset-0 bg-white bg-opacity-50 backdrop-blur-md"></div>
+                    <div className="relative h-24 lg:h-40 z-10">
+                      <img
+                        loading="lazy"
+                        className="w-full h-full object-container object-center"
+                        src="https://devoxsoftware.com/wp-content/uploads/2024/03/logo-3.svg"
+                        alt="Digitechii Software"
+                      />
+                    </div>
+                  </div>
+                  {/* card 2 */}
+                  <div className="relative md:max-h-40 rounded-xl overflow-hidden p-2">
+                    <div className="absolute  inset-0 bg-white bg-opacity-50 backdrop-blur-md"></div>
+                    <div className="relative h-24 lg:h-40 z-10">
+                      <img
+                        loading="lazy"
+                        className="w-full h-full object-container object-center"
+                        src="https://devoxsoftware.com/wp-content/uploads/2024/03/logo-2.svg"
+                        alt="Digitechii Software"
+                      />
+                    </div>
+                  </div>
+
+                  {/* card 3 */}
+                  <div className="relative md:max-h-40 rounded-xl overflow-hidden p-2">
+                    <div className="absolute inset-0 bg-white bg-opacity-50 backdrop-blur-md"></div>
+                    <div className="relative h-24 md:h-40 z-10 ">
+                      <img
+                        loading="lazy"
+                        className="w-full h-full object-center"
+                        src="https://devoxsoftware.com/wp-content/uploads/2024/03/Group-427320306.svg"
+                        alt="Digitechii Software"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                {/* right container */}
                 <div className="w-full">
                   <p className="lg:mt-20 text-base 2xl:text-2xl text-white md:text-start tracking-wide font-theme-font">
                     Looking for turnkey custom web application development
@@ -74,6 +111,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        
 
         {/* About Us Section  */}
         <section>
@@ -924,7 +962,7 @@ export default function Home() {
         {/* Technologies we use  */}
         {/* Our Development Process  */}
 
-        <DevTechnologies/>
+        <DevTechnologies />
 
         {/* Type of solutions we build  */}
         <section>

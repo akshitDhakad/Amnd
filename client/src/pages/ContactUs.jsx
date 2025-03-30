@@ -47,20 +47,21 @@ const data = [
   },
 ];
 
-
-
 // React icons
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import { MdOutlineStar } from "react-icons/md";
+import { IoMdCall } from "react-icons/io";
+import { IoLocation, IoTime } from "react-icons/io5";
+import { HiOutlineMail } from "react-icons/hi";
+import { IoIosPaperPlane } from "react-icons/io";
 
 export default function ContactUs() {
-   const backgroundImg = {
-     backgroundImage: `url('https://devoxsoftware.com/wp-content/uploads/2024/01/AnyConv.com__philip-oroni-gftMuFt8vNk-unsplash.webp')`,
-     backgroundSize: "cover",
-     backgroundPosition: "center",
-     backgroundRepeat: "no-repeat",
-   };
-
+  const backgroundImg = {
+    backgroundImage: `url('https://devoxsoftware.com/wp-content/uploads/2024/01/AnyConv.com__philip-oroni-gftMuFt8vNk-unsplash.webp')`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  };
 
   return (
     <main className="relative overflow-x-hidden">
@@ -142,19 +143,20 @@ export default function ContactUs() {
           <div className="relative max-w-9xl py-10 lg:py-20 grid lg:grid-cols-2 gap-x-10 gap-y-10  m-auto">
             {/* left content */}
             <div className="px-4">
-              <div className="flex flex-col lg:gap-5">
-                <h2 className="text-2xl lg:Ttext-3xl font-semibold text-gray-800 tracking-wide font-theme-font">
+              <div className="flex flex-col">
+                <h2 className="text-4xl lg:Ttext-3xl font-semibold text-gray-800 tracking-wide font-theme-font">
                   Get in Touch with Us
                 </h2>
                 <Typography
                   as="paragraph"
                   variant="paragraph"
-                  className="text-sm text-gray-800 font-thin font-theme-font"
+                  className="text-sm px-1.5 text-gray-800 font-thin font-theme-font"
                 >
                   Fill in your details, and our team will reach out to you
                   shortly.
                 </Typography>
               </div>
+              {/* address container  */}
               <div className="grid grid-cols-2 gap-x-5 gap-y-5 mt-5 lg:mt-10">
                 <div
                   className="flex
@@ -163,9 +165,14 @@ export default function ContactUs() {
                 >
                   <span></span>
                   <div>
-                    <h6>Call the helpline:</h6>
-                    <p className="text-gray-900 text-xs lg:text-sm">
-                      (02) 4003 7936
+                    <h6 className="flex items-center gap-x-1.5 text-gray-900 text-xs lg:text-sm font-semibold">
+                      <span>
+                        <IoMdCall className="inline" />
+                      </span>
+                      Call the helpline:
+                    </h6>
+                    <p className="px-2 text-gray-900 text-xs lg:text-sm">
+                      +91 8871713348
                     </p>
                   </div>{" "}
                 </div>
@@ -175,11 +182,34 @@ export default function ContactUs() {
                 gap-2
                 items-center"
                 >
-                  <span></span>
                   <div>
-                    <h6>Email us:</h6>
-                    <p className="text-gray-900 text-xs lg:text-sm">
-                      hello@banca.com
+                    <h6 className="flex items-center gap-x-1.5 text-gray-900 text-xs lg:text-sm font-semibold">
+                      <span>
+                        <HiOutlineMail className="inline" />
+                      </span>
+                      Email us:
+                    </h6>
+                    <p className="px-2 text-gray-900 text-xs lg:text-sm">
+                      akshitdhakad7400@gmail.com
+                    </p>
+                  </div>{" "}
+                </div>
+
+                <div
+                  className="flex
+                  gap-2
+                  items-center"
+                >
+                  <div>
+                    <h6 className="flex items-center gap-x-1.5 text-gray-900 text-xs lg:text-sm font-semibold">
+                      <span>
+                        <IoLocation className="inline" />
+                      </span>
+                      Location
+                    </h6>
+                    <p className="px-2 text-gray-900 text-xs lg:text-sm">
+                      10 Zone-1, Maharana Pratap Nagar, Madhya Pradesh, India
+                      94103
                     </p>
                   </div>{" "}
                 </div>
@@ -189,23 +219,13 @@ export default function ContactUs() {
                 gap-2
                 items-center"
                 >
-                  <span></span>
                   <div>
-                    <h6>Location</h6>
-                    <p className="text-gray-900 text-xs lg:text-sm">
-                      1550 Bryant Street STE 750, San Francisco, CA 94103
-                    </p>
-                  </div>{" "}
-                </div>
-
-                <div
-                  className="flex
-                gap-2
-                items-center"
-                >
-                  <span></span>
-                  <div>
-                    <h6>Work Hours</h6>
+                    <h6 className="flex items-center gap-x-1.5 text-gray-900 text-xs lg:text-sm font-semibold">
+                      <span>
+                        <IoTime className="inline" />
+                      </span>
+                      Work Hours
+                    </h6>
                     <p className="text-gray-900 text-xs lg:text-sm">
                       Monday - Saturday: 9am - 7pm <br /> Sunday: 12am — 6pm
                     </p>
@@ -215,8 +235,21 @@ export default function ContactUs() {
             </div>
             {/* Right content */}
             <div className="">
-              <div className="bg-white p-6 w-full lg:max-w-lg xl:max-w-2xl h-full flex flex-col">
-                <div className="md:flex-grow md:mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-4">
+              <div className="flex flex-col">
+                <h2 className="text-4xl lg:Ttext-3xl font-semibold text-gray-800 tracking-wide font-theme-font">
+                  Get in Touch with Us
+                </h2>
+                <Typography
+                  as="paragraph"
+                  variant="paragraph"
+                  className="text-sm px-1.5 text-gray-800 font-thin font-theme-font"
+                >
+                  Fill in your details, and our team will reach out to you
+                  shortly.
+                </Typography>
+              </div>
+              <div className="bg-white w-full lg:max-w-lg xl:max-w-2xl h-full flex flex-col">
+                <div className="md:flex-grow md:mt-4 grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-4">
                   <div>
                     <Input label="First Name" required />
                   </div>
@@ -247,17 +280,31 @@ export default function ContactUs() {
                     />
                   </div>
                 </div>
-                <div className="flex flex-col-reverse md:flex-row items-center justify-end">
+                <div className="">
                   <Button
-                    className="w-full bg-blue-500 text-white py-2 px-4 rounded mt-4"
+                    className="flex items-center justify-center gap-x-2.5 w-full bg-purple-500 text-lg text-white py-2.5 px-4 rounded mt-4"
                     onClick={() => alert("Form Submitted!")}
                     variant="filled"
                   >
-                    Submit
+                    Submit <IoIosPaperPlane className="h-8 " />
                   </Button>
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* map  */}
+        <section>
+          <div className="max-w-9xl">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21615.50168188023!2d77.41295181040967!3d23.23458470200533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c4269deb07df9%3A0xfee61a854a2e5374!2sMaharana%20Pratap%20Nagar%2C%20Bhopal%2C%20Madhya%20Pradesh!5e1!3m2!1sen!2sin!4v1743319024772!5m2!1sen!2sin"
+              width="100%"
+              height="450"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </section>
 
