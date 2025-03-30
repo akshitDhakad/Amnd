@@ -132,7 +132,7 @@ function Navbar() {
     <nav
       onMouseEnter={() => setNavhover(true)}
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        scrolled ? "bg-white shadow-md text-black" : "bg-transparent"
+        scrolled || navdrop ? "bg-white shadow-md text-gray-800" : "bg-transparent text-white"
       }`}
     >
       <div className="max-w-9xl w-full m-auto">
@@ -144,7 +144,7 @@ function Navbar() {
                 loading="lazy"
                 className="h-12 2xl:h-16 w-auto"
                 src="/assets/logo/digitechii.png"
-                alt="AMNDTECH logo"
+                alt="Digitechii logo"
               />
             </Link>
           </div>
@@ -155,8 +155,8 @@ function Navbar() {
                 onMouseEnter={() => setNavdrop(true)}
                 className={`${
                   scrolled
-                    ? "font-theme-font text-sm 2xl:text-lg text-center text-black hover:text-purple-600 transition-color"
-                    : "font-theme-font text-sm 2xl:text-lg text-center text-white hover:text-purpli-600 transition-color "
+                    ? "font-theme-font text-sm 2xl:text-lg text-center transition-color"
+                    : "font-theme-font text-sm 2xl:text-lg text-center transition-color "
                 }`}
               >
                 <Link>Services</Link>
@@ -172,8 +172,8 @@ function Navbar() {
                 onMouseEnter={() => setNavdrop(false)}
                 className={`${
                   scrolled
-                    ? "font-theme-font text-sm 2xl:text-lg text-center text-black hover:text-purple-600 transition-color"
-                    : "font-theme-font text-sm 2xl:text-lg text-center text-white hover:text-purpli-600 transition-color "
+                    ? "font-theme-font text-sm 2xl:text-lg text-center transition-color"
+                    : "font-theme-font text-sm 2xl:text-lg text-center transition-color "
                 }`}
               >
                 <Link to="/technology">Technology</Link>
@@ -183,8 +183,8 @@ function Navbar() {
                 onMouseEnter={() => setNavdrop(false)}
                 className={`${
                   scrolled
-                    ? "font-theme-font text-sm 2xl:text-lg text-center text-black hover:text-purple-600 transition-color"
-                    : "font-theme-font text-sm 2xl:text-lg text-center text-white hover:text-purpli-600 transition-color "
+                    ? "font-theme-font text-sm 2xl:text-lg text-center hover:text-purple-600 transition-color"
+                    : "font-theme-font text-sm 2xl:text-lg text-center hover:text-purpli-600 transition-color "
                 }`}
               >
                 <Link to="/our-work">Our work</Link>
@@ -194,8 +194,8 @@ function Navbar() {
                 onMouseEnter={() => setNavdrop(false)}
                 className={`${
                   scrolled
-                    ? "font-theme-font text-sm 2xl:text-lg text-center text-black hover:text-purple-600 transition-color"
-                    : "font-theme-font text-sm 2xl:text-lg text-center text-white hover:text-purpli-600 transition-color "
+                    ? "font-theme-font text-sm 2xl:text-lg text-center transition-color"
+                    : "font-theme-font text-sm 2xl:text-lg text-center hover:text-purpli-600 transition-color "
                 }`}
               >
                 <Link to="/career">Careers</Link>
@@ -205,8 +205,8 @@ function Navbar() {
                 onMouseEnter={() => setNavdrop(false)}
                 className={`${
                   scrolled
-                    ? "font-theme-font text-sm 2xl:text-lg text-center text-black hover:text-purple-600 transition-color"
-                    : "font-theme-font text-sm 2xl:text-lg text-center text-white hover:text-purpli-600 transition-color "
+                    ? "font-theme-font text-sm 2xl:text-lg text-center transition-color"
+                    : "font-theme-font text-sm 2xl:text-lg text-center hover:text-purpli-600 transition-color "
                 }`}
               >
                 <Link to="/about-us">About Us</Link>
@@ -216,8 +216,8 @@ function Navbar() {
                 onMouseEnter={() => setNavdrop(false)}
                 className={`${
                   scrolled
-                    ? "font-theme-font text-sm 2xl:text-lg text-center text-black hover:text-purple-600 transition-color"
-                    : "font-theme-font text-sm 2xl:text-lg text-center text-white hover:text-purpli-600 transition-color "
+                    ? "font-theme-font text-sm 2xl:text-lg text-center transition-color"
+                    : "font-theme-font text-sm 2xl:text-lg text-center hover:text-purpli-600 transition-color "
                 }`}
               >
                 <Link to="/blogs">Blog</Link>

@@ -236,7 +236,7 @@ export default function ContactUs() {
             {/* Right content */}
             <div className="">
               <div className="flex flex-col mb-2">
-                <h2 className="text-2xl lg:text-4xl lg:Ttext-3xl font-semibold text-gray-800 tracking-wide font-theme-font">
+                <h2 className="text-2xl lg:text-4xl  font-semibold text-gray-800 tracking-wide font-theme-font">
                   Get in Touch with Us
                 </h2>
                 <Typography
