@@ -4,6 +4,106 @@ import { IoMdCall } from "react-icons/io";
 import ContactUsModal from "./ContactUsModal";
 import DropDownMenu from "./DropDownMenu";
 
+// services 
+const serviceLinks = {
+  0: [
+    {
+      title: "Web Development",
+      description:
+        "Build & maintain sites progressibe web applications (PWAs) and single-page applications (SPAs).",
+      link: "/service/web-development",
+      img: "https://cdn.prod.website-files.com/63f8ca18cae25871c18fd72d/671ac0eee5122fad4a15d89c_web-design-service.png",
+    },
+
+    {
+      title: "Front End Development",
+      description: "Responsive and User-friendly UI/UX.",
+      link: "/service/frontend-development",
+    },
+    {
+      title: "Mobile Development",
+      description: "iOS & Android apps.",
+      link: "/service/mobile-development",
+    },
+    {
+      title: "UI/UX Design",
+      description: "Design & usability.",
+      link: "/service/ui-development",
+      img: "https://cdn.prod.website-files.com/63f8ca18cae25871c18fd72d/671ac0ed8fe1f994a096139f_ui-ux-design-service.png",
+    },
+    {
+      title: "Back End Development",
+      description: "Powerful ,scalable and secure servers.",
+      link: "/service/backend-development",
+      img: "https://cdn.prod.website-files.com/63f8ca18cae25871c18fd72d/671ad9723c3dff2d615c85a5_web-development-service.png",
+    },
+    {
+      title: "DevOps Development",
+      description: "Faster deployments",
+      link: "/service/devops-development",
+    },
+    {
+      title: "Quality Assurance",
+      description: "Bug-free software",
+      link: "/service/quality-assurance",
+    },
+    {
+      title: "Data Analytics",
+      description:
+        "Creating scalable operational or analytical databases tailored to meet specific business needs, ensuring data integrity, security, and optimal performance.",
+      link: "/service/data-analytics",
+    },
+    {
+      title: "Business Intelligence",
+      description:
+        "Unlock insights, drive decisions. Harness the power of Business Intelligence for data-driven strategies and informed decision-making.",
+      link: "/service/business-intelligence",
+    },
+  ],
+  1: [
+    {
+      title: "SEO Optimization",
+      description: "Boost rankings & visibility.",
+      link: "/service/seo-optimization",
+    },
+    {
+      title: "Google Ads",
+      description: "Targeted paid campaigns.",
+      link: "/service/google-ads",
+    },
+    {
+      title: "Instagram Ads",
+      description: "Engage with your audience.",
+      link: "/service/instagram-ads",
+    },
+    {
+      title: "YouTube Content",
+      description: "Engaging video content.",
+      link: "/service/youtube-content",
+    },
+    {
+      title: "Content Writing",
+      description: "High-quality & engaging content.",
+      link: "/service/content-writing",
+    },
+    {
+      title: "Video Editing",
+      description: "Professional video production.",
+      link: "/service/video-editing",
+    },
+    {
+      title: "UX/UI Development",
+      description: "Figma designs & prototypes.",
+      link: "/service/ux-ui-development",
+    },
+    {
+      title: "Email Marketing",
+      description: "Targeted email campaigns.",
+      link: "/service/email-marketing",
+    },
+  ],
+};
+
 function Navbar() {
   const [navhover, setNavhover] = useState(false);
   const [navdrop, setNavdrop] = useState(false);
@@ -60,7 +160,12 @@ function Navbar() {
                 }`}
               >
                 <Link>Services</Link>
-                {navdrop && <DropDownMenu setNavdrop={setNavdrop} />}
+                {navdrop && (
+                  <DropDownMenu
+                    setNavdrop={setNavdrop}
+                    serviceLinks={serviceLinks}
+                  />
+                )}
               </li>
               {/* Technology */}
               <li
@@ -158,12 +263,14 @@ function Navbar() {
           {/* logo */}
           <div>
             {scrolled ? (
+              <Link to={"/"}>
               <img
                 loading="lazy"
                 className="h-12 w-auto"
                 src="/assets/logo/digitechii.png"
                 alt="AMNDTECH logo"
               />
+              </Link>
             ) : (
               <img
                 loading="lazy"

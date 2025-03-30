@@ -25,7 +25,7 @@ import DevTechnologies from "../components/DevTechnologies.jsx";
 
 export default function Home() {
   const backgroundImg = {
-    backgroundImage: `url('https://img.freepik.com/free-photo/3d-workstation-with-computer-peripheral-devices_23-2150714175.jpg?uid=R96042563&ga=GA1.1.680121161.1738433577&semt=ais_hybrid')`,
+    backgroundImage: `url('../assets/background/background-home.jpg')`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -36,11 +36,11 @@ export default function Home() {
       <Layout>
         {/* Hero Section  */}
         <section>
-          <div className="md:abosolute m-1 rounded-2xl md:top-0 min-h-min md:h-screen flex justify-center items-center bg-theme-bg-dark bg-cover bg-center bg-[url('https://img.freepik.com/free-photo/abstract-flowing-neon-wave-background_53876-101942.jpg?t=st=1743308164~exp=1743311764~hmac=db757fbd12492a96ebe15d6d2e6016054232d8a2c5c57f2da62d4ff814302857&w=1480')]">
+          <div className="md:abosolute m-1 rounded-2xl md:top-0 min-h-min md:h-screen flex justify-center items-center bg-theme-bg-dark bg-cover bg-center bg-[url('/assets/images/background/background-home.jpg')]">
             <div className="mt-20 md:mt-auto md:relative max-w-6xl 2xl:max-w-8xl m-auto px-4 lg:px-10 py-5">
-              <div className="mt-16 relative md:grid md:grid-cols-2 gap-x-20 gap-y-10 lg:h-[75vh] max-w-9xl m-auto">
+              <div className="lg:mt-16 relative grid md:grid-cols-2 gap-x-20 lg:gap-y-10 lg:h-[75vh] max-w-9xl m-auto">
                 {/* heading  */}
-                <div className="hidden md:block md:col-span-2 md:h-24 space-y-5">
+                <div className="order-1 md:col-span-2 md:h-24 space-y-5">
                   <div>
                     <h2 className="text-base lg:text-3xl hover:underline text-white font-semibold tracking-wide font-theme-font">
                       Web Design & Development Agency
@@ -54,7 +54,7 @@ export default function Home() {
                 </div>
 
                 {/* left container  */}
-                <div className="mt-2 grid grid-cols-3 gap-x-5 items-center">
+                <div className="order-3 lg:order-2 mt-2 grid grid-cols-3 gap-x-5 items-center">
                   {/* card 1 */}
                   <div className="relative md:max-h-40 rounded-xl overflow-hidden p-2">
                     <div className="absolute  inset-0 bg-white bg-opacity-50 backdrop-blur-md"></div>
@@ -95,7 +95,7 @@ export default function Home() {
                 </div>
 
                 {/* right container */}
-                <div className="w-full">
+                <div className="order-2 lg:order-3 w-full">
                   <p className="lg:mt-20 text-base 2xl:text-2xl text-white md:text-start tracking-wide font-theme-font">
                     Looking for turnkey custom web application development
                     services? We are <b>DigiTechii Software</b> – a leading
