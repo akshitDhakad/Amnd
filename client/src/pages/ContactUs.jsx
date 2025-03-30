@@ -143,7 +143,7 @@ export default function ContactUs() {
             {/* left content */}
             <div className="px-4">
               <div className="flex flex-col lg:gap-5">
-                <h2 className="text-2xl lg:text-3xl font-semibold text-gray-800 tracking-wide font-theme-font">
+                <h2 className="text-2xl lg:Ttext-3xl font-semibold text-gray-800 tracking-wide font-theme-font">
                   Get in Touch with Us
                 </h2>
                 <Typography
