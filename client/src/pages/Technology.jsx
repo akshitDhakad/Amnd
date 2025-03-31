@@ -2,12 +2,15 @@ import React, { useState } from "react";
 import Layout from "../components/Layout.jsx";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import Testinomial from "../components/Testinomial.jsx";
-
 import ClientCard from "../components/ClientCard.jsx";
+import {
+  CustomButton1,
+  CustomButton2,
+} from "../components/ui/CustomButtons.jsx";
 // React icons
 import ServicesBanner from "../components/ServicesBanner.jsx";
 import AccordionCard from "../components/Accordion.jsx";
-
+import DevTechnologies from "../components/DevTechnologies.jsx";
 import ContactFrom from "../components/ContactFrom.jsx";
 const data = [
   {
@@ -163,25 +166,24 @@ export default function Technology() {
                 {/* right container */}
                 <div className="mt-2 col-span-2 flex flex-col gap-y-2">
                   {/* button */}
-                  <div>
-                    {" "}
-                    <div className="bg-button-black  flex gap-x-3 items-center justify-between px-5 py-3 rounded-2xl delay-250">
-                      <span className="text-white font-bold font-theme-font">
-                        BACKEND DEVELOPMENT COMPANY
-                      </span>
-                      <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-gray-800 hover:shadow-md hover:shadow-slate-200 transition-color">
-                        <HiOutlineArrowLongRight className="text-lg font-bold" />
-                      </button>
-                    </div>
+
+                  <div className="bg-button-black group flex gap-x-3 items-center justify-between px-5 py-3 rounded-2xl delay-250">
+                    <span className="text-white font-bold font-theme-font">
+                      BACKEND DEVELOPMENT COMPANY
+                    </span>
+                    <button className="p-1 font-theme-font text-sm rounded-full group-hover:bg-black group-hover:text-white text-gray-800 hover:shadow-md hover:shadow-slate-200 transition-color">
+                      <HiOutlineArrowLongRight className="text-lg font-bold" />
+                    </button>
                   </div>
+
                   {/* button */}
                   <div>
                     {" "}
-                    <div className="bg-button-black  flex gap-x-3 items-center justify-between px-5 py-3 rounded-2xl delay-250">
+                    <div className="bg-button-black group flex gap-x-3 items-center justify-between px-5 py-3 rounded-2xl delay-250">
                       <span className="text-white font-bold font-theme-font">
                         FONT-END DEVELOPMENT COMPANY
                       </span>
-                      <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-gray-800 hover:shadow-md hover:shadow-slate-200 transition-color">
+                      <button className="p-1 font-theme-font text-sm rounded-full group-hover:bg-black group-hover:text-white text-gray-800 hover:shadow-md hover:shadow-slate-200 transition-color">
                         <HiOutlineArrowLongRight className="text-lg font-bold" />
                       </button>
                     </div>
@@ -189,11 +191,11 @@ export default function Technology() {
                   {/* button */}
                   <div>
                     {" "}
-                    <div className="bg-button-black  flex gap-x-3 items-center justify-between px-5 py-3 rounded-2xl delay-250">
+                    <div className="bg-button-black group flex gap-x-3 items-center justify-between px-5 py-3 rounded-2xl delay-250">
                       <span className="text-white font-bold font-theme-font">
                         DATABASE DEVELOPMENT COMPANY
                       </span>
-                      <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-gray-800 hover:shadow-md hover:shadow-slate-200 transition-color">
+                      <button className="p-1 font-theme-font text-sm rounded-full group-hover:bg-black group-hover:text-white text-gray-800 hover:shadow-md hover:shadow-slate-200 transition-color">
                         <HiOutlineArrowLongRight className="text-lg font-bold" />
                       </button>
                     </div>
@@ -227,7 +229,7 @@ export default function Technology() {
                   </div>
                   {/* card 3 */}
                   <div className="relative rounded-xl overflow-hidden p-2">
-                    <div className="absolute inset-0 bg-white bg-opacity-50 backdrop-blur-md"></div>
+                    <div className="absolute rounded-xl overflow-hidden inset-0 bg-white bg-opacity-50 backdrop-blur-md"></div>
                     <div className="relative h-24 md:h-40 z-10 ">
                       <img
                         loading="lazy"
@@ -242,18 +244,18 @@ export default function Technology() {
                 <div className="hidden md:block col-span-2">
                   <p className="text-white text-start tracking-wide font-theme-font">
                     Welcome to{" "}
-                    <span className="font-semibold">AMNDTECH Software</span> -
+                    <span className="font-semibold">Digitechii Software</span> -
                     your ultimate web development partner in the digital
                     landscape. We build future-proof and innovative solutions to
                     promote your business growth.
                   </p>
                   <div className="flex justify-start items-center mt-5">
                     {/* button  */}
-                    <div className="bg-white flex gap-x-3 items-center justify-between px-5 py-2 rounded-2xl delay-250">
+                    <div className="bg-white group flex gap-x-3 items-center justify-between px-5 py-2 rounded-2xl delay-250">
                       <span className="text-gray-800 font-bold font-theme-font">
                         Arrage a call with Us
                       </span>
-                      <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-gray-800 hover:shadow-md hover:shadow-slate-200 transition-color">
+                      <button className="p-1 font-theme-font text-sm rounded-full group-hover:bg-white group-hover:text-black text-white hover:shadow-md hover:shadow-slate-200 transition-color">
                         <HiOutlineArrowLongRight className="text-lg font-bold" />
                       </button>
                     </div>
@@ -263,11 +265,10 @@ export default function Technology() {
             </div>
           </div>
         </section>
-
         {/* Pages Section  */}
         <section>
           <div className="relative max-w-9xl py-20 px-4 md:grid grid-cols-3 gap-x-10 gap-y-10 m-auto">
-            <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
+            <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
               Web Development
             </span>
             {/* heading  */}
@@ -287,25 +288,24 @@ export default function Technology() {
             <div className="grid grid-cols-12"></div>
             {/* Right content */}
             <div className="col-span-2">
-              {data.map((item, index) => (
+              {data?.map((item, index) => (
                 <AccordionCard key={item._id} item={item} />
               ))}
             </div>
           </div>
         </section>
-
         {/* Our Process  */}
         {/* Our webdevelopment process */}
         <section className="hidden md:block bg-gray-100">
-          <div className="relative max-w-9xl px-4 py-20 md:grid  grid-cols-1 md:grid-cols-3 gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10  left-[-125px] text-gray-500">
+          <div className="relative max-w-9xl px-4 py-20 md:grid  grid-cols-1 md:grid-cols-3 gap-x-10 gap-y-10 m-auto">
+            <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10  left-[-125px] text-gray-500 text-shadow-2">
               Web Process
             </span>
             {/* heading  */}
             <div className="md:col-span-3 flex flex-col ">
               <div className="mb-2">
                 <h2 className="text-xl md:text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
-                  Our Process
+                  Development Process
                 </h2>
               </div>
               <div className="md:mb-4">
@@ -318,11 +318,11 @@ export default function Technology() {
             <div className="w-full md:col-span-3 grid grid-cols-1 md:grid-cols-3  gap-x-10">
               <div>
                 {" "}
-                <div className="bg-purple-600 text-white flex gap-x-3 items-center justify-between px-5 py-2 rounded-2xl delay-250">
+                <div className="bg-purple-600 group text-white flex gap-x-3 items-center justify-between px-5 py-2 rounded-2xl delay-250">
                   <span className="text-white font-bold font-theme-font">
                     Arrage a call with Us
                   </span>
-                  <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-white hover:shadow-md hover:shadow-slate-200 transition-color">
+                  <button className="p-1 font-theme-font text-sm rounded-full group-hover:bg-white group-hover:text-black text-white hover:shadow-md hover:shadow-slate-200 transition-color">
                     <HiOutlineArrowLongRight className="text-lg font-bold" />
                   </button>
                 </div>
@@ -360,12 +360,12 @@ export default function Technology() {
                 </div>
                 <div className="flex gap-5">
                   <div>
-                    <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-150">
+                    <button className="p-3 text-lg bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-75">
                       <HiOutlineArrowLongRight className="text-lg rotate-180" />
                     </button>
                   </div>
                   <div>
-                    <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-150">
+                    <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-75">
                       <HiOutlineArrowLongRight className="text-lg" />
                     </button>
                   </div>
@@ -376,15 +376,14 @@ export default function Technology() {
                 {/* layer 1  */}
                 <div className="grid grid-cols-3 items-center gap-x-10">
                   <div>
-                    {" "}
                     <div
                       onClick={() => setTab(0)}
-                      className="bg-purple-600  hover:cursor-pointer text-white flex gap-x-1 items-center justify-between px-5 py-2 rounded-2xl delay-250"
+                      className="bg-purple-600 group hover:cursor-pointer text-white flex gap-x-1 items-center justify-between px-5 py-2 rounded-2xl delay-250"
                     >
                       <span className="text-white font-semibold text-sm font-theme-font">
                         01 Discovery
                       </span>
-                      <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-white hover:shadow-md hover:shadow-slate-200 transition-color">
+                      <button className="p-1 font-theme-font text-sm rounded-full group-hover:bg-white group-hover:text-black text-white hover:shadow-md hover:shadow-slate-200 transition-color">
                         <HiOutlineArrowLongRight className="text-lg font-bold" />
                       </button>
                     </div>
@@ -443,9 +442,9 @@ export default function Technology() {
                   <div>
                     <div
                       onClick={() => setTab(1)}
-                      className="bg-purple-600  hover:cursor-pointer text-white flex gap-x-1 items-center justify-between px-5 py-2 rounded-2xl delay-250"
+                      className="bg-purple-600 group hover:cursor-pointer text-white flex gap-x-1 items-center justify-between px-5 py-2 rounded-2xl delay-250"
                     >
-                      <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-white hover:shadow-md hover:shadow-slate-200 transition-color">
+                      <button className="p-1 font-theme-font text-sm rounded-full group-hover:bg-white group-hover:text-black text-white hover:shadow-md hover:shadow-slate-200 transition-color">
                         <HiOutlineArrowLongRight className="text-lg font-bold rotate-180" />
                       </button>
                       <span className="text-white font-semibold text-sm font-theme-font">
@@ -459,12 +458,12 @@ export default function Technology() {
                   <div>
                     <div
                       onClick={() => setTab(2)}
-                      className="bg-purple-600  hover:cursor-pointer text-white flex gap-x-1 items-center justify-between px-5 py-2 rounded-2xl delay-250"
+                      className="bg-purple-600 group hover:cursor-pointer text-white flex gap-x-1 items-center justify-between px-5 py-2 rounded-2xl delay-250"
                     >
                       <span className="text-white font-semibold text-sm font-theme-font">
                         03 Full Cycle Test
                       </span>
-                      <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-white hover:shadow-md hover:shadow-slate-200 transition-color">
+                      <button className="p-1 font-theme-font text-sm rounded-full group-hover:bg-white group-hover:text-black text-white hover:shadow-md hover:shadow-slate-200 transition-color">
                         <HiOutlineArrowLongRight className="text-lg font-bold" />
                       </button>
                     </div>
@@ -523,9 +522,9 @@ export default function Technology() {
                   <div>
                     <div
                       onClick={() => setTab(3)}
-                      className="bg-purple-600  hover:cursor-pointer text-white flex gap-x-1 items-center justify-between px-5 py-2 rounded-2xl delay-250"
+                      className="bg-purple-600 group hover:cursor-pointer text-white flex gap-x-1 items-center justify-between px-5 py-2 rounded-2xl delay-250"
                     >
-                      <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-white hover:shadow-md hover:shadow-slate-200 transition-color">
+                      <button className="p-1 font-theme-font text-sm rounded-full group-hover:bg-white group-hover:text-black text-white hover:shadow-md hover:shadow-slate-200 transition-color">
                         <HiOutlineArrowLongRight className="text-lg font-bold rotate-180" />
                       </button>
                       <span className="text-white font-semibold text-sm font-theme-font">
@@ -540,12 +539,12 @@ export default function Technology() {
                     {" "}
                     <div
                       onClick={() => setTab(4)}
-                      className="bg-purple-600 hover:cursor-pointer text-white md:flex gap-x-1 items-center justify-between px-5 py-2 rounded-2xl delay-250"
+                      className="bg-purple-600 group hover:cursor-pointer text-white md:flex gap-x-1 items-center justify-between px-5 py-2 rounded-2xl delay-250"
                     >
                       <span className="text-white font-semibold text-sm font-theme-font">
                         05 Maintenance
                       </span>
-                      <button className="p-1 font-theme-font text-sm rounded-full hover:bg-black hover:text-white text-white hover:shadow-md hover:shadow-slate-200 transition-color">
+                      <button className="p-1 font-theme-font text-sm rounded-full group-hover:bg-white group-hover:text-black text-white hover:shadow-md hover:shadow-slate-200 transition-color">
                         <HiOutlineArrowLongRight className="text-lg font-bold" />
                       </button>
                     </div>
@@ -579,485 +578,12 @@ export default function Technology() {
             </div>
           </div>
         </section>
-
         {/* Technologies we use  */}
-        {/* Our Development Process  */}
-
-        <section className="bg-theme-bg-dark ">
-          <div className="relative max-w-9xl px-4 py-20 md:grid md:grid-cols-2 gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-0 text-gray-500">
-              Technologies
-            </span>
-            {/* heading  */}
-            <div className="col-span-2 flex flex-col">
-              <div className="mb-2">
-                <h2 className="text-xl md:text-4xl text-gray-200 font-bold tracking-wide font-theme-font">
-                  We Use
-                </h2>
-              </div>
-              <div className="md:mb-4">
-                <h1 className="text-3xl md:text-5xl text-white font-bold tracking-wide font-theme-font">
-                  Technologies
-                </h1>
-              </div>
-            </div>
-            {/* Content  */}
-            <div className="col-span-2 grid md:grid-cols-2 gap-x-5 gap-y-10">
-              {/* left content */}
-
-              {/* 1 card*/}
-              <div className="bg-gray-100 md:h-72 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-md shadow-white">
-                <h4 className="mb-4 mr-auto text-start text-xl font-bold font-theme-font">
-                  Back End
-                </h4>
-
-                <div>
-                  <div className="grid grid-cols-2  md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Nest.png.webp"
-                          alt="NestJS"
-                        />
-                      </div>
-                      <div className="font-semibold">NestJS</div>
-                    </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Flask_logo-1-1.png.webp"
-                          alt="Flask"
-                        />
-                      </div>
-                      <div className="font-semibold">Flask</div>
-                    </div>
-
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/django-svgrepo-com-1.png.webp"
-                          alt="Django"
-                        />
-                      </div>
-                      <div className="font-semibold">Django</div>
-                    </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/express-js-icon-1.png.webp"
-                          alt="Express.js"
-                        />
-                      </div>
-                      <div className="font-semibold">Express.js</div>
-                    </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Microsoft_.NET_logo-1.png.webp"
-                          alt=".NET"
-                        />
-                      </div>
-                      <div className="font-semibold">.NET</div>
-                    </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/PHP-logo-1.png.webp"
-                          alt="PHP"
-                        />
-                      </div>
-                      <div className="font-semibold">PHP</div>
-                    </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Group-5.png.webp"
-                          alt="Ruby"
-                        />
-                      </div>
-                      <div className="font-semibold">Ruby</div>
-                    </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/spring.png.webp"
-                          alt="Java Spring"
-                        />
-                      </div>
-                      <div className="font-semibold">Java Spring</div>
-                    </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/python.png.webp"
-                          alt="Python"
-                        />
-                      </div>
-                      <div className="font-semibold">Python</div>
-                    </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/node-js-1.png.webp"
-                          alt="Node.js"
-                        />
-                      </div>
-                      <div className="font-semibold">Node.js</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* card 2 */}
-              <div className="bg-gray-100 md:h-72 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-md shadow-white">
-                <h4 className="mb-4 mr-auto text-start text-xl font-bold font-theme-font">
-                  Front End
-                </h4>
-
-                <div className="grid grid-cols-2  md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
-                  {/* item 1 */}
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Next.png.webp"
-                        alt="NestJS "
-                      />
-                    </div>
-                    <div className="font-semibold">NestJS</div>
-                  </div>
-                  {/* item 2 */}
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Group-4.png.webp"
-                        alt="Flask"
-                      />
-                    </div>
-                    <div className="font-semibold">Svelte</div>
-                  </div>
-                  {/* item 3 */}
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Vue-js.png.webp"
-                        alt="Vue.js"
-                      />
-                    </div>
-                    <div className="font-semibold">Vue.js</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Angular_full_color_logo-1.png.webp"
-                        alt="Angular"
-                      />
-                    </div>
-                    <div className="font-semibold">Angular</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/React-icon-1.png.webp"
-                        alt="React.js"
-                      />
-                    </div>
-                    <div className="font-semibold">React.js</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Progressive_Web_Apps_Logo-1.png.webp"
-                        alt="PWA"
-                      />
-                    </div>
-                    <div className="font-semibold">PWA</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Typescript_logo_2020-1.png.webp"
-                        alt="TypeScript"
-                      />
-                    </div>
-                    <div className="font-semibold">TypeScript</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/JS.png.webp"
-                      />
-                    </div>
-                    <div className="font-semibold">JavaScript </div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/CSS3_and_HTML5_logos_and_wordmarks-1.png.webp"
-                        alt="HTML/CSS"
-                      />
-                    </div>
-                    <div className="font-semibold">HTML/CSS</div>
-                  </div>
-                </div>
-              </div>
-
-              {/* card 3 */}
-              <div className="bg-gray-100 md:h-72 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-md shadow-white">
-                <h4 className="mb-4 mr-auto text-start text-xl font-bold font-theme-font">
-                  Database Development
-                </h4>
-
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
-                  {/* item 1 */}
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/mariadb-1.png.webp"
-                        alt="MariaDB "
-                      />
-                    </div>
-                    <div className="font-semibold">MariaDB</div>
-                  </div>
-                  {/* item 2 */}
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/redis-logo-svgrepo-com-1.png.webp"
-                        alt="Redis"
-                      />
-                    </div>
-                    <div className="font-semibold">Redis</div>
-                  </div>
-                  {/* item 3 */}
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Cassandra.png.webp"
-                        alt="Cassandra"
-                      />
-                    </div>
-                    <div>Cassandra</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/mongodb-svgrepo-com-1.png.webp"
-                        alt="MongoDB"
-                      />
-                    </div>
-                    <div>MongoDB</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/oracle-svgrepo-com-1.png.webp"
-                        alt="Oracle DB"
-                      />
-                    </div>
-                    <div>Oracle DB</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Microsoft-SQL-Server-1.png.webp"
-                        alt="SQL Server"
-                      />
-                    </div>
-                    <div>SQL Server</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Postgresql_elephant-1.png.webp"
-                        alt="PostgreSQL"
-                      />
-                    </div>
-                    <div>PostgreSQL</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/mysqlworkbench_93532-1.png.webp"
-                      />
-                    </div>
-                    <div>MySQL</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/elasticsearch-1.png.webp"
-                        alt="Elasticsearch"
-                      />
-                    </div>
-                    <div>Elasticsearch</div>
-                  </div>
-                </div>
-              </div>
-              {/* item 4 */}
-              <div className="bg-gray-100 md:h-72 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-md shadow-white">
-                <h4 className="mb-4 mr-auto text-start text-xl font-bold font-theme-font">
-                  DevOps & Cloud
-                </h4>
-
-                <div className="grid grid-cols-2  md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
-                  {/* item 1 */}
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Next.png.webp"
-                        alt="NestJS "
-                      />
-                    </div>
-                    <div className="font-semibold">NestJS</div>
-                  </div>
-                  {/* item 2 */}
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Group-4.png.webp"
-                        alt="Flask"
-                      />
-                    </div>
-                    <div className="font-semibold">Svelte</div>
-                  </div>
-                  {/* item 3 */}
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Vue-js.png.webp"
-                        alt="Vue.js"
-                      />
-                    </div>
-                    <div>Vue.js</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Angular_full_color_logo-1.png.webp"
-                        alt="Angular"
-                      />
-                    </div>
-                    <div>Angular</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/React-icon-1.png.webp"
-                        alt="React.js"
-                      />
-                    </div>
-                    <div>React.js</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Progressive_Web_Apps_Logo-1.png.webp"
-                        alt="PWA"
-                      />
-                    </div>
-                    <div>PWA</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Typescript_logo_2020-1.png.webp"
-                        alt="TypeScript"
-                      />
-                    </div>
-                    <div>TypeScript</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/JS.png.webp"
-                      />
-                    </div>
-                    <div>JavaScript </div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/CSS3_and_HTML5_logos_and_wordmarks-1.png.webp"
-                        alt="HTML/CSS"
-                      />
-                    </div>
-                    <div>HTML/CSS</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
+        <DevTechnologies />
         {/* Our Benefits */}
-
         <section className="bg-gray-100">
           <div className="relative max-w-9xl px-4 py-20 md:grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[25px] left-[-125px] text-gray-500">
+            <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[25px] left-[-125px] text-gray-500 text-shadow-2">
               Development
             </span>
             {/* heading  */}
@@ -1069,7 +595,7 @@ export default function Technology() {
               </div>
               <div className="mb-4">
                 <h1 className="text-2xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
-                  Why Web Development Services by AMNDTECH?
+                  Why Web Development Services by Digitechii ?
                 </h1>
               </div>
             </div>
@@ -1206,13 +732,11 @@ export default function Technology() {
             </div>
           </div>
         </section>
-
         {/* Why WebArt Sofware */}
-
         <section className="">
           <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[25px] left-[-125px] text-gray-500">
-              Why WebArt Software?
+            <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[25px] left-[-125px] text-gray-500 text-shadow-2">
+              Why Digitechii Software?
             </span>
             {/* heading  */}
             <div className="col-span-2 flex flex-col ">
@@ -1235,7 +759,6 @@ export default function Technology() {
             </div>
           </div>
         </section>
-
         {/*want to start web development banner  */}
         <section className="">
           <div className="relative max-w-9xl px-4 py-20 m-auto">
@@ -1244,17 +767,16 @@ export default function Technology() {
                 "https://devoxsoftware.com/wp-content/uploads/2024/03/Rectangle-3709-6.webp"
               }
               title={
-                "Fast-track your product development and shorten time-to-market with AMNDTECH as your next talent supplier."
+                "Fast-track your product development and shorten time-to-market with Digitechii as your next talent supplier."
               }
               description={"Want to Start Web Development?"}
             />
           </div>
         </section>
-
         {/* Our CLients  */}
         <section>
           <div className="relative max-w-9xl px-4 md:py-20 grid grid-cols-2 gap-x-10  m-auto">
-            <span class="absolute font-semibold text-[8rem] font-theme-font tracking-wide leading-none opacity-10 top-0 left-[1/2] text-graye-500">
+            <span class="absolute font-semibold text-[8rem] font-theme-font tracking-wide leading-none opacity-10 top-0 left-[1/2] text-graye-500 text-shadow-2">
               Clients
             </span>
             {/* heading  */}
@@ -1276,11 +798,10 @@ export default function Technology() {
             </div>
           </div>
         </section>
-
         {/* testinomials section  */}
         <section>
           <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
+            <span class="absolute font-semibold text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
               Testimonials
             </span>
             {/* heading  */}
@@ -1299,11 +820,10 @@ export default function Technology() {
             </div>
           </div>
         </section>
-
         {/* Faqs section  */}
         <section className="bg-gray-100">
           <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[25px] left-[-125px] text-gray-500">
+            <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[25px] left-[-125px] text-gray-500 text-shadow-2">
               have a Doubt ?
             </span>
             {/* heading  */}
@@ -1327,7 +847,6 @@ export default function Technology() {
             </div>
           </div>
         </section>
-
         {/* Contact us Form */}
         <ContactFrom />
       </Layout>

@@ -2,10 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 
-
 const DropDownMenu = ({ setNavdrop, serviceLinks }) => {
   const [activeIndex, setActiveIndex] = React.useState(0);
-
   return (
     <div
       // onMouseLeave={() => setNavdrop(false)}
@@ -14,50 +12,32 @@ const DropDownMenu = ({ setNavdrop, serviceLinks }) => {
       {/* Web Development  */}
       <div className="max-w-9xl m-auto py-10 grid grid-cols-5 gap-x-20">
         <div className="col-span-2">
-          <div onClick={() => setActiveIndex(0)} className="cursor-pointer">
-            <h2
-              className={`${
-                activeIndex === 0 ? "text-gray-800" : "text-gray-600"
-              } text-2xl font-semibold text-left`}
+          {serviceLinks.map((i, index) => {
+            return (
+              <div
+              onClick={() => setActiveIndex(index)}
+              className="cursor-pointer mb-2.5"
             >
-              All Expertise
-            </h2>
-            <p
-              className={`${
-                activeIndex === 0 ? "text-gray-800" : "text-gray-600"
-              } text-gray-700 text-xs 2xl:text-base text-justify mt-3`}
-            >
-              We offer a wide range of services to help you achieve your
-              business goals. Our services include web development, mobile
-              development, quality assurance, business intelligence, and more.
-            </p>
-          </div>
-          <div
-            className="mt-10 cursor-pointer"
-            onClick={() => setActiveIndex(1)}
-          >
-            <h2
-              className={`${
-                activeIndex === 1 ? "text-gray-800" : "text-gray-600"
-              } text-2xl font-semibold text-left`}
-            >
-              Digital marketing
-            </h2>
-            <p
-              className={`${
-                activeIndex === 1 ? "text-gray-800" : "text-gray-600"
-              } text-xs 2xl:text-base text-justify mt-3`}
-            >
-              We offer a comprehensive range of digital marketing services to
-              boost your online presence and drive business growth. Our services
-              include SEO optimization, Google Ads, Instagram Ads, content
-              writing, video editing, email marketing, and more to help you
-              reach and engage your target audience effectively.
-            </p>
-          </div>
+              <h2
+                className={`${
+                  activeIndex === index ? "text-gray-800" : "text-gray-600"
+                } text-2xl font-semibold text-left`}
+              >
+                {i.heading}
+              </h2>
+              <p
+                className={`${
+                  activeIndex === index ? "text-gray-800" : "text-gray-600"
+                } text-gray-700 text-xs 2xl:text-base text-justify`}
+              >
+                {i.description}
+              </p>
+            </div>
+            )
+          })}
         </div>
         <div className="col-span-3 grid grid-cols-3 gap-x-4 gap-y-5 text-start text-gray-800">
-          {serviceLinks[activeIndex]?.map((service, index) => (
+          {serviceLinks?.[activeIndex]?.data?.map((service, index) => (
             <Link
               key={index}
               to={service?.link}
