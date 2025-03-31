@@ -5,104 +5,115 @@ import ContactUsModal from "./ContactUsModal";
 import DropDownMenu from "./DropDownMenu";
 
 // services
-const careerLinks = {
-  0: [
-    {
-      title: "Web Development",
-      description:
-        "Build & maintain sites progressibe web applications (PWAs) and single-page applications (SPAs).",
-      link: "/service/web-development",
-      img: "https://cdn.prod.website-files.com/63f8ca18cae25871c18fd72d/671ac0eee5122fad4a15d89c_web-design-service.png",
-    },
+const careerLinks = [
+  {
+    heading: "All Expertise",
+    description:
+      "We offer a wide range of services to help you achieve your business goals. Our services include web development, mobile development, quality assurance, business intelligence, and more.",
+    data: [
+      {
+        title: "Web Development",
+        description:
+          "Build & maintain sites progressibe web applications (PWAs) and single-page applications (SPAs).",
+        link: "/service/web-development",
+        img: "https://cdn.prod.website-files.com/63f8ca18cae25871c18fd72d/671ac0eee5122fad4a15d89c_web-design-service.png",
+      },
 
-    {
-      title: "Front End Development",
-      description: "Responsive and User-friendly UI/UX.",
-      link: "/service/frontend-development",
-    },
-    {
-      title: "Mobile Development",
-      description: "iOS & Android apps.",
-      link: "/service/mobile-development",
-    },
-    {
-      title: "UI/UX Design",
-      description: "Design & usability.",
-      link: "/service/ui-development",
-      img: "https://cdn.prod.website-files.com/63f8ca18cae25871c18fd72d/671ac0ed8fe1f994a096139f_ui-ux-design-service.png",
-    },
-    {
-      title: "Back End Development",
-      description: "Powerful ,scalable and secure servers.",
-      link: "/service/backend-development",
-      img: "https://cdn.prod.website-files.com/63f8ca18cae25871c18fd72d/671ad9723c3dff2d615c85a5_web-development-service.png",
-    },
-    {
-      title: "DevOps Development",
-      description: "Faster deployments",
-      link: "/service/devops-development",
-    },
-    {
-      title: "Quality Assurance",
-      description: "Bug-free software",
-      link: "/service/quality-assurance",
-    },
-    {
-      title: "Data Analytics",
-      description:
-        "Creating scalable operational or analytical databases tailored to meet specific business needs, ensuring data integrity, security, and optimal performance.",
-      link: "/service/data-analytics",
-    },
-    {
-      title: "Business Intelligence",
-      description:
-        "Unlock insights, drive decisions. Harness the power of Business Intelligence for data-driven strategies and informed decision-making.",
-      link: "/service/business-intelligence",
-    },
-  ],
-  1: [
-    {
-      title: "SEO Optimization",
-      description: "Boost rankings & visibility.",
-      link: "/service/seo-optimization",
-    },
-    {
-      title: "Google Ads",
-      description: "Targeted paid campaigns.",
-      link: "/service/google-ads",
-    },
-    {
-      title: "Instagram Ads",
-      description: "Engage with your audience.",
-      link: "/service/instagram-ads",
-    },
-    {
-      title: "YouTube Content",
-      description: "Engaging video content.",
-      link: "/service/youtube-content",
-    },
-    {
-      title: "Content Writing",
-      description: "High-quality & engaging content.",
-      link: "/service/content-writing",
-    },
-    {
-      title: "Video Editing",
-      description: "Professional video production.",
-      link: "/service/video-editing",
-    },
-    {
-      title: "UX/UI Development",
-      description: "Figma designs & prototypes.",
-      link: "/service/ux-ui-development",
-    },
-    {
-      title: "Email Marketing",
-      description: "Targeted email campaigns.",
-      link: "/service/email-marketing",
-    },
-  ],
-};
+      {
+        title: "Front End Development",
+        description: "Responsive and User-friendly UI/UX.",
+        link: "/service/frontend-development",
+      },
+      {
+        title: "Mobile Development",
+        description: "iOS & Android apps.",
+        link: "/service/mobile-development",
+      },
+      {
+        title: "UI/UX Design",
+        description: "Design & usability.",
+        link: "/service/ui-development",
+        img: "https://cdn.prod.website-files.com/63f8ca18cae25871c18fd72d/671ac0ed8fe1f994a096139f_ui-ux-design-service.png",
+      },
+      {
+        title: "Back End Development",
+        description: "Powerful ,scalable and secure servers.",
+        link: "/service/backend-development",
+        img: "https://cdn.prod.website-files.com/63f8ca18cae25871c18fd72d/671ad9723c3dff2d615c85a5_web-development-service.png",
+      },
+      {
+        title: "DevOps Development",
+        description: "Faster deployments",
+        link: "/service/devops-development",
+      },
+      {
+        title: "Quality Assurance",
+        description: "Bug-free software",
+        link: "/service/quality-assurance",
+      },
+      {
+        title: "Data Analytics",
+        description:
+          "Creating scalable operational or analytical databases tailored to meet specific business needs, ensuring data integrity, security, and optimal performance.",
+        link: "/service/data-analytics",
+      },
+      {
+        title: "Business Intelligence",
+        description:
+          "Unlock insights, drive decisions. Harness the power of Business Intelligence for data-driven strategies and informed decision-making.",
+        link: "/service/business-intelligence",
+      },
+    ],
+  },
+  {
+    heading: "Digital marketing",
+    description:
+      "We offer a comprehensive range of digital marketing services to boost your online presence and drive business growth. Our services include SEO optimization, Google Ads, Instagram Ads, content writing, video editing, email marketing, and more to help you reach and engage your target audience effectively.",
+    data: [
+      {
+        title: "SEO Optimization",
+        description: "Boost rankings & visibility.",
+        link: "/service/seo-optimization",
+      },
+      {
+        title: "Google Ads",
+        description: "Targeted paid campaigns.",
+        link: "/service/google-ads",
+      },
+      {
+        title: "Instagram Ads",
+        description: "Engage with your audience.",
+        link: "/service/instagram-ads",
+      },
+      {
+        title: "YouTube Content",
+        description: "Engaging video content.",
+        link: "/service/youtube-content",
+      },
+      {
+        title: "Content Writing",
+        description: "High-quality & engaging content.",
+        link: "/service/content-writing",
+      },
+      {
+        title: "Video Editing",
+        description: "Professional video production.",
+        link: "/service/video-editing",
+      },
+      {
+        title: "UX/UI Development",
+        description: "Figma designs & prototypes.",
+        link: "/service/ux-ui-development",
+      },
+      {
+        title: "Email Marketing",
+        description: "Targeted email campaigns.",
+        link: "/service/email-marketing",
+      },
+    ],
+  },
+];
+
 // careerLinks
 const serviceLinks = [
   {
@@ -313,7 +324,7 @@ function Navbar() {
                 {navdrop && (
                   <DropDownMenu
                     setNavdrop={setNavdrop}
-                    serviceLinks={serviceLinks}
+                    serviceLinks={careerLinks}
                   />
                 )}
               </li>

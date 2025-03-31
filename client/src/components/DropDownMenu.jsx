@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
+import { CustomButton3, CustomButton2 } from "./ui/CustomButtons.jsx";
 
 const DropDownMenu = ({ setNavdrop, serviceLinks }) => {
   const [activeIndex, setActiveIndex] = React.useState(0);
@@ -15,25 +16,26 @@ const DropDownMenu = ({ setNavdrop, serviceLinks }) => {
           {serviceLinks.map((i, index) => {
             return (
               <div
-              onClick={() => setActiveIndex(index)}
-              className="cursor-pointer mb-2.5"
-            >
-              <h2
-                className={`${
-                  activeIndex === index ? "text-gray-800" : "text-gray-600"
-                } text-2xl font-semibold text-left`}
+                onClick={() => setActiveIndex(index)}
+                className="cursor-pointer mb-2.5"
               >
-                {i.heading}
-              </h2>
-              <p
-                className={`${
-                  activeIndex === index ? "text-gray-800" : "text-gray-600"
-                } text-gray-700 text-xs 2xl:text-base text-justify`}
-              >
-                {i.description}
-              </p>
-            </div>
-            )
+                {/* <h2
+                  className={`${
+                    activeIndex === index ? "text-gray-800" : "text-gray-600"
+                  } text-2xl font-semibold text-left`}
+                >
+                  {i.heading}
+                </h2> */}
+                <CustomButton3 title={i.heading} textCss={"text-xl  px-0"} />
+                <p
+                  className={`${
+                    activeIndex === index ? "text-gray-800" : "text-gray-600"
+                  } text-gray-700 text-xs 2xl:text-base text-justify`}
+                >
+                  {i.description}
+                </p>
+              </div>
+            );
           })}
         </div>
         <div className="col-span-3 grid grid-cols-3 gap-x-4 gap-y-5 text-start text-gray-800">
@@ -50,7 +52,7 @@ const DropDownMenu = ({ setNavdrop, serviceLinks }) => {
                 alt=""
               />
               <h3 className="text-base font-semibold flex items-center gap-x-2">
-                {service?.title}{" "}
+                {service?.title}
                 <span className="text-gray-700">
                   <HiOutlineArrowLongRight />
                 </span>
