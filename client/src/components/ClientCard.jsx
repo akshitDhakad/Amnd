@@ -1,5 +1,6 @@
 import React from "react";
 import { FaCircleDot } from "react-icons/fa6";
+const data = ["active-place.png", "cure-media.png", "ferretly.png", "multilogin.png", "lexplore.png", "skyloov.png", "iOud.png", "st_mark.png"];
 function ClientCard() {
   return (
     <div className="flex flex-col gap-y-10">

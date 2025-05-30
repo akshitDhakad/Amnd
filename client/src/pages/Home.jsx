@@ -15,13 +15,13 @@ import {
   FaArrowUpRightFromSquare,
 } from "react-icons/fa6";
 
-import { IoMdKey } from "react-icons/io";
 import {
   CustomButton1,
   CustomButton2,
 } from "../components/ui/CustomButtons.jsx";
 import CaseStudies from "../components/CaseStudies.jsx";
 import DevTechnologies from "../components/DevTechnologies.jsx";
+import LatestWork from "../components/LatestWork.jsx";
 
 export default function Home() {
   const backgroundImg = {
@@ -298,6 +298,7 @@ export default function Home() {
 
         {/* Our Case Studies  */}
         <CaseStudies />
+
         {/* Type of Web Services we build*/}
         <section className="hidden md:block">
           <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 m-auto">
@@ -390,7 +391,7 @@ export default function Home() {
                   Learn more
                 </Link>
               </div>
-              <div className="bg-blue-100 border-b-2 border-b-blue-200 lg:border-s-4 lg:border-s-blue-200 lg:rounded-s-3xl">
+              <div className="order-1 lg:order-2 bg-blue-100 border-b-2 border-b-blue-200 lg:border-s-4 lg:border-s-blue-200 lg:rounded-s-3xl">
                 <img
                   loading="lazy"
                   className="w-full h-56 rounded-lg overflow-hidden mb-5 md:mb-0"
@@ -416,7 +417,7 @@ export default function Home() {
                   Learn more
                 </Link>
               </div>
-              <div className="bg-orange-100 border-b-4 lg:border-s-4 border-b-orange-200 lg:border-s-orange-200 lg:rounded-s-3xl">
+              <div className="order-1 lg:order-2 bg-orange-100 border-b-4 lg:border-s-4 border-b-orange-200 lg:border-s-orange-200 lg:rounded-s-3xl">
                 <img
                   loading="lazy"
                   className="w-full h-56 rounded-lg overflow-hidden mb-5 md:mb-0"
@@ -443,7 +444,7 @@ export default function Home() {
                   Learn more
                 </Link>
               </div>
-              <div className="bg-green-100 border-b-4 lg:border-s-4 border-b-green-200 lg:border-s-green-200 lg:rounded-s-3xl">
+              <div className="order-1 lg:order-2 bg-green-100 border-b-4 lg:border-s-4 border-b-green-200 lg:border-s-green-200 lg:rounded-s-3xl">
                 <img
                   loading="lazy"
                   className="w-full h-56 rounded-lg overflow-hidden mb-5 md:mb-0"
@@ -469,7 +470,7 @@ export default function Home() {
                   Learn more
                 </Link>
               </div>
-              <div className="bg-purple-100 border-b-4 lg:border-s-4  border-b-purple-200 lg:rounded-s-3xl">
+              <div className="order-1 lg:order-2 bg-purple-100 border-b-4 lg:border-s-4 border-b-purple-200 lg:border-s-purple-200 lg:rounded-s-3xl">
                 <img
                   loading="lazy"
                   className="w-full h-56 rounded-lg overflow-hidden mb-5 md:mb-0"
@@ -495,7 +496,7 @@ export default function Home() {
                   Learn more
                 </Link>
               </div>
-              <div className="bg-blue-100 border-b-4 lg:border-s-4 border-b-blue-200 lg:border-s-blue-200 lg:rounded-s-3xl">
+              <div className="order-1 lg:order-2 bg-blue-100 border-b-4 lg:border-s-4 border-b-blue-200 lg:border-s-blue-200 lg:rounded-s-3xl">
                 <img
                   loading="lazy"
                   className="w-full h-56 rounded-lg overflow-hidden mb-5 md:mb-0"
@@ -815,148 +816,7 @@ export default function Home() {
         </section>
 
         {/* Our Work Section  */}
-        <section>
-          <div className="relative max-w-9xl px-4 py-10 lg:py-20 grid grid-cols-2 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
-              Latest Works
-            </span>
-            {/* heading  */}
-            <div className="col-span-2 flex flex-col ">
-              <div className="mb-2">
-                <h2 className="text-xl md:text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
-                  Case Studies
-                </h2>
-              </div>
-              <div className="md:mb-4">
-                <h1 className="text-3xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
-                  Our Latest Works
-                </h1>
-              </div>
-            </div>
-            {/* project 1  */}
-            <div className="col-span-2 grid md:grid-cols-2 gap-x-5 gap-y-5">
-              {/* left content */}
-              <div className="h-80 md:h-96 2xl:h-[500px] relative rounded-xl lg:rounded-3xl overflow-hidden ">
-                <div className="absolute inset-0 bg-gray-100 opacity-0 hover:opacity-80 flex justify-center items-center">
-                  <Link
-                    to={""}
-                    class="text-lg font-semibold flex items-center gap-x-2"
-                  >
-                    <span className="text-xl">Click Here</span>
-                    <span>
-                      <FaArrowUpRightFromSquare />
-                    </span>
-                  </Link>
-                </div>
-                <img
-                  loading="lazy"
-                  className="h-full w-full object-cover object-center"
-                  src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/philip-oroni-MyY188YX0vU-unsplash.jpg.webp"
-                  alt=""
-                />
-              </div>
-              {/* Right content */}
-              <div className="bg-theme-bg-dark rounded-xl lg:rounded-3xl overflow-hidden p-4 md:p-10">
-                <div className="h-full flex flex-col justify-between gap-y-4">
-                  {/* Top heading  */}
-                  <div className="flex justify-between items-center">
-                    <div className="flex gap-x-2 items-center">
-                      <span className="rounded p-1 bg-gray-800 text-white">
-                        <IoMdKey />
-                      </span>
-                      <span className="text-gray-600 tracking-wide font-theme-font">
-                        UNDER NDA
-                      </span>
-                    </div>
-                    <div className="text-gray-600 tracking-wide font-theme-font">
-                      SOCIAL MEDIA
-                    </div>
-                  </div>
-                  {/* center content */}
-                  <div>
-                    {" "}
-                    <h2 className="text-white text-2xl 2xl:text-3xl text-bold text-start tracking-wide font-theme-font mb-2">
-                      Social Media Screening Platform
-                    </h2>
-                    <p className="text-gray-600 text-base 2xl:text-xl text-start tracking-wide font-theme-font mb-2">
-                      The project is a web-based AI-powered platform for
-                      comprehensive social media background screening. Its
-                      supertask is to streamline potential employee background
-                      checks for companies, tackling employment risk management.
-                    </p>
-                  </div>
-                  {/* button  */}
-                  <CustomButton1
-                    title="View Case Study"
-                    textCss="text-gray-300"
-                  />
-                </div>
-              </div>
-            </div>
-            {/* project 2 */}
-            <div className="col-span-2 grid md:grid-cols-2 gap-x-5 gap-y-5">
-              {/* left content */}
-              <div className="order-2 bg-theme-bg-dark rounded-xl lg:rounded-3xl overflow-hidden p-4 md:p-10">
-                <div className="h-full flex flex-col justify-between gap-y-4">
-                  {/* Top heading  */}
-                  <div className="flex justify-between items-center">
-                    <div className="flex gap-x-2 items-center">
-                      <span className="rounded p-1 bg-gray-800 text-white">
-                        <IoMdKey />
-                      </span>
-                      <span className="text-gray-600 tracking-wide font-theme-font">
-                        UNDER NDA
-                      </span>
-                    </div>
-                    <div className="text-gray-600 tracking-wide font-theme-font">
-                      MEDTECH/MARTECH
-                    </div>
-                  </div>
-                  {/* center content */}
-                  <div>
-                    {" "}
-                    <h2 className="text-white text-2xl 2xl:text-3xl text-bold text-start tracking-wide font-theme-font mb-2">
-                      Bridging MedTech and MarTech for Enhanced Patient
-                      Engagement
-                    </h2>
-                    <p className="xl:text-xl text-gray-600 text-start tracking-wide font-theme-font mb-2">
-                      Nabed is a SaaS platform at the crossroads of MedTech and
-                      MarTech. It enables caregivers to engage with patients
-                      using comprehensive, personalized educational content for
-                      better healthcare outcomes.
-                    </p>
-                  </div>
-                  {/* button  */}
-                  <CustomButton1
-                    title="View Case Study"
-                    textCss="text-gray-300"
-                  />
-                </div>
-              </div>
-
-              {/* Right content */}
-              <div className="order-1 md:order-2 h-80 md:h-96 2xl:h-[500px] relative rounded-xl lg:rounded-3xl overflow-hidden">
-                <div className="absolute inset-0 bg-gray-100 opacity-0 hover:opacity-80 flex justify-center items-center">
-                  <Link
-                    to={""}
-                    class="text-lg font-semibold flex items-center gap-x-2"
-                  >
-                    <span className="text-xl">Click Here</span>
-                    <span>
-                      <FaArrowUpRightFromSquare />
-                    </span>
-                  </Link>
-                </div>
-                <img
-                  loading="lazy"
-                  className="h-full w-full object-cover object-center"
-                  src="https://devoxsoftware.com/wp-content/uploads/2024/02/growtika-nGoCBxiaRO0-unsplash.webp"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </section>
+        <LatestWork />
 
         {/* Technologies we use  */}
         {/* Our Development Process  */}
