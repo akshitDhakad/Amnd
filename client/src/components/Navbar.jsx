@@ -5,7 +5,7 @@ import ContactUsModal from "./ContactUsModal";
 import DropDownMenu from "./DropDownMenu";
 
 // services
-const careerLinks = [
+const serviceLinks = [
   {
     heading: "All Expertise",
     description:
@@ -114,8 +114,8 @@ const careerLinks = [
   },
 ];
 
-// careerLinks
-const serviceLinks = [
+// serviceLinks
+const careerLinks = [
   {
     heading: "All Expertise",
     description:
@@ -184,6 +184,7 @@ const serviceLinks = [
         title: "SEO Optimization",
         description: "Boost rankings & visibility.",
         link: "/service/seo-optimization",
+        img: "/assets/icons/seo.jpg",
       },
       {
         title: "Google Ads",

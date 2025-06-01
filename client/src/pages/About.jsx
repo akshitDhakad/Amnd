@@ -5,8 +5,15 @@ import ServicesBanner from "../components/ServicesBanner.jsx";
 import HoverCard from "../components/HoverCard.jsx";
 import ContactFrom from "../components/ContactFrom.jsx";
 // react icons
-import { HiOutlineArrowLongRight } from "react-icons/hi2";
-import { FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa6";
+import {
+  FaFacebook,
+  FaLinkedin,
+  FaInstagram,
+  FaSquareXTwitter,
+  FaArrowUpRightFromSquare,
+} from "react-icons/fa6";
+import { Link } from "react-router-dom";
+
 import {
   CustomButton1,
   CustomButton2,
@@ -107,22 +114,22 @@ export default function About() {
             </div>
           </div>
         </section>
-        {/* Pages Section  */}
+        {/* who are we Section  */}
         <section>
-          <div className="relative max-w-9xl px-4 py-20  md:grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 md:grid grid-cols-2 gap-x-10 gap-y-10 m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[0px] left-[-125px] text-gray-500">
-              Who are we
+              CEO & FOUNDER
             </span>
             {/* heading  */}
             <div className="col-span-2 flex flex-col ">
               <div className="mb-2">
                 <h2 className="text-xl md:text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
-                  Who are we
+                  About
                 </h2>
               </div>
               <div className="mb-4">
                 <h1 className="text-2xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
-                  We are Team of Sofware Engineers
+                  Meet Our CEO & Founders
                 </h1>
               </div>
             </div>
@@ -201,9 +208,94 @@ export default function About() {
             </div>
           </div>
         </section>
+
+        <section>
+          <div className="relative max-w-9xl px-4 py-10 lg:py-20 grid md:grid-cols-2 gap-x-10 lg:gap-y-10 m-auto">
+            <span class="absolute font-semibold text-4xl md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
+              DIGITECHII
+            </span>
+            {/* heading  */}
+            <div className="md:col-span-2 flex flex-col ">
+              <div className="mb-2">
+                <h2 className="text-xl md:text-4xl  md:text-start text-gray-600 font-bold tracking-wide font-theme-font">
+                  Who are we
+                </h2>
+              </div>
+              <div className="mb-4">
+                <h1 className="text-3xl md:text-5xl md:text-start text-black font-bold tracking-wide font-theme-font">
+                  We are the team of software engineers
+                </h1>
+              </div>
+            </div>
+            {/* left content */}
+            <div className="grid md:grid-cols-12 gap-y-10">
+              {/* social media icons */}
+              <div className="md:col-span-2 flex flex-row md:flex-col justify-center gap-x-4 lg:justify-around items-start">
+                <Link target="_black" to={"https://x.com/AmndT007"}>
+                  {" "}
+                  <FaSquareXTwitter className="text-3xl" />
+                </Link>
+                <Link target="_black" to={""}>
+                  {" "}
+                  <FaFacebook className="text-3xl" />
+                </Link>
+                <Link
+                  target="_black"
+                  to={"https://www.linkedin.com/in/akshit-dhakad-758a27250/"}
+                >
+                  {" "}
+                  <FaLinkedin className="text-3xl" />
+                </Link>
+                <Link
+                  target="_black"
+                  to={
+                    "https://www.instagram.com/amnd_technologies?igsh=aG1oc283cXE3dnZ6"
+                  }
+                >
+                  <FaInstagram className="text-3xl" />
+                </Link>
+              </div>
+              {/* content  */}
+              <div className="grid-cols-12 md:col-span-10">
+                <p className="text-gray-900 2xl:text-lg md:text-start text-start tracking-wide font-theme-font mb-2 xl:mb-4">
+                  <b className="tracking-wider">DIGITECHII SOFTWARE</b> is an IT
+                  outsourcing company based in India, providing top-notch
+                  services to clients all over the world.
+                </p>
+                <p className="text-gray-900 2xl:text-lg md:text-start text-justify tracking-wide font-theme-font mb-2 xl:mb-4">
+                  Our key value is our flexibility. It’s you who chooses the
+                  engagement model that works best for your project:
+                  outsourcing, outstaffing, dedicated team or staff
+                  augmentation.
+                </p>
+                <p className="text-gray-900 2xl:text-lg md:text-start text-justify tracking-wide font-theme-font mb-2 xl:mb-4">
+                  The benefit you get with us is facilitation. Digital
+                  transformation has never been easier – all you need to do is
+                  just tell us your requirements.
+                </p>
+              </div>
+            </div>
+            {/* Right content */}
+            <div>
+              <p className="text-gray-900 2xl:text-lg md:text-start text-justify tracking-wide font-theme-font mb-2 xl:mb-4">
+                We will advise you on the fitting solution, resources, and
+                timeframes for your business. Our main asset is people. We hire
+                top software developers to run your project from initial
+                estimation to release.
+              </p>
+              <p className="text-gray-900 2xl:text-lg md:text-start text-justify tracking-wide font-theme-font mb-2 xl:mb-4">
+                <b className="tracking-wider">DIGITECHII SOFTWARE</b> achieves a
+                well-planned development process, competent management, and
+                efficient communication due to a thorough selection of team
+                members for our company.
+              </p>
+              <CustomButton1 title={"Discover"} textCss="text-gray-900" />
+            </div>
+          </div>
+        </section>
         {/* Our Values  */}
         <section>
-          <div className="relative max-w-9xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
+          <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
               Values
             </span>

@@ -7,13 +7,7 @@ import Carousel from "../components/Carousel.jsx";
 import ClientCard from "../components/ClientCard.jsx";
 // React icons
 
-import {
-  FaFacebook,
-  FaLinkedin,
-  FaInstagram,
-  FaSquareXTwitter,
-  FaArrowUpRightFromSquare,
-} from "react-icons/fa6";
+
 
 import {
   CustomButton1,
@@ -112,115 +106,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* About Us Section  */}
-        <section>
-          <div className="relative max-w-9xl px-4 py-10 lg:py-20 grid md:grid-cols-2 gap-x-10 lg:gap-y-10 m-auto">
-            <span class="absolute font-semibold text-4xl md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
-              DIGITECHII
-            </span>
-            {/* heading  */}
-            <div className="md:col-span-2 flex flex-col ">
-              <div className="mb-2">
-                <h2 className="text-xl md:text-4xl  md:text-start text-gray-600 font-bold tracking-wide font-theme-font">
-                  About
-                </h2>
-              </div>
-              <div className="mb-4">
-                <h1 className="text-3xl md:text-5xl md:text-start text-black font-bold tracking-wide font-theme-font">
-                  DIGITECHII SOFTWARE
-                </h1>
-              </div>
-            </div>
-            {/* left content */}
-            <div className="grid md:grid-cols-12 gap-y-10">
-              {/* social media icons */}
-              <div className="md:col-span-2 flex flex-row md:flex-col justify-center gap-x-4 lg:justify-around items-start">
-                <Link target="_black" to={"https://x.com/AmndT007"}>
-                  {" "}
-                  <FaSquareXTwitter className="text-3xl" />
-                </Link>
-                <Link target="_black" to={""}>
-                  {" "}
-                  <FaFacebook className="text-3xl" />
-                </Link>
-                <Link
-                  target="_black"
-                  to={"https://www.linkedin.com/in/akshit-dhakad-758a27250/"}
-                >
-                  {" "}
-                  <FaLinkedin className="text-3xl" />
-                </Link>
-                <Link
-                  target="_black"
-                  to={
-                    "https://www.instagram.com/amnd_technologies?igsh=aG1oc283cXE3dnZ6"
-                  }
-                >
-                  <FaInstagram className="text-3xl" />
-                </Link>
-              </div>
-              {/* content  */}
-              <div className="grid-cols-12 md:col-span-10">
-                <p className="text-gray-900 2xl:text-lg md:text-start text-start tracking-wide font-theme-font mb-2 xl:mb-4">
-                  <b className="tracking-wider">DIGITECHII SOFTWARE</b> is an IT
-                  outsourcing company based in India, providing top-notch
-                  services to clients all over the world.
-                </p>
-                <p className="text-gray-900 2xl:text-lg md:text-start text-justify tracking-wide font-theme-font mb-2 xl:mb-4">
-                  Our key value is our flexibility. It’s you who chooses the
-                  engagement model that works best for your project:
-                  outsourcing, outstaffing, dedicated team or staff
-                  augmentation.
-                </p>
-                <p className="text-gray-900 2xl:text-lg md:text-start text-justify tracking-wide font-theme-font mb-2 xl:mb-4">
-                  The benefit you get with us is facilitation. Digital
-                  transformation has never been easier – all you need to do is
-                  just tell us your requirements.
-                </p>
-              </div>
-            </div>
-            {/* Right content */}
-            <div>
-              <p className="text-gray-900 2xl:text-lg md:text-start text-justify tracking-wide font-theme-font mb-2 xl:mb-4">
-                We will advise you on the fitting solution, resources, and
-                timeframes for your business. Our main asset is people. We hire
-                top software developers to run your project from initial
-                estimation to release.
-              </p>
-              <p className="text-gray-900 2xl:text-lg md:text-start text-justify tracking-wide font-theme-font mb-2 xl:mb-4">
-                <b className="tracking-wider">DIGITECHII SOFTWARE</b> achieves a
-                well-planned development process, competent management, and
-                efficient communication due to a thorough selection of team
-                members for our company.
-              </p>
-              <CustomButton1 title={"Discover"} textCss="text-gray-900" />
-            </div>
-          </div>
-        </section>
-
-        {/* Testinomials section  */}
-        <section>
-          <div className="relative max-w-9xl px-4 py-10 lg:py-20  m-auto">
-            <span class="absolute font-semibold text-[4rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
-              Testimonials
-            </span>
-            {/* heading  */}
-            <div className=" flex flex-col ">
-              <div className="mb-2">
-                <h2 className="text-xl md:text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
-                  Testimonials
-                </h2>
-              </div>
-              <div className="md:mb-4">
-                <h1 className="text-3xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
-                  Client
-                </h1>
-              </div>
-              <Testinomial />
-            </div>
-          </div>
-        </section>
-
         {/* Our Services section  */}
         <section>
           <div className="relative max-w-9xl px-4 py-10 lg:py-20 grid grid-cols-2  gap-x-10 gap-y-10  m-auto">
@@ -292,6 +177,159 @@ export default function Home() {
               <button className="px-20 py-3 font-theme-font text-lg bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 transition-all duration-300 border-b-8 delay-75">
                 Contact Us
               </button>
+            </div>
+          </div>
+        </section>
+
+        {/* Our Development Process  */}
+        <section>
+          <div className="relative max-w-9xl px-4 py-10 lg:py-20 grid grid-cols-2 gap-x-10 gap-y-10 m-auto">
+            <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
+              Development
+            </span>
+            {/* heading  */}
+            <div className="col-span-2 flex flex-col ">
+              <div className="mb-2">
+                <h2 className="text-xl md:text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
+                  Our
+                </h2>
+              </div>
+              <div className="mb-4">
+                <h1 className="text-3xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
+                  Development Process
+                </h1>
+              </div>
+            </div>
+            {/* left content */}
+            <div className="col-span-2 grid md:grid-cols-3 gap-x-5 gap-y-10">
+              {/* item 1 */}
+              <div className="h-72 relative w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border border-b-8">
+                <div class="absolute top-5 left-5 h-12 w-12 font-bold text-8xl font-theme-font leading-none opacity-40">
+                  <img
+                    loading="lazy"
+                    className="h-full w-full object-cover object-center"
+                    src="https://cdn-icons-png.freepik.com/256/7387/7387688.png?ga=GA1.1.705946748.1706705440&"
+                    alt="Discovery icon"
+                  />
+                </div>
+                <div>
+                  <h4 className="mb-4 text-xl 2xl:text-3xl font-bold font-theme-font">
+                    Discovery
+                  </h4>
+                  <p className="text-gray-700 text-start text-sm 2xl:text-base tracking-wide leading-5 font-theme-font">
+                    Our collaboration starts with an in-depth analysis of your
+                    business needs and market trends. We assess the solution
+                    viability and product success by documenting main
+                    functionality and milestones.
+                  </p>
+                </div>
+              </div>
+              {/* item 2 */}
+              <div className="h-72 relative w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border border-b-8">
+                <div class="absolute  top-5 left-5 h-12 w-12  font-bold text-8xl font-theme-font leading-none opacity-40  ">
+                  <img
+                    loading="lazy"
+                    className="w-full h-full object-cover object-center"
+                    src="https://cdn-icons-png.freepik.com/256/1336/1336494.png?ga=GA1.1.705946748.1706705440&"
+                    alt="Design and development icon"
+                  />
+                </div>
+                <div>
+                  <h4 className="mb-4 text-xl 2xl:text-3xl font-bold font-theme-font">
+                    Design and development
+                  </h4>
+                  <p className="text-gray-700 text-start text-sm lg:text-base tracking-wide leading-5 font-theme-font">
+                    Here, our web designers breathe life into the approved
+                    wireframes, while a team of web developers transforms
+                    designs into a working model with scalability in mind.
+                  </p>
+                </div>
+              </div>
+              {/* item 3 */}
+              <div className="h-72 relative w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border border-b-8">
+                <div class="absolute top-5 left-5 h-12 w-12 font-bold text-8xl leading-none opacity-40 font-theme-font ">
+                  <img
+                    loading="lazy"
+                    className="w-full h-full object-center object-cover"
+                    src="https://cdn-icons-png.freepik.com/256/4296/4296532.png?ga=GA1.1.705946748.1706705440&"
+                    alt="Full-cycle testing"
+                  />
+                </div>
+                <div>
+                  <h4 className="mb-4 text-xl 2xl:text-3xl font-bold font-theme-font">
+                    Full-cycle testing
+                  </h4>
+                  <p className="text-gray-700 text-start text-sm lg:text-base tracking-wide leading-5 font-theme-font">
+                    Our top QA engineers perform rigorous testing, including
+                    front-end testing, database testing, server testing, and
+                    others. Thus, we assure your solution is bug-free.
+                  </p>
+                </div>
+              </div>
+              {/* item 4 */}
+              <div className="h-72 relative w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border border-b-8">
+                <div class="absolute top-5 left-5 h-12 w-12  font-bold text-8xl leading-none opacity-40  font-theme-font ">
+                  <img
+                    loading="lazy"
+                    className="w-full h-full object-center object-cover"
+                    src="https://cdn-icons-png.freepik.com/256/8099/8099542.png?ga=GA1.1.705946748.1706705440&"
+                    alt="Prototyping and MVP development icon"
+                  />
+                </div>
+                <div>
+                  <h4 className="mb-4 text-xl 2xl:text-3xl font-bold font-theme-font">
+                    Prototyping and MVP development
+                  </h4>
+                  <p className="text-gray-700 text-start text-sm lg:text-base tracking-wide leading-5 font-theme-font">
+                    Complex web applications are implemented as MVPs first to
+                    predict future results and enhance mission-critical
+                    features.
+                  </p>
+                </div>
+              </div>
+              {/* item 5 */}
+              <div className="h-72 relative w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border border-b-8">
+                <div class="absolute top-5 left-5 h-12 w-12  font-bold text-8xl leading-none opacity-40  font-theme-font ">
+                  <img
+                    loading="lazy"
+                    className="w-full h-full object-center object-cover"
+                    src="https://cdn-icons-png.freepik.com/256/2082/2082945.png?ga=GA1.1.705946748.1706705440&"
+                    alt="Launch and maintenance icon"
+                  />
+                </div>
+                <div>
+                  <h4 className="mb-4 text-xl 2xl:text-3xl font-bold font-theme-font">
+                    Launch and maintenance
+                  </h4>
+                  <p className="text-gray-700 text-start text-sm 2xl:text-base tracking-wide leading-5 font-theme-font">
+                    Finally, we roll out your solution to the server. Our
+                    developers then work on the user feedback and provide
+                    post-deployment support and maintenance.
+                  </p>
+                </div>
+              </div>
+              {/* item 6 */}
+              <div className="h-72 relative w-full  px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border border-b-8">
+                <div class="absolute top-5 left-5 h-12 w-12 font-bold text-8xl leading-none opacity-40  font-theme-font">
+                  <img
+                    loading="lazy"
+                    className="w-full h-full object-center object-cover"
+                    src="https://cdn-icons-png.freepik.com/256/12375/12375564.png?ga=GA1.1.705946748.1706705440&"
+                    alt="End-to-end development icon"
+                  />
+                </div>
+                <div>
+                  <h4 className="mb-4 text-xl 2xl:text-3xl font-bold font-theme-font">
+                    End-to-end development
+                  </h4>
+                  <p className="text-gray-700 text-start text-sm 2xl:text-base tracking-wide leading-5 font-theme-font">
+                    We provide end-to-end custom web application development
+                    services that cover every collaboration stage. Whether it’s
+                    prototyping or migrating, our team can step in to support
+                    the process.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -662,155 +700,25 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Our Development Process  */}
+        {/* Testinomials section  */}
         <section>
-          <div className="relative max-w-9xl px-4 py-10 lg:py-20 grid grid-cols-2 gap-x-10 gap-y-10 m-auto">
-            <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
-              Development
+          <div className="relative max-w-9xl px-4 py-10 lg:py-20  m-auto">
+            <span class="absolute font-semibold text-[4rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
+              Testimonials
             </span>
             {/* heading  */}
-            <div className="col-span-2 flex flex-col ">
+            <div className=" flex flex-col ">
               <div className="mb-2">
                 <h2 className="text-xl md:text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
-                  Our
+                  Testimonials
                 </h2>
               </div>
-              <div className="mb-4">
+              <div className="md:mb-4">
                 <h1 className="text-3xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
-                  Development Process
+                  Client
                 </h1>
               </div>
-            </div>
-            {/* left content */}
-            <div className="col-span-2 grid md:grid-cols-3 gap-x-5 gap-y-10">
-              {/* item 1 */}
-              <div className="h-72 relative w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border border-b-8">
-                <div class="absolute top-5 left-5 h-12 w-12 font-bold text-8xl font-theme-font leading-none opacity-40">
-                  <img
-                    loading="lazy"
-                    className="h-full w-full object-cover object-center"
-                    src="https://cdn-icons-png.freepik.com/256/7387/7387688.png?ga=GA1.1.705946748.1706705440&"
-                    alt="Discovery icon"
-                  />
-                </div>
-                <div>
-                  <h4 className="mb-4 text-xl 2xl:text-3xl font-bold font-theme-font">
-                    Discovery
-                  </h4>
-                  <p className="text-gray-700 text-start text-sm 2xl:text-base tracking-wide leading-5 font-theme-font">
-                    Our collaboration starts with an in-depth analysis of your
-                    business needs and market trends. We assess the solution
-                    viability and product success by documenting main
-                    functionality and milestones.
-                  </p>
-                </div>
-              </div>
-              {/* item 2 */}
-              <div className="h-72 relative w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border border-b-8">
-                <div class="absolute  top-5 left-5 h-12 w-12  font-bold text-8xl font-theme-font leading-none opacity-40  ">
-                  <img
-                    loading="lazy"
-                    className="w-full h-full object-cover object-center"
-                    src="https://cdn-icons-png.freepik.com/256/1336/1336494.png?ga=GA1.1.705946748.1706705440&"
-                    alt="Design and development icon"
-                  />
-                </div>
-                <div>
-                  <h4 className="mb-4 text-xl 2xl:text-3xl font-bold font-theme-font">
-                    Design and development
-                  </h4>
-                  <p className="text-gray-700 text-start text-sm lg:text-base tracking-wide leading-5 font-theme-font">
-                    Here, our web designers breathe life into the approved
-                    wireframes, while a team of web developers transforms
-                    designs into a working model with scalability in mind.
-                  </p>
-                </div>
-              </div>
-              {/* item 3 */}
-              <div className="h-72 relative w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border border-b-8">
-                <div class="absolute top-5 left-5 h-12 w-12 font-bold text-8xl leading-none opacity-40 font-theme-font ">
-                  <img
-                    loading="lazy"
-                    className="w-full h-full object-center object-cover"
-                    src="https://cdn-icons-png.freepik.com/256/4296/4296532.png?ga=GA1.1.705946748.1706705440&"
-                    alt="Full-cycle testing"
-                  />
-                </div>
-                <div>
-                  <h4 className="mb-4 text-xl 2xl:text-3xl font-bold font-theme-font">
-                    Full-cycle testing
-                  </h4>
-                  <p className="text-gray-700 text-start text-sm lg:text-base tracking-wide leading-5 font-theme-font">
-                    Our top QA engineers perform rigorous testing, including
-                    front-end testing, database testing, server testing, and
-                    others. Thus, we assure your solution is bug-free.
-                  </p>
-                </div>
-              </div>
-              {/* item 4 */}
-              <div className="h-72 relative w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border border-b-8">
-                <div class="absolute top-5 left-5 h-12 w-12  font-bold text-8xl leading-none opacity-40  font-theme-font ">
-                  <img
-                    loading="lazy"
-                    className="w-full h-full object-center object-cover"
-                    src="https://cdn-icons-png.freepik.com/256/8099/8099542.png?ga=GA1.1.705946748.1706705440&"
-                    alt="Prototyping and MVP development icon"
-                  />
-                </div>
-                <div>
-                  <h4 className="mb-4 text-xl 2xl:text-3xl font-bold font-theme-font">
-                    Prototyping and MVP development
-                  </h4>
-                  <p className="text-gray-700 text-start text-sm lg:text-base tracking-wide leading-5 font-theme-font">
-                    Complex web applications are implemented as MVPs first to
-                    predict future results and enhance mission-critical
-                    features.
-                  </p>
-                </div>
-              </div>
-              {/* item 5 */}
-              <div className="h-72 relative w-full px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border border-b-8">
-                <div class="absolute top-5 left-5 h-12 w-12  font-bold text-8xl leading-none opacity-40  font-theme-font ">
-                  <img
-                    loading="lazy"
-                    className="w-full h-full object-center object-cover"
-                    src="https://cdn-icons-png.freepik.com/256/2082/2082945.png?ga=GA1.1.705946748.1706705440&"
-                    alt="Launch and maintenance icon"
-                  />
-                </div>
-                <div>
-                  <h4 className="mb-4 text-xl 2xl:text-3xl font-bold font-theme-font">
-                    Launch and maintenance
-                  </h4>
-                  <p className="text-gray-700 text-start text-sm 2xl:text-base tracking-wide leading-5 font-theme-font">
-                    Finally, we roll out your solution to the server. Our
-                    developers then work on the user feedback and provide
-                    post-deployment support and maintenance.
-                  </p>
-                </div>
-              </div>
-              {/* item 6 */}
-              <div className="h-72 relative w-full  px-4 md:p-10 flex items-center rounded-3xl shadow-xl bg-slate-50 border border-b-8">
-                <div class="absolute top-5 left-5 h-12 w-12 font-bold text-8xl leading-none opacity-40  font-theme-font">
-                  <img
-                    loading="lazy"
-                    className="w-full h-full object-center object-cover"
-                    src="https://cdn-icons-png.freepik.com/256/12375/12375564.png?ga=GA1.1.705946748.1706705440&"
-                    alt="End-to-end development icon"
-                  />
-                </div>
-                <div>
-                  <h4 className="mb-4 text-xl 2xl:text-3xl font-bold font-theme-font">
-                    End-to-end development
-                  </h4>
-                  <p className="text-gray-700 text-start text-sm 2xl:text-base tracking-wide leading-5 font-theme-font">
-                    We provide end-to-end custom web application development
-                    services that cover every collaboration stage. Whether it’s
-                    prototyping or migrating, our team can step in to support
-                    the process.
-                  </p>
-                </div>
-              </div>
+              <Testinomial />
             </div>
           </div>
         </section>

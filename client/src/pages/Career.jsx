@@ -1,6 +1,5 @@
 import Layout from "../components/Layout.jsx";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
-import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import Testinomial from "../components/Testinomial.jsx";
 import {
   CustomButton1,
@@ -14,6 +13,9 @@ import ServicesBanner from "../components/ServicesBanner.jsx";
 import AccordionCard from "../components/Accordion.jsx";
 import { MdOutlineStar } from "react-icons/md";
 import ContactFrom from "../components/ContactFrom.jsx";
+import {
+  FaArrowUpRightFromSquare,
+} from "react-icons/fa6";
 const data = [
   {
     _id: "0",
@@ -190,42 +192,8 @@ export default function Career() {
           </div>
         </section>
 
-      
-
-        {/* Technologies we use  */}
-        
-
-        {/* Why WebArt Sofware */}
-
-        <section className="">
-          <div className="relative max-w-9xl py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[25px] left-[-125px] text-gray-500">
-              Why WebArt Software?
-            </span>
-            {/* heading  */}
-            <div className="col-span-2 flex flex-col ">
-              <div className="mb-2">
-                <h2 className="text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
-                  Why WebArt Software?
-                </h2>
-              </div>
-              <div className="mb-4">
-                <h1 className="text-5xl text-black font-bold tracking-wide font-theme-font">
-                  Why WebArt Technologies ?
-                </h1>
-              </div>
-            </div>
-            {/* left content */}
-            <div className="col-span-2  gap-10">
-              {dataSet.map((item, index) => (
-                <AccordionCard item={item} />
-              ))}
-            </div>
-          </div>
-        </section>
-
         {/*want to start web development banner  */}
-        <section className="">
+        <section>
           <div className="relative max-w-9xl py-20    m-auto">
             <ServicesBanner
               title={

@@ -4,9 +4,9 @@ import { CustomButton2 } from "./ui/CustomButtons";
 
 function HoverCard() {
   const imgURl = [
-    "https://media.istockphoto.com/id/1444916714/photo/honeycomb-network-concept-data-transfer-digital-technological-background-3d-rendering.jpg?s=1024x1024&w=is&k=20&c=DNWuH9hDI2e6cTIojCq6y9EdHNkM-TVWdAHJ4dT7Axo=",
-    "https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?size=626&ext=jpg&ga=GA1.1.705946748.1706705440&semt=ais",
-    "https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?size=626&ext=jpg&ga=GA1.1.705946748.1706705440&semt=ais",
+    "/assets/background/attitude_to_work.jpg",
+    "/assets/background/attitude_to_client.jpg",
+    "/assets/background/attitude_to_employee.jpg",
   ];
   const [bgUrl, setBgURl] = useState(0);
 
@@ -26,15 +26,15 @@ function HoverCard() {
   return (
     <>
       <div
-        className="abosolute -z-50 m-1 overflow-hidden top-0 md:h-screen max-h-[600px] flex items-center justify-center rounded-2xl"
+        className="abosolute -z-50 m-1 overflow-hidden top-0 md:h-screen h-full min-h-min max-h-[750px] flex items-center justify-center rounded-2xl"
         style={backgroundImg}
       >
         <div className="absolute  m-1 -z-10 bg-black opacity-50 rounded-2xl h-screen w-full"></div>
-        <div className="min-h-full min-w-full grid md:grid-cols-3">
+        <div className="min-h-full min-w-full grid md:grid-cols-3 items-stretch">
           {/* card 1 */}
           <div
             onMouseEnter={() => setBgURl(0)}
-            className="w-full flex flex-col gap-10 px-5 py-10 h-full m-auto border-r border-gray-50 border-left hover:cursor-pointer delay-200"
+            className="w-full h-full flex flex-col gap-10 px-5 py-10 m-auto border-r border-gray-50 border-left hover:cursor-pointer delay-200"
           >
             <div className="flex flex-col gap-5">
               <div>
@@ -43,7 +43,7 @@ function HoverCard() {
                 </h2>
               </div>
               <div>
-                <h1 className="text-4xl text-white font-bold tracking-wide font-theme-font">
+                <h1 className="text-3xl text-white font-bold tracking-wide font-theme-font">
                   Attitude To Work.
                 </h1>
               </div>
@@ -64,7 +64,7 @@ function HoverCard() {
           {/* card 2 */}
           <div
             onMouseEnter={() => setBgURl(1)}
-            className="w-full flex flex-col gap-10 px-5 py-10 h-full m-auto border-r border-gray-50 border-left hover:cursor-pointer delay-20"
+            className="w-full h-full flex flex-col gap-10 px-5 py-10 m-auto border-r border-gray-50 border-left hover:cursor-pointer delay-20"
           >
             <div className="flex flex-col gap-5">
               <div>
@@ -73,7 +73,7 @@ function HoverCard() {
                 </h2>
               </div>
               <div>
-                <h1 className="text-4xl text-white font-bold tracking-wide font-theme-font">
+                <h1 className="text-3xl text-white font-bold tracking-wide font-theme-font">
                   Attitude To Client.
                 </h1>
               </div>
@@ -95,7 +95,7 @@ function HoverCard() {
           {/* card 3 */}
           <div
             onMouseEnter={() => setBgURl(2)}
-            className="w-full flex flex-col gap-10 px-5 py-10 h-full m-auto border-r border-gray-50 border-left hover:cursor-pointer delay-20"
+            className="w-full h-full flex flex-col gap-10 px-5 py-10 m-auto border-r border-gray-50 border-left hover:cursor-pointer delay-20"
           >
             <div className="flex flex-col gap-5">
               <div>
@@ -104,7 +104,7 @@ function HoverCard() {
                 </h2>
               </div>
               <div>
-                <h1 className="text-4xl text-white font-bold tracking-wide font-theme-font">
+                <h1 className="text-3xl text-white font-bold tracking-wide font-theme-font">
                   Attitude To Employee.
                 </h1>
               </div>
