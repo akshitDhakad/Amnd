@@ -265,36 +265,8 @@ export default function Technology() {
             </div>
           </div>
         </section>
-        {/* Pages Section  */}
-        <section>
-          <div className="relative max-w-9xl py-20 px-4 md:grid grid-cols-3 gap-x-10 gap-y-10 m-auto">
-            <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500 text-shadow-2">
-              Web Development
-            </span>
-            {/* heading  */}
-            <div className="col-span-3 flex flex-col ">
-              <div className="mb-2">
-                <h2 className="text md:text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
-                  We Provide
-                </h2>
-              </div>
-              <div className="mb-4">
-                <h1 className="text-2xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
-                  Web Development Services We Provide
-                </h1>
-              </div>
-            </div>
-            {/* left content */}
-            <div className="grid grid-cols-12"></div>
-            {/* Right content */}
-            <div className="col-span-2">
-              {data?.map((item, index) => (
-                <AccordionCard key={item._id} item={item} />
-              ))}
-            </div>
-          </div>
-        </section>
-        {/* Our Process  */}
+        
+
         {/* Our webdevelopment process */}
         <section className="hidden md:block bg-gray-100">
           <div className="relative max-w-9xl px-4 py-20 md:grid  grid-cols-1 md:grid-cols-3 gap-x-10 gap-y-10 m-auto">
@@ -732,7 +704,7 @@ export default function Technology() {
             </div>
           </div>
         </section>
-        {/* Why WebArt Sofware */}
+        {/* Why Digitechii Sofware */}
         <section className="">
           <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[25px] left-[-125px] text-gray-500 text-shadow-2">
@@ -742,7 +714,7 @@ export default function Technology() {
             <div className="col-span-2 flex flex-col ">
               <div className="mb-2">
                 <h2 className="text-xl md:text-4xl text-gray-600 font-bold tracking-wide font-theme-font">
-                  Why WebArt Software?
+                  Why Digitechii Software?
                 </h2>
               </div>
               <div className="md:mb-4">

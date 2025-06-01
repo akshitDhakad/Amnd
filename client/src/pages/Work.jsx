@@ -1,60 +1,15 @@
 import React, { useState } from "react";
 import Layout from "../components/Layout.jsx";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
-import {
-  FaFacebook,
-  FaLinkedin,
-  FaInstagram,
-  FaArrowUpRightFromSquare,
-} from "react-icons/fa6";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import Testinomial from "../components/Testinomial.jsx";
-import FlipCard from "../components/FlipCard.jsx";
-import Carousel from "../components/Carousel.jsx";
 import ClientCard from "../components/ClientCard.jsx";
 // React icons
 import { IoMdKey } from "react-icons/io";
 import { Link } from "react-router-dom";
 import ServicesBanner from "../components/ServicesBanner.jsx";
 import AccordionCard from "../components/Accordion.jsx";
-import { MdOutlineStar } from "react-icons/md";
-const data = [
-  {
-    _id: "0",
-    title: "Full-stack web development services",
-    description:
-      "As an established professional web development company, we offer a broad array of professional web development service with a holistic approach. Our developers cover all use cases and tech stacks – from MERN to LAMP.",
-  },
-  {
-    _id: "1",
-    title: "Custom web applications",
-    description:
-      "Looking for an individual tech-driven touch? Our professional website development company will implement your business vision into a tailored web solution with a unique combo of technologies and features.",
-  },
-  {
-    _id: "2",
-    title: "Web support and maintenance",
-    description:
-      "Our professional web development service provides continual care for your web products to keep them up to date. We ensure robust security, backups, and software updates as well as embed the latest functionalities.",
-  },
-  {
-    _id: "3",
-    title: "Web Development Services",
-    description:
-      "Looking for a killing website with a sleek and responsive design? As a professional website development company, we specialize in creating innovative websites that capture your brand message.",
-  },
-  {
-    _id: "4",
-    title: "Website design and re-design",
-    description:
-      "Leverage our professional website development services to bring a new look and feel to your web presence. Get more traffic and leads with our UI/UX audit, enhanced security, and website performance.",
-  },
-  {
-    _id: "5",
-    title: "Next-gen web solutions",
-    description:
-      "Looking to step up your game with the latest technologies? Our team of developers will merge your solution with BI tools for a higher impact and holistic view of your performance.",
-  },
-];
+import ContactFrom from "../components/ContactFrom.jsx";
 
 const dataSet = [
   {
@@ -135,7 +90,6 @@ const faqs = [
 ];
 
 export default function Work() {
-  const [tab, setTab] = useState(0);
   const backgroundImg = {
     backgroundImage: `url('https://devoxsoftware.com/wp-content/uploads/2024/01/AnyConv.com__philip-oroni-gftMuFt8vNk-unsplash.webp')`,
     backgroundSize: "cover",
@@ -154,7 +108,6 @@ export default function Work() {
           >
             <div className="absolute  m-1 -z-10 bg-black opacity-50 rounded-2xl h-screen w-full"></div>
             <div className=" max-w-9xl m-auto px-4 md:px-10 py-5">
-              {/* <div className="absolute top-0 left-0 h-full w-2/5 inset-0 bg-purple-100 bg-opacity-10 backdrop-blur-md"></div> */}
               <div className="mt-20 md:grid grid-cols-5 gap-x-10 gap-y-10 m-auto">
                 <div className="col-span-3 flex flex-col md:gap-5">
                   <div>
@@ -423,481 +376,7 @@ export default function Work() {
           </div>
         </section>
 
-        {/* Technologies we use  */}
-        {/* Our Development Process  */}
-
-        <section className="bg-theme-bg-dark ">
-          <div className="relative max-w-9xl px-4 py-20 md:grid md:grid-cols-2 gap-x-10 gap-y-10  m-auto">
-            <span class="absolute font-semibold text-[3rem] md:text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-0 text-gray-500">
-              Technologies
-            </span>
-            {/* heading  */}
-            <div className="col-span-2 flex flex-col">
-              <div className="mb-2">
-                <h2 className="text-xl md:text-4xl text-gray-200 font-bold tracking-wide font-theme-font">
-                  We Use
-                </h2>
-              </div>
-              <div className="md:mb-4">
-                <h1 className="text-3xl md:text-5xl text-white font-bold tracking-wide font-theme-font">
-                  Technologies
-                </h1>
-              </div>
-            </div>
-            {/* Content  */}
-            <div className="col-span-2 grid md:grid-cols-2 gap-x-5 gap-y-10">
-              {/* left content */}
-
-              {/* 1 card*/}
-              <div className="bg-gray-100 md:h-72 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-md shadow-white">
-                <h4 className="mb-4 mr-auto text-start text-xl font-bold font-theme-font">
-                  Back End
-                </h4>
-
-                <div>
-                  <div className="grid grid-cols-2  md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Nest.png.webp"
-                          alt="NestJS"
-                        />
-                      </div>
-                      <div className="font-semibold">NestJS</div>
-                    </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Flask_logo-1-1.png.webp"
-                          alt="Flask"
-                        />
-                      </div>
-                      <div className="font-semibold">Flask</div>
-                    </div>
-
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/django-svgrepo-com-1.png.webp"
-                          alt="Django"
-                        />
-                      </div>
-                      <div className="font-semibold">Django</div>
-                    </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/express-js-icon-1.png.webp"
-                          alt="Express.js"
-                        />
-                      </div>
-                      <div className="font-semibold">Express.js</div>
-                    </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Microsoft_.NET_logo-1.png.webp"
-                          alt=".NET"
-                        />
-                      </div>
-                      <div className="font-semibold">.NET</div>
-                    </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/PHP-logo-1.png.webp"
-                          alt="PHP"
-                        />
-                      </div>
-                      <div className="font-semibold">PHP</div>
-                    </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Group-5.png.webp"
-                          alt="Ruby"
-                        />
-                      </div>
-                      <div className="font-semibold">Ruby</div>
-                    </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/spring.png.webp"
-                          alt="Java Spring"
-                        />
-                      </div>
-                      <div className="font-semibold">Java Spring</div>
-                    </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/python.png.webp"
-                          alt="Python"
-                        />
-                      </div>
-                      <div className="font-semibold">Python</div>
-                    </div>
-                    <div className="flex gap-1 items-center">
-                      <div className="h-8 w-auto">
-                        <img
-                          className="h-full w-full object-cover object-center"
-                          src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/node-js-1.png.webp"
-                          alt="Node.js"
-                        />
-                      </div>
-                      <div className="font-semibold">Node.js</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* card 2 */}
-              <div className="bg-gray-100 md:h-72 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-md shadow-white">
-                <h4 className="mb-4 mr-auto text-start text-xl font-bold font-theme-font">
-                  Front End
-                </h4>
-
-                <div className="grid grid-cols-2  md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
-                  {/* item 1 */}
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Next.png.webp"
-                        alt="NestJS "
-                      />
-                    </div>
-                    <div className="font-semibold">NestJS</div>
-                  </div>
-                  {/* item 2 */}
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Group-4.png.webp"
-                        alt="Flask"
-                      />
-                    </div>
-                    <div className="font-semibold">Svelte</div>
-                  </div>
-                  {/* item 3 */}
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Vue-js.png.webp"
-                        alt="Vue.js"
-                      />
-                    </div>
-                    <div className="font-semibold">Vue.js</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Angular_full_color_logo-1.png.webp"
-                        alt="Angular"
-                      />
-                    </div>
-                    <div className="font-semibold">Angular</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/React-icon-1.png.webp"
-                        alt="React.js"
-                      />
-                    </div>
-                    <div className="font-semibold">React.js</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Progressive_Web_Apps_Logo-1.png.webp"
-                        alt="PWA"
-                      />
-                    </div>
-                    <div className="font-semibold">PWA</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Typescript_logo_2020-1.png.webp"
-                        alt="TypeScript"
-                      />
-                    </div>
-                    <div className="font-semibold">TypeScript</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/JS.png.webp"
-                      />
-                    </div>
-                    <div className="font-semibold">JavaScript </div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/CSS3_and_HTML5_logos_and_wordmarks-1.png.webp"
-                        alt="HTML/CSS"
-                      />
-                    </div>
-                    <div className="font-semibold">HTML/CSS</div>
-                  </div>
-                </div>
-              </div>
-
-              {/* card 3 */}
-              <div className="bg-gray-100 md:h-72 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-md shadow-white">
-                <h4 className="mb-4 mr-auto text-start text-xl font-bold font-theme-font">
-                  Database Development
-                </h4>
-
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
-                  {/* item 1 */}
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/mariadb-1.png.webp"
-                        alt="MariaDB "
-                      />
-                    </div>
-                    <div className="font-semibold">MariaDB</div>
-                  </div>
-                  {/* item 2 */}
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/redis-logo-svgrepo-com-1.png.webp"
-                        alt="Redis"
-                      />
-                    </div>
-                    <div className="font-semibold">Redis</div>
-                  </div>
-                  {/* item 3 */}
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Cassandra.png.webp"
-                        alt="Cassandra"
-                      />
-                    </div>
-                    <div>Cassandra</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/mongodb-svgrepo-com-1.png.webp"
-                        alt="MongoDB"
-                      />
-                    </div>
-                    <div>MongoDB</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/oracle-svgrepo-com-1.png.webp"
-                        alt="Oracle DB"
-                      />
-                    </div>
-                    <div>Oracle DB</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Microsoft-SQL-Server-1.png.webp"
-                        alt="SQL Server"
-                      />
-                    </div>
-                    <div>SQL Server</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Postgresql_elephant-1.png.webp"
-                        alt="PostgreSQL"
-                      />
-                    </div>
-                    <div>PostgreSQL</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/mysqlworkbench_93532-1.png.webp"
-                      />
-                    </div>
-                    <div>MySQL</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/elasticsearch-1.png.webp"
-                        alt="Elasticsearch"
-                      />
-                    </div>
-                    <div>Elasticsearch</div>
-                  </div>
-                </div>
-              </div>
-              {/* item 4 */}
-              <div className="bg-gray-100 md:h-72 w-auto p-4 md:p-10 flex flex-col items-center justify-center rounded-3xl shadow-md shadow-white">
-                <h4 className="mb-4 mr-auto text-start text-xl font-bold font-theme-font">
-                  DevOps & Cloud
-                </h4>
-
-                <div className="grid grid-cols-2  md:grid-cols-3 gap-x-2 gap-y-10 text-start tracking-wide leading-5 font-theme-font">
-                  {/* item 1 */}
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Next.png.webp"
-                        alt="NestJS "
-                      />
-                    </div>
-                    <div className="font-semibold">NestJS</div>
-                  </div>
-                  {/* item 2 */}
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Group-4.png.webp"
-                        alt="Flask"
-                      />
-                    </div>
-                    <div className="font-semibold">Svelte</div>
-                  </div>
-                  {/* item 3 */}
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Vue-js.png.webp"
-                        alt="Vue.js"
-                      />
-                    </div>
-                    <div>Vue.js</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Angular_full_color_logo-1.png.webp"
-                        alt="Angular"
-                      />
-                    </div>
-                    <div>Angular</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/React-icon-1.png.webp"
-                        alt="React.js"
-                      />
-                    </div>
-                    <div>React.js</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Progressive_Web_Apps_Logo-1.png.webp"
-                        alt="PWA"
-                      />
-                    </div>
-                    <div>PWA</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/Typescript_logo_2020-1.png.webp"
-                        alt="TypeScript"
-                      />
-                    </div>
-                    <div>TypeScript</div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/JS.png.webp"
-                      />
-                    </div>
-                    <div>JavaScript </div>
-                  </div>
-                  <div className="flex gap-1 items-center">
-                    <div className="h-8 w-auto">
-                      <img
-                        loading="lazy"
-                        className="h-full w-full object-cover object-center"
-                        src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/CSS3_and_HTML5_logos_and_wordmarks-1.png.webp"
-                        alt="HTML/CSS"
-                      />
-                    </div>
-                    <div>HTML/CSS</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Our Benefits */}
-
         <section className="bg-gray-100">
           <div className="relative max-w-9xl px-4 py-20 md:grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[25px] left-[-125px] text-gray-500">
@@ -912,7 +391,7 @@ export default function Work() {
               </div>
               <div className="mb-4">
                 <h1 className="text-2xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
-                  Why Web Development Services by AMNDTECH?
+                  Why Web Development Services by Digitechii?
                 </h1>
               </div>
             </div>
@@ -1050,12 +529,12 @@ export default function Work() {
           </div>
         </section>
 
-        {/* Why WebArt Sofware */}
+        {/* Why Digitechii Sofware */}
 
-        <section className="">
+        <section>
           <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-x-10 gap-y-10  m-auto">
             <span class="absolute font-semibold text-[8rem] font-theme-font leading-none opacity-10 top-[25px] left-[-125px] text-gray-500">
-              Why WebArt Software?
+              Why Digitechii Software?
             </span>
             {/* heading  */}
             <div className="col-span-2 flex flex-col ">
@@ -1076,21 +555,6 @@ export default function Work() {
                 <AccordionCard item={item} />
               ))}
             </div>
-          </div>
-        </section>
-
-        {/*want to start web development banner  */}
-        <section className="">
-          <div className="relative max-w-9xl px-4 py-20 m-auto">
-            <ServicesBanner
-              img={
-                "https://devoxsoftware.com/wp-content/uploads/2024/03/Rectangle-3709-6.webp"
-              }
-              title={
-                "Fast-track your product development and shorten time-to-market with AMNDTECH as your next talent supplier."
-              }
-              description={"Want to Start Web Development?"}
-            />
           </div>
         </section>
 
@@ -1173,139 +637,21 @@ export default function Work() {
 
         {/* Contact us Form */}
         <section>
-          <div className="relative max-w-9xl px-4 py-20 grid grid-cols-2 gap-2  m-auto">
-            <span class="absolute font-semibold text-[12rem] font-theme-font leading-none opacity-10 top-[-25px] left-[-125px] text-gray-500">
-              Let's Talk
-            </span>
-            {/* heading  */}
-            <div className="col-span-2 flex flex-col ">
-              <div className="mb-2">
-                <h2 className="text-xl mdtext-4xl text-gray-600 font-bold tracking-wide font-theme-font">
-                  Contact Us
-                </h2>
-              </div>
-              <div className="mb-4">
-                <h1 className="text-3xl md:text-5xl text-black font-bold tracking-wide font-theme-font">
-                  Let's Talk
-                </h1>
-              </div>
-            </div>
+          <ContactFrom />
+        </section>
 
-            <div className="col-span-2 min-h-min md:h-screen grid md:grid-cols-2 gap-2">
-              {/* left content */}
-              <div className="h-80 md:h-full relative rounded-2xl overflow-hidden">
-                <div className="absolute inset-0 bg-gray-100 opacity-0 hover:opacity-80 flex justify-center items-center">
-                  <Link
-                    to={""}
-                    class="text-lg font-semibold flex items-center gap-x-2"
-                  >
-                    <span className="text-xl">Click Here</span>
-                    <span>
-                      <FaArrowUpRightFromSquare />
-                    </span>
-                  </Link>
-                </div>
-                <img
-                  loading="lazy"
-                  className="w-full h-full object-cover object-center"
-                  src="https://devoxsoftware.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/02/philip-oroni-MyY188YX0vU-unsplash.jpg.webp"
-                  alt="AMNDTECH Software"
-                />
-              </div>
-              {/* Right content */}
-              <div className="bg-theme-bg-dark rounded-2xl overflow-hidden p-4 md:p-10">
-                <div className="h-full flex flex-col justify-between">
-                  {/* Top heading  */}
-                  <div className="flex justify-between items-center mb-10">
-                    <div className="flex gap-x-2 items-center">
-                      <span className="rounded p-1 bg-gray-800 text-white">
-                        <IoMdKey />
-                      </span>
-                      <span className="text-gray-600 tracking-wide font-theme-font">
-                        UNDER NDA
-                      </span>
-                    </div>
-                    <div className="text-gray-600 tracking-wide font-theme-font">
-                      SOCIAL MEDIA
-                    </div>
-                  </div>
-                  {/* center content */}
-                  <div className="grow">
-                    {" "}
-                    <h2 className="text-white text-2xl font-semibold text-bold text-start tracking-wide font-theme-font mb-2">
-                      Got a Project in Mind? Let’s Talk!
-                    </h2>
-                    <p className="text-gray-600 text-start tracking-wide font-theme-font mb-2">
-                      Share the details of your project – like scope or business
-                      challenges. Our team will carefully study them and then
-                      we’ll figure out the next move together.
-                    </p>
-                    <form action="" className="flex flex-col gap-y-5">
-                      {/* full name  */}
-                      <div>
-                        <input
-                          placeholder="Your full Name*"
-                          className="w-full text-gray-600 outline-none border-0 font-theme-font bg-theme-bg-dark
-                          border-b border-gray-600 py-2"
-                          type="text"
-                          id="customInput"
-                        />
-                      </div>
-                      {/* phone Number  */}
-                      <div>
-                        <input
-                          placeholder="Your Phone number*"
-                          className="w-full text-gray-600 outline-none border-0 font-theme-font bg-theme-bg-dark
-                          border-b border-gray-600 py-2"
-                          type="text"
-                          id="customInput"
-                        />
-                      </div>
-                      {/* coperate email */}
-                      <div>
-                        <input
-                          placeholder="Corporate email*"
-                          className="w-full text-gray-600 outline-none border-0 font-theme-font bg-theme-bg-dark
-                          border-b border-gray-600 py-2"
-                          type="text"
-                          id="customInput"
-                        />
-                      </div>
-                      {/* about your project  */}
-                      <div>
-                        <input
-                          placeholder="About your Project*"
-                          className="w-full text-gray-600 outline-none border-0 font-theme-font bg-theme-bg-dark
-                          border-b border-gray-600 py-2"
-                          type="text"
-                          id="customInput"
-                        />
-                      </div>
-                    </form>
-                  </div>
-                  {/* button  */}
-                  <div className="flex flex-col md:flex-row md:items-center justify-between gap-x-20 gap-y-5 mt-5">
-                    <div>
-                      <p className="text-white text-xs">
-                        By sending this form I confirm that I have read and
-                        accept the{" "}
-                        <span className="underline hover:no-underline text-white">
-                          Privacy Policy
-                        </span>
-                      </p>
-                    </div>
-                    <div className="flex items-center gap-x-2">
-                      <span className="text-gray-600 text-nowrap font-bold">
-                        View Case Study
-                      </span>
-                      <button className="p-3 text-lg  bg-purple-600 text-white rounded-3xl font-semibold hover:bg-white hover:text-purple-600 hover:shadow-md hover:shadow-purple-600 hover:shoadow-2xl transition-color delay-150">
-                        <HiOutlineArrowLongRight className="text-lg" />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        {/*want to start web development banner  */}
+        <section className="">
+          <div className="relative max-w-9xl px-4 py-20 m-auto">
+            <ServicesBanner
+              img={
+                "https://devoxsoftware.com/wp-content/uploads/2024/03/Rectangle-3709-6.webp"
+              }
+              title={
+                "Fast-track your product development and shorten time-to-market with AMNDTECH as your next talent supplier."
+              }
+              description={"Want to Start Web Development?"}
+            />
           </div>
         </section>
       </Layout>

@@ -358,8 +358,9 @@ export default function About() {
         </section>
 
         {/* Contact us Form */}
-        <section></section>
-        <ContactFrom />
+        <section>
+          <ContactFrom />
+        </section>
 
         {/* Type of solutions we build  */}
         <section>
