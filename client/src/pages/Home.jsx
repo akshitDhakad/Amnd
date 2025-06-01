@@ -7,8 +7,6 @@ import Carousel from "../components/Carousel.jsx";
 import ClientCard from "../components/ClientCard.jsx";
 // React icons
 
-
-
 import {
   CustomButton1,
   CustomButton2,
@@ -19,12 +17,6 @@ import LatestWork from "../components/LatestWork.jsx";
 import ContactFrom from "../components/ContactFrom.jsx";
 
 export default function Home() {
-  const backgroundImg = {
-    backgroundImage: `url('../assets/background/background-home.jpg')`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-  };
 
   return (
     <main className="relative overflow-x-hidden">

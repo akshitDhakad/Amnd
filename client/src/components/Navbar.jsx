@@ -290,6 +290,28 @@ function Navbar() {
                   />
                 )}
               </li>
+              {/* web3 */}
+              <li
+                onMouseEnter={() => setNavdrop(false)}
+                className={`${
+                  scrolled
+                    ? "font-theme-font text-sm 2xl:text-lg text-center transition-color"
+                    : "font-theme-font text-sm 2xl:text-lg text-center hover:text-purpli-600 transition-color "
+                }`}
+              >
+                <Link to="/web3">Web3</Link>
+              </li>
+              {/* marketing  */}
+              <li
+                onMouseEnter={() => setNavdrop(false)}
+                className={`${
+                  scrolled
+                    ? "font-theme-font text-sm 2xl:text-lg text-center transition-color"
+                    : "font-theme-font text-sm 2xl:text-lg text-center hover:text-purpli-600 transition-color "
+                }`}
+              >
+                <Link to="/marketing">Marketing</Link>
+              </li>
               {/* Technology */}
               <li
                 onMouseEnter={() => setNavdrop(false)}

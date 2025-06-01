@@ -1,31 +1,35 @@
 "use strict";
 import "./App.css";
-import { useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
-import { useLocation } from "react-router-dom";
+import { Suspense, lazy, useEffect } from "react";
+import { Routes, Route, useLocation } from "react-router-dom";
+import Loader from "./components/Loader.jsx";
 // Pages Routes
-import Home from "./pages/Home.jsx";
-import Experties from "./pages/Experties.jsx";
-import Technology from "./pages/Technology.jsx";
-import Work from "./pages/Work.jsx";
-import Career from "./pages/Career.jsx";
-import About from "./pages/About.jsx";
-import Blog from "./pages/Blog.jsx";
-import BlogDetail from "./pages/BlogDetail.jsx";
-import ContactUs from "./pages/ContactUs.jsx";
-import ErrorPage from "./pages/ErrorPage.jsx";
+const Home = lazy(() => import("./pages/Home.jsx"));
+const Experties = lazy(() => import("./pages/Experties.jsx"));
+const Technology = lazy(() => import("./pages/Technology.jsx"));
+const Work = lazy(() => import("./pages/Work.jsx"));
+const Career = lazy(() => import("./pages/Career.jsx"));
+const About = lazy(() => import("./pages/About.jsx"));
+const Blog = lazy(() => import("./pages/Blog.jsx"));
+const BlogDetail = lazy(() => import("./pages/BlogDetail.jsx"));
+const ContactUs = lazy(() => import("./pages/ContactUs.jsx"));
+const ErrorPage = lazy(() => import("./pages/ErrorPage.jsx"));
 // service Pages
-import WebDevelopmentPage from "./pages/WebDevelopment.jsx";
-import BackEndPage from "./pages/BackEnd.jsx";
-import MobileDevelopmentPage from "./pages/MobileDevelopment.jsx";
-import FrontEndPage from "./pages/FrontEnd.jsx";
-import UIDesignPage from "./pages/UIDesign.jsx";
-import DataAnalyticPage from "./pages/DataAnalytics.jsx";
-import QualityPage from "./pages/QualityPage.jsx";
-import DevopsPage from "./pages/DevopsPage.jsx";
+const WebDevelopmentPage = lazy(() => import("./pages/WebDevelopment.jsx"));
+const BackEndPage = lazy(() => import("./pages/BackEnd.jsx"));
+const MobileDevelopmentPage = lazy(() =>
+  import("./pages/MobileDevelopment.jsx")
+);
+const FrontEndPage = lazy(() => import("./pages/FrontEnd.jsx"));
+const UIDesignPage = lazy(() => import("./pages/UIDesign.jsx"));
+const DataAnalyticPage = lazy(() => import("./pages/DataAnalytics.jsx"));
+const QualityPage = lazy(() => import("./pages/QualityPage.jsx"));
+const DevopsPage = lazy(() => import("./pages/DevopsPage.jsx"));
 
 // import DevopsPage from "./pages/DevopsPage.jsx";
-import BusinessIntelligencePage from "./pages/BusinessIntelligencePage.jsx";
+const BusinessIntelligencePage = lazy(() =>
+  import("./pages/BusinessIntelligencePage.jsx")
+);
 
 function App() {
   const { pathname } = useLocation();
@@ -34,37 +38,45 @@ function App() {
   }, [pathname]);
 
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/experties" element={<Experties />} />
-      <Route path="/technology" element={<Technology />} />
-      <Route path="/our-work" element={<Work />} />
-      <Route path="/about-us" element={<About />} />
-      <Route path="/blogs" element={<Blog />} />
-      <Route path="/blogs" element={<Blog />}>
-        <Route path=":id" element={<BlogDetail />} />
-      </Route>
-      <Route path="/career" element={<Career />} />
-      <Route path="/contact-us" element={<ContactUs />} />
-      {/* <Route path="/experties" element={<Experties />} /> */}
-      {/* services Page  */}
-      <Route path="/service/devops-development" element={<DevopsPage />} />
-      <Route path="service/quality-assurance" element={<QualityPage />} />
-      <Route path="/service/web-development" element={<WebDevelopmentPage />} />
-      <Route path="/service/data-analytics" element={<DataAnalyticPage />} />
-      <Route path="/service/frontend-development" element={<FrontEndPage />} />
-      <Route path="/service/backend-development" element={<BackEndPage />} />
-      <Route
-        path="/service/mobile-development"
-        element={<MobileDevelopmentPage />}
-      />
-      <Route path="/service/ui-development" element={<UIDesignPage />} />
-      <Route
-        path="/service/business-intelligence"
-        element={<BusinessIntelligencePage />}
-      />
-      <Route path="*" element={<ErrorPage />} />
-    </Routes>
+    <Suspense fallback={<Loader/>}>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/experties" element={<Experties />} />
+        <Route path="/technology" element={<Technology />} />
+        <Route path="/our-work" element={<Work />} />
+        <Route path="/about-us" element={<About />} />
+        <Route path="/blogs" element={<Blog />} />
+        <Route path="/blogs" element={<Blog />}>
+          <Route path=":id" element={<BlogDetail />} />
+        </Route>
+        <Route path="/career" element={<Career />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        {/* <Route path="/experties" element={<Experties />} /> */}
+        {/* services Page  */}
+        <Route path="/service/devops-development" element={<DevopsPage />} />
+        <Route path="service/quality-assurance" element={<QualityPage />} />
+        <Route
+          path="/service/web-development"
+          element={<WebDevelopmentPage />}
+        />
+        <Route path="/service/data-analytics" element={<DataAnalyticPage />} />
+        <Route
+          path="/service/frontend-development"
+          element={<FrontEndPage />}
+        />
+        <Route path="/service/backend-development" element={<BackEndPage />} />
+        <Route
+          path="/service/mobile-development"
+          element={<MobileDevelopmentPage />}
+        />
+        <Route path="/service/ui-development" element={<UIDesignPage />} />
+        <Route
+          path="/service/business-intelligence"
+          element={<BusinessIntelligencePage />}
+        />
+        <Route path="*" element={<ErrorPage />} />
+      </Routes>
+    </Suspense>
   );
 }
 
