@@ -41,8 +41,9 @@ function App() {
       <Route path="/our-work" element={<Work />} />
       <Route path="/about-us" element={<About />} />
       <Route path="/blogs" element={<Blog />} />
-      <Route path="/blogs/:id" element={<Blog />} />
-      <Route path="/blog-detail/:id?" element={<BlogDetail />} />
+      <Route path="/blogs" element={<Blog />}>
+        <Route path=":id" element={<BlogDetail />} />
+      </Route>
       <Route path="/career" element={<Career />} />
       <Route path="/contact-us" element={<ContactUs />} />
       {/* <Route path="/experties" element={<Experties />} /> */}

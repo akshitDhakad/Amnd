@@ -261,7 +261,7 @@ function Navbar() {
       <div className="max-w-9xl w-full m-auto">
         {/* PC view */}
         <div className="w-full hidden md:flex items-center py-5 px-4 border-b border-gray-300 border-opacity-20">
-          <div className="flex-1 text-lg">
+          <div className="text-lg">
             <Link to="/" onMouseEnter={() => setNavdrop(false)}>
               <img
                 loading="lazy"
@@ -271,8 +271,8 @@ function Navbar() {
               />
             </Link>
           </div>
-          <div className="flex-3">
-            <ul className="grid grid-cols-7 gap-x-2 justify-center items-center">
+          <div className="flex-grow">
+            <ul className="flex items-center gap-x-4 justify-center">
               {/* Services */}
               <li
                 onMouseEnter={() => setNavdrop(true)}
